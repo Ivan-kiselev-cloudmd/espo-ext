@@ -3,7 +3,7 @@
 
 namespace Espo\Modules\SnapclaritySync\Services;
 
-
+use Carbon\Carbon;
 use Espo\Core\Container;
 use Espo\Core\Utils\Metadata;
 use Espo\Modules\SnapclaritySync\Core\Gateways\SnapclarityGateway;
@@ -79,6 +79,11 @@ class ContactSync extends \Espo\Core\Templates\Services\Base
     private $syncLastMinutes;
 
     /**
+     * @var Carbon
+     */
+    protected $startDate;
+
+    /**
      * ContactSync constructor.
      * @param Container $container
      * @param EntityManager $entityManager
@@ -121,12 +126,13 @@ class ContactSync extends \Espo\Core\Templates\Services\Base
      */
     public function syncContactWithRelateEntitiesFromAPI($additionalParameters = null)
     {
-        $this->syncLastMinutes = !empty($additionalParameters) && property_exists($additionalParameters, 'syncLastMinutes') ? $additionalParameters->syncLastMinutes : 10;
+        $this->syncLastMinutes = !empty($additionalParameters) && property_exists($additionalParameters, 'syncLastMinutes') ? $additionalParameters->syncLastMinutes + 3 : 10;
         $this->reportEmails = !empty($additionalParameters) && property_exists($additionalParameters, 'reportEmails') ? $additionalParameters->reportEmails : [];
         $limit = 100;
         $skip = 0;
         $syncLastMinutes = $this->syncLastMinutes;
-        $lastSinceDate = (new \DateTime("-${syncLastMinutes} minutes"))->format('Y-m-d\TH:i:s.v') . 'Z';
+        $this->startDate = Carbon::now();
+        $lastSinceDate = $this->startDate->subMinutes($syncLastMinutes)->format('Y-m-d\TH:i:s.v') . 'Z';
         $organizationsId = !empty($this->getIntegration()->get('organizationsId')) ? $this->getIntegration()->get('organizationsId') : [];
 
         foreach($organizationsId as $organizationId) {
@@ -190,7 +196,7 @@ class ContactSync extends \Espo\Core\Templates\Services\Base
     {
         $transaction = $this->entityManager->getTransactionManager();
         foreach ($contactsData as $contactData) {
-            if (strtotime("-".$this->syncLastMinutes." minutes") > strtotime($contactData['changed_at'])) {
+            if ($this->startDate->subMinutes($this->syncLastMinutes)->timestamp > strtotime($contactData['changed_at'])) {
                 $GLOBALS['log']->warning($this->uniqueId,[
                     'contact_id' => $contactData['_id'],
                     'message' => 'Not update because update at is past',

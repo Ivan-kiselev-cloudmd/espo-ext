@@ -1,6 +1,6 @@
 {
     "name": "Snapclarity sync extension",
-    "version": "3.2.32",
+    "version": "3.2.33",
     "acceptableVersions": [
         ">=6.0.6"
     ],
