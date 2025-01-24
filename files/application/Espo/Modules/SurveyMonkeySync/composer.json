@@ -1,0 +1,11 @@
+{
+  "require": {
+    "ghassani/surveymonkey-v3-api-php": "dev-master"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/tmindiashvili1/surveymonkey-v3-api-php"
+    }
+  ]
+}

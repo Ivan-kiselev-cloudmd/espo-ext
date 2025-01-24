@@ -1,0 +1,21 @@
+{
+    "name": "ghassani/surveymonkey-v3-api-php",
+    "version" : "1.1.2",
+    "authors": [
+        {
+            "name": "Gassan Idriss",
+            "email": "ghassani@gmail.com"
+        }
+    ],
+    "license": "GPL-3.0",
+    "require": {
+        "php": ">=5.5",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^7.0.1"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Spliced\\SurveyMonkey\\" : "src/"
+        }
+    }
+}

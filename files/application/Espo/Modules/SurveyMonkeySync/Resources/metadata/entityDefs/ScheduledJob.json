@@ -1,0 +1,5 @@
+{
+    "jobSchedulingMap": {
+        "SurveyMonkeyJob": "*/10 * * * *"
+    }
+}
