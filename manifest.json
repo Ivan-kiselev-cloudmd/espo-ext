@@ -1,0 +1,10 @@
+{
+    "name": "Csrf extension",
+    "version": "1.0.0",
+    "acceptableVersions": [
+        ">=6.0.6"
+    ],
+    "releaseDate": "2021-07-11",
+    "author": "Tazo mindiashvili",
+    "description": "Csrf extension"
+}
