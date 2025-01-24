@@ -1,0 +1,9 @@
+[
+    {
+        "label": "Overview",
+        "rows": [
+            [{"name": "name"}, {"name": "target"}],
+            [{"name": "clockedHours"}, false]
+        ]
+    }
+]

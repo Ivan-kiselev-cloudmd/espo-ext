@@ -1,0 +1,49 @@
+{
+    "menu": {
+        "detail": {
+            "dropdown": [
+                "__APPEND__",
+                {
+                    "name": "timesheetLog",
+                    "action": "timesheetLog",
+                    "label": "Timesheet Log",
+                    "acl": "read",
+                    "aclScope": "TimeTracker",
+                    "hidden": true,
+                    "data": {
+                        "handler": "dubas-time-tracker:time-tracker-helper"
+                    },
+                    "initFunction": "initTimesheetLog"
+                }
+            ],
+            "buttons": [
+                "__APPEND__",
+                {
+                    "name": "startTimerGlobal",
+                    "action": "startTimerGlobal",
+                    "acl": "create",
+                    "aclScope": "TimeEntry",
+                    "style": "default",
+                    "iconHtml": "<span class=\"fas fa-play fa-sm\"></span>",
+                    "hidden": true,
+                    "data": {
+                        "handler": "dubas-time-tracker:time-tracker-helper"
+                    },
+                    "initFunction": "init"
+                },
+                {
+                    "name": "stopTimerGlobal",
+                    "action": "stopTimerGlobal",
+                    "label": "Stop Timer",
+                    "acl": "create",
+                    "aclScope": "TimeEntry",
+                    "style": "danger",
+                    "hidden": true,
+                    "data": {
+                        "handler": "dubas-time-tracker:time-tracker-helper"
+                    }
+                }
+            ]
+        }
+    }
+}

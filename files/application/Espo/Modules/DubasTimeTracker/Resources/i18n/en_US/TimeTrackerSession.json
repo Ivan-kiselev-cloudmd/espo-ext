@@ -1,0 +1,13 @@
+{
+    "labels": {
+        "Create TimeTrackerSession": "Create Time Tracker Session"
+    },
+    "fields": {
+        "target": "Target",
+        "timeEntry": "Time Entry"
+    },
+    "links": {
+        "target": "Target",
+        "timeEntry": "Time Entry"
+    }
+}

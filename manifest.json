@@ -1,0 +1,14 @@
+{
+    "name": "Dubas Time Tracker",
+    "description": "Extension for tracking time in EspoCRM.",
+    "author": "DUBAS - contact@dubas.pro",
+    "php": [
+        ">=7.3"
+    ],
+    "acceptableVersions": [
+        ">=6.0.0"
+    ],
+    "version": "0.0.2",
+    "skipBackup": true,
+    "releaseDate": "2021-05-26"
+}

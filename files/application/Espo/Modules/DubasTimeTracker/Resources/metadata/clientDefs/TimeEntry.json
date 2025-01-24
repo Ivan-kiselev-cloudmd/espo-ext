@@ -1,0 +1,15 @@
+{
+    "controller": "controllers/record",
+    "views":{
+        "detail":"dubas-time-tracker:views/time-entry/detail"
+    },
+    "recordViews": {
+        "detail": "dubas-time-tracker:views/time-entry/record/detail",
+        "edit": "dubas-time-tracker:views/time-entry/record/edit",
+        "editSmall": "dubas-time-tracker:views/time-entry/record/edit-small"
+    },
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "iconClass": "fas fa-stopwatch"
+}

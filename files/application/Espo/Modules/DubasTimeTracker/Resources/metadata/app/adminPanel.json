@@ -1,0 +1,13 @@
+{
+    "users": {
+        "items": [
+            "__APPEND__",
+            {
+                "url":"#TimeTrackerSession",
+                "label": "Time Tracker Sessions",
+                "iconClass": "fas fa-poll-h",
+                "description": "timeTrackerSessions"
+            }
+        ]
+    }
+}

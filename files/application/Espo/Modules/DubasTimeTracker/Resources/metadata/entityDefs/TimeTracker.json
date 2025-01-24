@@ -1,0 +1,88 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "trim": true,
+            "view": "dubas-time-tracker:views/time-tracker/fields/name"
+        },
+        "target": {
+            "type": "linkParent",
+            "view": "dubas-time-tracker:views/time-tracker/fields/target"
+        },
+        "duration": {
+            "type": "int",
+            "view": "dubas-time-tracker:views/time-tracker/fields/duration",
+            "disableFormatting": true,
+            "readOnly": true
+        },
+        "clockedHours": {
+            "type": "varchar",
+            "notStorable": true,
+            "directUpdateDisabled": true,
+            "importDisabled": true,
+            "exportDisabled": true,
+            "readOnly": true
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user"
+        },
+        "modifiedBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user"
+        },
+        "assignedUser": {
+            "type": "link",
+            "required": true,
+            "view": "views/fields/assigned-user"
+        }
+    },
+    "links": {
+        "target": {
+            "type": "belongsToParent"
+        },
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "modifiedBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "assignedUser": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "timeEntries": {
+            "type": "hasMany",
+            "entity": "TimeEntry",
+            "foreign": "parent"
+        }
+    },
+    "collection": {
+        "orderBy": "createdAt",
+        "order": "desc"
+    },
+    "indexes": {
+        "createdAt": {
+            "columns": ["createdAt", "deleted"]
+        },
+        "target": {
+            "type": "index",
+            "columns": ["targetId", "targetType"]
+        },
+        "assignedUser": {
+            "columns": ["assignedUserId", "deleted"]
+        }
+    }
+}

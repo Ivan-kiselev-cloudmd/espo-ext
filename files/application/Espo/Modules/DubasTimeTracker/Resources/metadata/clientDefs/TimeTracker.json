@@ -1,0 +1,28 @@
+{
+    "controller": "controllers/record",
+    "modalViews": {
+        "detail": "dubas-time-tracker:views/time-tracker/modals/detail"
+    },
+    "recordViews": {
+        "detail": "dubas-time-tracker:views/time-tracker/record/detail",
+        "detailSmall": "dubas-time-tracker:views/time-tracker/record/detail-small"
+    },
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "relationshipPanels": {
+        "timeEntries": {
+            "label": "Time Entries",
+            "view": "dubas-time-tracker:views/time-tracker/record/panels/time-entries",
+            "rowActionsView": "views/record/row-actions/remove-only",
+            "select": false,
+            "create": false
+        }
+    },
+    "defaultSidePanelFieldLists": {
+        "detail": [
+            ":assignedUser"
+        ]
+    },
+    "iconClass": "fas fa-poll-h"
+}

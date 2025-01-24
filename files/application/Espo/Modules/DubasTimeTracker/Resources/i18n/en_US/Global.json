@@ -1,0 +1,15 @@
+{
+    "scopeNames": {
+        "TimeEntry": "Time Entry",
+        "TimeTracker": "Time Tracker",
+        "TimeTrackerSession": "Time Tracker Session"
+    },
+    "scopeNamesPlural": {
+        "TimeEntry": "Time Entries",
+        "TimeTracker": "Time Trackers",
+        "TimeTrackerSession": "Time Tracker Sessions"
+    },
+    "labels": {
+        "Start Timer": "Start Timer"
+    }
+}

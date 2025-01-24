@@ -1,0 +1,10 @@
+{
+    "controller": "controllers/record",
+    "recordViews": {
+        "list": "dubas-time-tracker:views/time-tracker-session/record/list",
+        "detail": "dubas-time-tracker:views/time-tracker-session/record/detail"
+    },
+    "createDisabled": true,
+    "searchPanelDisabled": true,
+    "iconClass": "fas fa-poll-h"
+}

@@ -1,0 +1,14 @@
+{
+    "fields": {
+        "target": "Target",
+        "duration": "Duration",
+        "clockedHours": "Clocked Hours"
+    },
+    "links": {
+        "target": "Target",
+        "timeEntries": "Time Entries"
+    },
+    "labels": {
+        "Create TimeTracker": "Create Time Tracker"
+    }
+}

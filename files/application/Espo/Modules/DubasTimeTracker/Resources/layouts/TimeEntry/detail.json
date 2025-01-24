@@ -1,0 +1,10 @@
+[
+    {
+        "label": "",
+        "rows": [
+            [{"name": "target"}, {"name": "parent"}],
+            [{"name": "dateStart"}, {"name": "dateEnd"}],
+            [false, {"name": "duration"}]
+        ]
+    }
+]

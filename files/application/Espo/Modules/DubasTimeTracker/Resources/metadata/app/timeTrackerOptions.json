@@ -1,0 +1,8 @@
+{
+    "entityListToIgnore": [
+        "TimeEntry",
+        "TimeTracker",
+        "User"
+    ],
+    "entityListAllowed": []
+}

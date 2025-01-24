@@ -1,0 +1,12 @@
+{
+    "fields": {
+        "target": "Target",
+        "dateStart": "Date Start",
+        "dateEnd": "Date End",
+        "duration": "Duration"
+    },
+    "links": [],
+    "labels": {
+        "Create TimeEntry": "Create Time Entry"
+    }
+}

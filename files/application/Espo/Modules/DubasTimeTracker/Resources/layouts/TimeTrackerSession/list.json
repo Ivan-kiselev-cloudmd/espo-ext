@@ -1,0 +1,6 @@
+[
+    {"name": "assignedUser"},
+    {"name": "createdAt"},
+    {"name": "timeEntry"},
+    {"name": "target"}
+]

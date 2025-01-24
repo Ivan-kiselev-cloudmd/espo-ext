@@ -1,0 +1,54 @@
+{
+    "fields": {
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "assignedUser": {
+            "type": "link",
+            "required": true,
+            "view": "views/fields/assigned-user"
+        },
+        "timeEntry": {
+            "type": "link",
+            "required": true,
+            "directAccessDisabled": true,
+            "readOnly": true
+        },
+        "target": {
+            "type": "linkParent",
+            "directAccessDisabled": true,
+            "readOnly": true
+        },
+        "dateStart": {
+            "type": "foreign",
+            "link": "timeEntry",
+            "field": "dateStart"
+        }
+    },
+    "links": {
+        "assignedUser": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "timeEntry": {
+            "type": "belongsTo",
+            "entity": "TimeEntry"
+        },
+        "target": {
+            "type": "belongsToParent"
+        }
+    },
+    "collection": {
+        "orderBy": "createdAt",
+        "order": "desc"
+    },
+    "indexes": {
+        "createdAt": {
+            "columns": ["createdAt", "deleted"]
+        },
+        "assignedUser": {
+            "columns": ["assignedUserId", "deleted"]
+        }
+    }
+}
