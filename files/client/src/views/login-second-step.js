@@ -67,6 +67,10 @@ define('views/login-second-step', ['view'], function (Dep) {
             this.message = this.translate(this.options.loginData.message, 'messages', 'User');
         },
 
+        afterRender: function () {
+            $('#csrf').val($('meta[name="csrf-token"]').attr('content'))
+        },
+
         send: function () {
             var csrfToken = $('meta[name="csrf-token"]').attr('content');
             var code = $('[data-name="field-code"]')

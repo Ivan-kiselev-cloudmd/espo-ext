@@ -76,6 +76,7 @@ define('views/login', ['view'], function (Dep) {
 
         afterRender: function () {
             this.$submit = this.$el.find('#btn-login');
+            $('#csrf').val($('meta[name="csrf-token"]').attr('content'))
         },
 
         login: function () {

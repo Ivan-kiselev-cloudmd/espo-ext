@@ -3,7 +3,7 @@
  * This file is part of EspoCRM.
  *
  * EspoCRM - Open Source CRM application.
- * Copyright (C) 2014-2022 Yurii Kuznietsov, Taras Machyshyn, Oleksii Avramenko
+ * Copyright (C) 2014-2023 Yurii Kuznietsov, Taras Machyshyn, Oleksii Avramenko
  * Website: https://www.espocrm.com
  *
  * EspoCRM is free software: you can redistribute it and/or modify
@@ -29,14 +29,10 @@
 
 namespace Espo\Core\Utils;
 
-use Espo\Core\{
-    Api\Response,
-    Api\ResponseWrapper,
-    Utils\File\Manager as FileManager,
-    Utils\Client\DevModeJsFileListProvider,
-    Utils\Module,
-    Utils\Json
-};
+use Espo\Core\Api\Response;
+use Espo\Core\Api\ResponseWrapper;
+use Espo\Core\Utils\Client\DevModeJsFileListProvider;
+use Espo\Core\Utils\File\Manager as FileManager;
 
 use Slim\Psr7\Response as Psr7Response;
 use Slim\ResponseEmitter;
@@ -47,43 +43,22 @@ use Slim\ResponseEmitter;
 class ClientManager
 {
     protected string $mainHtmlFilePath = 'html/main.html';
-
     protected string $runScript = "app.start();";
-
     private string $basePath = '';
-
     private string $libsConfigPath = 'client/cfg/libs.json';
-
-    private Config $config;
-
-    private ThemeManager $themeManager;
-
-    private Metadata $metadata;
-
-    private FileManager $fileManager;
-
-    private DevModeJsFileListProvider $devModeJsFileListProvider;
-
-    private Module $module;
 
     private string $nonce;
 
     private const APP_DESCRIPTION = "EspoCRM - Open Source CRM application.";
 
     public function __construct(
-        Config $config,
-        ThemeManager $themeManager,
-        Metadata $metadata,
-        FileManager $fileManager,
-        DevModeJsFileListProvider $devModeJsFileListProvider,
-        Module $module
+        private Config $config,
+        private ThemeManager $themeManager,
+        private Metadata $metadata,
+        private FileManager $fileManager,
+        private DevModeJsFileListProvider $devModeJsFileListProvider,
+        private Module $module
     ) {
-        $this->config = $config;
-        $this->themeManager = $themeManager;
-        $this->metadata = $metadata;
-        $this->fileManager = $fileManager;
-        $this->devModeJsFileListProvider = $devModeJsFileListProvider;
-        $this->module = $module;
 
         $this->nonce = Util::generateKey();
     }
@@ -116,11 +91,20 @@ class ClientManager
             return;
         }
 
-        $response->setHeader('X-Frame-Options', 'SAMEORIGIN');
         $response->setHeader('X-Content-Type-Options', 'nosniff');
 
+        $this->writeXFrameOptionsHeader($response);
         $this->writeContentSecurityPolicyHeader($response);
         $this->writeStrictTransportSecurityHeader($response);
+    }
+
+    private function writeXFrameOptionsHeader(Response $response): void
+    {
+        if ($this->config->get('clientXFrameOptionsHeaderDisabled')) {
+            return;
+        }
+
+        $response->setHeader('X-Frame-Options', 'SAMEORIGIN');
     }
 
     private function writeContentSecurityPolicyHeader(Response $response): void
@@ -142,9 +126,13 @@ class ClientManager
 
     private function writeStrictTransportSecurityHeader(Response $response): void
     {
+        if ($this->config->get('clientStrictTransportSecurityHeaderDisabled')) {
+            return;
+        }
+
         $siteUrl = $this->config->get('siteUrl') ?? '';
 
-        if (strpos($siteUrl, 'https://') === 0) {
+        if (str_starts_with($siteUrl, 'https://')) {
             $response->setHeader('Strict-Transport-Security', 'max-age=10368000');
         }
     }
@@ -161,7 +149,7 @@ class ClientManager
         $this->writeHeaders($response);
         $response->writeBody($body);
 
-        (new ResponseEmitter())->emit($response->getResponse());
+        (new ResponseEmitter())->emit($response->toPsr7());
     }
 
     /**
