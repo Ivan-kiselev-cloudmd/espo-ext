@@ -1,0 +1,1091 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "contact"
+                },
+                {
+                    "name": "dateAssessmentCompleted"
+                }
+            ],
+            [
+                {
+                    "name": "selectedAreaOfRisk1"
+                },
+                {
+                    "name": "selectedAreaOfRisk2"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "mh1"
+                },
+                {
+                    "name": "mh2"
+                }
+            ],
+            [
+                {
+                    "name": "mh3"
+                },
+                {
+                    "name": "mh4"
+                }
+            ],
+            [
+                {
+                    "name": "mh5"
+                }
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "customLabel": "General Mental Health"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "lf1"
+                },
+                {
+                    "name": "lf2"
+                }
+            ],
+            [
+                {
+                    "name": "lf3"
+                },
+                {
+                    "name": "lf4"
+                }
+            ],
+            [
+                {
+                    "name": "lf5"
+                },
+                {
+                    "name": "lf6"
+                }
+            ],
+            [
+                {
+                    "name": "lf7"
+                },
+                {
+                    "name": "lf8"
+                }
+            ],
+            [
+                {
+                    "name": "lf9"
+                },
+                {
+                    "name": "lf10"
+                }
+            ],
+            [
+                {
+                    "name": "lf11"
+                },
+                {
+                    "name": "lf12"
+                }
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "customLabel": "In the past 30 days, how much difficulty did you have in: \/ Durant les 30 derniers jours, quel niveau de difficulté avez-vous eu pour:"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "mw1"
+                },
+                {
+                    "name": "mw2"
+                }
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "customLabel": "Missing work\/school"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "shs1"
+                },
+                {
+                    "name": "shs2"
+                }
+            ],
+            [
+                {
+                    "name": "shs3"
+                },
+                {
+                    "name": "shs4"
+                }
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "customLabel": "Subjective Happiness Scale"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "mhh1"
+                }
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "customLabel": "Motivation for mental health help"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "dps1"
+                },
+                {
+                    "name": "dps2"
+                }
+            ],
+            [
+                {
+                    "name": "ds1"
+                },
+                {
+                    "name": "ds2"
+                }
+            ],
+            [
+                {
+                    "name": "ds3"
+                },
+                {
+                    "name": "ds4"
+                }
+            ],
+            [
+                {
+                    "name": "ds5"
+                },
+                {
+                    "name": "ds6"
+                }
+            ],
+            [
+                {
+                    "name": "ds7"
+                },
+                {
+                    "name": "ds8"
+                }
+            ],
+            [
+                {
+                    "name": "ds9"
+                }
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": {
+            "conditionGroup": [
+                {
+                    "type": "or",
+                    "value": [
+                        {
+                            "type": "equals",
+                            "attribute": "selectedAreaOfRisk1",
+                            "value": "Depression Disorder"
+                        },
+                        {
+                            "type": "equals",
+                            "attribute": "selectedAreaOfRisk2",
+                            "value": "Depression Disorder"
+                        }
+                    ]
+                }
+            ]
+        },
+        "hidden": false,
+        "customLabel": "Over the last 2 weeks, how often have you been bothered by any of the following problems: \/ Au cours des deux dernières semaines, à quelle fréquence avez-vous été dérangé(e) par les problèmes suivants?"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "gadps1"
+                }
+            ],
+            [
+                {
+                    "name": "gad1"
+                },
+                {
+                    "name": "gad2"
+                }
+            ],
+            [
+                {
+                    "name": "gad3"
+                },
+                {
+                    "name": "gad4"
+                }
+            ],
+            [
+                {
+                    "name": "gad5"
+                },
+                {
+                    "name": "gad6"
+                }
+            ],
+            [
+                {
+                    "name": "gad7"
+                }
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": {
+            "conditionGroup": [
+                {
+                    "type": "or",
+                    "value": [
+                        {
+                            "type": "equals",
+                            "attribute": "selectedAreaOfRisk1",
+                            "value": "Generalized Anxiety Disorder"
+                        },
+                        {
+                            "type": "equals",
+                            "attribute": "selectedAreaOfRisk2",
+                            "value": "Generalized Anxiety Disorder"
+                        }
+                    ]
+                }
+            ]
+        },
+        "hidden": false,
+        "customLabel": "Over the last 2 weeks, how often have you been bothered by the following problems? \/ Au cours des deux dernières semaines, à quelle fréquence avez-vous été dérangé(e) par les problèmes suivants?"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "padis1"
+                }
+            ],
+            [
+                {
+                    "name": "padis2"
+                },
+                {
+                    "name": "padis3"
+                }
+            ],
+            [
+                {
+                    "name": "padis4"
+                }
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": {
+            "conditionGroup": [
+                {
+                    "type": "or",
+                    "value": [
+                        {
+                            "type": "equals",
+                            "attribute": "selectedAreaOfRisk1",
+                            "value": "Panic Disorder"
+                        },
+                        {
+                            "type": "equals",
+                            "attribute": "selectedAreaOfRisk2",
+                            "value": "Panic Disorder"
+                        }
+                    ]
+                }
+            ]
+        },
+        "hidden": false,
+        "customLabel": "Panic Disorder: PD Prescreen (PPS) \/ PD Screen (PS)"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "sadps1"
+                }
+            ],
+            [
+                {
+                    "name": "sad1"
+                },
+                {
+                    "name": "sad2"
+                }
+            ],
+            [
+                {
+                    "name": "sad3"
+                },
+                {
+                    "name": "sad4"
+                }
+            ],
+            [
+                {
+                    "name": "sad5"
+                },
+                {
+                    "name": "sad6"
+                }
+            ],
+            [
+                {
+                    "name": "sad7"
+                },
+                {
+                    "name": "sad8"
+                }
+            ],
+            [
+                {
+                    "name": "sad9"
+                },
+                {
+                    "name": "sad10"
+                }
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": {
+            "conditionGroup": [
+                {
+                    "type": "or",
+                    "value": [
+                        {
+                            "type": "equals",
+                            "attribute": "selectedAreaOfRisk1",
+                            "value": "Social Anxiety Disorder"
+                        },
+                        {
+                            "type": "equals",
+                            "attribute": "selectedAreaOfRisk2",
+                            "value": "Social Anxiety Disorder"
+                        }
+                    ]
+                }
+            ]
+        },
+        "hidden": false,
+        "customLabel": "Social Anxiety Disorder"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "ocdps1"
+                }
+            ],
+            [
+                {
+                    "name": "ocd1"
+                },
+                {
+                    "name": "ocd2"
+                }
+            ],
+            [
+                {
+                    "name": "ocd3"
+                },
+                {
+                    "name": "ocd4"
+                }
+            ],
+            [
+                {
+                    "name": "ocd5"
+                },
+                {
+                    "name": "ocd6"
+                }
+            ],
+            [
+                {
+                    "name": "ocd7"
+                },
+                {
+                    "name": "ocd8"
+                }
+            ],
+            [
+                {
+                    "name": "ocd9"
+                },
+                {
+                    "name": "ocd10"
+                }
+            ],
+            [
+                {
+                    "name": "ocd11"
+                },
+                {
+                    "name": "ocd12"
+                }
+            ],
+            [
+                {
+                    "name": "ocd13"
+                },
+                {
+                    "name": "ocd14"
+                }
+            ],
+            [
+                {
+                    "name": "ocd15"
+                }
+            ],
+            [
+                {
+                    "name": "ocir1"
+                },
+                {
+                    "name": "ocir2"
+                }
+            ],
+            [
+                {
+                    "name": "ocir3"
+                },
+                {
+                    "name": "ocir4"
+                }
+            ],
+            [
+                {
+                    "name": "ocir5"
+                },
+                {
+                    "name": "ocir6"
+                }
+            ],
+            [
+                {
+                    "name": "ocir7"
+                },
+                {
+                    "name": "ocir8"
+                }
+            ],
+            [
+                {
+                    "name": "ocir9"
+                },
+                {
+                    "name": "ocir10"
+                }
+            ],
+            [
+                {
+                    "name": "ocir11"
+                },
+                {
+                    "name": "ocir12"
+                }
+            ],
+            [
+                {
+                    "name": "ocir13"
+                },
+                {
+                    "name": "ocir14"
+                }
+            ],
+            [
+                {
+                    "name": "ocir15"
+                },
+                {
+                    "name": "ocir16"
+                }
+            ],
+            [
+                {
+                    "name": "ocir17"
+                },
+                {
+                    "name": "ocir18"
+                }
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": {
+            "conditionGroup": [
+                {
+                    "type": "or",
+                    "value": [
+                        {
+                            "type": "equals",
+                            "attribute": "selectedAreaOfRisk1",
+                            "value": "Obsessive-Compulsive Disorder"
+                        },
+                        {
+                            "type": "equals",
+                            "attribute": "selectedAreaOfRisk2",
+                            "value": "Obsessive-Compulsive Disorder"
+                        }
+                    ]
+                }
+            ]
+        },
+        "hidden": false,
+        "customLabel": "Obsessive-Compulsive Disorder: OCD Prescreen (OPS) \/ OCD Screen (OS)"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "adhdps1"
+                }
+            ],
+            [
+                {
+                    "name": "adhd1"
+                },
+                {
+                    "name": "adhd2"
+                }
+            ],
+            [
+                {
+                    "name": "adhd3"
+                },
+                {
+                    "name": "adhd4"
+                }
+            ],
+            [
+                {
+                    "name": "adhd5"
+                },
+                {
+                    "name": "adhd6"
+                }
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": {
+            "conditionGroup": [
+                {
+                    "type": "or",
+                    "value": [
+                        {
+                            "type": "equals",
+                            "attribute": "selectedAreaOfRisk1",
+                            "value": "Attention Deficit Hyperactivity Disorder"
+                        },
+                        {
+                            "type": "equals",
+                            "attribute": "selectedAreaOfRisk2",
+                            "value": "Attention Deficit Hyperactivity Disorder"
+                        }
+                    ]
+                }
+            ]
+        },
+        "hidden": false,
+        "customLabel": "Attention Deficit Hyperactivity Disorder: ADHD Prescreen (ADPS) \/ ADHD Screen (ADS)"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "bps1"
+                },
+                {
+                    "name": "bps2"
+                }
+            ],
+            [
+                {
+                    "name": "bp1a"
+                },
+                {
+                    "name": "bp1b"
+                }
+            ],
+            [
+                {
+                    "name": "bp1c"
+                },
+                {
+                    "name": "bp1d"
+                }
+            ],
+            [
+                {
+                    "name": "bp1e"
+                },
+                {
+                    "name": "bp1f"
+                }
+            ],
+            [
+                {
+                    "name": "bp1g"
+                },
+                {
+                    "name": "bp1h"
+                }
+            ],
+            [
+                {
+                    "name": "bp1i"
+                },
+                {
+                    "name": "bp1j"
+                }
+            ],
+            [
+                {
+                    "name": "bp1k"
+                },
+                {
+                    "name": "bp1l"
+                }
+            ],
+            [
+                {
+                    "name": "bp1m"
+                }
+            ],
+            [
+                {
+                    "name": "bp2"
+                },
+                {
+                    "name": "bp3"
+                }
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": {
+            "conditionGroup": [
+                {
+                    "type": "or",
+                    "value": [
+                        {
+                            "type": "equals",
+                            "attribute": "selectedAreaOfRisk1",
+                            "value": "Bipolar Disorder"
+                        },
+                        {
+                            "type": "equals",
+                            "attribute": "selectedAreaOfRisk2",
+                            "value": "Bipolar Disorder"
+                        }
+                    ]
+                }
+            ]
+        },
+        "hidden": false,
+        "customLabel": "Bipolar Disorder: BD Prescreen (BPS) \/ BD Screen (BS)"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "ieps1"
+                }
+            ],
+            [
+                {
+                    "name": "ied1"
+                },
+                {
+                    "name": "ied2"
+                }
+            ],
+            [
+                {
+                    "name": "ied3"
+                },
+                {
+                    "name": "ied4"
+                }
+            ],
+            [
+                {
+                    "name": "ied5"
+                }
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": {
+            "conditionGroup": [
+                {
+                    "type": "or",
+                    "value": [
+                        {
+                            "type": "equals",
+                            "attribute": "selectedAreaOfRisk1",
+                            "value": "Intermittent Explosive Disorder"
+                        },
+                        {
+                            "type": "equals",
+                            "attribute": "selectedAreaOfRisk2",
+                            "value": "Intermittent Explosive Disorder"
+                        }
+                    ]
+                }
+            ]
+        },
+        "hidden": false,
+        "customLabel": "Intermittent Explosive Disorder: IED Prescreen (IEPS) \/ IED Screen (IES)"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "audps1"
+                }
+            ],
+            [
+                {
+                    "name": "aud1"
+                }
+            ],
+            [
+                {
+                    "name": "aud2"
+                },
+                {
+                    "name": "aud3"
+                }
+            ],
+            [
+                {
+                    "name": "aud4"
+                },
+                {
+                    "name": "aud5"
+                }
+            ],
+            [
+                {
+                    "name": "aud6"
+                },
+                {
+                    "name": "aud7"
+                }
+            ],
+            [
+                {
+                    "name": "aud8"
+                }
+            ],
+            [
+                {
+                    "name": "aud9"
+                },
+                {
+                    "name": "aud10"
+                }
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": {
+            "conditionGroup": [
+                {
+                    "type": "or",
+                    "value": [
+                        {
+                            "type": "equals",
+                            "attribute": "selectedAreaOfRisk1",
+                            "value": "Alcohol Use Disorder"
+                        },
+                        {
+                            "type": "equals",
+                            "attribute": "selectedAreaOfRisk2",
+                            "value": "Alcohol Use Disorder"
+                        }
+                    ]
+                }
+            ]
+        },
+        "hidden": false,
+        "customLabel": "Alcohol Use Disorder: AUD Prescreen (AUDPS) \/ AUD Screen (AUDS)"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "sudps1"
+                },
+                {
+                    "name": "sudps2"
+                }
+            ],
+            [
+                {
+                    "name": "sud1"
+                },
+                {
+                    "name": "sud2"
+                }
+            ],
+            [
+                {
+                    "name": "sud3"
+                },
+                {
+                    "name": "sud4"
+                }
+            ],
+            [
+                {
+                    "name": "sud5"
+                },
+                {
+                    "name": "sud6"
+                }
+            ],
+            [
+                {
+                    "name": "sud7"
+                },
+                {
+                    "name": "sud8"
+                }
+            ],
+            [
+                {
+                    "name": "sud9"
+                },
+                {
+                    "name": "sud10"
+                }
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": {
+            "conditionGroup": [
+                {
+                    "type": "or",
+                    "value": [
+                        {
+                            "type": "equals",
+                            "attribute": "selectedAreaOfRisk1",
+                            "value": "Substance Use Disorder"
+                        },
+                        {
+                            "type": "equals",
+                            "attribute": "selectedAreaOfRisk2",
+                            "value": "Substance Use Disorder"
+                        }
+                    ]
+                }
+            ]
+        },
+        "hidden": false,
+        "customLabel": "Substance Use Disorder: SUD Prescreen (SUDPS) \/ SUD Screen (SUDS)"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "slps1"
+                },
+                {
+                    "name": "slps2"
+                }
+            ],
+            [
+                {
+                    "name": "sl1"
+                },
+                {
+                    "name": "sl2"
+                }
+            ],
+            [
+                {
+                    "name": "sl3"
+                },
+                {
+                    "name": "sl4"
+                }
+            ],
+            [
+                {
+                    "name": "sl5"
+                },
+                {
+                    "name": "sl6"
+                }
+            ],
+            [
+                {
+                    "name": "sl7"
+                }
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": {
+            "conditionGroup": [
+                {
+                    "type": "or",
+                    "value": [
+                        {
+                            "type": "equals",
+                            "attribute": "selectedAreaOfRisk1",
+                            "value": "Sleep Disorder"
+                        },
+                        {
+                            "type": "equals",
+                            "attribute": "selectedAreaOfRisk2",
+                            "value": "Sleep Disorder"
+                        }
+                    ]
+                }
+            ]
+        },
+        "hidden": false,
+        "customLabel": "Sleep Disorders: SD Prescreen (SLEPS) \/ SD Screen (SLES)"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "edps1"
+                }
+            ],
+            [
+                {
+                    "name": "ed1"
+                },
+                {
+                    "name": "ed2"
+                }
+            ],
+            [
+                {
+                    "name": "ed3"
+                },
+                {
+                    "name": "ed4"
+                }
+            ],
+            [
+                {
+                    "name": "ed5"
+                }
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": {
+            "conditionGroup": [
+                {
+                    "type": "or",
+                    "value": [
+                        {
+                            "type": "equals",
+                            "attribute": "selectedAreaOfRisk1",
+                            "value": "Eating Disorder"
+                        },
+                        {
+                            "type": "equals",
+                            "attribute": "selectedAreaOfRisk2",
+                            "value": "Eating Disorder"
+                        }
+                    ]
+                }
+            ]
+        },
+        "hidden": false,
+        "customLabel": "Eating Disorders: ED Prescreen (EAPS) \/ ED Screen (EAS)"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "ptsdps1"
+                }
+            ],
+            [
+                {
+                    "name": "ptsd1"
+                },
+                {
+                    "name": "ptsd2"
+                }
+            ],
+            [
+                {
+                    "name": "ptsd3"
+                },
+                {
+                    "name": "ptsd4"
+                }
+            ],
+            [
+                {
+                    "name": "ptsd5"
+                }
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": {
+            "conditionGroup": [
+                {
+                    "type": "or",
+                    "value": [
+                        {
+                            "type": "equals",
+                            "attribute": "selectedAreaOfRisk1",
+                            "value": "Post-Traumatic Stress-Disorder"
+                        },
+                        {
+                            "type": "equals",
+                            "attribute": "selectedAreaOfRisk2",
+                            "value": "Post-Traumatic Stress-Disorder"
+                        }
+                    ]
+                }
+            ]
+        },
+        "hidden": false,
+        "customLabel": "Post-Traumatic Stress-Disorder: PTSD Prescreen (PTPS) \/ PTSD Screen (PTS)"
+    }
+]

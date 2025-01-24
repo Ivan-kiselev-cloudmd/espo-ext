@@ -1,0 +1,10 @@
+{
+    "name": "Custom entity extension",
+    "version": "1.0.4",
+    "acceptableVersions": [
+        ">=6.0.6"
+    ],
+    "releaseDate": "2021-30-07",
+    "author": "Tazo",
+    "description": "Medical confidence custom entity extension"
+}

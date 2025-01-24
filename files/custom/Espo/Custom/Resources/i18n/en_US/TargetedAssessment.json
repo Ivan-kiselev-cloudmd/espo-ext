@@ -1,0 +1,1486 @@
+{
+    "fields": {
+        "contact": "Contact",
+        "mh1": "How do you rate your current mental health?",
+        "dateAssessmentCompleted": "Date Assessment completed",
+        "mh2": "Have you ever been diagnosed with a mental health condition by a physician?",
+        "mh4": "Are you currently taking prescription medication for your mental health?",
+        "mh5": "Have you ever received counselling or therapy to help improve your mental health?",
+        "selectedAreaOfRisk1": "Selected Area of Risk 1",
+        "selectedAreaOfRisk2": "Selected Area of Risk 2",
+        "lf1": "Standing for long periods such as 30 minutes?",
+        "lf2": "Taking care of your household responsibilities?",
+        "lf3": "Learning a new task, for example, learning how to get to a new place?",
+        "lf4": "Joining in community activities (e.g., festivities, religious or other activities) in the same way as anyone else can?",
+        "lf5": "Being emotionally affected by your physical or mental health problems?",
+        "lf6": "Concentrating on doing something for ten minutes?",
+        "lf7": "Walking a long distance such as a kilometer?",
+        "lf8": "Washing your whole body?",
+        "lf9": "Getting dressed?",
+        "lf10": "Dealing with people you do not know?",
+        "lf11": "Maintaining a friendship?",
+        "lf12": "Completing day-to-day work?",
+        "mw1": "How many days of work did you miss in the past 30 days due to your mental health?",
+        "mw2": "How many days of school did you miss in the past 30 days due to your mental health?",
+        "shs1": "In general, I consider myself to be...",
+        "shs3": "Some people are generally very happy. They seem to enjoy life regardless of what is going on. To what extent does this characterization describe you?",
+        "shs2": "Compared with most of my peers, I consider myself:",
+        "shs4": "Some people are generally unhappy. To what extent does this characterization describe you?",
+        "mhh1": "How motivated are you to access support designed to improve your mental health?",
+        "dps1": "Little interest or pleasure in doing things.",
+        "dps2": "Feeling down, depressed, or hopeless.",
+        "ds1": "Little interest or pleasure in doing things.",
+        "ds2": "Feeling down, depressed, or hopeless",
+        "ds3": "Trouble falling or staying asleep, or sleeping too much",
+        "ds4": "Feeling tired or having little energy",
+        "ds5": "Poor appetite or overeating",
+        "ds6": "Feeling bad about yourself, or that you are a failure, or have let yourself or your family down",
+        "ds7": "Trouble concentrating on things, such as reading or watching television",
+        "ds8": "Moving or speaking so slowly that other people could have noticed? OR the opposite-being so fidgety or restless that you have been moving around a lot more than usual?",
+        "ds9": "Thoughts that you would be better off dead or of hurting yourself in some way",
+        "gadps1": "Over the past 2 weeks, have you had difficulty controlling your worrying or fear that something bad may happen?",
+        "gad1": "Feeling nervous, anxious or on edge",
+        "gad2": "Not being able to stop or control worrying",
+        "gad3": "Worrying too much about different things",
+        "gad4": "Trouble relaxing",
+        "gad5": "Being so restless that it is hard to sit still",
+        "gad6": "Becoming easily annoyed or irritable",
+        "gad7": "Feeling afraid as if something awful might happen",
+        "padis1": "A sudden, unexpected and overwhelming feeling of anxiety, fear or uneasiness may indicate a panic episode. How many panic episodes have you experienced in the past month?",
+        "padis2": "In the past month, how often have you... Been worried about having another panic episode?",
+        "padis3": "In the past month, how often have you... Been worried about the consequences of having another panic episode?",
+        "padis4": "In the past month, how often have you... Avoided places, situations or activities because you were afraid of having or triggering a panic episode?",
+        "sadps1": "In the past month, have you... Felt overwhelming fear or anxiety in one or more social situations or interactions, such as conversations with new people, eating or drinking in front of others, or public speaking?",
+        "sad1": "During the past 7 days, how often have you: Felt moments of sudden terror, fear, or fright in social situations?",
+        "sad2": "During the past 7 days, how often have you: Felt anxious, worried, or nervous about social situations?",
+        "sad3": "During the past 7 days, how often have you: Had thoughts of being rejected, humiliated, embarrassed, ridiculed, or offending others?",
+        "sad4": "During the past 7 days, how often have you: Felt a racing heart, sweaty, trouble breathing, faint, or shaky in social situations?",
+        "sad5": "During the past 7 days, how often have you: Felt tense, felt on edge or restless, or had trouble relaxing in social situations?",
+        "sad6": "During the past 7 days, how often have you: Avoided, or did not approach or enter social situations?",
+        "sad7": "During the past 7 days, how often have you: Left social situations early or participated only minimally (e.g., said little, avoided eye contact)?",
+        "sad8": "Repeat: During the past 7 days, how often have you: Spent a lot of time preparing what to say or how to act in social situations?",
+        "sad9": "During the past 7 days, how often have you: Distracted your self to avoid thinking about social situations?",
+        "sad10": "During the past 7 days, how often have you: Needed help to cope with social situations (e.g., alcohol or medications, superstitious objects)?",
+        "ocdps1": "During the last month, have you repeatedly had unwanted thoughts or impulses that were difficult to control and caused distress in your daily activities, such as checking things frequently or excessively cleaning?",
+        "ocd2": "Which of the following obsessions and compulsions have been troubling you during the past week? I wash my hands very often or in a special way to be sure I am not dirty or contaminated.",
+        "ocd3": "Which of the following obsessions and compulsions have been troubling you during the past week? I fear that my actions might harm others (e.g., fear of poisoning others’ food, fear of hurting babies, fear of pushing someone in front of a train).",
+        "mh3": "Which mental health condition(s) have you been diagnosed with?",
+        "ocd4": "Which of the following obsessions and compulsions have been troubling you during the past week?  I fear I will lose control and do something I don’t want to do (e.g., fear of driving into a tree, fear of running over someone, fear of stabbing someone).",
+        "ocd5": "Which of the following obsessions and compulsions have been troubling you during the past week? I have unpleasant, forbidden, or perverse sexual thoughts, images, or impulses that frighten me (e.g., unwanted bad sexual thoughts about strangers, family members, or children)",
+        "ocd6": "Which of the following obsessions and compulsions have been troubling you during the past week? I must check the stove or other electrical appliances, check that I have locked the door, or check to make sure things have not disappeared.",
+        "ocd7": "Which of the following obsessions and compulsions have been troubling you during the past week? My dirty words, thoughts, and curses directed towards God bother me; I have a fear of offending God and possibly being punished for this.",
+        "ocd8": "Which of the following obsessions and compulsions have been troubling you during the past week? To prevent something terrible from happening, I must have special thoughts or acts done in a special way.",
+        "ocd9": "Which of the following obsessions and compulsions have been troubling you during the past week? I am occupied with morality issues, justice, or what is right or wrong (e.g., worries about always doing ”the right thing,” having told a lie, or having cheated someone).",
+        "ocd1": "Which of the following obsessions and compulsions have been troubling you during the past week? I am worried about dirt, germs, and viruses (e.g., fear of getting germs from touching door handles or shaking hands).",
+        "test": "Test",
+        "ocd10": "Which of the following obsessions and compulsions have been troubling you during the past week? How things are placed or how they are positioned is important to me. It needs to feel “just right” (e.g., worries about papers and books being neatly placed).",
+        "ocd11": "Which of the following obsessions and compulsions have been troubling you during the past week? I get a compelling urge to put my things in a special order (e.g., arranging or lining up things in the house in “order” and then becoming very upset if this order is disturbed).",
+        "ocd12": "Which of the following obsessions and compulsions have been troubling you during the past week? I have a compelling urge to repeat certain actions until it feels “just right.” (e.g., turning the tap or appliances on and off, combing one’s hair, going in and out of a doorway).",
+        "ocd13": "Which of the following obsessions and compulsions have been troubling you during the past week? I must follow strong impulses to collect and hoard things (e.g., saving old newspapers, notes, cans, paper towels, for fear that if one throws them away, one may some day need them).",
+        "ocd14": "Which of the following obsessions and compulsions have been troubling you during the past week? I have worries that I look peculiar; I am concerned that something is wrong with my looks (e.g., worries that one’s face, ears, nose, eyes, or another part of the body is hideously ugly, despite reassurance to the contrary).",
+        "ocd15": "Which of the following obsessions and compulsions have been troubling you during the past week? I do things that injure my body (e.g., scratching and tearing the skin, cutting oneself or banging one’s head).",
+        "ocir1": "The following statements refer to experiences that many people have in their everyday lives. Select the option that best describes HOW MUCH that experience has DISTRESSED or BOTHERED you during the PAST MONTH. I have saved up so many things that they get in the way.",
+        "ocir2": "Select the option that best describes HOW MUCH that experience has DISTRESSED or BOTHERED you during the PAST MONTH. I check things more often than necessary.",
+        "ocir3": "Select the option that best describes HOW MUCH that experience has DISTRESSED or BOTHERED you during the PAST MONTH. I get upset if objects are not arranged properly.",
+        "ocir4": "Select the option that best describes HOW MUCH that experience has DISTRESSED or BOTHERED you during the PAST MONTH. I feel compelled to count while I am doing things.",
+        "ocir5": "Select the option that best describes HOW MUCH that experience has DISTRESSED or BOTHERED you during the PAST MONTH. I find it difficult to touch an object when I know it has been touched by strangers or certain people.",
+        "ocir6": "Select the option that best describes HOW MUCH that experience has DISTRESSED or BOTHERED you during the PAST MONTH. I find it difficult to control my own thoughts.",
+        "ocir7": "Select the option that best describes HOW MUCH that experience has DISTRESSED or BOTHERED you during the PAST MONTH. I collect things I don't need.",
+        "ocir8": "Select the option that best describes HOW MUCH that experience has DISTRESSED or BOTHERED you during the PAST MONTH. I repeatedly check doors, windows, drawers, etc.",
+        "ocir9": "Select the option that best describes HOW MUCH that experience has DISTRESSED or BOTHERED you during the PAST MONTH. I get upset if others change the way I have arranged things.",
+        "ocir10": "Select the option that best describes HOW MUCH that experience has DISTRESSED or BOTHERED you during the PAST MONTH. I feel I have to repeat certain numbers.",
+        "ocir11": "Select the option that best describes HOW MUCH that experience has DISTRESSED or BOTHERED you during the PAST MONTH. I sometimes have to wash or clean myself simply because I feel contaminated.",
+        "ocir12": "Select the option that best describes HOW MUCH that experience has DISTRESSED or BOTHERED you during the PAST MONTH. I am upset by unpleasant thoughts that come into my mind against my will.",
+        "ocir13": "Select the option that best describes HOW MUCH that experience has DISTRESSED or BOTHERED you during the PAST MONTH. I avoid throwing things away because I am afraid I might need them later.",
+        "ocir14": "Select the option that best describes HOW MUCH that experience has DISTRESSED or BOTHERED you during the PAST MONTH. I repeatedly check gas and water taps and light switches after turning them off.",
+        "ocir15": "Select the option that best describes HOW MUCH that experience has DISTRESSED or BOTHERED you during the PAST MONTH. I need things to be arranged in a particular way.",
+        "ocir16": "Select the option that best describes HOW MUCH that experience has DISTRESSED or BOTHERED you during the PAST MONTH. I feel that there are good and bad numbers.",
+        "ocir17": "Select the option that best describes HOW MUCH that experience has DISTRESSED or BOTHERED you during the PAST MONTH.  I wash my hands more often and longer than necessary.",
+        "ocir18": "Select the option that best describes HOW MUCH that experience has DISTRESSED or BOTHERED you during the PAST MONTH.  I frequently get nasty thoughts and I have difficulty in getting rid of them.",
+        "adhdps1": "Have you experienced problems with attention, concentration or impulsivity, which persisted over the past six months?",
+        "adhd1": "Thinking about the past 6 months, how often did you...Have trouble wrapping up the final details of a project, once the challenging parts have been done?",
+        "adhd2": "Thinking about the past 6 months, how often did you... Have difficulty getting things in order when you have to do a task that requires organization?",
+        "adhd3": "Thinking about the past 6 months, how often did you... Have problems remembering appointments or obligations?",
+        "adhd4": "Thinking about the past 6 months, how often did you... Avoid or delay getting started on a task that requires a lot of thought?",
+        "adhd5": "Thinking about the past 6 months, how often did you... Fidget or squirm with your hands or feet when you have to sit down for a long time?",
+        "adhd6": "Thinking about the past 6 months, how often did you... Feel overly active and compelled to do things?",
+        "bps1": "During the past two weeks, how much have you been bothered by the following problems: Sleeping less than usual, but still have lots of energy?",
+        "bps2": "During the past two weeks, how much have you been bothered by the following problems: Starting lots more projects than usual or doing more risky things than usual?",
+        "bp1a": "Has there ever been a period of time when you were not your usual self and...You felt so good or hyper that other people thought you were not your normal self or you were so hyper that you got into trouble?",
+        "bp1b": "Has there ever been a period of time when you were not your usual self and...You were so irritable that you shouted at people or started fights or arguments?",
+        "bp1c": "Has there ever been a period of time when you were not your usual self and...You felt much more self-confident than usual?",
+        "bp1d": "Has there ever been a period of time when you were not your usual self and...You got much less sleep than usual and found that you didn’t really miss it?",
+        "bp1e": "Has there ever been a period of time when you were not your usual self and...You were more talkative or spoke much faster than usual?",
+        "bp1f": "Has there ever been a period of time when you were not your usual self and...Thoughts raced through your head or you couldn’t slow your mind down?",
+        "bp1g": "Has there ever been a period of time when you were not your usual self and...You were so easily distracted by things around you that you had trouble concentrating or staying on track?",
+        "bp1h": "Has there ever been a period of time when you were not your usual self and...You had more energy than usual?",
+        "bp1i": "Has there ever been a period of time when you were not your usual self and...You were much more active or did many more things than usual?",
+        "bp1j": "Has there ever been a period of time when you were not your usual self and...You were much more social or outgoing than usual, for example, you telephoned friends in the middle of the night?",
+        "bp1k": "Has there ever been a period of time when you were not your usual self and...You were much more interested in sex than usual?",
+        "bp1l": "Has there ever been a period of time when you were not your usual self and...You did things that were unusual for you or that other people might have thought were excessive, foolish, or risky?",
+        "bp1m": "Has there ever been a period of time when you were not your usual self and...Spending money got you or your family in trouble?",
+        "bp2": "If you checked YES to more than one of the above, have several of these ever happened during the same period of time?",
+        "bp3": "How much of a problem did any of these cause you? (e.g., work, relationship/family, money or legal troubles",
+        "ieps1": "Has your temper caused either you or others physical or emotional harm in the last month?",
+        "ied1": "How many times would you say you have done the following things over the course of your life, since you turned age 13: “Thrown” a temper tantrum (e.g., screaming, slamming doors, or throwing things when frustrated)",
+        "ied2": "How many times would you say you have done the following things over the course of your life, since you turned age 13: Got into verbal fights or arguments with other people.",
+        "ied3": "How many times would you say you have done the following things over the course of your life, since you turned age 13: Deliberately struck or deliberately broke objects (e.g., windows, dishes, etc.) in anger.",
+        "ied4": "How many times would you say you have done the following things over the course of your life, since you turned age 13: Got into physical fights with other people.",
+        "ied5": "How many times would you say you have done the following things over the course of your life, since you turned age 13: Deliberately struck or hit another person in anger.",
+        "audps1": "During the past 12 months did you: Drink any alcohol (more than a few sips)?",
+        "aud1": "How often do you have a drink containing alcohol?",
+        "aud2": "How many drinks containing alcohol do you have on a typical day when you are drinking?",
+        "aud3": "How often do you have six or more drinks on one occasion?",
+        "aud4": "How often in the past year have you...Found that you were not able to stop drinking once you had started?",
+        "aud5": "How often in the past year have you...Failed to do what was normally expected from you because of drinking?",
+        "aud6": "How often in the past year have you...Needed a first drink in the morning to get yourself going after a heavy drinking session?",
+        "aud7": "How often in the past year have you...Had a feeling of guilt or remorse after drinking?",
+        "aud8": "How often in the past year have you...Been unable to remember what happened the night before because you had been drinking?",
+        "aud9": "Have you or someone else been injured as a result of your drinking?",
+        "aud10": "Has a relative or friend or a doctor or another health worker been concerned about your drinking or suggested you cut down?",
+        "sudps1": "During the past 12 months did you: Use any marijuana or hash?",
+        "sudps2": "During the past 12 months did you: Use anything else to get high? “Anything else” includes illegal drugs, over the counter and prescription drugs, and things that you inhale (e.g., sniff, huff, or snort)",
+        "sud1": "Have you used drugs other than those required for medical reasons?",
+        "sud2": "Do you abuse more than one drug at a time?",
+        "sud3": "Are you always able to stop using drugs when you want to?",
+        "sud4": "Have you had \"blackouts\" or \"flashbacks\" as a result of drug use?",
+        "sud5": "Do you ever feel bad or guilty about your drug use?",
+        "sud6": "Do your family or friends ever complain about your involvement with drugs?",
+        "sud7": "Have you neglected your family or friends because of your use of drugs?",
+        "sud8": "Have you engaged in illegal activities in order to obtain drugs?",
+        "sud9": "Have you ever experienced withdrawal symptoms when you stopped taking drugs?",
+        "sud10": "Have you had medical problems as a result of your drug use (e.g., memory loss, hepatitis, convulsions, or bleeding)?",
+        "slps1": "Do you have problems falling asleep, staying asleep, or waking up earlier than you would like and cannot get back to sleep?",
+        "slps2": "Do you have difficulties staying awake during the day?",
+        "sl1": "n the past 2 weeks, rate the level of severity for the following problems: Difficulty falling asleep",
+        "sl2": "In the past 2 weeks, rate the level of severity for the following problems: Difficulty staying asleep",
+        "sl3": "In the past 2 weeks, rate the level of severity for the following problems: Problem waking up too early",
+        "sl4": "How satisfied/dissatisfied are you with your current sleep patterns?",
+        "sl5": "How noticeable to others do you think your current sleep problem is in terms of impairing the quality of your life?",
+        "sl6": "How worried/distressed are you about your current sleep problem?",
+        "sl7": "To what extent do you consider your sleep problem to interfere with your daily functioning (e.g., daytime fatigue, mood, ability to function at work, or concentration)",
+        "edps1": "In the past three months... Have people mentioned you were too thin or have you had issues with eating large amounts?",
+        "ed1": "Are you satisfied with your eating patterns?",
+        "ed2": "Do you ever eat in secret?",
+        "ed3": "Does your weight affect the way you feel about yourself?",
+        "ed4": "Have any members of your family suffered with an eating disorder?",
+        "ed5": "Do you currently suffer with or have you ever suffered in the past with an eating disorder?",
+        "ptsdps1": "Sometimes things happen to people that are unusually or especially frightening, horrible, or traumatic. For example: - a serious accident or fire - a physical or sexual assault or abuse - an earthquake or flood - a war - seeing someone be killed or seriously injured - having a loved one die through homicide or suicide. Have you ever experienced this kind of event?",
+        "ptsd1": "In the past month, have you...Had nightmares about the event(s) or thought about the event(s) when you did not want to?",
+        "ptsd2": "In the past month, have you...Tried hard not to think about the event(s) or went out of your way to avoid situations that reminded you of the event(s)?",
+        "ptsd3": "In the past month, have you...Been constantly on guard, watchful, or easily startled?",
+        "ptsd4": "In the past month, have you...Felt numb or detached from people, activities, or your surroundings?",
+        "ptsd5": "In the past month, have you...Felt guilty or unable to stop blaming yourself or others for the event(s) or any problems the event(s) may have caused?"
+    },
+    "links": {
+        "contact": "Contact"
+    },
+    "labels": {
+        "Create TargetedAssessment": "Create Targeted Assessment"
+    },
+    "options": {
+        "mh1": {
+            "N/A": "N/A",
+            "Poor": "Poor / Mauvais(e)",
+            "Fair": "Fair / Moyen(ne)",
+            "Good": "Good / Bon(ne)",
+            "Very Good": "Very Good / Très bon(ne)",
+            "Excellent": "Excellent / Excellent(e)"
+        },
+        "mh2": {
+            "N/A": "N/A",
+            "Yes": "Yes / Oui",
+            "No": "No / Non"
+        },
+        "mh4": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "mh5": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "lf1": {
+            "N/A": "N/A",
+            "None": "None",
+            "Mild": "Mild",
+            "Moderate": "Moderate",
+            "Severe": "Severe",
+            "Extreme or Cannot Do": "Extreme or Cannot Do"
+        },
+        "lf2": {
+            "N/A": "N/A",
+            "None": "None",
+            "Mild": "Mild",
+            "Moderate": "Moderate",
+            "Severe": "Severe",
+            "Extreme or Cannot Do": "Extreme or Cannot Do"
+        },
+        "lf3": {
+            "N/A": "N/A",
+            "None": "None",
+            "Mild": "Mild",
+            "Moderate": "Moderate",
+            "Severe": "Severe",
+            "Extreme or Cannot Do": "Extreme or Cannot Do"
+        },
+        "lf4": {
+            "N/A": "N/A",
+            "None": "None",
+            "Mild": "Mild",
+            "Moderate": "Moderate",
+            "Severe": "Severe",
+            "Extreme or Cannot Do": "Extreme or Cannot Do"
+        },
+        "lf5": {
+            "N/A": "N/A",
+            "None": "None",
+            "Mild": "Mild",
+            "Moderate": "Moderate",
+            "Severe": "Severe",
+            "Extreme or Cannot Do": "Extreme or Cannot Do"
+        },
+        "lf6": {
+            "N/A": "N/A",
+            "None": "None",
+            "Mild": "Mild",
+            "Moderate": "Moderate",
+            "Severe": "Severe",
+            "Extreme or Cannot Do": "Extreme or Cannot Do"
+        },
+        "lf7": {
+            "N/A": "N/A",
+            "None": "None",
+            "Mild": "Mild",
+            "Moderate": "Moderate",
+            "Severe": "Severe",
+            "Extreme or Cannot Do": "Extreme or Cannot Do"
+        },
+        "lf8": {
+            "N/A": "N/A",
+            "None": "None",
+            "Mild": "Mild",
+            "Moderate": "Moderate",
+            "Severe": "Severe",
+            "Extreme or Cannot Do": "Extreme or Cannot Do"
+        },
+        "lf9": {
+            "N/A": "N/A",
+            "None": "None",
+            "Mild": "Mild",
+            "Moderate": "Moderate",
+            "Severe": "Severe",
+            "Extreme or Cannot Do": "Extreme or Cannot Do"
+        },
+        "lf10": {
+            "N/A": "N/A",
+            "None": "None",
+            "Mild": "Mild",
+            "Moderate": "Moderate",
+            "Severe": "Severe",
+            "Extreme or Cannot Do": "Extreme or Cannot Do"
+        },
+        "lf11": {
+            "N/A": "N/A",
+            "None": "None",
+            "Mild": "Mild",
+            "Moderate": "Moderate",
+            "Severe": "Severe",
+            "Extreme or Cannot Do": "Extreme or Cannot Do"
+        },
+        "lf12": {
+            "N/A": "N/A",
+            "None": "None",
+            "Mild": "Mild",
+            "Moderate": "Moderate",
+            "Severe": "Severe",
+            "Extreme or Cannot Do": "Extreme or Cannot Do"
+        },
+        "mw1": {
+            "N/A": "N/A",
+            "0-5 days": "0-5 days",
+            "6-10 days": "6-10 days",
+            "11-20 days": "11-20 days",
+            "Over 20 days": "Over 20 days",
+            "Not Applicable": "Not Applicable"
+        },
+        "mw2": {
+            "N/A": "N/A",
+            "0-5 days": "0-5 days",
+            "6-10 days": "6-10 days",
+            "11-20 days": "11-20 days",
+            "Over 20 days": "Over 20 days",
+            "Not Applicable": "Not Applicable"
+        },
+        "shs1": {
+            "N/A": "N/A",
+            "1": "1 - Not a very happy person",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7 - A very happy person"
+        },
+        "shs3": {
+            "1": "1 - Not at all",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7 - A great deal",
+            "N/A": "N/A"
+        },
+        "shs2": {
+            "N/A": "N/A",
+            "1": "1 - Less happy",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7 - More happy"
+        },
+        "shs4": {
+            "N/A": "N/A",
+            "1": "1 - Not at all",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7 - A great deal"
+        },
+        "mhh1": {
+            "N/A": "N/A",
+            "Not At All": "Not At All",
+            "A Little": "A Little",
+            "Somewhat": "Somewhat",
+            "Very Much": "Very Much",
+            "Extremely": "Extremely"
+        },
+        "dps1": {
+            "N/A": "N/A",
+            "Not at all": "Not at all / Pas du tout",
+            "A little": "A little / Un peu",
+            "Moderately": "Moderately / Moyennement",
+            "A lot": "A lot / Beaucoup",
+            "Extremely": "Extremely / Extrêmement"
+        },
+        "dps2": {
+            "N/A": "N/A",
+            "Not at all": "Not at all / Pas du tout",
+            "A little": "A little / Un peu",
+            "Moderately": "Moderately / Moyennement",
+            "A lot": "A lot / Beaucoup",
+            "Extremely": "Extremely / Extrêmement"
+        },
+        "ds1": {
+            "N/A": "N/A",
+            "Not at all": "Not at all",
+            "Several days": "Several days",
+            "More than half the days": "More than half the days",
+            "Nearly every day": "Nearly every day"
+        },
+        "ds2": {
+            "N/A": "N/A",
+            "Not at all": "Not at all",
+            "Several days": "Several days",
+            "More than half the days": "More than half the days",
+            "Nearly every day": "Nearly every day"
+        },
+        "ds3": {
+            "N/A": "N/A",
+            "Not at all": "Not at all",
+            "Several days": "Several days",
+            "More than half the days": "More than half the days",
+            "Nearly every day": "Nearly every day"
+        },
+        "ds4": {
+            "N/A": "N/A",
+            "Not at all": "Not at all",
+            "Several days": "Several days",
+            "More than half the days": "More than half the days",
+            "Nearly every day": "Nearly every day"
+        },
+        "ds5": {
+            "N/A": "N/A",
+            "Not at all": "Not at all",
+            "Several days": "Several days",
+            "More than half the days": "More than half the days",
+            "Nearly every day": "Nearly every day"
+        },
+        "ds6": {
+            "N/A": "N/A",
+            "Not at all": "Not at all",
+            "Several days": "Several days",
+            "More than half the days": "More than half the days",
+            "Nearly every day": "Nearly every day"
+        },
+        "ds7": {
+            "N/A": "N/A",
+            "Not at all": "Not at all",
+            "Several days": "Several days",
+            "More than half the days": "More than half the days",
+            "Nearly every day": "Nearly every day"
+        },
+        "ds8": {
+            "N/A": "N/A",
+            "Not at all": "Not at all",
+            "Several days": "Several days",
+            "More than half the days": "More than half the days",
+            "Nearly every day": "Nearly every day"
+        },
+        "ds9": {
+            "N/A": "N/A",
+            "Not at all": "Not at all",
+            "Several days": "Several days",
+            "More than half the days": "More than half the days",
+            "Nearly every day": "Nearly every day"
+        },
+        "gadps1": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "gad1": {
+            "N/A": "N/A",
+            "Not at all": "Not at all",
+            "Several days": "Several days",
+            "More than half the days": "More than half the days",
+            "Nearly every day": "Nearly every day"
+        },
+        "gad2": {
+            "N/A": "N/A",
+            "Not at all": "Not at all",
+            "Several days": "Several days",
+            "More than half the days": "More than half the days",
+            "Nearly every day": "Nearly every day"
+        },
+        "gad3": {
+            "N/A": "N/A",
+            "Not at all": "Not at all",
+            "Several days": "Several days",
+            "More than half the days": "More than half the days",
+            "Nearly every day": "Nearly every day"
+        },
+        "gad4": {
+            "N/A": "N/A",
+            "Not at all": "Not at all",
+            "Several days": "Several days",
+            "More than half the days": "More than half the days",
+            "Nearly every day": "Nearly every day"
+        },
+        "gad5": {
+            "N/A": "N/A",
+            "Not at all": "Not at all",
+            "Several days": "Several days",
+            "More than half the days": "More than half the days",
+            "Nearly every day": "Nearly every day"
+        },
+        "gad6": {
+            "N/A": "N/A",
+            "Not at all": "Not at all",
+            "Several days": "Several days",
+            "More than half the days": "More than half the days",
+            "Nearly every day": "Nearly every day"
+        },
+        "gad7": {
+            "N/A": "N/A",
+            "Not at all": "Not at all",
+            "Several days": "Several days",
+            "More than half the days": "More than half the days",
+            "Nearly every day": "Nearly every day"
+        },
+        "padis1": {
+            "N/A": "N/A",
+            "None": "None",
+            "One": "One",
+            "2 to 5": "2 to 5",
+            "6 to 10": "6 to 10",
+            "11 or more": "11 or more"
+        },
+        "padis2": {
+            "N/A": "N/A",
+            "Never": "Never",
+            "Occasionally": "Occasionally",
+            "Often": "Often",
+            "All the time": "All the time"
+        },
+        "padis3": {
+            "N/A": "N/A",
+            "Never": "Never",
+            "Occasionally": "Occasionally",
+            "Often": "Often",
+            "All the time": "All the time"
+        },
+        "padis4": {
+            "N/A": "N/A",
+            "Never": "Never",
+            "Occasionally": "Occasionally",
+            "Often": "Often",
+            "All the time": "All the time"
+        },
+        "sadps1": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "sad1": {
+            "N/A": "N/A",
+            "Never": "Never",
+            "Occasionally": "Occasionally",
+            "Half the time": "Half the time",
+            "Most of the time": "Most of the time",
+            "All of the time": "All of the time"
+        },
+        "sad2": {
+            "N/A": "N/A",
+            "Never": "Never",
+            "Occasionally": "Occasionally",
+            "Half the time": "Half the time",
+            "Most of the time": "Most of the time",
+            "All of the time": "All of the time"
+        },
+        "sad3": {
+            "N/A": "N/A",
+            "Never": "Never",
+            "Occasionally": "Occasionally",
+            "Half the time": "Half the time",
+            "Most of the time": "Most of the time",
+            "All of the time": "All of the time"
+        },
+        "sad4": {
+            "N/A": "N/A",
+            "Never": "Never",
+            "Occasionally": "Occasionally",
+            "Half the time": "Half the time",
+            "Most of the time": "Most of the time",
+            "All of the time": "All of the time"
+        },
+        "sad5": {
+            "N/A": "N/A",
+            "Never": "Never",
+            "Occasionally": "Occasionally",
+            "Half the time": "Half the time",
+            "Most of the time": "Most of the time",
+            "All of the time": "All of the time"
+        },
+        "sad6": {
+            "N/A": "N/A",
+            "Never": "Never",
+            "Occasionally": "Occasionally",
+            "Half the time": "Half the time",
+            "Most of the time": "Most of the time",
+            "All of the time": "All of the time"
+        },
+        "sad7": {
+            "N/A": "N/A",
+            "Never": "Never",
+            "Occasionally": "Occasionally",
+            "Half the time": "Half the time",
+            "Most of the time": "Most of the time",
+            "All of the time": "All of the time"
+        },
+        "sad8": {
+            "N/A": "N/A",
+            "Never": "Never",
+            "Occasionally": "Occasionally",
+            "Half the time": "Half the time",
+            "Most of the time": "Most of the time",
+            "All of the time": "All of the time"
+        },
+        "sad9": {
+            "N/A": "N/A",
+            "Never": "Never",
+            "Occasionally": "Occasionally",
+            "Half the time": "Half the time",
+            "Most of the time": "Most of the time",
+            "All of the time": "All of the time"
+        },
+        "sad10": {
+            "N/A": "N/A",
+            "Never": "Never",
+            "Occasionally": "Occasionally",
+            "Half the time": "Half the time",
+            "Most of the time": "Most of the time",
+            "All of the time": "All of the time"
+        },
+        "ocdps1": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "ocd2": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "ocd3": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "mh3": {
+            "Depression": "Depression",
+            "Generalized Anxiety Disorder": "Generalized Anxiety Disorder",
+            "Panic Disorder": "Panic Disorder",
+            "Social Anxiety Disorder": "Social Anxiety Disorder",
+            "Obsessive-Compulsive Disorder": "Obsessive-Compulsive Disorder",
+            "Attention Deficit Hyperactivity Disorder": "Attention Deficit Hyperactivity Disorder",
+            "Bipolar Disorder": "Bipolar Disorder",
+            "Intermittent Explosive Disorder": "Intermittent Explosive Disorder",
+            "Alcohol Use Disorder": "Alcohol Use Disorder",
+            "Substance Use Disorder": "Substance Use Disorder",
+            "Sleep Disorder": "Sleep Disorder",
+            "Eating Disorder": "Eating Disorder",
+            "Post-Traumatic Stress-Disorder": "Post-Traumatic Stress-Disorder"
+        },
+        "ocd4": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "ocd5": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "ocd6": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "ocd7": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "ocd8": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "ocd9": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "ocd1": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "ocd10": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "ocd11": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "ocd12": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "ocd13": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "ocd14": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "ocd15": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "ocir1": {
+            "N/A": "N/A",
+            "Not at all": "Not at all",
+            "A little": "A little",
+            "Moderately": "Moderately",
+            "A lot": "A lot",
+            "Extremely": "Extremely"
+        },
+        "ocir2": {
+            "N/A": "N/A",
+            "Not at all": "Not at all",
+            "A little": "A little",
+            "Moderately": "Moderately",
+            "A lot": "A lot",
+            "Extremely": "Extremely"
+        },
+        "ocir3": {
+            "N/A": "N/A",
+            "Not at all": "Not at all",
+            "A little": "A little",
+            "Moderately": "Moderately",
+            "A lot": "A lot",
+            "Extremely": "Extremely"
+        },
+        "ocir4": {
+            "N/A": "N/A",
+            "Not at all": "Not at all",
+            "A little": "A little",
+            "Moderately": "Moderately",
+            "A lot": "A lot",
+            "Extremely": "Extremely"
+        },
+        "ocir5": {
+            "N/A": "N/A",
+            "Not at all": "Not at all",
+            "A little": "A little",
+            "Moderately": "Moderately",
+            "A lot": "A lot",
+            "Extremely": "Extremely"
+        },
+        "ocir6": {
+            "N/A": "N/A",
+            "Not at all": "Not at all",
+            "A little": "A little",
+            "Moderately": "Moderately",
+            "A lot": "A lot",
+            "Extremely": "Extremely"
+        },
+        "ocir7": {
+            "N/A": "N/A",
+            "Not at all": "Not at all",
+            "A little": "A little",
+            "Moderately": "Moderately",
+            "A lot": "A lot",
+            "Extremely": "Extremely"
+        },
+        "ocir8": {
+            "N/A": "N/A",
+            "Not at all": "Not at all",
+            "A little": "A little",
+            "Moderately": "Moderately",
+            "A lot": "A lot",
+            "Extremely": "Extremely"
+        },
+        "ocir9": {
+            "N/A": "N/A",
+            "Not at all": "Not at all",
+            "A little": "A little",
+            "Moderately": "Moderately",
+            "A lot": "A lot",
+            "Extremely": "Extremely"
+        },
+        "ocir10": {
+            "N/A": "N/A",
+            "Not at all": "Not at all",
+            "A little": "A little",
+            "Moderately": "Moderately",
+            "A lot": "A lot",
+            "Extremely": "Extremely"
+        },
+        "ocir11": {
+            "N/A": "N/A",
+            "Not at all": "Not at all",
+            "A little": "A little",
+            "Moderately": "Moderately",
+            "A lot": "A lot",
+            "Extremely": "Extremely"
+        },
+        "ocir12": {
+            "N/A": "N/A",
+            "Not at all": "Not at all",
+            "A little": "A little",
+            "Moderately": "Moderately",
+            "A lot": "A lot",
+            "Extremely": "Extremely"
+        },
+        "ocir13": {
+            "N/A": "N/A",
+            "Not at all": "Not at all",
+            "A little": "A little",
+            "Moderately": "Moderately",
+            "A lot": "A lot",
+            "Extremely": "Extremely"
+        },
+        "ocir14": {
+            "N/A": "N/A",
+            "Not at all": "Not at all",
+            "A little": "A little",
+            "Moderately": "Moderately",
+            "A lot": "A lot",
+            "Extremely": "Extremely"
+        },
+        "ocir15": {
+            "N/A": "N/A",
+            "Not at all": "Not at all",
+            "A little": "A little",
+            "Moderately": "Moderately",
+            "A lot": "A lot",
+            "Extremely": "Extremely"
+        },
+        "ocir16": {
+            "N/A": "N/A",
+            "Not at all": "Not at all",
+            "A little": "A little",
+            "Moderately": "Moderately",
+            "A lot": "A lot",
+            "Extremely": "Extremely"
+        },
+        "ocir17": {
+            "N/A": "N/A",
+            "Not at all": "Not at all",
+            "A little": "A little",
+            "Moderately": "Moderately",
+            "A lot": "A lot",
+            "Extremely": "Extremely"
+        },
+        "ocir18": {
+            "N/A": "N/A",
+            "Not at all": "Not at all",
+            "A little": "A little",
+            "Moderately": "Moderately",
+            "A lot": "A lot",
+            "Extremely": "Extremely"
+        },
+        "adhdps1": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "adhd1": {
+            "N/A": "N/A",
+            "Never": "Never",
+            "Rarely": "Rarely",
+            "Sometimes": "Sometimes",
+            "Often": "Often",
+            "Very often": "Very often"
+        },
+        "adhd2": {
+            "N/A": "N/A",
+            "Never": "Never",
+            "Rarely": "Rarely",
+            "Sometimes": "Sometimes",
+            "Often": "Often",
+            "Very often": "Very often"
+        },
+        "adhd3": {
+            "N/A": "N/A",
+            "Never": "Never",
+            "Rarely": "Rarely",
+            "Sometimes": "Sometimes",
+            "Often": "Often",
+            "Very often": "Very often"
+        },
+        "adhd4": {
+            "N/A": "N/A",
+            "Never": "Never",
+            "Rarely": "Rarely",
+            "Sometimes": "Sometimes",
+            "Often": "Often",
+            "Very often": "Very often"
+        },
+        "adhd5": {
+            "N/A": "N/A",
+            "Never": "Never",
+            "Rarely": "Rarely",
+            "Sometimes": "Sometimes",
+            "Often": "Often",
+            "Very often": "Very often"
+        },
+        "adhd6": {
+            "N/a": "N/a",
+            "N/A": "N/A",
+            "Never": "Never",
+            "Rarely": "Rarely",
+            "Sometimes": "Sometimes",
+            "Often": "Often",
+            "Very often": "Very often"
+        },
+        "bps1": {
+            "N/A": "N/A",
+            "None": "None",
+            "Slight": "Slight",
+            "Mild": "Mild",
+            "Moderate": "Moderate",
+            "Severe": "Severe"
+        },
+        "bps2": {
+            "N/A": "N/A",
+            "None": "None",
+            "Slight": "Slight",
+            "Mild": "Mild",
+            "Moderate": "Moderate",
+            "Severe": "Severe"
+        },
+        "bp1a": {
+            "N/a": "N/a",
+            "Yes": "Yes",
+            "No": "No",
+            "N/A": "N/A"
+        },
+        "bp1b": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "bp1c": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "bp1d": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "bp1e": {
+            "N/a": "N/a",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "bp1f": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "bp1g": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "bp1h": {
+            "N/a": "N/a",
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "bp1i": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "bp1j": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "bp1k": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "bp1l": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "bp1m": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "bp2": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "bp3": {
+            "N/A": "N/A",
+            "No problem": "No problem",
+            "Minor problem": "Minor problem",
+            "Moderate problem": "Moderate problem",
+            "Serious problem": "Serious problem"
+        },
+        "ieps1": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "ied1": {
+            "N/A": "N/A",
+            "Never happened ": "Never happened ",
+            "Only happened once": "Only happened once",
+            "Happened a couple or a few times": "Happened a couple or a few times",
+            "Happened several times": "Happened several times",
+            "Happened many times": "Happened many times",
+            "Happened so many times that I couldn’t give a number": "Happened so many times that I couldn’t give a number"
+        },
+        "ied2": {
+            "N/A": "N/A",
+            "Never happened": "Never happened",
+            "Only happened once": "Only happened once",
+            "Happened a couple or a few times": "Happened a couple or a few times",
+            "Happened several times": "Happened several times",
+            "Happened many times": "Happened many times",
+            "Happened so many times that I couldn’t give a number": "Happened so many times that I couldn’t give a number"
+        },
+        "ied3": {
+            "N/A": "N/A",
+            "Never happened": "Never happened",
+            "Only happened once": "Only happened once",
+            "Happened a couple or a few times": "Happened a couple or a few times",
+            "Happened several times": "Happened several times",
+            "Happened many times": "Happened many times",
+            "Happened so many times that I couldn’t give a number": "Happened so many times that I couldn’t give a number"
+        },
+        "ied4": {
+            "N/A": "N/A",
+            "Never happened ": "Never happened ",
+            "Only happened once": "Only happened once",
+            "Happened a couple or a few times": "Happened a couple or a few times",
+            "Happened several times": "Happened several times",
+            "Happened many times": "Happened many times",
+            "Happened so many times that I couldn’t give a number": "Happened so many times that I couldn’t give a number"
+        },
+        "ied5": {
+            "N/A": "N/A",
+            "Never happened": "Never happened",
+            "Only happened once": "Only happened once",
+            "Happened a couple or a few times": "Happened a couple or a few times",
+            "Happened several times": "Happened several times",
+            "Happened many times": "Happened many times",
+            "Happened so many times that I couldn’t give a number": "Happened so many times that I couldn’t give a number"
+        },
+        "audps1": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "aud1": {
+            "N/A": "N/A",
+            "Never": "Never",
+            "Monthly or less": "Monthly or less",
+            "2 to 4 times a month": "2 to 4 times a month",
+            "2 to 3 times a week": "2 to 3 times a week",
+            "4 or more times a week": "4 or more times a week"
+        },
+        "aud2": {
+            "N/A": "N/A",
+            "1 or 2": "1 or 2",
+            "3 or 4": "3 or 4",
+            "5 or 6": "5 or 6",
+            "7, 8 or 9": "7, 8 or 9",
+            "10 or more": "10 or more"
+        },
+        "aud3": {
+            "N/A": "N/A",
+            "Never": "Never",
+            "Less than monthly": "Less than monthly",
+            "Monthly": "Monthly",
+            "Weekly": "Weekly",
+            "Daily or almost daily": "Daily or almost daily"
+        },
+        "aud4": {
+            "N/A": "N/A",
+            "Never": "Never",
+            "Less than monthly": "Less than monthly",
+            "Monthly": "Monthly",
+            "Weekly": "Weekly",
+            "Daily or almost daily": "Daily or almost daily"
+        },
+        "aud5": {
+            "N/A": "N/A",
+            "Never": "Never",
+            "Less than monthly": "Less than monthly",
+            "Monthly": "Monthly",
+            "Weekly": "Weekly",
+            "Daily or almost daily": "Daily or almost daily"
+        },
+        "aud6": {
+            "N/A": "N/A",
+            "Never": "Never",
+            "Less than monthly": "Less than monthly",
+            "Monthly": "Monthly",
+            "Weekly": "Weekly",
+            "Daily or almost daily": "Daily or almost daily"
+        },
+        "aud7": {
+            "N/A": "N/A",
+            "Never": "Never",
+            "Less than monthly": "Less than monthly",
+            "Monthly": "Monthly",
+            "Weekly": "Weekly",
+            "Daily or almost daily": "Daily or almost daily"
+        },
+        "aud8": {
+            "N/A": "N/A",
+            "Never": "Never",
+            "Less than monthly": "Less than monthly",
+            "Monthly": "Monthly",
+            "Weekly": "Weekly",
+            "Daily or almost daily": "Daily or almost daily"
+        },
+        "aud9": {
+            "N/A": "N/A",
+            "No": "No",
+            "Yes, but not in the last year": "Yes, but not in the last year",
+            "Yes, during the last year": "Yes, during the last year"
+        },
+        "aud10": {
+            "N/A": "N/A",
+            "No": "No",
+            "Yes, but not in the last year": "Yes, but not in the last year",
+            "Yes, during the last year": "Yes, during the last year"
+        },
+        "sudps1": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "sudps2": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "sud1": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "sud2": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "sud3": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "sud4": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "sud5": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "sud6": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "sud7": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "sud8": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "sud9": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "sud10": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "slps1": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "slps2": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "sl1": {
+            "N/A": "N/A",
+            "None": "None",
+            "Mild": "Mild",
+            "Moderate": "Moderate",
+            "Severe": "Severe",
+            "Very severe": "Very severe"
+        },
+        "sl2": {
+            "N/A": "N/A",
+            "None": "None",
+            "Mild": "Mild",
+            "Moderate": "Moderate",
+            "Severe": "Severe",
+            "Very severe": "Very severe"
+        },
+        "sl3": {
+            "N/A": "N/A",
+            "None": "None",
+            "Mild": "Mild",
+            "Moderate": "Moderate",
+            "Severe": "Severe",
+            "Very severe": "Very severe"
+        },
+        "sl4": {
+            "N/A": "N/A",
+            "Very satisfied": "Very satisfied",
+            "Satisfied": "Satisfied",
+            "Moderately satisfied": "Moderately satisfied",
+            "Dissatisfied": "Dissatisfied",
+            "Very dissatisfied": "Very dissatisfied"
+        },
+        "sl5": {
+            "N/A": "N/A",
+            "Not at all noticeable": "Not at all noticeable",
+            "A little": "A little",
+            "Somewhat": "Somewhat",
+            "Much": "Much",
+            "Very much noticeable": "Very much noticeable"
+        },
+        "sl6": {
+            "N/A": "N/A",
+            "Not at all worried": "Not at all worried",
+            "A little": "A little",
+            "Somewhat": "Somewhat",
+            "Much": "Much",
+            "Very much worried": "Very much worried"
+        },
+        "sl7": {
+            "N/A": "N/A",
+            "Not at all Interfering": "Not at all Interfering",
+            "A little": "A little",
+            "Somewhat": "Somewhat",
+            "Much": "Much",
+            "Very much interfering": "Very much interfering"
+        },
+        "edps1": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "ed1": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "ed2": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "ed3": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "ed4": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "ed5": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "ptsdps1": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "ptsd1": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "ptsd2": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "ptsd3": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "ptsd4": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "ptsd5": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        }
+    },
+    "tooltips": {
+        "mh1": "Comment évaluez-vous votre santé mentale actuelle?",
+        "mh2": "Un médecin vous a-t-il déjà diagnostiqué un problème de santé mentale?",
+        "lf1": "Être debout pour de longues périodes comme 30 min?\n•\tAucun\n•\tLéger\n•\tModéré\n•\tSévère\n•\tExtrême ou impossible\n",
+        "lf2": "Vous occuper de vos responsabilités ménagères?\n•\tAucun\n•\tLéger\n•\tModéré\n•\tSévère\n•\tExtrême ou impossible",
+        "lf3": "Apprendre une nouvelle tâche ou par ex. découvrir un nouveau lieu?\n•\tAucun\n•\tLéger\n•\tModéré\n•\tSévère\n•\tExtrême ou impossible",
+        "lf4": "Vous engager dans des activités communautaires (par ex. fêtes, activité religieuse ou autre) de la même façon que les autres?\n•\tAucun\n•\tLéger\n•\tModéré\n•\tSévère\n•\tExtrême ou impossible",
+        "lf5": "Être émotionnellement affecté(e) par votre état de santé?\n•\tAucun\n•\tLéger\n•\tModéré\n•\tSévère\n•\tExtrême ou impossible",
+        "lf6": "Vous concentrer sur une tâche pendant dix minutes?\n•\tAucun\n•\tLéger\n•\tModéré\n•\tSévère\n•\tExtrême ou impossible",
+        "lf7": "Marcher une longue distance comme 1 kilomètre?\n•\tAucun\n•\tLéger\n•\tModéré\n•\tSévère\n•\tExtrême ou impossible\n",
+        "lf8": "Laver votre corps tout entier?\n•\tAucun\n•\tLéger\n•\tModéré\n•\tSévère\n•\tExtrême ou impossible",
+        "lf9": "Vous habiller?\n•\tAucun\n•\tLéger\n•\tModéré\n•\tSévère\n•\tExtrême ou impossible",
+        "lf10": "Avoir affaire à des personnes que vous ne connaissez pas?\n•\tAucun\n•\tLéger\n•\tModéré\n•\tSévère\n•\tExtrême ou impossible",
+        "lf11": "Entretenir une relation d’amitié?\n•\tAucun\n•\tLéger\n•\tModéré\n•\tSévère\n•\tExtrême ou impossible",
+        "lf12": "Faire votre travail/vos activités scolaires quotidien(nes)?\n•\tAucun\n•\tLéger\n•\tModéré\n•\tSévère\n•\tExtrême ou impossible\n",
+        "mw1": "Au cours des 30 derniers jours, combien de jours de travail avez-vous manqués en raison de votre santé mentale?\n•\t0-5 jours\n•\t6-10 jours\n•\t11-20 jours\n•\tPlus de 20 jours\n•\tSans objet\n",
+        "mw2": "Au cours des 30 derniers jours, combien de jours d’études avez-vous manqués en raison de votre santé mentale?\n\n•\t0-5 jours\n•\t6-10 jours\n•\t11-20 jours\n•\tPlus de 20 jours\n•\tSans objet\n",
+        "shs1": "En général, je me considère...\nLower: Pas une personne heureuse\nUpper: Une personne très heureuse\n",
+        "shs3": "Certaines personnes sont généralement très heureuses. Elles semblent profiter de la vie indépendamment des circonstances. Dans quelle mesure cette affirmation vous décrit-elle?\nLower: Pas du tout\nUpper: Énormément\n\n",
+        "shs2": "Par rapport à la plupart de mes pairs, je me considère:\nLower: Moins heureux(se)\nUpper: Plus heureux(se)\n",
+        "shs4": "Certaines personnes sont généralement malheureuses. Dans quelle mesure cette affirmation vous décrit-elle?\nLower: Pas du tout\nUpper: Énormément\n",
+        "mhh1": "Dans quelle mesure êtes-vous motivé(e) à accéder à un soutien destiné à améliorer votre santé mentale?\n•\tPas du tout\n•\tUn peu\n•\tQuelque peu\n•\tBeaucoup\n•\tExtrêmement",
+        "dps1": "Peu d’intérêt ou de plaisir à faire des choses.\n•\tPas du tout\n•\tUn peu\n•\tMoyennement\n•\tBeaucoup\n•\tExtrêmement\n",
+        "dps2": "Sentiment de tristesse, de déprime ou de désespoir.\n•\tPas du tout\n•\tUn peu\n•\tMoyennement\n•\tBeaucoup\n•\tExtrêmement",
+        "ds1": "Peu d’intérêt ou de plaisir à faire des choses.\n•\tPas du tout\n•\tPlusieurs jours\n•\tPlus de la moitié des jours\n•\tPresque tous les jours",
+        "ds2": "Se sentir triste, déprimé(e) ou désespéré(e)\n•\tPas du tout\n•\tPlusieurs jours\n•\tPlus de la moitié des jours\n•\tPresque tous les jours\n",
+        "ds3": "Difficultés à s’endormir ou à rester endormi(e), ou trop dormir\n•\tPas du tout\n•\tPlusieurs jours\n•\tPlus de la moitié des jours\n•\tPresque tous les jours",
+        "ds4": "Se sentir fatigué(e) ou avoir peu d’énergie\n•\tPas du tout\n•\tPlusieurs jours\n•\tPlus de la moitié des jours\n•\tPresque tous les jours",
+        "ds5": "Peu d’appétit ou trop manger\n•\tPas du tout\n•\tPlusieurs jours\n•\tPlus de la moitié des jours\n•\tPresque tous les jours",
+        "ds6": "Mauvaise perception de vous-même — ou vous pensez que vous êtes un(e) perdant(e) ou que vous n’avez pas satisfait à vos propres attentes ou celles de votre famille\n•\tPas du tout\n•\tPlusieurs jours\n•\tPlus de la moitié des jours\n•\tPresque tous les jours",
+        "ds7": "Difficultés à se concentrer sur des choses telles que lire le journal ou regarder la télévision\n•\tPas du tout\n•\tPlusieurs jours\n•\tPlus de la moitié des jours\n•\tPresque tous les jours",
+        "ds8": "Vous bougez ou parlez si lentement que les autres personnes ont pu le remarquer. Ou au contraire — vous êtes si agité(e) que vous bougez beaucoup plus que d’habitude\n•\tPas du tout\n•\tPlusieurs jours\n•\tPlus de la moitié des jours\n•\tPresque tous les jours",
+        "ds9": "Vous avez pensé que vous seriez mieux mort(e) ou pensé à vous blesser d’une façon ou d’une autre\n•\tPas du tout\n•\tPlusieurs jours\n•\tPlus de la moitié des jours\n•\tPresque tous les jours",
+        "gadps1": "Au cours des 2 dernières semaines, avez-vous eu des difficultés à maîtriser votre inquiétude ou votre crainte que quelque chose de mal vous arrive?\n•\tOui\n•\tNon",
+        "gad1": "Sentiment de nervosité, d’anxiété ou de tension\n•\tPas du tout\n•\tPlusieurs jours\n•\tPlus de la moitié des jours\n•\tPresque tous les jours\n",
+        "gad2": "Incapable d’arrêter de vous inquiéter ou de contrôler vos inquiétudes\n•\tPas du tout\n•\tPlusieurs jours\n•\tPlus de la moitié des jours\n•\tPresque tous les jours",
+        "gad3": "Inquiétudes excessives à propos de tout et de rien\n•\tPas du tout\n•\tPlusieurs jours\n•\tPlus de la moitié des jours\n•\tPresque tous les jours",
+        "gad4": "Difficulté à se détendre\n•\tPas du tout\n•\tPlusieurs jours\n•\tPlus de la moitié des jours\n•\tPresque tous les jours",
+        "gad5": "Agitation telle qu’il est difficile de rester tranquille\n•\tPas du tout\n•\tPlusieurs jours\n•\tPlus de la moitié des jours\n•\tPresque tous les jours",
+        "gad6": "Devenir facilement contrarié(e) ou irritable\n•\tPas du tout\n•\tPlusieurs jours\n•\tPlus de la moitié des jours\n•\tPresque tous les jours",
+        "gad7": "Avoir peur que quelque chose d’épouvantable puisse arriver\n•\tPas du tout\n•\tPlusieurs jours\n•\tPlus de la moitié des jours\n•\tPresque tous les jours",
+        "padis1": "Un sentiment soudain, inattendu et accablant d’anxiété, de peur ou de malaise peut signaler un épisode de panique. Combien d’épisodes de panique avez-vous vécus au cours du dernier mois?\n•\tAucun\n•\tUn\n•\t2 à 5\n•\t6 à 10\n•\t11 ou plus",
+        "padis2": "Depuis un mois, à quelle fréquence avez-vous… Été inquiet(ète) d’avoir un autre épisode de panique?\n•\tJamais\n•\tOccasionnellement\n•\tSouvent\n•\tTout le temps\n",
+        "padis3": "Depuis un mois, à quelle fréquence avez-vous… Été inquiet(ète) des conséquences d’avoir un autre épisode de panique?\n•\tJamais\n•\tOccasionnellement\n•\tSouvent\n•\tTout le temps",
+        "padis4": "Depuis un mois, à quelle fréquence avez-vous… Évité des lieux, des situations ou des activités parce que vous aviez peur d’avoir ou de déclencher un épisode de panique?\n•\tJamais\n•\tOccasionnellement\n•\tSouvent\n•\tTout le temps",
+        "sadps1": "Depuis un mois, avez-vous… Ressenti une peur ou une anxiété accablante dans une ou plusieurs situations ou interactions sociales, telles que des conversations avec de nouvelles personnes, manger ou boire devant d’autres personnes, ou parler en public?\n\t•\tOui\n\t•\tNon",
+        "sad1": "Au cours des 7 derniers jours, à quelle fréquence avez-vous: Ressenti des moments soudains de terreur, de peur ou de crainte durant des situations sociales?\n•\tJamais\n•\tOccasionnellement\n•\tLa moitié du temps\n•\tLa plupart du temps\n•\tTout le temps\n",
+        "sad2": "Au cours des 7 derniers jours, à quelle fréquence avez-vous: Ressenti des sentiments d’anxiété, d’inquiétude ou de nervosité à propos de situations sociales?\n•\tJamais\n•\tOccasionnellement\n•\tLa moitié du temps\n•\tLa plupart du temps\n•\tTout le temps",
+        "sad3": "Au cours des 7 derniers jours, à quelle fréquence avez-vous: Pensé que vous étiez rejeté(e), humilié(e), embarrassé(e), ridiculisé(e) ou que vous offensiez les autres?\n•\tJamais\n•\tOccasionnellement\n•\tLa moitié du temps\n•\tLa plupart du temps\n•\tTout le temps",
+        "sad4": "Au cours des 7 derniers jours, à quelle fréquence avez-vous: Ressenti votre cœur battre rapidement, des sueurs, de la difficulté à respirer, des évanouissements ou des tremblements dans des situations sociales?\n•\tJamais\n•\tOccasionnellement\n•\tLa moitié du temps\n•\tLa plupart du temps\n•\tTout le temps",
+        "sad5": "Au cours des 7 derniers jours, à quelle fréquence avez-vous: Été tendu(e), à bout ou agité(e), ou avez-vous eu du mal à vous détendre dans des situations sociales?\n•\tJamais\n•\tOccasionnellement\n•\tLa moitié du temps\n•\tLa plupart du temps\n•\tTout le temps",
+        "sad6": "Au cours des 7 derniers jours, à quelle fréquence avez-vous: Évité, ou vous ne vous êtes pas approché(e) ou vous n’avez pas entamé une situation sociale?\n•\tJamais\n•\tOccasionnellement\n•\tLa moitié du temps\n•\tLa plupart du temps\n•\tTout le temps",
+        "sad7": "Au cours des 7 derniers jours, à quelle fréquence avez-vous: Quitté prématurément des situations sociales ou participé de façon minimale (par exemple, en parlant peu, en évitant le contact visuel)?\n•\tJamais\n•\tOccasionnellement\n•\tLa moitié du temps\n•\tLa plupart du temps\n•\tTout le temps",
+        "sad8": "Au cours des 7 derniers jours, à quelle fréquence avez-vous: Passé beaucoup de temps à préparer ce que vous alliez dire ou comment vous comporter dans des situations sociales?\n•\tJamais\n•\tOccasionnellement\n•\tLa moitié du temps\n•\tLa plupart du temps\n•\tTout le temps",
+        "sad9": "Au cours des 7 derniers jours, à quelle fréquence avez-vous: Occupé votre temps avec des distractions pour éviter de penser à des situations sociales?\n•\tJamais\n•\tOccasionnellement\n•\tLa moitié du temps\n•\tLa plupart du temps\n•\tTout le temps",
+        "sad10": "Au cours des 7 derniers jours, à quelle fréquence avez-vous: Eu besoin d’aide pour faire face à des situations sociales (par exemple : alcool, médicaments, objets de superstition)?\n•\tJamais\n•\tOccasionnellement\n•\tLa moitié du temps\n•\tLa plupart du temps\n•\tTout le temps",
+        "ocdps1": "Au cours du dernier mois, avez-vous eu de manière répétée des pensées indésirables ou des impulsions difficiles à contrôler et qui vous ont perturbé dans vos activités quotidiennes, comme vérifier fréquemment des choses ou faire excessivement le ménage?\n\t•\tOui\n\t•\tNon",
+        "ocd2": "Parmi les obsessions ou compulsions suivantes, lesquelles vous ont perturbé au cours de la dernière semaine? Je me lave les mains très souvent ou de manière particulière pour être certain de ne pas être sale ou contaminé.\n•\tOui\n•\tNon",
+        "ocd3": "Parmi les obsessions ou compulsions suivantes, lesquelles vous ont perturbé au cours de la dernière semaine? J’ai peur que mes actions fassent du mal aux autres (par exemple : peur d’empoisonner la nourriture des autres, peur de faire mal à un bébé, peur de pousser quelqu’un devant un train).\n•\tOui\n•\tNon",
+        "mh3": "Quel(s) problème(s) de santé mentale vous a-t-on diagnostiqué(s)?\n•\tDépression\n•\tTrouble d’anxiété généralisé\n•\tTrouble de l’anxiété sociale\n•\tTrouble obsessionnel-compulsif\n•\tTrouble du déficit de l’attention avec ou sans hyperactivité\n•\tTrouble bipolaire\n•\tTrouble explosif intermittent\n•\tTrouble de la consommation d’alcool\n•\tTrouble de la consommation de substances psychoactives\n•\tTrouble du sommeil\n•\tTrouble de l’alimentation\n•\tSyndrome de stress post-traumatique\n•\tTrouble de panique",
+        "ocd4": "Parmi les obsessions ou compulsions suivantes, lesquelles vous ont perturbé au cours de la semaine dernière? J’ai peur de perdre le contrôle et de faire quelque chose contre ma volonté (par exemple : peur de percuter un arbre en voiture, peur de poignarder quelqu’un).\n•\tOui\n•\tNon\n",
+        "ocd5": "Parmi les obsessions ou compulsions suivantes, lesquelles vous ont perturbé au cours de la semaine dernière? J’ai des pensées, images, ou impulsions d’ordre sexuel, qui me font peur et sont déplaisantes, interdites ou perverses (par exemple : mauvaises pensées sexuelles non désirées concernant des inconnus, des membres de ma famille ou des enfants)\n•\tOui\n•\tNon",
+        "ocd6": "Parmi les obsessions ou compulsions suivantes, lesquelles vous ont perturbé au cours de la semaine dernière? Je dois vérifier mon four ou d’autres appareils électriques, m’assurer que j’ai barré ma porte, ou vérifier que des objets n’ont pas disparu.\n•\tOui\n•\tNon\n",
+        "ocd7": "Parmi les obsessions ou compulsions suivantes, lesquelles vous ont perturbé au cours de la semaine dernière? Mes mauvais mots, mes pensées et mes malédictions dirigés vers Dieu me dérangent ; j’ai peur d’offenser Dieu et d’être éventuellement puni pour cela.\n•\tOui\n•\tNon",
+        "ocd8": "Parmi les obsessions ou compulsions suivantes, lesquelles vous ont perturbé au cours de la semaine dernière? Pour empêcher que quelque chose de terrible arrive, je dois avoir des pensées particulières ou agir d’une manière particulière.\n•\tOui\n•\tNon",
+        "ocd9": "Parmi les obsessions ou compulsions suivantes, lesquelles vous ont perturbé au cours de la semaine dernière? Je me soucie de questions de morale, de justice, ou de ce qui est bien ou mal (par exemple : inquiétudes de devoir toujours faire « la bonne chose », d’avoir dit un mensonge ou d’avoir trompé quelqu’un).\n•\tOui\n•\tNon",
+        "ocd1": "Parmi les obsessions ou compulsions suivantes, lesquelles vous ont perturbé au cours de la dernière semaine? Je m’inquiète de la saleté, des microbes et des virus (par exemple, j’ai peur d’attraper des microbes en touchant des poignées de porte ou en serrant la main de quelqu’un).\n\t•\tOui\n\t•\tNon\n",
+        "ocd10": "Parmi les obsessions ou compulsions suivantes, lesquelles vous ont perturbé au cours de la semaine dernière? C’est important pour moi que les objets soient bien positionnés ou à leur place. Il faut que tout soit « comme il faut » (par exemple : vous vous souciez que les papiers et les livres soient soigneusement à leur place).\n•\tOui\n•\tNon",
+        "ocd11": "Parmi les obsessions ou compulsions suivantes, lesquelles vous ont perturbé au cours de la semaine dernière? Je ressens un besoin impérieux de mettre mes affaires dans un ordre particulier (par exemple : arranger les objets ou les mettre « en ordre » dans la maison puis devenir très contrarié si cet ordre est perturbé).\n•\tOui\n•\tNon\n",
+        "ocd12": "Parmi les obsessions ou compulsions suivantes, lesquelles vous ont perturbé au cours de la semaine dernière? J’ai un besoin impérieux de répéter certaines actions jusqu’à ce que cela me semble « comme il faut » (par exemple : ouvrir et refermer le robinet, allumer et éteindre des appareils électroménagers, me peigner, entrer et ressortir par une porte).\n•\tOui\n•\tNon",
+        "ocd13": "Parmi les obsessions ou compulsions suivantes, lesquelles vous ont perturbé au cours de la semaine dernière? Je dois suivre de fortes impulsions me poussant à collectionner et à accumuler des objets (par exemple : conserver de vieux journaux, des notes, des cannettes, des serviettes en papier, de peur qu’ils soient jetés ou que j’en ai besoin un jour).\n•\tOui\n•\tNon",
+        "ocd14": "Parmi les obsessions ou compulsions suivantes, lesquelles vous ont perturbé au cours de la semaine dernière? J’ai peur d’avoir l’air bizarre ; je suis préoccupé par mon apparence (par exemple : vous vous inquiétez que votre visage, vos oreilles, votre nez, vos yeux, ou une autre partie de votre corps soient affreusement laids, même quand on vous assure du contraire).\n•\tOui\n•\tNon",
+        "ocd15": "Parmi les obsessions ou compulsions suivantes, lesquelles vous ont perturbé au cours de la semaine dernière? Je fais des choses qui blessent mon corps (par exemple : vous vous grattez et lacérez votre peau, vous vous coupez ou vous cognez la tête).\n•\tOui\n•\tNon",
+        "ocir1": "Les énoncés suivants se rapportent à des expériences que de nombreuses personnes vivent dans leur quotidien. Choisissez l’option qui décrit le mieux à quel point l’expérience vous a peiné ou dérangé au cours du dernier mois. J’ai conservé tellement d’objets qu’ils bloquent le passage.\n•\tPas du tout\n•\tUn peu\n•\tMoyennement\n•\tBeaucoup\n•\tExtrêmement\n",
+        "ocir2": "Les énoncés suivants se rapportent à des expériences que de nombreuses personnes vivent dans leur quotidien. Choisissez l’option qui décrit le mieux à quel point l’expérience vous a peiné ou dérangé au cours du dernier mois. Je vérife les choses plus souvent que nécessaire.\n•\tPas du tout\n•\tUn peu\n•\tMoyennement\n•\tBeaucoup\n•\tExtrêmement\n",
+        "ocir3": "Les énoncés suivants se rapportent à des expériences que de nombreuses personnes vivent dans leur quotidien. Choisissez l’option qui décrit le mieux à quel point l’expérience vous a peiné ou dérangé au cours du dernier mois. Je suis contrarié(e) si les objets ne sont pas rangés correctement.\n•\tPas du tout\n•\tUn peu\n•\tMoyennement\n•\tBeaucoup\n•\tExtrêmement\n",
+        "ocir4": "Les énoncés suivants se rapportent à des expériences que de nombreuses personnes vivent dans leur quotidien. Choisissez l’option qui décrit le mieux à quel point l’expérience vous a peiné ou dérangé au cours du dernier mois. Je me sens obligé(e) de compter pendant que je fais des choses.\n•\tPas du tout\n•\tUn peu\n•\tMoyennement\n•\tBeaucoup\n•\tExtrêmement\n",
+        "ocir5": "Les énoncés suivants se rapportent à des expériences que de nombreuses personnes vivent dans leur quotidien. Choisissez l’option qui décrit le mieux à quel point l’expérience vous a peiné ou dérangé au cours du dernier mois. J’éprouve de la difficulté à toucher un objet quand je sais qu’il a été touché par des personnes inconnues ou par certaines personnes.\n•\tPas du tout\n•\tUn peu\n•\tMoyennement\n•\tBeaucoup\n•\tExtrêmement\n",
+        "ocir6": "Les énoncés suivants se rapportent à des expériences que de nombreuses personnes vivent dans leur quotidien. Choisissez l’option qui décrit le mieux à quel point l’expérience vous a peiné ou dérangé au cours du dernier mois. J’éprouve de la difficulté à contrôler mes propres pensées.\n•\tPas du tout\n•\tUn peu\n•\tMoyennement\n•\tBeaucoup\n•\tExtrêmement\n",
+        "ocir7": "Les énoncés suivants se rapportent à des expériences que de nombreuses personnes vivent dans leur quotidien. Choisissez l’option qui décrit le mieux à quel point l’expérience vous a peiné ou dérangé au cours du dernier mois. J’accumule des objets dont je n’ai pas besoin.\n•\tPas du tout\n•\tUn peu\n•\tMoyennement\n•\tBeaucoup\n•\tExtrêmement",
+        "ocir8": "Les énoncés suivants se rapportent à des expériences que de nombreuses personnes vivent dans leur quotidien. Choisissez l’option qui décrit le mieux à quel point l’expérience vous a peiné ou dérangé au cours du dernier mois. Je vérifie de manière répétée les portes, les fenêtres, les tiroirs, etc.\n•\tPas du tout\n•\tUn peu\n•\tMoyennement\n•\tBeaucoup\n•\tExtrêmement",
+        "ocir9": "Les énoncés suivants se rapportent à des expériences que de nombreuses personnes vivent dans leur quotidien. Choisissez l’option qui décrit le mieux à quel point l’expérience vous a peiné ou dérangé au cours du dernier mois. Je suis contrarié(e) si les autres changent la manière dont j’ai rangé les choses.\n•\tPas du tout\n•\tUn peu\n•\tMoyennement\n•\tBeaucoup\n•\tExtrêmement\n",
+        "ocir10": "Les énoncés suivants se rapportent à des expériences que de nombreuses personnes vivent dans leur quotidien. Choisissez l’option qui décrit le mieux à quel point l’expérience vous a peiné ou dérangé au cours du dernier mois. Je pense que je dois répéter certains chiffres.\n•\tPas du tout\n•\tUn peu\n•\tMoyennement\n•\tBeaucoup\n•\tExtrêmement\n",
+        "ocir11": "Les énoncés suivants se rapportent à des expériences que de nombreuses personnes vivent dans leur quotidien. Choisissez l’option qui décrit le mieux à quel point l’expérience vous a peiné ou dérangé au cours du dernier mois. Je dois parfois me laver ou me nettoyer, simplement parce que je me sens contaminé(e).\n•\tPas du tout\n•\tUn peu\n•\tMoyennement\n•\tBeaucoup\n•\tExtrêmement",
+        "ocir12": "Les énoncés suivants se rapportent à des expériences que de nombreuses personnes vivent dans leur quotidien. Choisissez l’option qui décrit le mieux à quel point l’expérience vous a peiné ou dérangé au cours du dernier mois. Je suis contrarié(e) par des pensées déplaisantes qui me viennent à l’esprit contre ma volonté.\n•\tPas du tout\n•\tUn peu\n•\tMoyennement\n•\tBeaucoup\n•\tExtrêmement",
+        "ocir13": "Les énoncés suivants se rapportent à des expériences que de nombreuses personnes vivent dans leur quotidien. Choisissez l’option qui décrit le mieux à quel point l’expérience vous a peiné ou dérangé au cours du dernier mois. J’évite de jeter des choses parce que je crains d’en avoir besoin plus tard.\n•\tPas du tout\n•\tUn peu\n•\tMoyennement\n•\tBeaucoup\n•\tExtrêmement",
+        "ocir14": "Les énoncés suivants se rapportent à des expériences que de nombreuses personnes vivent dans leur quotidien. Choisissez l’option qui décrit le mieux à quel point l’expérience vous a peiné ou dérangé au cours du dernier mois. Je vérifie de manière répétée les robinets de gaz et d’eau ainsi que les interrupteurs après les avoir éteints.\n•\tPas du tout\n•\tUn peu\n•\tMoyennement\n•\tBeaucoup\n•\tExtrêmement\n\n",
+        "ocir15": "Les énoncés suivants se rapportent à des expériences que de nombreuses personnes vivent dans leur quotidien. Choisissez l’option qui décrit le mieux à quel point l’expérience vous a peiné ou dérangé au cours du dernier mois. J’ai besoin que les choses soient rangées dans un ordre particulier.\n•\tPas du tout\n•\tUn peu\n•\tMoyennement\n•\tBeaucoup\n•\tExtrêmement\n",
+        "ocir16": "Les énoncés suivants se rapportent à des expériences que de nombreuses personnes vivent dans leur quotidien. Choisissez l’option qui décrit le mieux à quel point l’expérience vous a peiné ou dérangé au cours du dernier mois. Je pense qu’il y a des bons et des mauvais chiffres.\n•\tPas du tout\n•\tUn peu\n•\tMoyennement\n•\tBeaucoup\n•\tExtrêmement\n",
+        "ocir17": "Les énoncés suivants se rapportent à des expériences que de nombreuses personnes vivent dans leur quotidien. Choisissez l’option qui décrit le mieux à quel point l’expérience vous a peiné ou dérangé au cours du dernier mois. Je me lave les mains plus souvent et plus longtemps que nécessaire.\n•\tPas du tout\n•\tUn peu\n•\tMoyennement\n•\tBeaucoup\n•\tExtrêmement\n",
+        "ocir18": "Les énoncés suivants se rapportent à des expériences que de nombreuses personnes vivent dans leur quotidien. Choisissez l’option qui décrit le mieux à quel point l’expérience vous a peiné ou dérangé au cours du dernier mois. J’ai fréquemment des pensées malsaines et j’ai de la difficulté à m’en débarrasser.\n•\tPas du tout\n•\tUn peu\n•\tMoyennement\n•\tBeaucoup\n•\tExtrêmement",
+        "adhdps1": "Avez-vous eu des problèmes d’attention, de concentration ou d’impulsivité, qui ont persisté au cours des six derniers mois?\n\t•\tOui\n\t•\tNon",
+        "adhd1": "En pensant aux six derniers mois, à quelle fréquence avez-vous…\nEu du mal à compléter les derniers détails d’un projet une fois que les parties compliquées étaient terminées?\n•\tJamais\n•\tRarement\n•\tParfois\n•\tSouvent\n•\tTrès souvent",
+        "adhd2": "En pensant aux six derniers mois, à quelle fréquence avez-vous… Eu des difficultés à mettre des choses en ordre quand vous devez compléter une tâche qui requiert de l’organisation?\n•\tJamais\n•\tRarement\n•\tParfois\n•\tSouvent\n•\tTrès souvent",
+        "adhd3": "En pensant aux six derniers mois, à quelle fréquence avez-vous… Eu des problèmes à vous rappeler de vos rendez-vous ou de vos obligations?\n•\tJamais\n•\tRarement\n•\tParfois\n•\tSouvent\n•\tTrès souvent",
+        "adhd4": "En pensant aux six derniers mois, à quelle fréquence avez-vous… Reporté ou évité de commencer une tâche qui demande beaucoup de réflexion?\n•\tJamais\n•\tRarement\n•\tParfois\n•\tSouvent\n•\tTrès souvent",
+        "adhd5": "En pensant aux six derniers mois, à quelle fréquence avez-vous… Remué ou tortillé vos mains ou vos pieds lorsque vous deviez rester assis longtemps?\n•\tJamais\n•\tRarement\n•\tParfois\n•\tSouvent\n•\tTrès souvent",
+        "adhd6": "En pensant aux six derniers mois, à quelle fréquence avez-vous… Ressenti être exagérément actif(ve) et obligé(e) de faire des choses?\n•\tJamais\n•\tRarement\n•\tParfois\n•\tSouvent\n•\tTrès souvent",
+        "bps1": "Au cours des deux dernières semaines, à quel degré avez-vous été gêné(e) par les problèmes suivants :\nDormir moins que d’habitude mais avoir pourtant plein d’énergie.\n•\tAucun\n•\tMinime\n•\tLéger\n•\tModéré\n•\tSévère",
+        "bps2": "Au cours des deux dernières semaines, à quel degré avez-vous été gêné(e) par les problèmes suivants :\nCommencer beaucoup plus de projets ou faire plus de choses risquées que d’habitude.\n•\tAucun\n•\tMinime\n•\tLéger\n•\tModéré\n•\tSévère\n",
+        "bp1a": "Avez-vous déjà eu un moment où vous n’étiez pas vous-même et où...\nVous vous sentiez tellement bien ou hyperactif(ve) que les autres pensaient que vous n’étiez pas vous-même, ou vous étiez tellement hyperactif(ve) que vous vous êtes attiré(e) des ennuis?\n•\tOui\n•\tNon",
+        "bp1b": "Avez-vous déjà eu un moment où vous n’étiez pas vous-même et où...\nVous étiez tellement irritable que vous avez crié après des gens, ou vous avez déclenché des disputes ou des bagarres?\n•\tOui\n•\tNon\n",
+        "bp1c": "Avez-vous déjà eu un moment où vous n’étiez pas vous-même et où...\nVous aviez beaucoup plus confiance en vous que d’habitude?\n•\tOui\n•\tNon",
+        "bp1d": "Avez-vous déjà eu un moment où vous n’étiez pas vous-même et où...\nVous dormiez beaucoup moins que d’habitude, et vous trouviez que cela ne vous manquait pas vraiment?\n•\tOui\n•\tNon",
+        "bp1e": "Avez-vous déjà eu un moment où vous n’étiez pas vous-même et où...\nVous étiez plus bavard(e) ou vous parliez plus rapidement que d’habitude?\n•\tOui\n•\tNon",
+        "bp1f": "Avez-vous déjà eu un moment où vous n’étiez pas vous-même et où...\nVos pensées traversaient rapidement dans votre tête ou vous ne pouviez pas ralentir votre esprit?\n•\tOui\n•\tNon",
+        "bp1g": "Avez-vous déjà eu un moment où vous n’étiez pas vous-même et où...\nVous étiez distrait(e) si facilement par ce qui vous entoure que vous aviez de la difficulté à vous concentrer ou à garder le cap?\n•\tOui\n•\tNon",
+        "bp1h": "Avez-vous déjà eu un moment où vous n’étiez pas vous-même et où...\nVous aviez plus d’énergie que d’habitude?\n•\tOui\n•\tNon\n",
+        "bp1i": "Avez-vous déjà eu un moment où vous n’étiez pas vous-même et où...\nVous étiez beaucoup plus actif(ve), ou vous faisiez plus de choses que d’habitude?\n•\tOui\n•\tNon\n",
+        "bp1j": "Avez-vous déjà eu un moment où vous n’étiez pas vous-même et où...\nVous étiez plus sociable ou extraverti(e) que d’habitude, par exemple au point de téléphoner à des amis au milieu de la nuit?\n•\tOui\n•\tNon",
+        "bp1k": "Avez-vous déjà eu un moment où vous n’étiez pas vous-même et où...\nVous vous intéressiez plus au sexe que d’habitude?\n•\tOui\n•\tNon",
+        "bp1l": "Avez-vous déjà eu un moment où vous n’étiez pas vous-même et où...\nVous faisiez des choses inhabituelles pour vous, ou que d’autres auraient pu considérer comme étant excessives, imprudentes ou risquées?\n•\tOui\n•\tNon",
+        "bp1m": "Avez-vous déjà eu un moment où vous n’étiez pas vous-même et où...\nVous dépensiez de l’argent au point que cela vous pose des problèmes, à vous ou à votre famille?\n•\tOui\n•\tNon",
+        "bp2": "Si vous avez coché OUI dans plus d’un cas précédent, est-ce que plusieurs de ces situations se sont déjà produites au cours de la même période?\n•\tOui\n•\tNon\n",
+        "bp3": "Dans quelle mesure l’une de ces situations vous a-t-elle causé des problèmes? (par exemple : travail, relation/famille, argent ou problèmes juridiques)\n•\tAucun problème\n•\tProblème mineur\n•\tProblème modéré\n•\tProblème grave ",
+        "ieps1": "Votre tempérament vous a-t-il causé, à vous ou à d’autres personnes, une détresse physique ou psychologique émotionnelle au cours du dernier mois?\n\t•\tOui\n\t•\tNon",
+        "ied1": "Combien de fois diriez-vous avoir fait les choses suivantes durant votre vie depuis l’âge de 13 ans :\n« Avoir » une crise de colère (par exemple : crier, claquer les portes, jeter des objets en raison d’une frustration).\n•\tJamais arrivé \n•\tArrivé seulement une fois\n•\tArrivé deux ou quelques fois\n•\tArrivé plusieurs fois\n•\tArrivé beaucoup de fois\n•\tArrivé tellement de fois que je ne pourrais pas indiquer combien\n",
+        "ied2": "Combien de fois diriez-vous avoir fait les choses suivantes durant votre vie depuis l’âge de 13 ans?\nSe battre ou se disputer verbalement avec d’autres personnes.\n•\tJamais arrivé \n•\tArrivé seulement une fois\n•\tArrivé deux ou quelques fois\n•\tArrivé plusieurs fois\n•\tArrivé beaucoup de fois\n•\tArrivé tellement de fois que je ne pourrais pas indiquer combien",
+        "ied3": "Combien de fois diriez-vous avoir fait les choses suivantes durant votre vie depuis l’âge de 13 ans?\nFrapper ou casser délibérément des objets (par exemple : des fenêtres, de la vaisselle, etc.) par colère.\n•\tJamais arrivé \n•\tArrivé seulement une fois\n•\tArrivé deux ou quelques fois\n•\tArrivé plusieurs fois\n•\tArrivé beaucoup de fois\n•\tArrivé tellement de fois que je ne pourrais pas indiquer combien",
+        "ied4": "Combien de fois diriez-vous avoir fait les choses suivantes durant votre vie depuis l’âge de 13 ans?\nÊtre impliqué(e) dans des altercations physiques avec d’autres individus.\n•\tJamais arrivé \n•\tArrivé seulement une fois\n•\tArrivé deux ou quelques fois\n•\tArrivé plusieurs fois\n•\tArrivé beaucoup de fois\n•\tArrivé tellement de fois que je ne pourrais pas indiquer combien",
+        "ied5": "Combien de fois diriez-vous avoir fait les choses suivantes durant votre vie depuis l’âge de 13 ans?\nEn colère, donner délibérément un coup ou frapper un autre individu.\n•\tJamais arrivé \n•\tArrivé seulement une fois\n•\tArrivé deux ou quelques fois\n•\tArrivé plusieurs fois\n•\tArrivé beaucoup de fois\n•\tArrivé tellement de fois que je ne pourrais pas indiquer combien",
+        "audps1": "Durant les 12 derniers mois avez-vous :\nBu de l’alcool (plus que quelques gorgées)?\n\t•\tOui\n\t•\tNon",
+        "aud1": "À quelle fréquence consommez-vous des boissons alcoolisées?\n•\tJamais\n•\tUne fois par mois ou moins\n•\t2 à 4 fois par mois\n•\t2 à 3 fois par semaine\n•\t4 fois ou plus par semaine",
+        "aud2": "Les jours où vous buvez, combien de verres contenant de l’alcool prenez-vous généralement?\n•\t1 ou 2\n•\t3 ou 4\n•\t5 ou 6\n•\t7, 8 ou 9\n•\t10 ou plus",
+        "aud3": "À quelle fréquence buvez-vous six verres ou plus en une seule occasion?\n•\tJamais\n•\tMoins qu’une fois par mois\n•\tUne fois par mois\n•\tUne fois par semaine\n•\tQuotidiennement ou presque\n\n",
+        "aud4": "Au cours de la dernière année, combien de fois avez-vous...\nDécouvert que vous n’étiez plus en mesure d’arrêter de boire une fois que vous aviez commencé?\n•\tJamais\n•\tMoins qu’une fois par mois\n•\tUne fois par mois\n•\tUne fois par semaine\n•\tQuotidiennement ou presque",
+        "aud5": "Au cours de la dernière année, combien de fois avez-vous...\nÉchoué à faire ce que l’on attendait normalement de vous dû à votre consommation d’alcool?\n•\tJamais\n•\tMoins qu’une fois par mois\n•\tUne fois par mois\n•\tUne fois par semaine\n•\tQuotidiennement ou presque",
+        "aud6": "Au cours de la dernière année, combien de fois avez-vous...\nEu besoin d’un premier verre d’alcool le matin afin de commencer votre journée après une soirée de consommation d’alcool excessive?\n•\tJamais\n•\tMoins qu’une fois par mois\n•\tUne fois par mois\n•\tUne fois par semaine\n•\tQuotidiennement ou presque\n\n",
+        "aud7": "Au cours de la dernière année, combien de fois avez-vous...\nEu un sentiment de culpabilité ou des remords après avoir bu?\n•\tJamais\n•\tMoins qu’une fois par mois\n•\tUne fois par mois\n•\tUne fois par semaine\n•\tQuotidiennement ou presque",
+        "aud8": "Au cours de la dernière année, combien de fois avez-vous...\nÉté incapable de vous rappeler ce qui s’est passé le soir précédent parce que vous aviez bu?\n•\tJamais\n•\tMoins qu’une fois par mois\n•\tUne fois par mois\n•\tUne fois par semaine\n•\tQuotidiennement ou presque",
+        "aud9": "Vous êtes-vous blessé(e), ou quelqu’un d’autre l’a-t-il été parce que vous aviez bu?\n•\tNon\n•\tOui, mais pas dans la dernière année \n•\tOui, au cours de la dernière année",
+        "aud10": "Est-ce qu’un membre de votre famille, un ami, un médecin ou un autre professionnel de la santé s’est déjà inquiété de votre consommation d’alcool, ou vous a déjà suggéré de réduire votre consommation d’alcool?\n•\tNon\n•\tOui, mais pas dans la dernière année \n•\tOui, au cours de la dernière année",
+        "sudps1": "Au cours des 12 derniers mois, avez-vous :\nConsommé de la marijuana ou du hachisch?\n\t•\tOui\n\t•\tNon",
+        "sudps2": "Au cours des 12 derniers mois, avez-vous :\nConsommé autre chose pour être défoncé(e). Par « autre chose », nous voulons dire des drogues illégales, des médicaments en vente libre ou sur ordonnance, et ce que vous pouvez inhaler (par exemple : fumer, aspirer, renifler).\n\t•\tOui\n\t•\tNon",
+        "sud1": "Avez-vous consommé de la drogue ou de la médication autre que celles requises pour raison médicale?\n\t•\tOui\n\t•\tNon",
+        "sud2": "Consommez-vous abusivement plus qu’une substance illicite à la fois?\n\t•\tOui\n\t•\tNon",
+        "sud3": "Êtes-vous toujours capable d’arrêter de consommer des substances illicites quand vous le voulez?\n\t•\tOui\n\t•\tNon",
+        "sud4": "Avez-vous eu des « trous de mémoire » ou des « retours en arrière » suite à votre consommation de substances illicites?\nFrench\n\t•\tOui\n\t•\tNon",
+        "sud5": "Est-ce que vous vous êtes déjà senti(e) mal ou coupable par rapport à votre consommation de substances illicites?\n\t•\tOui\n\t•\tNon",
+        "sud6": "Votre famille ou vos amis se sont-ils déjà plaints de votre consommation de substances illicites?\n\t•\tOui\n\t•\tNon",
+        "sud7": "Avez-vous négligé votre famille ou vos amis à cause de votre consommation de substances illicites?\n\t•\tOui\n\t•\tNon",
+        "sud8": "Avez-vouz participé à des activités illégales afin d’obtenir de substances illicites?\n\t•\tOui\n\t•\tNon\n",
+        "sud9": "Avez-vous déjà ressenti des symptômes de sevrage lorsque vous avez cessé de prendre des substances illicites?\n\t•\tOui\n\t•\tNon",
+        "sud10": "Avez-vous eu des problèmes médicaux en raison de votre consommation de substances illicites (par exemple : perte de mémoire, hépatite, convulsions ou saignement)?\n\t•\tOui\n\t•\tNon",
+        "slps1": "Avez-vous des problèmes pour vous endormir, demeurer endormi(e), ou vous réveillez-vous plus tôt que vous le souhaitez sans pouvoir vous rendormir?\n\t•\tOui\n\t•\tNon",
+        "slps2": "Avez-vous des difficultés à rester éveillé(e) pendant la journée?\n\t•\tOui\n\t•\tNon",
+        "sl1": "Au cours des 2 dernières semaines, évaluez le niveau de gravité des problèmes suivants :\nDifficulté à vous endormir\n•\tAucun\n•\tLéger\n•\tModéré\n•\tSévère\n•\tTrès sévère",
+        "sl2": "Au cours des 2 dernières semaines, évaluez le niveau de gravité des problèmes suivants :\nDifficulté à rester endormi(e)\n•\tAucun\n•\tLéger\n•\tModéré\n•\tSévère\n•\tTrès sévère",
+        "sl3": "Au cours des 2 dernières semaines, évaluez le niveau de gravité des problèmes suivants :\nProblème de se réveiller trop tôt\n•\tAucun\n•\tLéger\n•\tModéré\n•\tSévère\n•\tTrès sévère",
+        "sl4": "Êtes-vous satisfait(e)/insatisfait(e) de vos habitudes actuelles en matière de sommeil?\n•\tTrès satisfait(e)\n•\tSatisfait(e)\n•\tModérément satisfait(e)\n•\tInsatisfait(e)\n•\tTrès insatisfait(e)",
+        "sl5": "Pensez-vous que les autres remarquent que votre problème actuel de sommeil affecte votre qualité de vie?\n•\tPas remarquable du tout\n•\tRepeat: Un peu\n•\tRepeat: Quelque peu\n•\tRepeat: Beaucoup\n•\tTrès remarquable\n",
+        "sl6": "Quel est votre degré d’inquiétude ou de détresse concernant votre problème de sommeil?\n•\tPas inquiet(ète) du tout\n•\tUn peu\n•\tQuelque peu\n•\tBeaucoup\n•\tTrès inquiet(ète)",
+        "sl7": "Dans quelle mesure considérez-vous que votre problème de sommeil interfère avec votre fonctionnement quotidien (par exemple : fatigue pendant la journée, humeur, capacité de travail, ou concentration)?\n•\tN’interfère pas\n•\tUn peu\n•\tQuelque peu\n•\tBeaucoup\n•\tInterfère énormément",
+        "edps1": "Au cours des trois derniers mois... Des gens ont-ils mentionné que vous étiez trop maigre, ou avez-vous eu des problèmes à manger en grandes quantités?\n\t•\tOui\n\t•\tNon",
+        "ed1": "Êtes-vous satisfait(e) de vos habitudes alimentaires?\n\t•\tOui\n\t•\tNon\n",
+        "ed2": "Mangez-vous parfois en secret?\n\t•\tOui\n\t•\tNon",
+        "ed3": "Votre poids affecte-t-il comment vous vous sentez?\n\t•\tOui\n\t•\tNon",
+        "ed4": "Des membres de votre famille ont-ils souffert d’un trouble alimentaire?\n\t•\tOui\n\t•\tNon",
+        "ed5": "Souffrez-vous actuellement d’un trouble alimentaire, ou en avez-vous déjà souffert dans le passé?\n\t•\tOui\n\t•\tNon",
+        "ptsdps1": "Parfois quelque chose d’inhabituel ou de particulièrement effrayant, horrible ou traumatisant arrive aux gens. Par exemple : \nun accident grave ou un incendie, \nune agression physique ou sexuelle ou un abus, \nun tremblement de terre ou une inondation, \nune guerre, \nle fait de voir quelqu’un être tué ou gravement blessé,\nperdre une personne aimée suite à un homicide ou un suicide.\nAvez-vous déjà vécu ce genre d’événement?\n•\tOui\n•\tNon",
+        "ptsd1": "Au cours du dernier mois, avez-vous…\nEu des cauchemars à propos de ce/ces événement(s) ou pensé à ce/ces événement(s) quand vous ne le vouliez pas?\n•\tOui\n•\tNon",
+        "ptsd2": "Au cours du dernier mois, avez-vous…\nEssayé de ne pas penser à ce/ces événement(s), ou vous avez fait tout votre possible pour éviter des situations qui vous rappelaient de ce/ces événement(s)?\n•\tOui\n•\tNon",
+        "ptsd3": "Au cours du dernier mois, avez-vous…\nÉté constamment sur vos gardes, vigilant(e), ou facilement surpris(e)?\n•\tOui\n•\tNon",
+        "ptsd4": "Au cours du dernier mois, avez-vous…\nEu l’impression d’être paralysé(e) ou détaché(e) des gens, des activités ou de votre environnement?\n•\tOui\n•\tNon",
+        "ptsd5": "Au cours du dernier mois, avez-vous…\nEu le sentiment d’être coupable ou être incapable d’arrêter de vous blâmer ou de reprocher à d’autres le/les événement(s) ou les problèmes que ce/ces événement(s) ont pu causer?\n•\tOui\n•\tNon",
+        "mh4": "Prenez-vous actuellement des médicaments d’ordonnance pour votre santé mentale?\n\t•\tOui\n\t•\tNon",
+        "mh5": "Avez-vous déjà bénéficié de conseils ou de thérapie pour aider à améliorer votre santé mentale?\n\t•\tOui\n\t•\tNon\n"
+    }
+}

@@ -1,0 +1,2399 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "dynamicLogic": {
+        "fields": {
+            "mh4": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "mh2",
+                            "value": "No"
+                        }
+                    ]
+                }
+            },
+            "mh3": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "mh2",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ds1": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "not",
+                            "value": {
+                                "type": "or",
+                                "value": [
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "Not at all"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "Not at all"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "Not at all"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "A little"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "A little"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "Not at all"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "notEquals",
+                            "attribute": "dps1",
+                            "value": "N/A"
+                        },
+                        {
+                            "type": "notEquals",
+                            "attribute": "dps2",
+                            "value": "N/A"
+                        }
+                    ]
+                }
+            },
+            "ds2": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "notEquals",
+                            "attribute": "dps1",
+                            "value": "N/A"
+                        },
+                        {
+                            "type": "notEquals",
+                            "attribute": "dps2",
+                            "value": "N/A"
+                        },
+                        {
+                            "type": "not",
+                            "value": {
+                                "type": "or",
+                                "value": [
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "Not at all"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "Not at all"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "Not at all"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "A little"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "A little"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "Not at all"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            "ds3": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "notEquals",
+                            "attribute": "dps1",
+                            "value": "N/A"
+                        },
+                        {
+                            "type": "notEquals",
+                            "attribute": "dps2",
+                            "value": "N/A"
+                        },
+                        {
+                            "type": "not",
+                            "value": {
+                                "type": "or",
+                                "value": [
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "Not at all"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "Not at all"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "Not at all"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "A little"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "A little"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "Not at all"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            "ds4": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "notEquals",
+                            "attribute": "dps1",
+                            "value": "N/A"
+                        },
+                        {
+                            "type": "notEquals",
+                            "attribute": "dps2",
+                            "value": "N/A"
+                        },
+                        {
+                            "type": "not",
+                            "value": {
+                                "type": "or",
+                                "value": [
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "Not at all"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "Not at all"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "Not at all"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "A little"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "A little"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "Not at all"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            "ds5": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "notEquals",
+                            "attribute": "dps1",
+                            "value": "N/A"
+                        },
+                        {
+                            "type": "notEquals",
+                            "attribute": "dps2",
+                            "value": "N/A"
+                        },
+                        {
+                            "type": "not",
+                            "value": {
+                                "type": "or",
+                                "value": [
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "Not at all"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "Not at all"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "Not at all"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "A little"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "A little"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "Not at all"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            "ds6": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "notEquals",
+                            "attribute": "dps1",
+                            "value": "N/A"
+                        },
+                        {
+                            "type": "notEquals",
+                            "attribute": "dps2",
+                            "value": "N/A"
+                        },
+                        {
+                            "type": "not",
+                            "value": {
+                                "type": "or",
+                                "value": [
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "Not at all"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "Not at all"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "Not at all"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "A little"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "A little"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "Not at all"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            "ds7": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "notEquals",
+                            "attribute": "dps1",
+                            "value": "N/A"
+                        },
+                        {
+                            "type": "notEquals",
+                            "attribute": "dps2",
+                            "value": "N/A"
+                        },
+                        {
+                            "type": "not",
+                            "value": {
+                                "type": "or",
+                                "value": [
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "Not at all"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "Not at all"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "Not at all"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "A little"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "A little"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "Not at all"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            "ds8": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "notEquals",
+                            "attribute": "dps1",
+                            "value": "N/A"
+                        },
+                        {
+                            "type": "notEquals",
+                            "attribute": "dps2",
+                            "value": "N/A"
+                        },
+                        {
+                            "type": "not",
+                            "value": {
+                                "type": "or",
+                                "value": [
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "Not at all"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "Not at all"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "Not at all"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "A little"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "A little"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "Not at all"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            "ds9": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "notEquals",
+                            "attribute": "dps1",
+                            "value": "N/A"
+                        },
+                        {
+                            "type": "notEquals",
+                            "attribute": "dps2",
+                            "value": "N/A"
+                        },
+                        {
+                            "type": "not",
+                            "value": {
+                                "type": "or",
+                                "value": [
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "Not at all"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "Not at all"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "Not at all"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "A little"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "A little"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "Not at all"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            "gad1": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "gadps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "gad2": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "gadps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "gad3": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "gadps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "gad4": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "gadps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "gad5": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "gadps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "gad6": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "gadps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "gad7": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "gadps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "padis2": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "notIn",
+                            "attribute": "padis1",
+                            "value": [
+                                "N/A",
+                                "None"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "padis3": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "notIn",
+                            "attribute": "padis1",
+                            "value": [
+                                "N/A",
+                                "None"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "padis4": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "notIn",
+                            "attribute": "padis1",
+                            "value": [
+                                "N/A",
+                                "None"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "sad1": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "sadps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "sad2": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "sadps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "sad3": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "sadps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "sad4": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "sadps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "sad5": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "sadps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "sad6": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "sadps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "sad7": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "sadps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "sad8": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "sadps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "sad9": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "sadps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "sad10": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "sadps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ocd1": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ocd2": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ocd3": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ocd4": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ocd5": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ocd6": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ocd7": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ocd8": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ocd9": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ocd10": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ocd11": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ocd12": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ocd13": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ocd14": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ocd15": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ocir1": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ocir2": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ocir3": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ocir4": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ocir5": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ocir6": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ocir7": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ocir8": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ocir9": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ocir10": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ocir12": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ocir13": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ocir11": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ocir14": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ocir15": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ocir16": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ocir17": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ocir18": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "adhd1": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "adhdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "adhd2": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "adhdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "adhd3": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "adhdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "adhd4": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "adhdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "adhd5": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "adhdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "adhd6": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "adhdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "bp1a": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "bps1",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        },
+                        {
+                            "type": "in",
+                            "attribute": "bps2",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "bp1b": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "bps1",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        },
+                        {
+                            "type": "in",
+                            "attribute": "bps2",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "bp1c": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "bps1",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        },
+                        {
+                            "type": "in",
+                            "attribute": "bps2",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "bp1d": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "bps1",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        },
+                        {
+                            "type": "in",
+                            "attribute": "bps2",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "bp1e": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "bps1",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        },
+                        {
+                            "type": "in",
+                            "attribute": "bps2",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "bp1f": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "bps1",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        },
+                        {
+                            "type": "in",
+                            "attribute": "bps2",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "bp1g": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "bps1",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        },
+                        {
+                            "type": "in",
+                            "attribute": "bps2",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "bp1h": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "bps1",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        },
+                        {
+                            "type": "in",
+                            "attribute": "bps2",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "bp1i": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "bps1",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        },
+                        {
+                            "type": "in",
+                            "attribute": "bps2",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "bp1j": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "bps1",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        },
+                        {
+                            "type": "in",
+                            "attribute": "bps2",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "bp1k": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "bps1",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        },
+                        {
+                            "type": "in",
+                            "attribute": "bps2",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "bp1l": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "bps1",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        },
+                        {
+                            "type": "in",
+                            "attribute": "bps2",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "bp1m": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "bps1",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        },
+                        {
+                            "type": "in",
+                            "attribute": "bps2",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "bp2": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "bps1",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        },
+                        {
+                            "type": "in",
+                            "attribute": "bps2",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "bp3": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "bps1",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        },
+                        {
+                            "type": "in",
+                            "attribute": "bps2",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "ied1": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ieps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ied2": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ieps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ied3": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ieps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ied4": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ieps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ied5": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ieps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "aud1": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "audps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "aud2": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "audps1",
+                            "value": "Yes"
+                        },
+                        {
+                            "type": "notIn",
+                            "attribute": "aud1",
+                            "value": [
+                                "N/A",
+                                "Never"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "aud3": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "audps1",
+                            "value": "Yes"
+                        },
+                        {
+                            "type": "notIn",
+                            "attribute": "aud1",
+                            "value": [
+                                "N/A",
+                                "Never"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "aud4": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "audps1",
+                            "value": "Yes"
+                        },
+                        {
+                            "type": "notIn",
+                            "attribute": "aud2",
+                            "value": [
+                                "N/A",
+                                "1 or 2"
+                            ]
+                        },
+                        {
+                            "type": "notIn",
+                            "attribute": "aud3",
+                            "value": [
+                                "N/A",
+                                "Never"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "aud5": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "audps1",
+                            "value": "Yes"
+                        },
+                        {
+                            "type": "notIn",
+                            "attribute": "aud2",
+                            "value": [
+                                "N/A",
+                                "1 or 2"
+                            ]
+                        },
+                        {
+                            "type": "notIn",
+                            "attribute": "aud3",
+                            "value": [
+                                "N/A",
+                                "Never"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "aud6": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "audps1",
+                            "value": "Yes"
+                        },
+                        {
+                            "type": "notIn",
+                            "attribute": "aud2",
+                            "value": [
+                                "N/A",
+                                "1 or 2"
+                            ]
+                        },
+                        {
+                            "type": "notIn",
+                            "attribute": "aud3",
+                            "value": [
+                                "N/A",
+                                "Never"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "aud7": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "audps1",
+                            "value": "Yes"
+                        },
+                        {
+                            "type": "notIn",
+                            "attribute": "aud2",
+                            "value": [
+                                "N/A",
+                                "1 or 2"
+                            ]
+                        },
+                        {
+                            "type": "notIn",
+                            "attribute": "aud3",
+                            "value": [
+                                "N/A",
+                                "Never"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "aud8": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "audps1",
+                            "value": "Yes"
+                        },
+                        {
+                            "type": "notIn",
+                            "attribute": "aud2",
+                            "value": [
+                                "N/A",
+                                "1 or 2"
+                            ]
+                        },
+                        {
+                            "type": "notIn",
+                            "attribute": "aud3",
+                            "value": [
+                                "N/A",
+                                "Never"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "aud9": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "audps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "aud10": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "audps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "sud1": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps1",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps2",
+                                    "value": "Yes"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "sud2": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps1",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps2",
+                                    "value": "Yes"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "sud3": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps1",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps2",
+                                    "value": "Yes"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "sud4": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps1",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps2",
+                                    "value": "Yes"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "sud5": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps1",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps2",
+                                    "value": "Yes"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "sud6": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps1",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps2",
+                                    "value": "Yes"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "sud7": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps1",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps2",
+                                    "value": "Yes"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "sud8": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps1",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps2",
+                                    "value": "Yes"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "sud9": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps1",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps2",
+                                    "value": "Yes"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "sud10": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps1",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps2",
+                                    "value": "Yes"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "sl1": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "slps1",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "slps2",
+                                    "value": "Yes"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "sl2": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "slps1",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "slps2",
+                                    "value": "Yes"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "sl3": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "slps1",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "slps2",
+                                    "value": "Yes"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "sl4": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "slps1",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "slps2",
+                                    "value": "Yes"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "sl5": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "slps1",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "slps2",
+                                    "value": "Yes"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "sl6": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "slps1",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "slps2",
+                                    "value": "Yes"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "sl7": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "slps1",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "slps2",
+                                    "value": "Yes"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "ed1": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "edps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ed2": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "edps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ed3": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "edps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ed4": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "edps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ed5": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "edps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ptsd1": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ptsdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ptsd2": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ptsdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ptsd3": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ptsdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ptsd4": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ptsdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "ptsd5": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ptsdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
