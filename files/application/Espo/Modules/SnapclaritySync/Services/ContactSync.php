@@ -13,9 +13,10 @@ use Espo\Modules\SnapclaritySync\Core\Report\ErrorReport;
 use Espo\Modules\SnapclaritySync\Core\Services\AssessmentScoreImportService;
 use Espo\Modules\SnapclaritySync\Core\Services\CheckpointsImportService;
 use Espo\Modules\SnapclaritySync\Core\Services\ContactImportService;
-use Espo\Modules\SnapclaritySync\Core\Services\EmployerSaveService;
 use Espo\Modules\SnapclaritySync\Core\Services\Contracts\EntityDataSetable;
+use Espo\Modules\SnapclaritySync\Core\Services\EmployerSaveService;
 use Espo\Modules\SnapclaritySync\Core\Services\TargetedAssessmentImportService;
+use Espo\Modules\SnapclaritySync\Core\Services\CopyTargetedAssessmentService;
 use Espo\ORM\Entity;
 use Espo\ORM\EntityManager;
 
@@ -95,6 +96,7 @@ class ContactSync extends \Espo\Core\Templates\Services\Base
      * @param AssessmentScoreImportService $assessmentScoreImportService
      * @param TargetedAssessmentImportService $targetedAssessmentImportService
      * @param ErrorReport $errorReport
+     * @param CopyTargetedAssessmentService $copyTargetedAssessmentService
      */
     public function __construct(
         Container $container,
@@ -106,7 +108,8 @@ class ContactSync extends \Espo\Core\Templates\Services\Base
         AssessmentScoreImportService $assessmentScoreImportService,
         TargetedAssessmentImportService $targetedAssessmentImportService,
         ErrorReport $errorReport,
-        EmployerSaveService $employerSaveService
+        EmployerSaveService $employerSaveService,
+        CopyTargetedAssessmentService $copyTargetedAssessmentService
     )
     {
         parent::__construct();
@@ -119,7 +122,8 @@ class ContactSync extends \Espo\Core\Templates\Services\Base
             'checkpoints' => $checkpointsImportService,
             'assessmentScore' => $assessmentScoreImportService,
             'targetedAssessment' => $targetedAssessmentImportService,
-            'importEmployer' => $employerSaveService
+            'importEmployer' => $employerSaveService,
+            'copyTargetedAssessmentService' => $copyTargetedAssessmentService
         ];
         $this->errorReport = $errorReport;
     }
@@ -212,8 +216,10 @@ class ContactSync extends \Espo\Core\Templates\Services\Base
 
             try {
                 $contactData['organization'] = $organizationId;
-                $this->contact = $this->entityImportProcessors['contact']
-                    ->setBaseData($contactData)->import()->getContact();
+                $contactImportService = $this->entityImportProcessors['contact']
+                    ->setBaseData($contactData)->import();
+
+                $this->contact = $contactImportService->getContact();
                 if ($this->contact->get('deleted') == 1) {
                     continue;
                 }
@@ -226,6 +232,10 @@ class ContactSync extends \Espo\Core\Templates\Services\Base
                 if ($this->entityImportProcessors['importEmployer'] instanceof EntityDataSetable) {
                     $this->entityImportProcessors['importEmployer']->setContact($this->contact)->setEntityData($contactData)
                         ->import();
+                }
+
+                if ($contactImportService->isChangeAssessmentProgressExist()) {
+                    $this->entityImportProcessors['copyTargetedAssessmentService']->setContact($this->contact)->import();
                 }
 
                 $transaction->commit();

@@ -54,11 +54,16 @@ class AssessmentScoreImportService extends BaseImportService implements EntityDa
             return $this;
         }
 
+        $riskCategoryItem = $this->entityManager->getRepository('RiskCategory')->where([
+            'deleted' => 0,
+            'name' => !empty($scoreData['name']) ? $scoreData['name'] : null
+        ])->findOne();
+
         $saveData = [
             'name' => !empty($scoreData['name']) ? $scoreData['name'] : null,
             'level' => !empty($scoreData['level']) ? $scoreData['level'] : null,
             'score' => array_key_exists('score',$scoreData) ? $scoreData['score'] : null,
-            'diagnosisname' => !empty($scoreData['name']) ? $scoreData['name'] : null,
+            'riskCategoryId' => $riskCategoryItem ? $riskCategoryItem->get('id') : null,
             'contactId' => $contact->get('id'),
             'createdById' => $contact->get('createdById')
         ];

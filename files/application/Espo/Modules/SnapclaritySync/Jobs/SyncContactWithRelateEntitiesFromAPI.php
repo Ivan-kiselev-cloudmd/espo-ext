@@ -42,7 +42,7 @@ class SyncContactWithRelateEntitiesFromAPI extends \Espo\Core\Jobs\Base
      * @param $targetId
      * @return bool
      */
-    public function run($data, $targetId)
+    public function run($data, $targetId = null)
     {
         $integration = $this->container->get('entityManager')->getEntity('Integration', 'Contact');
         $additionalParameters = new stdClass();

@@ -1,13 +1,25 @@
 <?php
 
-
 namespace Espo\Modules\SnapclaritySync\Core\Services;
 
-
 use Espo\ORM\Entity;
+use Espo\Modules\SnapclaritySync\Core\Events\ContactCreateEvent;
+use Espo\Modules\SnapclaritySync\Core\Events\ContactUpdateEvent;
 
 class ContactImportService extends BaseImportService
 {
+    /**
+     * @var
+     */
+    protected $changeAssessmentProgressExist = false;
+
+    /**
+     * @return bool
+     */
+    public function isChangeAssessmentProgressExist()
+    {
+        return $this->changeAssessmentProgressExist;
+    }
 
     /**
      * @return $this
@@ -44,6 +56,11 @@ class ContactImportService extends BaseImportService
             $lang = explode('-',$contactData['lang'])[0];
         }
 
+        $this->changeAssessmentProgressExist = false;
+        if (!empty($contactData['assessment_progress']) && $contactData['assessment_progress'] == 1 && ($isCreate || $entityItem->get('assessmentProgress') != 1)) {
+            $this->changeAssessmentProgressExist = true;
+        }
+
         $fullName = explode(' ', $contactData['name']);
         $saveData = [
             'accountId' => !empty($account) ? $account->get('id') : null,
@@ -69,9 +86,9 @@ class ContactImportService extends BaseImportService
             'assessmentProgress' => !empty($contactData['assessment_progress'])  ? $contactData['assessment_progress'] : null,
             'assessmentFirstAnswerDate' => !empty($contactData['assessment_first_answer_date']) ? gmdate('Y-m-d H:i:s', strtotime($contactData['assessment_first_answer_date'])) : null,
             'assessmentLastAnswerDate' => !empty($contactData['assessment_last_answer_date'])  ? gmdate('Y-m-d H:i:s', strtotime($contactData['assessment_last_answer_date'])) : null,
-            'requestServiceAs' => !empty($contactData['request_service_as']) ?  $contactData['request_service_as'] : null,
+            'requestServiceAs' => !empty($contactData['requestServiceAs']) ?  $contactData['requestServiceAs'] : null,
             'dateOfRegistration' => !empty($contactData['created_at']) ? date_create($contactData['created_at'])->format('Y-m-d') : null,
-            'kiiOrganizationId' => !empty($contactData['kii_organization_id']) ? $contactData['kii_organization_id'] : null
+            'kiiOrganizationId' => !empty($contactData['kii_organization_id']) ? $contactData['kii_organization_id'] : null,
         ];
 
         if ($isCreate) {
@@ -84,6 +101,12 @@ class ContactImportService extends BaseImportService
         $this->saveOriginalEmail($entityItem, $contactData);
 
         $this->setContact($entityItem);
+
+        if ($isCreate) {
+            new ContactCreateEvent($this->container,$this->entityManager,$this->metadata,$entityItem,$contactData, ['changeAssessmentProgressExist' => $this->changeAssessmentProgressExist]);
+        } else {
+            new ContactUpdateEvent($this->container,$this->entityManager,$this->metadata,$entityItem,$contactData, ['changeAssessmentProgressExist' => $this->changeAssessmentProgressExist]);
+        }
 
         $GLOBALS['log']->warning($contactData['_id'],[
             'update_or_create' => $response['mustInsert'],

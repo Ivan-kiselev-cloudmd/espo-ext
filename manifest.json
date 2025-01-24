@@ -1,8 +1,8 @@
 {
     "name": "Snapclarity sync extension",
-    "version": "3.6.0",
+    "version": "14.5.4",
     "acceptableVersions": [
-        ">=6.0.0"
+        ">=7.0.0"
     ],
     "releaseDate": "2021-04-10",
     "author": "Tazo mindiashvili",
