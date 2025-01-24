@@ -2,7 +2,7 @@
     "name": "Survey monkey sync",
     "version": "1.7.0",
     "acceptableVersions": [
-        ">=6.0.6"
+        ">=7.0.0"
     ],
     "releaseDate": "2021-20-11",
     "author": "Tazo mindiashvili",
