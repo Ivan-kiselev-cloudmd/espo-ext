@@ -38,7 +38,7 @@ class TimeEntry extends \Espo\Core\Repositories\Database
             }
         }
 
-        return parent::save($entity, $options);
+        parent::save($entity, $options);
     }
 
     protected function beforeSave(Entity $entity, array $options = []): void
