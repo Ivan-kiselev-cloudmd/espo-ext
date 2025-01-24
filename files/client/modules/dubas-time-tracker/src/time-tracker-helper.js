@@ -232,11 +232,21 @@ Espo.define('dubas-time-tracker:time-tracker-helper', ['action-handler'], functi
         actionStopTimerGlobal: function () {
             this.resetStopwatch();
             this.getView().hideHeaderActionItem('stopTimerGlobal');
-
+            var viewName = this.getMetadata().get(['clientDefs', 'TimeEntry', 'modalViews', 'edit']) || 'views/modals/edit';
+            var view = this.getView()
             Espo.Ajax.postRequest('TimeEntry/action/stop')
                 .then(
-                    function () {
+                    function (response) {
                         this.handleStartTimerButton();
+                        view.notify('Loading...');
+                        view.createView('quickEdit', viewName, {
+                            id: response.id,
+                            scope: 'TimeEntry',
+                            attributes: response
+                        }, function (view) {
+                            view.render();
+                            view.notify(false);
+                        }.bind(this));
                     }.bind(this)
                 )
                 .fail(

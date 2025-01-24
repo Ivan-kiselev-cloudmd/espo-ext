@@ -71,7 +71,7 @@ class TimeEntry extends \Espo\Services\Record implements Di\WebSocketSubmissionA
         return $timeEntry;
     }
 
-    public function stop(string $userId): bool
+    public function stop(string $userId)
     {
         $user = $this->getEntityManager()->getEntity('User', $userId);
         if (!$user) {
@@ -79,6 +79,8 @@ class TimeEntry extends \Espo\Services\Record implements Di\WebSocketSubmissionA
         }
 
         $session = $this->getEntityManager()->getRepository('TimeTrackerSession')->getByUserId($userId);
+        $timeEntry = $session->get('timeEntry');
+
         if ($session) {
             $this->getEntityManager()->removeEntity($session);
 
@@ -87,7 +89,7 @@ class TimeEntry extends \Espo\Services\Record implements Di\WebSocketSubmissionA
             }
         }
 
-        return true;
+        return $timeEntry->getValueMap();
     }
 
     public function getCurrentSession(string $userId): stdClass

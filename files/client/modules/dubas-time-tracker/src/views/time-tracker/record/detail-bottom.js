@@ -32,7 +32,7 @@ Espo.define('dubas-time-tracker:views/time-tracker/record/detail-bottom', 'views
                     view: 'views/record/panels/relationship',
                     select: false,
                     create: false,
-                    rowActionsView: 'views/record/row-actions/empty'
+                    rowActionsView: 'views/record/row-actions/relationship-view-and-edit'
                 });
             }
         },

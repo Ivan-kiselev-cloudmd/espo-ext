@@ -54,7 +54,7 @@ class TimeEntry extends \Espo\Core\Controllers\Record
         return $session->getValueMap();
     }
 
-    public function postActionStop($params, $data, $request): bool
+    public function postActionStop($params, $data, $request)
     {
         if (!$this->getAcl()->checkScope('TimeEntry')) {
             throw new Forbidden();
