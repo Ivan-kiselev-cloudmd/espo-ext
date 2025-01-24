@@ -13,6 +13,7 @@ use Espo\Modules\SnapclaritySync\Core\Report\ErrorReport;
 use Espo\Modules\SnapclaritySync\Core\Services\AssessmentScoreImportService;
 use Espo\Modules\SnapclaritySync\Core\Services\CheckpointsImportService;
 use Espo\Modules\SnapclaritySync\Core\Services\ContactImportService;
+use Espo\Modules\SnapclaritySync\Core\Services\EmployerSaveService;
 use Espo\Modules\SnapclaritySync\Core\Services\Contracts\EntityDataSetable;
 use Espo\Modules\SnapclaritySync\Core\Services\TargetedAssessmentImportService;
 use Espo\ORM\Entity;
@@ -104,7 +105,8 @@ class ContactSync extends \Espo\Core\Templates\Services\Base
         CheckpointsImportService $checkpointsImportService,
         AssessmentScoreImportService $assessmentScoreImportService,
         TargetedAssessmentImportService $targetedAssessmentImportService,
-        ErrorReport $errorReport
+        ErrorReport $errorReport,
+        EmployerSaveService $employerSaveService
     )
     {
         parent::__construct();
@@ -116,7 +118,8 @@ class ContactSync extends \Espo\Core\Templates\Services\Base
             'contact' => $contactImportService,
             'checkpoints' => $checkpointsImportService,
             'assessmentScore' => $assessmentScoreImportService,
-            'targetedAssessment' => $targetedAssessmentImportService
+            'targetedAssessment' => $targetedAssessmentImportService,
+            'importEmployer' => $employerSaveService
         ];
         $this->errorReport = $errorReport;
     }
@@ -220,6 +223,10 @@ class ContactSync extends \Espo\Core\Templates\Services\Base
                     'assessments' => !empty($contactData['assessments']) ? $contactData['assessments'] : [],
                     'checkpoints' => !empty($contactData['checkpoints']) ? $contactData['checkpoints'] : []
                 ]);
+                if ($this->entityImportProcessors['importEmployer'] instanceof EntityDataSetable) {
+                    $this->entityImportProcessors['importEmployer']->setContact($this->contact)->setEntityData($contactData)
+                        ->import();
+                }
 
                 $transaction->commit();
 

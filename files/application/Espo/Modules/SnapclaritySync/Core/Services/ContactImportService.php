@@ -69,8 +69,9 @@ class ContactImportService extends BaseImportService
             'assessmentProgress' => !empty($contactData['assessment_progress'])  ? $contactData['assessment_progress'] : null,
             'assessmentFirstAnswerDate' => !empty($contactData['assessment_first_answer_date']) ? gmdate('Y-m-d H:i:s', strtotime($contactData['assessment_first_answer_date'])) : null,
             'assessmentLastAnswerDate' => !empty($contactData['assessment_last_answer_date'])  ? gmdate('Y-m-d H:i:s', strtotime($contactData['assessment_last_answer_date'])) : null,
-            'requestServiceAs' => !empty($contactData['requestServiceAs']) ?  $contactData['requestServiceAs'] : null,
-            'dateOfRegistration' => !empty($contactData['created_at']) ? date_create($contactData['created_at'])->format('Y-m-d') : null
+            'requestServiceAs' => !empty($contactData['request_service_as']) ?  $contactData['request_service_as'] : null,
+            'dateOfRegistration' => !empty($contactData['created_at']) ? date_create($contactData['created_at'])->format('Y-m-d') : null,
+            'kiiOrganizationId' => !empty($contactData['kii_organization_id']) ? $contactData['kii_organization_id'] : null
         ];
 
         if ($isCreate) {
