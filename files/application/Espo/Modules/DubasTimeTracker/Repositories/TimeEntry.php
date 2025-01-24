@@ -28,7 +28,7 @@ class TimeEntry extends \Espo\Core\Repositories\Database
 {
     protected $parentType = 'TimeTracker';
 
-    public function save(Entity $entity, array $options = [])
+    public function save(Entity $entity, array $options = []) : void
     {
         $isNew = $entity->isNew();
 
