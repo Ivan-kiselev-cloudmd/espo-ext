@@ -1,0 +1,46 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "date"
+                },
+                {
+                    "name": "call"
+                }
+            ],
+            [
+                {
+                    "name": "crisisRiskLevel"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "activePlan"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "previousSuicide"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "worthLiving"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "handle"
+                },
+                false
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    }
+]

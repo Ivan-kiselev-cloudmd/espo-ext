@@ -1,0 +1,132 @@
+{
+    "fields": {
+        "contact": "Case",
+        "q1": "Little interest or pleasure in doing things",
+        "q2": "Feeling down, depressed, or hopeless",
+        "q3": "Trouble falling or staying asleep, or sleeping too much",
+        "q4": "Feeling tired or having little energy",
+        "q5": "Poor appetite or overeating",
+        "q6": "Feeling bad about yourself, or that you are a failure, or have let yourself or your family down",
+        "q7": "Trouble concentrating on things, such as reading or watching television",
+        "q8": "Moving or speaking so slowly that other people could have noticed? OR the opposite-being so fidgety or restless that you have been moving around a lot more than usual?",
+        "q9": "Thoughts that you would be better off dead or of hurting yourself in some way",
+        "baseline": "Baseline",
+        "date": "Date",
+        "improvement": "Improvement %",
+        "initialScore": "Initial Score",
+        "maxScore": "Max Score",
+        "score": "Score",
+        "level": "Level",
+        "successMgmt": "SuccessMgmt",
+        "q0": "Little interest or pleasure in doing things.",
+        "q01": "Feeling down, depressed, or hopeless.",
+        "latest": "Latest",
+        "type": "Type",
+        "incompleteAssessment": "Incomplete Assessment"
+    },
+    "links": {
+        "contact": "Contact"
+    },
+    "labels": {
+        "Create ReassessmentDepression": "Create Reassessment - Depression Disorder"
+    },
+    "options": {
+        "q1": {
+            "N/A": "=Choose an option=",
+            "Not at all": "Not at all",
+            "Several days": "Several days",
+            "More than half the days": "More than half the days",
+            "Nearly every day": "Nearly every day"
+        },
+        "q2": {
+            "N/A": "=Choose an option=",
+            "Not at all": "Not at all",
+            "Several days": "Several days",
+            "More than half the days": "More than half the days",
+            "Nearly every day": "Nearly every day"
+        },
+        "q3": {
+            "N/A": "=Choose an option=",
+            "Not at all": "Not at all",
+            "Several days": "Several days",
+            "More than half the days": "More than half the days",
+            "Nearly every day": "Nearly every day"
+        },
+        "q4": {
+            "N/A": "=Choose an option=",
+            "Not at all": "Not at all",
+            "Several days": "Several days",
+            "More than half the days": "More than half the days",
+            "Nearly every day": "Nearly every day"
+        },
+        "q5": {
+            "N/A": "=Choose an option=",
+            "Not at all": "Not at all",
+            "Several days": "Several days",
+            "More than half the days": "More than half the days",
+            "Nearly every day": "Nearly every day"
+        },
+        "q6": {
+            "N/A": "=Choose an option=",
+            "Not at all": "Not at all",
+            "Several days": "Several days",
+            "More than half the days": "More than half the days",
+            "Nearly every day": "Nearly every day"
+        },
+        "q7": {
+            "N/A": "=Choose an option=",
+            "Not at all": "Not at all",
+            "Several days": "Several days",
+            "More than half the days": "More than half the days",
+            "Nearly every day": "Nearly every day"
+        },
+        "q8": {
+            "N/A": "=Choose an option=",
+            "Not at all": "Not at all",
+            "Several days": "Several days",
+            "More than half the days": "More than half the days",
+            "Nearly every day": "Nearly every day"
+        },
+        "q9": {
+            "N/A": "=Choose an option=",
+            "Not at all": "Not at all",
+            "Several days": "Several days",
+            "More than half the days": "More than half the days",
+            "Nearly every day": "Nearly every day"
+        },
+        "level": {
+            "No measurable risk": "No measurable risk",
+            "MINIMAL to MILD": "MINIMAL to MILD",
+            "MODERATE": "MODERATE",
+            "HIGH": "HIGH"
+        },
+        "successMgmt": {
+            "N/A": "N/A",
+            "No Progress": "No Progress",
+            "Improvement": "Improvement",
+            "Significant Improvement": "Significant Improvement",
+            "Excellent Improvement": "Excellent Improvement"
+        },
+        "q0": {
+            "N/A": "N/A",
+            "Not at all": "Not at all",
+            "A little": "A little",
+            "Moderately": "Moderately",
+            "A lot": "A lot",
+            "Extremely": "Extremely"
+        },
+        "q01": {
+            "N/A": "N/A",
+            "Not at all": "Not at all",
+            "A little": "A little",
+            "Moderately": "Moderately",
+            "A lot": "A lot",
+            "Extremely": "Extremely"
+        },
+        "type": {
+            "Reassessment": "Reassessment",
+            "Current Baseline": "Current Baseline",
+            "Baseline": "Baseline"
+        }
+    }
+}

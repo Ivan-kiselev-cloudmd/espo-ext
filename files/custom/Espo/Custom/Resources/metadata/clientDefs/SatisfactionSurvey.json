@@ -1,0 +1,25 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "dynamicLogic": {
+        "fields": {
+            "whatMadeYouEngageInTheServiceOther": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "has",
+                            "attribute": "whatMadeYouEngageInTheService",
+                            "value": "Other"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "kanbanViewMode": false,
+    "color": null,
+    "iconClass": null,
+    "restrictedInlineEdit": false
+}

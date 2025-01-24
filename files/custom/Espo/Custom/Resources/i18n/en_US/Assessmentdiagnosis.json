@@ -1,0 +1,19 @@
+{
+    "fields": {
+        "caseid": "Caseid",
+        "casenum": "Casenum",
+        "lang": "Lang",
+        "phone": "Phone",
+        "region": "Region",
+        "email": "Email",
+        "address": "Address",
+        "employment": "Employment",
+        "province": "Province",
+        "city": "City",
+        "checkpointsassessmentStarted": "CheckpointsassessmentStarted"
+    },
+    "links": [],
+    "labels": {
+        "Create Assessmentdiagnosis": "Create Assessmentdiagnosis"
+    }
+}

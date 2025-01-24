@@ -1,0 +1,78 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "contact"
+                },
+                {
+                    "name": "email"
+                },
+                {
+                    "name": "language"
+                }
+            ],
+            [
+                {
+                    "name": "surveyId"
+                },
+                {
+                    "name": "surveyAnswerId"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "iHaveNoticedAnImprovement"
+                }
+            ],
+            [
+                {
+                    "name": "iHadAPositiveExperienceWithMyCoach"
+                }
+            ],
+            [
+                {
+                    "name": "materialsUseful"
+                }
+            ],
+            [
+                {
+                    "name": "benefitsBetterUnderstanding"
+                }
+            ]
+        ],
+        "style": "default",
+        "subTitle": null,
+        "subTitleStyle": "default",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "accordion": "collapsed",
+        "isCollapsedDynamicLogic": null,
+        "customLabel": "How much do you agree with the following statements?"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "recommendServiceToOthers"
+                }
+            ],
+            [
+                {
+                    "name": "thoughtsaboutyourexperience"
+                }
+            ]
+        ],
+        "style": "default",
+        "customLabel": "New panel"
+    }
+]

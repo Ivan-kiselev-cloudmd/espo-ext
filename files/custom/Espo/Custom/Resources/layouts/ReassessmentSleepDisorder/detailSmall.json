@@ -1,0 +1,75 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "date"
+                },
+                {
+                    "name": "type"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "q1"
+                }
+            ],
+            [
+                {
+                    "name": "q2"
+                }
+            ],
+            [
+                {
+                    "name": "q3"
+                }
+            ]
+        ],
+        "style": "default",
+        "subTitle": null,
+        "subTitleStyle": "default",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "accordion": "collapsed",
+        "isCollapsedDynamicLogic": null,
+        "customLabel": "In the past 2 weeks, rate the level of severity for the following problems:"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "q4"
+                }
+            ],
+            [
+                {
+                    "name": "q5"
+                }
+            ],
+            [
+                {
+                    "name": "q6"
+                }
+            ],
+            [
+                {
+                    "name": "q7"
+                }
+            ]
+        ],
+        "style": "default",
+        "subTitle": null,
+        "subTitleStyle": "default",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "accordion": "collapsed",
+        "isCollapsedDynamicLogic": null,
+        "label": ""
+    }
+]

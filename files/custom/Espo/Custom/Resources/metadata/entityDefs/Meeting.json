@@ -1,0 +1,51 @@
+{
+    "fields": {
+        "type": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "1st Appointment",
+                "2nd Appointment",
+                "3rd Appointment",
+                "4th Appointment",
+                "5th Appointment",
+                "6th Appointment"
+            ],
+            "style": {
+                "N/A": null,
+                "1st Appointment": null,
+                "2nd Appointment": null,
+                "3rd Appointment": null,
+                "4th Appointment": null,
+                "5th Appointment": null,
+                "6th Appointment": null
+            },
+            "default": "N/A",
+            "isCustom": true
+        },
+        "mapped": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "Yes"
+            ],
+            "style": {
+                "N/A": null,
+                "Yes": null
+            },
+            "default": "N/A",
+            "isCustom": true
+        },
+        "parent": {
+            "entityList": [
+                "Account",
+                "Lead",
+                "Contact",
+                "Opportunity",
+                "Case",
+                "AlternativeContact",
+                "Office"
+            ]
+        }
+    }
+}

@@ -1,0 +1,37 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "medicalIntake"
+                }
+            ],
+            [
+                {
+                    "name": "date"
+                },
+                {
+                    "name": "call"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                }
+            ],
+            [
+                {
+                    "name": "followupGp"
+                },
+                {
+                    "name": "followupClient"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

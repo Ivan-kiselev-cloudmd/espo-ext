@@ -1,0 +1,133 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "date"
+                },
+                {
+                    "name": "type"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "q1"
+                }
+            ],
+            [
+                {
+                    "name": "q2"
+                }
+            ],
+            [
+                {
+                    "name": "q3"
+                }
+            ],
+            [
+                {
+                    "name": "q4"
+                }
+            ],
+            [
+                {
+                    "name": "q5"
+                }
+            ],
+            [
+                {
+                    "name": "q6"
+                }
+            ],
+            [
+                {
+                    "name": "q7"
+                }
+            ],
+            [
+                {
+                    "name": "q8"
+                }
+            ],
+            [
+                {
+                    "name": "q9"
+                }
+            ],
+            [
+                {
+                    "name": "q10"
+                }
+            ],
+            [
+                {
+                    "name": "q11"
+                }
+            ],
+            [
+                {
+                    "name": "q12"
+                }
+            ],
+            [
+                {
+                    "name": "q13"
+                }
+            ],
+            [
+                {
+                    "name": "q14"
+                }
+            ],
+            [
+                {
+                    "name": "q15"
+                }
+            ],
+            [
+                {
+                    "name": "q16"
+                }
+            ],
+            [
+                {
+                    "name": "q17"
+                }
+            ],
+            [
+                {
+                    "name": "q18"
+                }
+            ],
+            [
+                {
+                    "name": "q19"
+                }
+            ],
+            [
+                {
+                    "name": "q20"
+                }
+            ],
+            [
+                {
+                    "name": "q21"
+                }
+            ]
+        ],
+        "style": "default",
+        "subTitle": null,
+        "subTitleStyle": "default",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "accordion": "collapsed",
+        "isCollapsedDynamicLogic": null,
+        "customLabel": "Please read and identify the statement that best reflects how you feel."
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "name": "casenum"
+    },
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "stageOfService"
+    },
+    {
+        "name": "lang",
+        "width": 3,
+        "align": "left"
+    },
+    {
+        "name": "assignedUser"
+    },
+    {
+        "name": "user"
+    },
+    {
+        "name": "dateAssessmentCompleted"
+    },
+    {
+        "name": "completeAssessmentChoice"
+    },
+    {
+        "name": "coachApptDate"
+    },
+    {
+        "name": "createdAt"
+    },
+    {
+        "name": "modifiedAt"
+    }
+]

@@ -1,0 +1,124 @@
+{
+    "fields": {
+        "contact": "Case",
+        "baseline": "Baseline",
+        "date": "Date",
+        "improvement": "Improvement %",
+        "initialScore": "Initial Score",
+        "maxScore": "Max Score",
+        "score": "Score",
+        "successMgmt": "SuccessMgmt",
+        "level": "Level",
+        "q0": "Do you have problems falling asleep, staying asleep, or waking up earlier than you would like and cannot get back to sleep?",
+        "q01": "Do you have difficulties staying awake during the day?",
+        "q1": "Difficulty falling asleep",
+        "q2": "Difficulty staying asleep",
+        "q3": "Problem waking up too early",
+        "q4": "How satisfied/dissatisfied are you with your current sleep patterns?",
+        "q5": "How noticeable to others do you think your current sleep problem is in terms of impairing the quality of your life?",
+        "q6": "How worried/distressed are you about your current sleep problem?",
+        "q7": "To what extent do you consider your sleep problem to interfere with your daily functioning (e.g., daytime fatigue, mood, ability to function at work, or concentration)",
+        "contact1": "Contact1",
+        "latest": "Latest",
+        "type": "Type",
+        "incompleteAssessment": "Incomplete Assessment"
+    },
+    "links": {
+        "contact": "Contact",
+        "contact1": "Contact1"
+    },
+    "labels": {
+        "Create ReassessmentSleepDisorder": "Create Reassessment - Sleep Disorder"
+    },
+    "options": {
+        "successMgmt": {
+            "N/A": "N/A",
+            "No Progress": "No Progress",
+            "Improvement": "Improvement",
+            "Significant Improvement": "Significant Improvement",
+            "Excellent Improvement": "Excellent Improvement"
+        },
+        "level": {
+            "No measurable risk": "No measurable risk",
+            "MINIMAL to MILD": "MINIMAL to MILD",
+            "MODERATE": "MODERATE",
+            "HIGH": "HIGH"
+        },
+        "q0": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "q01": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "q1": {
+            "N/A": "=Choose an option=",
+            "None": "None",
+            "Mild": "Mild",
+            "Moderate": "Moderate",
+            "Severe": "Severe",
+            "Very Severe": "Very Severe",
+            "Very severe": "Very severe"
+        },
+        "q2": {
+            "N/A": "=Choose an option=",
+            "None": "None",
+            "Mild": "Mild",
+            "Moderate": "Moderate",
+            "Severe": "Severe",
+            "Very Severe": "Very Severe",
+            "Very severe": "Very severe"
+        },
+        "q3": {
+            "N/A": "=Choose an option=",
+            "None": "None",
+            "Mild": "Mild",
+            "Moderate": "Moderate",
+            "Severe": "Severe",
+            "Very Severe": "Very Severe",
+            "Very severe": "Very severe"
+        },
+        "q4": {
+            "N/A": "=Choose an option=",
+            "Very satisfied": "Very satisfied",
+            "Satisfied": "Satisfied",
+            "Moderately satisfied": "Moderately satisfied",
+            "Dissatisfied": "Dissatisfied",
+            "Very Dissatisfied": "Very Dissatisfied",
+            "Very dissatisfied": "Very dissatisfied"
+        },
+        "q5": {
+            "N/A": "=Choose an option=",
+            "Not at all noticeable": "Not at all noticeable",
+            "A little": "A little",
+            "Somewhat": "Somewhat",
+            "Much": "Much",
+            "Very much noticeable": "Very much noticeable"
+        },
+        "q6": {
+            "N/A": "=Choose an option=",
+            "Not at all worried": "Not at all worried",
+            "A little": "A little",
+            "Somewhat": "Somewhat",
+            "Much": "Much",
+            "Very much interfering": "Very much interfering",
+            "Very much worried": "Very much worried"
+        },
+        "q7": {
+            "N/A": "=Choose an option=",
+            "Not at all Interfering": "Not at all Interfering",
+            "A little": "A little",
+            "Somewhat": "Somewhat",
+            "Much": "Much",
+            "Very much interfering": "Very much interfering"
+        },
+        "type": {
+            "Reassessment": "Reassessment",
+            "Current Baseline": "Current Baseline",
+            "Baseline": "Baseline"
+        }
+    }
+}

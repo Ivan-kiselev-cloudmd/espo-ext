@@ -1,0 +1,100 @@
+{
+    "fields": {
+        "q1": "How often do you have difficulty concentrating on what people are saying to you even when they are speaking to you directly?",
+        "q2": "How often do you leave your seat in meetings or other situations in which you are expected to remain seated?",
+        "q3": "How often do you have difficulty unwinding and relaxing when you have time to yourself?",
+        "q4": "When you’re in a conversation, how often do you find yourself finishing the sentences of the people you are talking to before they can finish them themselves?",
+        "q5": "How often do you put things off until the last minute?",
+        "q6": "How often do you depend on others to keep your life in order and attend to details?",
+        "level": "Level",
+        "score": "Score",
+        "maxScore": "Max Score",
+        "baseline": "Baseline",
+        "improvement": "Improvement %",
+        "successMgmt": "SuccessMgmt",
+        "initialScore": "Initial Score",
+        "contact": "Case",
+        "date": "Date",
+        "test": "Test",
+        "latest": "Latest",
+        "type": "Type",
+        "incompleteAssessment": "Incomplete Assessment"
+    },
+    "links": {
+        "contact": "Contact"
+    },
+    "labels": {
+        "Create ReassessmentADHD": "Create Reassessment - ADHD"
+    },
+    "options": {
+        "q1": {
+            "N/A": "=Choose an option=",
+            "Never": "Never",
+            "Rarely": "Rarely",
+            "Sometimes": "Sometimes",
+            "Often": "Often",
+            "Very Often": "Very Often"
+        },
+        "q2": {
+            "N/A": "=Choose an option=",
+            "Never": "Never",
+            "Rarely": "Rarely",
+            "Sometimes": "Sometimes",
+            "Often": "Often",
+            "Very Often": "Very Often"
+        },
+        "q3": {
+            "N/A": "=Choose an option=",
+            "Never": "Never",
+            "Rarely": "Rarely",
+            "Somtimes": "Somtimes",
+            "Often": "Often",
+            "Very Often": "Very Often",
+            "Sometimes": "Sometimes"
+        },
+        "q4": {
+            "N/A": "=Choose an option=",
+            "Never": "Never",
+            "Rarely": "Rarely",
+            "Sometimes": "Sometimes",
+            "Often": "Often",
+            "Very Often": "Very Often"
+        },
+        "q5": {
+            "N/A": "=Choose an option=",
+            "Never": "Never",
+            "Rarely": "Rarely",
+            "Somtimes": "Somtimes",
+            "Often": "Often",
+            "Very Often": "Very Often",
+            "Sometimes": "Sometimes"
+        },
+        "q6": {
+            "N/A": "=Choose an option=",
+            "Never": "Never",
+            "Rarely": "Rarely",
+            "Sometimes": "Sometimes",
+            "Often": "Often",
+            "Very Often": "Very Often"
+        },
+        "level": {
+            "No measurable risk": "No measurable risk",
+            "MINIMAL TO MILD": "MINIMAL TO MILD",
+            "Moderate to High": "Moderate to High",
+            "MODERATE": "MODERATE",
+            "HIGH": "HIGH"
+        },
+        "successMgmt": {
+            "N/A": "N/A",
+            "No Progress": "No Progress",
+            "Improvement": "Improvement",
+            "Significant Improvement": "Significant Improvement",
+            "Excellent Improvement": "Excellent Improvement"
+        },
+        "type": {
+            "Reassessment": "Reassessment",
+            "Current Baseline": "Current Baseline",
+            "Baseline": "Baseline"
+        }
+    }
+}

@@ -1,0 +1,132 @@
+{
+    "fields": {
+        "q1": "How much of your time is occupied by obsessive thoughts?",
+        "q2": "How much do your obsessive thoughts interfere with your work, school, social, or other important role functioning? Is there anything that you don’t do because of them?",
+        "q3": "How much distress do your obsessive thoughts cause you?",
+        "q4": "How much of an effort do you make to resist the obsessive thoughts? How often do you try to disregard or turn your attention away from these thoughts as they enter your mind?",
+        "q5": "How much control do you have over your obsessive thoughts? How successful are you in stopping or diverting your obsessive thinking? Can you dismiss them?",
+        "q6": "How much time do you spend performing compulsive behaviors? How much longer than most people does it take to complete routine activities because of your rituals? How frequently do you do rituals?",
+        "q7": "How much do your compulsive behaviors interfere with your work, school, social, or other important role functioning? Is there anything that you don’t do because of the compulsions?",
+        "q8": "How would you feel if prevented from performing your compulsion(s)? How anxious would you become?",
+        "q9": "How much of an effort do you make to resist the compulsions?",
+        "q10": "How strong is the drive to perform the compulsive behavior? How much control do you have over the compulsions?",
+        "baseline": "Baseline",
+        "date": "Date",
+        "improvement": "Improvement %",
+        "initialScore": "Initial Score",
+        "maxScore": "Max Score",
+        "score": "Score",
+        "level": "Level",
+        "successMgmt": "SuccessMgmt",
+        "contact": "Case",
+        "latest": "Latest",
+        "type": "Type",
+        "incompleteAssessment": "Incomplete Assessment"
+    },
+    "links": {
+        "contact": "Contact"
+    },
+    "labels": {
+        "Create ReassessmentOCD": "Create Reassessment - OCD"
+    },
+    "options": {
+        "q1": {
+            "N/A": "=Choose an option=",
+            "None": "None",
+            "Less than 1 hr/day or occasional occurrence": "Less than 1 hr/day or occasional occurrence",
+            "1 to 3 hrs/day or frequent": "1 to 3 hrs/day or frequent",
+            "Greater than 3 and up to 8 hrs/day or very frequent occurrence": "Greater than 3 and up to 8 hrs/day or very frequent occurrence",
+            "Greater than 8 hrs/day or nearly constant occurrence": "Greater than 8 hrs/day or nearly constant occurrence"
+        },
+        "q2": {
+            "N/A": "=Choose an option=",
+            "None": "None",
+            "Slight interference with social or other activities, but overall performance not impaired": "Slight interference with social or other activities, but overall performance not impaired",
+            "Definite interference with social or occupational performance, but still manageable": "Definite interference with social or occupational performance, but still manageable",
+            "Causes substantial impairment in social or occupational performance": "Causes substantial impairment in social or occupational performance",
+            "Incapacitating": "Incapacitating"
+        },
+        "q3": {
+            "N/A": "=Choose an option=",
+            "None": "None",
+            "Not too disturbing": "Not too disturbing",
+            "Disturbing, but still manageable": "Disturbing, but still manageable",
+            "Very disturbing": "Very disturbing",
+            "Near constant and disabling distress": "Near constant and disabling distress"
+        },
+        "q4": {
+            "N/A": "=Choose an option=",
+            "Try to resist all the time": "Try to resist all the time",
+            "Try to resist most of the time": "Try to resist most of the time",
+            "Make some effort to resist": "Make some effort to resist",
+            "Yield to all obsessions without attempting to control them, but with some reluctance": "Yield to all obsessions without attempting to control them, but with some reluctance",
+            "Completely and willingly yield to all obsessions": "Completely and willingly yield to all obsessions"
+        },
+        "q5": {
+            "N/A": "=Choose an option=",
+            "Complete control": "Complete control",
+            "Usually able to stop or divert obsessions with some effort and concentration": "Usually able to stop or divert obsessions with some effort and concentration",
+            "Sometimes able to stop or divert obsessions": "Sometimes able to stop or divert obsessions",
+            "Rarely successful in stopping or dismissing obsessions, can only divert attention with difficulty": "Rarely successful in stopping or dismissing obsessions, can only divert attention with difficulty",
+            "Obsessions are completely involuntary, rarely able to even momentarily alter obsessive thinking": "Obsessions are completely involuntary, rarely able to even momentarily alter obsessive thinking"
+        },
+        "q6": {
+            "N/A": "=Choose an option=",
+            "None": "None",
+            "Less than 1 hr/day or occasional performance of compulsive behaviors": "Less than 1 hr/day or occasional performance of compulsive behaviors",
+            "From 1 to 3 hrs/day, or frequent performance of compulsive behaviors": "From 1 to 3 hrs/day, or frequent performance of compulsive behaviors",
+            "More than 3 and up to 8 hrs/day, or very frequent performance of compulsive behaviors": "More than 3 and up to 8 hrs/day, or very frequent performance of compulsive behaviors",
+            "More than 8 hrs/day, or near constant performance of compulsive behaviors (too numerous to count)": "More than 8 hrs/day, or near constant performance of compulsive behaviors (too numerous to count)"
+        },
+        "q7": {
+            "N/A": "=Choose an option=",
+            "None": "None",
+            "Slight interference with social or other activities, but overall performance not impaired": "Slight interference with social or other activities, but overall performance not impaired",
+            "Definite interference with social or occupational performance, but still manageable": "Definite interference with social or occupational performance, but still manageable",
+            "Causes substantial impairment in social or occupational performance": "Causes substantial impairment in social or occupational performance",
+            "Incapacitating": "Incapacitating"
+        },
+        "q8": {
+            "N/A": "=Choose an option=",
+            "None": "None",
+            "Only slightly anxious if compulsions prevented": "Only slightly anxious if compulsions prevented",
+            "Anxiety would mount but remain manageable if compulsions prevented": "Anxiety would mount but remain manageable if compulsions prevented",
+            "Prominent and very disturbing increase in anxiety if compulsions interrupted": "Prominent and very disturbing increase in anxiety if compulsions interrupted",
+            "Incapacitating anxiety from any intervention aimed at modifying activity": "Incapacitating anxiety from any intervention aimed at modifying activity"
+        },
+        "q9": {
+            "N/A": "=Choose an option=",
+            "Always try to resist": "Always try to resist",
+            "Try to resist most of the time": "Try to resist most of the time",
+            "Make some effort to resist": "Make some effort to resist",
+            "Yield to almost all compulsions without attempting to control them, but with some reluctance": "Yield to almost all compulsions without attempting to control them, but with some reluctance",
+            "Completely and willingly yield to all compulsions": "Completely and willingly yield to all compulsions"
+        },
+        "q10": {
+            "N/A": "=Choose an option=",
+            "Complete control": "Complete control",
+            "Pressure to perform the behavior but usually able to exercise voluntary control over it": "Pressure to perform the behavior but usually able to exercise voluntary control over it",
+            "Strong pressure to perform behavior, can control it only with difficulty": "Strong pressure to perform behavior, can control it only with difficulty",
+            "Very strong drive to perform behavior, must be carried to completion, can only delay with difficulty": "Very strong drive to perform behavior, must be carried to completion, can only delay with difficulty",
+            "Drive to perform behavior experienced as completely involuntary and overpowering": "Drive to perform behavior experienced as completely involuntary and overpowering, rarely able to even momentarily delay activity."
+        },
+        "level": {
+            "No measurable risk": "No measurable risk",
+            "MINIMAL to MILD": "MINIMAL to MILD",
+            "MODERATE": "MODERATE",
+            "HIGH": "HIGH"
+        },
+        "successMgmt": {
+            "N/A": "N/A",
+            "No Progress": "No Progress",
+            "Improvement": "Improvement",
+            "Significant Improvement": "Significant Improvement",
+            "Excellent Improvement": "Excellent Improvement"
+        },
+        "type": {
+            "Reassessment": "Reassessment",
+            "Current Baseline": "Current Baseline",
+            "Baseline": "Baseline"
+        }
+    }
+}

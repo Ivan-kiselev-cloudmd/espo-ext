@@ -1,0 +1,38 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "date"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "call"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "description"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "followupGp"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "followupClient"
+                },
+                false
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "parent"
+                },
+                {
+                    "name": "type"
+                },
+                {
+                    "name": "auto"
+                }
+            ],
+            [
+                {
+                    "name": "caseNumber"
+                },
+                {
+                    "name": "status"
+                },
+                {
+                    "name": "priority"
+                },
+                {
+                    "name": "category"
+                }
+            ],
+            [
+                {
+                    "name": "dateStart"
+                },
+                {
+                    "name": "dateCompleted"
+                }
+            ],
+            [
+                {
+                    "name": "dateEnd"
+                },
+                {
+                    "name": "reminders"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                }
+            ],
+            [
+                {
+                    "name": "attachments"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    }
+]

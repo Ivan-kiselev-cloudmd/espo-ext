@@ -1,0 +1,12 @@
+{
+    "fields": {
+        "contact": "Contact",
+        "casenum": "Casenum"
+    },
+    "links": {
+        "contact": "Contact"
+    },
+    "labels": {
+        "Create TeamCommunicationBoard": "Create Team Communication Board"
+    }
+}

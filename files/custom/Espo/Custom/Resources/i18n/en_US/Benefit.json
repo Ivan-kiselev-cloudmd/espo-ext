@@ -1,0 +1,14 @@
+{
+    "fields": {
+        "accounts": "Accounts",
+        "contacts": "Cases",
+        "order": "Order"
+    },
+    "links": {
+        "accounts": "Accounts",
+        "contacts": "Contacts"
+    },
+    "labels": {
+        "Create Benefit": "Create Benefit"
+    }
+}

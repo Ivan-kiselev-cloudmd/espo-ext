@@ -1,0 +1,1118 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "account"
+                },
+                {
+                    "name": "benefits"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "successImprovement"
+                },
+                {
+                    "name": "risk1SuccessImprovement"
+                },
+                {
+                    "name": "risk2SuccessImprovement"
+                },
+                {
+                    "name": "reportReassessmentCompleted"
+                }
+            ],
+            [
+                {
+                    "name": "customSubPanelTitle",
+                    "value": "Demographic Information",
+                    "type": "subPanel",
+                    "style": "success",
+                    "id": "00"
+                }
+            ],
+            [
+                {
+                    "name": "casenum"
+                },
+                {
+                    "name": "caseid"
+                },
+                {
+                    "name": "caseType"
+                },
+                {
+                    "name": "duplicateCase"
+                }
+            ],
+            [
+                {
+                    "name": "name"
+                },
+                false,
+                {
+                    "name": "originalCaseNumber"
+                },
+                {
+                    "name": "originalCaseStatusAtDeletion"
+                }
+            ],
+            [
+                {
+                    "name": "stageOfService"
+                },
+                {
+                    "name": "importantStatus"
+                }
+            ],
+            [
+                {
+                    "name": "caseStatus"
+                },
+                {
+                    "name": "caseClosedReasons"
+                },
+                {
+                    "name": "closeCaseDate"
+                },
+                {
+                    "name": "unsubscribe"
+                }
+            ],
+            [
+                {
+                    "name": "address"
+                },
+                {
+                    "name": "phoneNumber"
+                },
+                {
+                    "name": "emailAddress"
+                }
+            ],
+            [
+                {
+                    "name": "lang"
+                },
+                {
+                    "name": "age"
+                },
+                {
+                    "name": "gender"
+                },
+                {
+                    "name": "benefitOption"
+                }
+            ],
+            [
+                {
+                    "name": "customSubPanelTitle",
+                    "value": "Case Information",
+                    "type": "subPanel",
+                    "style": "primary",
+                    "id": 70
+                }
+            ],
+            [
+                {
+                    "name": "casePathway"
+                },
+                {
+                    "name": "researchRequired"
+                }
+            ],
+            [
+                {
+                    "name": "coachApptDate"
+                },
+                {
+                    "name": "statusOfAppointment"
+                },
+                {
+                    "name": "statusOfAppointmentOther"
+                },
+                {
+                    "name": "appointment1RescheduleStatus"
+                }
+            ],
+            [
+                {
+                    "name": "assessmentFirstAnswerDate"
+                },
+                {
+                    "name": "dateAssessmentCompleted"
+                }
+            ],
+            [
+                {
+                    "name": "completeAssessmentChoice"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "assessmentReportUrl"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "assessmentScores"
+                }
+            ],
+            [
+                {
+                    "name": "selectedAreaOfRisk1"
+                },
+                {
+                    "name": "symptom1"
+                },
+                {
+                    "name": "goalMulti"
+                },
+                {
+                    "name": "lifeStyleIntervention1"
+                }
+            ],
+            [
+                {
+                    "name": "selectedAreaOfRisk2"
+                },
+                {
+                    "name": "symptom2"
+                },
+                false,
+                {
+                    "name": "lifeStyleIntervention2"
+                }
+            ],
+            [
+                {
+                    "name": "newBaselineRequired"
+                },
+                {
+                    "name": "symptom3"
+                },
+                false,
+                false
+            ]
+        ],
+        "style": "info",
+        "subTitle": null,
+        "subTitleStyle": "default",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "accordion": "expanded",
+        "isCollapsedDynamicLogic": null,
+        "customLabel": "Client Information"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "alternativeContacts"
+                }
+            ]
+        ],
+        "style": "info",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "accordion": "collapsed",
+        "isCollapsedDynamicLogic": {
+            "conditionGroup": [
+                {
+                    "type": "isEmpty",
+                    "attribute": "alternativeContactsIds",
+                    "data": {
+                        "field": "alternativeContacts"
+                    }
+                }
+            ]
+        },
+        "customLabel": "Alternative Contact"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "targetedAssessments"
+                }
+            ],
+            [
+                {
+                    "name": "reassessmentADHDs"
+                }
+            ],
+            [
+                {
+                    "name": "reassessmentAlcoholUseDisorders"
+                }
+            ],
+            [
+                {
+                    "name": "reassessmentBipolars"
+                }
+            ],
+            [
+                {
+                    "name": "reassessmentDepressions"
+                }
+            ],
+            [
+                {
+                    "name": "reassessmentEatingDisorders"
+                }
+            ],
+            [
+                {
+                    "name": "reassessmentGADs"
+                }
+            ],
+            [
+                {
+                    "name": "reassessmentAngerManagements"
+                }
+            ],
+            [
+                {
+                    "name": "reassessmentOCDs"
+                }
+            ],
+            [
+                {
+                    "name": "reassessmentPanicDisorders"
+                }
+            ],
+            [
+                {
+                    "name": "reassessmentPTSDs"
+                }
+            ],
+            [
+                {
+                    "name": "reassessmentSADs"
+                }
+            ],
+            [
+                {
+                    "name": "reassessmentSUDs"
+                }
+            ],
+            [
+                {
+                    "name": "reassessmentSleepDisorders"
+                }
+            ],
+            [
+                {
+                    "name": "reassessmentCoachNote"
+                }
+            ],
+            [
+                {
+                    "name": "symptomMonitors"
+                }
+            ],
+            [
+                {
+                    "name": "goals"
+                }
+            ],
+            [
+                {
+                    "name": "templateCompletedByCoach"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "documentGeneratedByResearch"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "actionPlanSent"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "actionPlanSentDate"
+                },
+                false
+            ]
+        ],
+        "style": "primary",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "customLabel": "Re-Assessment Matrix"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "callOne1"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "callOne2"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "callOne4"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "callOne8"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "callOne3"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "callOne5"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "callOne6"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "callOne9"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "callOne7"
+                },
+                {
+                    "name": "callOneNotes"
+                }
+            ]
+        ],
+        "style": "danger",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "isCollapsedDynamicLogic": {
+            "conditionGroup": [
+                {
+                    "type": "notEquals",
+                    "attribute": "stageOfService",
+                    "value": "Call 1"
+                }
+            ]
+        },
+        "customLabel": "Call One"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "coach2ndApptDate"
+                },
+                {
+                    "name": "statusOf2ndAppointment"
+                },
+                {
+                    "name": "statusOf2ndAppointmentOther"
+                },
+                {
+                    "name": "appointment2RescheduleStatus"
+                }
+            ],
+            [
+                {
+                    "name": "callTwo1"
+                },
+                {
+                    "name": "callTwoReassessment"
+                }
+            ],
+            [
+                {
+                    "name": "callTwo2"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "callTwo3"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "callTwo4"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "callTwo8"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "callTwoClientPursuedRecommendedIntervention"
+                },
+                {
+                    "name": "callTwoClientPursuedRecommendedInterventionDate"
+                }
+            ],
+            [
+                {
+                    "name": "callTwoClientPursuedRecommendedInterventionYes"
+                }
+            ],
+            [
+                {
+                    "name": "callTwoClientPursuedRecommendedInterventionNo"
+                },
+                {
+                    "name": "callTwoClientPursuedRecommendedInterventionNoOther"
+                }
+            ],
+            [
+                {
+                    "name": "callTwo5"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "callTwo6"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "callTwo7"
+                },
+                {
+                    "name": "callTwoNotes"
+                }
+            ]
+        ],
+        "style": "success",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "isCollapsedDynamicLogic": {
+            "conditionGroup": [
+                {
+                    "type": "notEquals",
+                    "attribute": "stageOfService",
+                    "value": "Call 2"
+                }
+            ]
+        },
+        "customLabel": "Call Two"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "coach3rdApptDate"
+                },
+                {
+                    "name": "statusOf3rdAppointment"
+                },
+                {
+                    "name": "statusOf3rdAppointmentOther"
+                },
+                {
+                    "name": "appointment3RescheduleStatus"
+                }
+            ],
+            [
+                {
+                    "name": "callThree1"
+                },
+                {
+                    "name": "callThree1No"
+                },
+                {
+                    "name": "callThreeReassessment"
+                }
+            ],
+            [
+                {
+                    "name": "callThree2"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "callThree3"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "callThree4"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "callThree8"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "callThreeClientPursuedRecommendedIntervention"
+                },
+                {
+                    "name": "callThreeClientPursuedRecommendedInterventionDate"
+                }
+            ],
+            [
+                {
+                    "name": "callThree5"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "callThree6"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "callThree7"
+                },
+                {
+                    "name": "callThreeNotes"
+                }
+            ],
+            [
+                {
+                    "name": "callThreeClientPursuedRecommendedInterventionNo"
+                }
+            ],
+            [
+                {
+                    "name": "callThreeClientPursuedRecommendedInterventionYes"
+                }
+            ],
+            [
+                false
+            ]
+        ],
+        "style": "danger",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "isCollapsedDynamicLogic": {
+            "conditionGroup": [
+                {
+                    "type": "notEquals",
+                    "attribute": "stageOfService",
+                    "value": "Call 3"
+                }
+            ]
+        },
+        "customLabel": "Call Three"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "coachApptDate4"
+                },
+                {
+                    "name": "statusOfAppointment4"
+                },
+                {
+                    "name": "statusOfAppointment4Other"
+                },
+                {
+                    "name": "appointment4RescheduleStatus"
+                }
+            ],
+            [
+                {
+                    "name": "callFour1"
+                },
+                {
+                    "name": "callFour1No"
+                },
+                {
+                    "name": "callFourReassessment"
+                }
+            ],
+            [
+                {
+                    "name": "callFour2"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "callFour3"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "callFour4"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "callFour8"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "callFourClientPursuedRecommendedIntervention"
+                },
+                {
+                    "name": "callFourClientPursuedRecommendedInterventionDate"
+                }
+            ],
+            [
+                {
+                    "name": "callFour5"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "callFour6"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "callFour7"
+                },
+                {
+                    "name": "callFourNotes"
+                }
+            ]
+        ],
+        "style": "success",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "isCollapsedDynamicLogic": {
+            "conditionGroup": [
+                {
+                    "type": "notEquals",
+                    "attribute": "stageOfService",
+                    "value": "Call 4"
+                }
+            ]
+        },
+        "customLabel": "Call Four"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "coachApptDate5"
+                },
+                {
+                    "name": "statusOfAppointment5"
+                },
+                {
+                    "name": "statusOfAppointment5Other"
+                },
+                {
+                    "name": "appointment5RescheduleStatus"
+                }
+            ],
+            [
+                {
+                    "name": "callFive1"
+                },
+                {
+                    "name": "callFive1No"
+                },
+                {
+                    "name": "callFiveReassessment"
+                }
+            ],
+            [
+                {
+                    "name": "callFive2"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "callFive3"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "callFive4"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "callFive8"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "callFiveClientPursuedRecommendedIntervention"
+                },
+                {
+                    "name": "callFiveClientPursuedRecommendedInterventionDate"
+                }
+            ],
+            [
+                {
+                    "name": "callFive6"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "callFive5"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "callFive7"
+                },
+                {
+                    "name": "callFiveNotes"
+                }
+            ]
+        ],
+        "style": "danger",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "isCollapsedDynamicLogic": {
+            "conditionGroup": [
+                {
+                    "type": "notEquals",
+                    "attribute": "stageOfService",
+                    "value": "Call 5"
+                }
+            ]
+        },
+        "customLabel": "Call Five"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "coachApptDate6"
+                },
+                {
+                    "name": "statusOfAppointment6"
+                },
+                {
+                    "name": "statusOfAppointment6Other"
+                },
+                {
+                    "name": "appointment6RescheduleStatus"
+                }
+            ],
+            [
+                {
+                    "name": "callSix1"
+                },
+                {
+                    "name": "callSix1No"
+                },
+                {
+                    "name": "callSixReassessment"
+                }
+            ],
+            [
+                {
+                    "name": "callSix8"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "callSixClientPursuedRecommendedIntervention"
+                },
+                {
+                    "name": "callSixClientPursuedRecommendedInterventionDate"
+                }
+            ],
+            [
+                {
+                    "name": "callSix2"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "callSix3"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "callSix4"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "callSix5"
+                },
+                {
+                    "name": "callSixNotes"
+                }
+            ],
+            [
+                {
+                    "name": "callSix9"
+                },
+                false
+            ]
+        ],
+        "style": "success",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "isCollapsedDynamicLogic": {
+            "conditionGroup": [
+                {
+                    "type": "notEquals",
+                    "attribute": "stageOfService",
+                    "value": "Call 6"
+                }
+            ]
+        },
+        "customLabel": "Call Six"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "crisiss"
+                }
+            ]
+        ],
+        "style": "danger",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "accordion": "collapsed",
+        "isCollapsedDynamicLogic": {
+            "conditionGroup": [
+                {
+                    "type": "isEmpty",
+                    "attribute": "crisissIds",
+                    "data": {
+                        "field": "crisiss"
+                    }
+                }
+            ]
+        },
+        "customLabel": "Crisis"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "selectedTherapies1"
+                },
+                {
+                    "name": "selectedTherapies2"
+                }
+            ],
+            [
+                {
+                    "name": "therapistGender"
+                },
+                {
+                    "name": "therapistLanguage"
+                },
+                {
+                    "name": "therapistVirtual"
+                },
+                {
+                    "name": "therapistOtherRequirements"
+                }
+            ],
+            [
+                {
+                    "name": "therapyPreference"
+                },
+                {
+                    "name": "therapistWillingToTravel"
+                },
+                {
+                    "name": "therapistTravelDistance"
+                },
+                {
+                    "name": "beginSearchForTherapists"
+                }
+            ],
+            [
+                {
+                    "name": "selectMoreTherapists"
+                },
+                {
+                    "name": "selectMoreTherapistsDetails"
+                }
+            ],
+            [
+                {
+                    "name": "specialists1"
+                }
+            ],
+            [
+                {
+                    "name": "researchStatus"
+                },
+                {
+                    "name": "specialistOptionAvailable"
+                },
+                {
+                    "name": "cloudMDTherapistSelected"
+                },
+                {
+                    "name": "reasonCloudMDTherapistNotSelected"
+                }
+            ],
+            [
+                {
+                    "name": "materialsReviewedByCoach"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "materialsApprovedByCoach"
+                },
+                {
+                    "name": "materialsNotApprovedComments"
+                }
+            ],
+            [
+                {
+                    "name": "personalizedActionPlanGenerated"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "personalizedActionPlanSent"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "personalizedActionPlanSentDate"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "noHit"
+                },
+                {
+                    "name": "notInterestedInHit"
+                }
+            ],
+            [
+                {
+                    "name": "therapistApptCaptured"
+                },
+                {
+                    "name": "therapistApptDate"
+                }
+            ],
+            [
+                {
+                    "name": "clientReferredToEap"
+                },
+                {
+                    "name": "eap"
+                }
+            ],
+            [
+                {
+                    "name": "therapistNote"
+                }
+            ]
+        ],
+        "style": "danger",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "isCollapsedDynamicLogic": {
+            "conditionGroup": [
+                {
+                    "type": "in",
+                    "attribute": "stageOfService",
+                    "value": [
+                        "Incomplete Assessment",
+                        "MH coach appointment reminder",
+                        "Review client’s Assessment"
+                    ]
+                }
+            ]
+        },
+        "customLabel": "Therapist preferences"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "completedYapDocument"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "personalizedActionPlanFile"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "satisfactionSurveyFile"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "documents"
+                }
+            ]
+        ],
+        "style": "info",
+        "subTitle": null,
+        "subTitleStyle": "default",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "accordion": "collapsed",
+        "isCollapsedDynamicLogic": null,
+        "customLabel": "Attachments"
+    }
+]

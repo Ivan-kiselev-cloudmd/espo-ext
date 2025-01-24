@@ -1,0 +1,129 @@
+{
+    "fields": {
+        "organizationId": {
+            "type": "varchar",
+            "maxLength": 24,
+            "trim": true,
+            "options": [],
+            "isCustom": true
+        },
+        "aPIEmail": {
+            "type": "varchar",
+            "maxLength": 150,
+            "trim": true,
+            "options": [],
+            "isCustom": true
+        },
+        "aPIPassword": {
+            "type": "varchar",
+            "maxLength": 150,
+            "trim": true,
+            "options": [],
+            "isCustom": true
+        },
+        "authurl": {
+            "type": "url",
+            "isCustom": true
+        },
+        "resetAssessmentUrl": {
+            "type": "url",
+            "isCustom": true
+        },
+        "referMemberToTherapistUrl": {
+            "type": "url",
+            "isCustom": true
+        },
+        "referMemberToTherapistDestinationUrl": {
+            "type": "url",
+            "isCustom": true
+        },
+        "sponsorId": {
+            "type": "varchar",
+            "maxLength": 150,
+            "trim": true,
+            "options": [],
+            "isCustom": true
+        },
+        "benefits": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": false,
+            "layoutMassUpdateDisabled": true,
+            "noLoad": true,
+            "importDisabled": true,
+            "isCustom": true,
+            "view": "medical-confidence:views/account/fields/benefits"
+        },
+        "lives": {
+            "type": "int",
+            "isCustom": true
+        },
+        "effectiveDate": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "offices": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "noLoad": true,
+            "importDisabled": true,
+            "isCustom": true
+        },
+        "snapclarityOrganizationId": {
+            "type": "varchar",
+            "maxLength": 150,
+            "trim": true,
+            "options": [],
+            "isCustom": true
+        },
+        "benefitOptions": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "importDisabled": true,
+            "noLoad": true,
+            "isCustom": true
+        },
+        "eligibilities": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "noLoad": true,
+            "importDisabled": true,
+            "isCustom": true
+        }
+    },
+    "links": {
+        "benefits": {
+            "type": "hasMany",
+            "relationName": "accountBenefit",
+            "foreign": "accounts",
+            "entity": "Benefit",
+            "audited": false,
+            "isCustom": true
+        },
+        "offices": {
+            "type": "hasMany",
+            "foreign": "account",
+            "entity": "Office",
+            "audited": false,
+            "isCustom": true
+        },
+        "benefitOptions": {
+            "type": "hasMany",
+            "relationName": "benefitOptionAccount",
+            "foreign": "accounts",
+            "entity": "BenefitOption",
+            "audited": false,
+            "isCustom": true
+        },
+        "eligibilities": {
+            "type": "hasMany",
+            "foreign": "account",
+            "entity": "Eligibility",
+            "audited": false,
+            "isCustom": true
+        }
+    }
+}

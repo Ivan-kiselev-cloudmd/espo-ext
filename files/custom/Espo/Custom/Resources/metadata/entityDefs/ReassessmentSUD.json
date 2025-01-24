@@ -1,0 +1,342 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "required": false,
+            "trim": true,
+            "options": []
+        },
+        "description": {
+            "type": "text"
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user"
+        },
+        "modifiedBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user"
+        },
+        "assignedUser": {
+            "type": "link",
+            "required": true,
+            "view": "views/fields/assigned-user"
+        },
+        "teams": {
+            "type": "linkMultiple",
+            "view": "views/fields/teams"
+        },
+        "contact": {
+            "type": "link"
+        },
+        "level": {
+            "type": "enum",
+            "options": [
+                "No measurable risk",
+                "MINIMAL to MILD",
+                "MODERATE",
+                "HIGH"
+            ],
+            "style": {
+                "No measurable risk": "success",
+                "MINIMAL to MILD": "primary",
+                "MODERATE": "info",
+                "HIGH": "danger"
+            },
+            "displayAsLabel": true,
+            "default": "No measurable risk",
+            "isCustom": true,
+            "readOnly": true
+        },
+        "successMgmt": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "No Progress",
+                "Improvement",
+                "Significant Improvement",
+                "Excellent Improvement"
+            ],
+            "style": {
+                "N/A": null,
+                "No Progress": "warning",
+                "Improvement": "info",
+                "Significant Improvement": "primary",
+                "Excellent Improvement": "success"
+            },
+            "displayAsLabel": true,
+            "default": "N/A",
+            "isCustom": true,
+            "readOnly": true
+        },
+        "baseline": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "date": {
+            "notNull": false,
+            "type": "date",
+            "required": true,
+            "isCustom": true,
+            "default": "javascript: return this.dateTime.getToday();"
+        },
+        "improvement": {
+            "type": "int",
+            "isCustom": true,
+            "readOnly": true
+        },
+        "initialScore": {
+            "type": "int",
+            "isCustom": true,
+            "readOnly": true
+        },
+        "maxScore": {
+            "type": "int",
+            "isCustom": true,
+            "default": 10,
+            "readOnly": true
+        },
+        "score": {
+            "type": "int",
+            "isCustom": true,
+            "readOnly": true
+        },
+        "q1": {
+            "type": "enum",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "style": {
+                "Yes": "danger",
+                "No": "success"
+            },
+            "displayAsLabel": true,
+            "default": null,
+            "isCustom": true,
+            "setDefaultNull": true
+        },
+        "q2": {
+            "type": "enum",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "style": {
+                "Yes": "danger",
+                "No": "success"
+            },
+            "displayAsLabel": true,
+            "default": null,
+            "isCustom": true,
+            "setDefaultNull": true
+        },
+        "q3": {
+            "type": "enum",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "style": {
+                "Yes": "danger",
+                "No": "success"
+            },
+            "displayAsLabel": true,
+            "default": null,
+            "isCustom": true,
+            "setDefaultNull": true
+        },
+        "q4": {
+            "type": "enum",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "style": {
+                "Yes": "danger",
+                "No": "success"
+            },
+            "displayAsLabel": true,
+            "default": null,
+            "isCustom": true,
+            "setDefaultNull": true
+        },
+        "q5": {
+            "type": "enum",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "style": {
+                "Yes": "danger",
+                "No": "success"
+            },
+            "displayAsLabel": true,
+            "default": null,
+            "isCustom": true,
+            "setDefaultNull": true
+        },
+        "q6": {
+            "type": "enum",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "style": {
+                "Yes": "danger",
+                "No": "success"
+            },
+            "displayAsLabel": true,
+            "default": null,
+            "isCustom": true,
+            "setDefaultNull": true
+        },
+        "q7": {
+            "type": "enum",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "style": {
+                "Yes": "danger",
+                "No": "success"
+            },
+            "displayAsLabel": true,
+            "default": null,
+            "isCustom": true,
+            "setDefaultNull": true
+        },
+        "q8": {
+            "type": "enum",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "style": {
+                "Yes": "danger",
+                "No": "success"
+            },
+            "displayAsLabel": true,
+            "default": null,
+            "isCustom": true,
+            "setDefaultNull": true
+        },
+        "q9": {
+            "type": "enum",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "style": {
+                "Yes": "danger",
+                "No": "success"
+            },
+            "displayAsLabel": true,
+            "default": null,
+            "isCustom": true,
+            "setDefaultNull": true
+        },
+        "q10": {
+            "type": "enum",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "style": {
+                "Yes": "danger",
+                "No": "success"
+            },
+            "displayAsLabel": true,
+            "default": null,
+            "isCustom": true,
+            "setDefaultNull": true
+        },
+        "latest": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "type": {
+            "type": "enum",
+            "options": [
+                "Reassessment",
+                "Current Baseline",
+                "Baseline"
+            ],
+            "style": {
+                "Reassessment": "success",
+                "Current Baseline": "danger",
+                "Baseline": "warning"
+            },
+            "displayAsLabel": true,
+            "default": "Reassessment",
+            "isCustom": true
+        },
+        "incompleteAssessment": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        }
+    },
+    "links": {
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "modifiedBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "assignedUser": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "teams": {
+            "type": "hasMany",
+            "entity": "Team",
+            "relationName": "EntityTeam",
+            "layoutRelationshipsDisabled": true
+        },
+        "contact": {
+            "type": "belongsTo",
+            "foreign": "reassessmentSUDs",
+            "entity": "Contact",
+            "audited": false,
+            "isCustom": true
+        }
+    },
+    "collection": {
+        "orderBy": "date",
+        "order": "desc",
+        "textFilterFields": [
+            "name"
+        ],
+        "fullTextSearch": false,
+        "countDisabled": false
+    },
+    "indexes": {
+        "name": {
+            "columns": [
+                "name",
+                "deleted"
+            ]
+        },
+        "assignedUser": {
+            "columns": [
+                "assignedUserId",
+                "deleted"
+            ]
+        }
+    }
+}

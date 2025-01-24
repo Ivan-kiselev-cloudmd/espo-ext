@@ -1,0 +1,21 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "contact"
+    },
+    {
+        "name": "field"
+    },
+    {
+        "name": "value"
+    },
+    {
+        "name": "createdAt"
+    },
+    {
+        "name": "user"
+    }
+]

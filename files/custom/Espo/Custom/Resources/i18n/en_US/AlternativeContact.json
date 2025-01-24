@@ -1,0 +1,31 @@
+{
+    "fields": {
+        "address": "Address",
+        "contact": "Case",
+        "relationship": "Relationship",
+        "relationshipOther": "Relationship Other"
+    },
+    "links": {
+        "meetings": "Meetings",
+        "calls": "Calls",
+        "tasks": "Tasks",
+        "contact": "Contact"
+    },
+    "labels": {
+        "Create AlternativeContact": "Create Alternative Contact"
+    },
+    "options": {
+        "relationship": {
+            "Mother": "Mother",
+            "Father": "Father",
+            "Sister": "Sister",
+            "Brother": "Brother",
+            "Aunt": "Aunt",
+            "Uncle": "Uncle",
+            "Co-worker": "Co-worker",
+            "Friend": "Friend",
+            "Professional": "Professional",
+            "Other": "Other"
+        }
+    }
+}

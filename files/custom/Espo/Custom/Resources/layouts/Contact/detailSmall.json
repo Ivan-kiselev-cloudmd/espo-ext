@@ -1,0 +1,47 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                }
+            ],
+            [
+                {
+                    "name": "accounts"
+                }
+            ],
+            [
+                {
+                    "name": "emailAddress"
+                }
+            ],
+            [
+                {
+                    "name": "phoneNumber"
+                }
+            ],
+            [
+                {
+                    "name": "addressCity"
+                },
+                {
+                    "name": "addressCountry"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                }
+            ],
+            [
+                {
+                    "name": "province"
+                },
+                false
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    }
+]

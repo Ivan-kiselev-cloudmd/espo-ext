@@ -1,0 +1,28 @@
+[
+    {
+        "name": "date",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "incompleteAssessment"
+    },
+    {
+        "name": "type"
+    },
+    {
+        "name": "initialScore"
+    },
+    {
+        "name": "maxScore"
+    },
+    {
+        "name": "score"
+    },
+    {
+        "name": "level"
+    },
+    {
+        "name": "successMgmt"
+    }
+]

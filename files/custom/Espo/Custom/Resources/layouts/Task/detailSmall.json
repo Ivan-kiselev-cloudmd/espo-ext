@@ -1,0 +1,62 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "category"
+                }
+            ],
+            [
+                {
+                    "name": "status"
+                },
+                {
+                    "name": "priority"
+                }
+            ],
+            [
+                {
+                    "name": "auto"
+                },
+                {
+                    "name": "type"
+                }
+            ],
+            [
+                {
+                    "name": "dateStart"
+                }
+            ],
+            [
+                {
+                    "name": "dateEnd"
+                }
+            ],
+            [
+                {
+                    "name": "parent"
+                }
+            ],
+            [
+                {
+                    "name": "reminders"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                }
+            ],
+            [
+                {
+                    "name": "attachments"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    }
+]

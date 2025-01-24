@@ -1,0 +1,167 @@
+{
+    "fields": {
+        "activityType": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "Admin",
+                "Coach",
+                "Research"
+            ],
+            "style": {
+                "N/A": null,
+                "Admin": "primary",
+                "Coach": "danger",
+                "Research": "success"
+            },
+            "displayAsLabel": true,
+            "default": "N/A",
+            "isCustom": true,
+            "required": true
+        },
+        "adminActivity": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "CRM revision/updates",
+                "Team Meeting",
+                "Vacation",
+                "STAT day",
+                "Email/Zoom/Call – Internal",
+                "Tech/System Issue",
+                "Personal Time Off ",
+                "Education/ Training",
+                "Support and Resources Research",
+                "Timecard Entry"
+            ],
+            "style": {
+                "N/A": null,
+                "CRM revision/updates": null,
+                "Team Meeting": null,
+                "Vacation": null,
+                "STAT day": null,
+                "Email/Zoom/Call – Internal": null,
+                "Tech/System Issue": null,
+                "Personal Time Off ": null,
+                "Education/ Training": null,
+                "Support and Resources Research": null,
+                "Timecard Entry": null
+            },
+            "default": "N/A",
+            "isCustom": true,
+            "displayAsLabel": true
+        },
+        "researchActivity": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "Case Research",
+                "New bio - Specialist",
+                "New bio - Clinic",
+                "Process Updates/Improvements",
+                "PAP Creation",
+                "CAP Creation",
+                "GAP Creation"
+            ],
+            "style": {
+                "N/A": null,
+                "Case Research": null,
+                "New bio - Specialist": null,
+                "New bio - Clinic": null,
+                "Process Updates/Improvements": null,
+                "PAP Creation": null,
+                "CAP Creation": null,
+                "GAP Creation": null
+            },
+            "default": "N/A",
+            "isCustom": true,
+            "displayAsLabel": true
+        },
+        "coachActivity": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "1st Call – PREP",
+                "1st Call - Call",
+                "1st Call - Email",
+                "1st Call - Other",
+                "2nd Call – PREP",
+                "2nd Call - Call",
+                "2nd Call - Email",
+                "2nd Call - Other",
+                "3rd Call – PREP",
+                "3rd Call - Call",
+                "3rd Call - Email",
+                "3rd Call - Other",
+                "4th Call – PREP",
+                "4th Call - Call",
+                "4th Call - Email",
+                "4th Call - Other",
+                "5th Call – PREP",
+                "5th Call - Call",
+                "5th Call - Email",
+                "5th Call - Other",
+                "6th Call – PREP",
+                "6th Call - Call",
+                "6th Call - Email",
+                "6th Call - Other",
+                "PAP Sent",
+                "CAP Sent",
+                "GAP Sent",
+                "Book coach meeting",
+                "Therapist Review/Revision",
+                "Internal review"
+            ],
+            "style": {
+                "N/A": null,
+                "1st Call – PREP": null,
+                "1st Call - Call": null,
+                "1st Call - Email": null,
+                "1st Call - Other": null,
+                "2nd Call – PREP": null,
+                "2nd Call - Call": null,
+                "2nd Call - Email": null,
+                "2nd Call - Other": null,
+                "3rd Call – PREP": null,
+                "3rd Call - Call": null,
+                "3rd Call - Email": null,
+                "3rd Call - Other": null,
+                "4th Call – PREP": null,
+                "4th Call - Call": null,
+                "4th Call - Email": null,
+                "4th Call - Other": null,
+                "5th Call – PREP": null,
+                "5th Call - Call": null,
+                "5th Call - Email": null,
+                "5th Call - Other": null,
+                "6th Call – PREP": null,
+                "6th Call - Call": null,
+                "6th Call - Email": null,
+                "6th Call - Other": null,
+                "PAP Sent": null,
+                "CAP Sent": null,
+                "GAP Sent": null,
+                "Book coach meeting": null,
+                "Therapist Review/Revision": null,
+                "Internal review": null
+            },
+            "default": "N/A",
+            "isCustom": true,
+            "displayAsLabel": true
+        },
+        "description": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true,
+            "required": false
+        },
+        "casenum": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true,
+            "readOnly": true
+        }
+    }
+}

@@ -1,0 +1,20 @@
+[
+    "name",
+    "contact",
+    "assignedUser",
+    "caseNumber",
+    "auto",
+    "type",
+    "teams",
+    "createdAt",
+    "createdBy",
+    "modifiedAt",
+    "account",
+    "dateCompleted",
+    "dateStart",
+    "dateEnd",
+    "status",
+    "parent",
+    "priority",
+    "category"
+]

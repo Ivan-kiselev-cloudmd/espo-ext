@@ -1,0 +1,27 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "duration"
+    },
+    {
+        "name": "assignedUser"
+    },
+    {
+        "name": "activityType"
+    },
+    {
+        "name": "adminActivity"
+    },
+    {
+        "name": "coachActivity"
+    },
+    {
+        "name": "researchActivity"
+    },
+    {
+        "name": "description"
+    }
+]

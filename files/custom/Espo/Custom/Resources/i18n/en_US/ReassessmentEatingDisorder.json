@@ -1,0 +1,303 @@
+{
+    "fields": {
+        "contact": "Case",
+        "baseline": "Baseline",
+        "date": "Date",
+        "improvement": "Improvement %",
+        "initialScore": "Initial Score",
+        "maxScore": "Max Score",
+        "score": "Score",
+        "level": "Level",
+        "successMgmt": "SuccessMgmt",
+        "q1": "Am terrified about being overweight.",
+        "q2": "Avoid eating when I am hungry.",
+        "q3": "Find myself preoccupied with food.",
+        "q4": "Have gone on eating binges where I feel that I may not be able to stop.",
+        "q5": "Cut my food into small pieces.",
+        "q6": "Aware of the calorie content of foods that I eat.",
+        "q7": "Particularly avoid food with a high carbohydrate content (i.e. bread, rice, potatoes, etc.)",
+        "q8": "Feel that others would prefer if I ate more.",
+        "q9": "Vomit after I have eaten.",
+        "q10": "Feel extremely guilty after eating.",
+        "q11": "Am preoccupied with a desire to be thinner.",
+        "q12": "Think about burning up calories when I exercise.",
+        "q13": "Other people think that I am too thin.",
+        "q14": "Am preoccupied with the thought of having fat on my body",
+        "q15": "Take longer than others to eat my meals.",
+        "q16": "Avoid foods with sugar in them.",
+        "q17": "Eat diet foods.",
+        "q18": "Feel that food controls my life.",
+        "q19": "Display self-control around food.",
+        "q20": "Feel that others pressure me to eat.",
+        "q21": "Give too much time and thought to food.",
+        "q22": "Feel uncomfortable after eating sweets.",
+        "q23": "Engage in dieting behavior.",
+        "q24": "Like my stomach to be empty.",
+        "q25": "Have the impulse to vomit after meals.",
+        "q26": "Enjoy trying new rich foods.",
+        "latest": "Latest",
+        "type": "Type",
+        "incompleteAssessment": "Incomplete Assessment"
+    },
+    "links": {
+        "contact": "Contact"
+    },
+    "labels": {
+        "Create ReassessmentEatingDisorder": "Create Reassessment - Eating Disorder"
+    },
+    "options": {
+        "level": {
+            "No measurable risk": "No measurable risk",
+            "MINIMAL to MILD": "MINIMAL to MILD",
+            "MODERATE": "MODERATE",
+            "HIGH": "HIGH",
+            "Moderate to High": "Moderate to High"
+        },
+        "successMgmt": {
+            "N/A": "N/A",
+            "No Progress": "No Progress",
+            "Improvement": "Improvement",
+            "Significant Improvement": "Significant Improvement",
+            "Excellent Improvement": "Excellent Improvement"
+        },
+        "q1": {
+            "N/A": "=Choose an option=",
+            "Always": "Always",
+            "Usually": "Usually",
+            "Often": "Often",
+            "Sometimes": "Sometimes",
+            "Rarely": "Rarely",
+            "Never": "Never"
+        },
+        "q2": {
+            "N/A": "=Choose an option=",
+            "Always": "Always",
+            "Usually": "Usually",
+            "Often": "Often",
+            "Sometimes": "Sometimes",
+            "Rarely": "Rarely",
+            "Never": "Never"
+        },
+        "q3": {
+            "N/A": "=Choose an option=",
+            "Always": "Always",
+            "Usually": "Usually",
+            "Often": "Often",
+            "Sometimes": "Sometimes",
+            "Rarely": "Rarely",
+            "Never": "Never"
+        },
+        "q4": {
+            "N/A": "=Choose an option=",
+            "Always": "Always",
+            "Usually": "Usually",
+            "Often": "Often",
+            "Sometimes": "Sometimes",
+            "Rarely": "Rarely",
+            "Never": "Never"
+        },
+        "q5": {
+            "N/A": "=Choose an option=",
+            "Always": "Always",
+            "Usually": "Usually",
+            "Often": "Often",
+            "Sometimes": "Sometimes",
+            "Rarely": "Rarely",
+            "Never": "Never"
+        },
+        "q6": {
+            "N/A": "=Choose an option=",
+            "Always": "Always",
+            "Usually": "Usually",
+            "Often": "Often",
+            "Sometimes": "Sometimes",
+            "Rarely": "Rarely",
+            "Never": "Never"
+        },
+        "q7": {
+            "N/A": "=Choose an option=",
+            "Always": "Always",
+            "Usually": "Usually",
+            "Often": "Often",
+            "Sometimes": "Sometimes",
+            "Rarely": "Rarely",
+            "Never": "Never"
+        },
+        "q8": {
+            "N/A": "=Choose an option=",
+            "Always": "Always",
+            "Usually": "Usually",
+            "Often": "Often",
+            "Sometimes": "Sometimes",
+            "Rarely": "Rarely",
+            "Never": "Never"
+        },
+        "q9": {
+            "N/A": "=Choose an option=",
+            "Always": "Always",
+            "Usually": "Usually",
+            "Often": "Often",
+            "Sometimes": "Sometimes",
+            "Rarely": "Rarely",
+            "Never": "Never"
+        },
+        "q10": {
+            "N/A": "=Choose an option=",
+            "Always": "Always",
+            "Usually": "Usually",
+            "Often": "Often",
+            "Sometimes": "Sometimes",
+            "Rarely": "Rarely",
+            "Never": "Never"
+        },
+        "q11": {
+            "N/A": "=Choose an option=",
+            "Always": "Always",
+            "Usually": "Usually",
+            "Often": "Often",
+            "Sometimes": "Sometimes",
+            "Rarely": "Rarely",
+            "Never": "Never"
+        },
+        "q12": {
+            "N/A": "=Choose an option=",
+            "Always": "Always",
+            "Usually": "Usually",
+            "Often": "Often",
+            "Sometimes": "Sometimes",
+            "Rarely": "Rarely",
+            "Never": "Never"
+        },
+        "q13": {
+            "N/A": "=Choose an option=",
+            "Always": "Always",
+            "Usually": "Usually",
+            "Often": "Often",
+            "Sometimes": "Sometimes",
+            "Rarely": "Rarely",
+            "Never": "Never"
+        },
+        "q14": {
+            "N/A": "=Choose an option=",
+            "Always": "Always",
+            "Usually": "Usually",
+            "Often": "Often",
+            "Sometimes": "Sometimes",
+            "Rarely": "Rarely",
+            "Never": "Never"
+        },
+        "q15": {
+            "N/A": "=Choose an option=",
+            "Always": "Always",
+            "Usually": "Usually",
+            "Often": "Often",
+            "Sometimes": "Sometimes",
+            "Rarely": "Rarely",
+            "Never": "Never"
+        },
+        "q16": {
+            "N/A": "=Choose an option=",
+            "Always": "Always",
+            "Usually": "Usually",
+            "Often": "Often",
+            "Sometimes": "Sometimes",
+            "Rarely": "Rarely",
+            "Never": "Never"
+        },
+        "q17": {
+            "N/A": "=Choose an option=",
+            "Always": "Always",
+            "Usually": "Usually",
+            "Often": "Often",
+            "Sometimes": "Sometimes",
+            "Rarely": "Rarely",
+            "Never": "Never"
+        },
+        "q18": {
+            "N/A": "=Choose an option=",
+            "Always": "Always",
+            "Usually": "Usually",
+            "Often": "Often",
+            "Sometimes": "Sometimes",
+            "Rarely": "Rarely",
+            "Never": "Never"
+        },
+        "q19": {
+            "N/A": "=Choose an option=",
+            "Always": "Always",
+            "Usually": "Usually",
+            "Often": "Often",
+            "Sometimes": "Sometimes",
+            "Rarely": "Rarely",
+            "Never": "Never"
+        },
+        "q20": {
+            "N/A": "=Choose an option=",
+            "Always": "Always",
+            "Usually": "Usually",
+            "Often": "Often",
+            "Sometimes": "Sometimes",
+            "Rarely": "Rarely",
+            "Never": "Never"
+        },
+        "q21": {
+            "N/A": "=Choose an option=",
+            "Always": "Always",
+            "Usually": "Usually",
+            "Often": "Often",
+            "Sometimes": "Sometimes",
+            "Rarely": "Rarely",
+            "Never": "Never"
+        },
+        "q22": {
+            "N/A": "=Choose an option=",
+            "Always": "Always",
+            "Usually": "Usually",
+            "Often": "Often",
+            "Sometimes": "Sometimes",
+            "Rarely": "Rarely",
+            "Never": "Never"
+        },
+        "q23": {
+            "N/A": "=Choose an option=",
+            "Always": "Always",
+            "Usually": "Usually",
+            "Often": "Often",
+            "Sometimes": "Sometimes",
+            "Rarely": "Rarely",
+            "Never": "Never"
+        },
+        "q24": {
+            "N/A": "=Choose an option=",
+            "Always": "Always",
+            "Usually": "Usually",
+            "Often": "Often",
+            "Sometimes": "Sometimes",
+            "Rarely": "Rarely",
+            "Never": "Never"
+        },
+        "q25": {
+            "N/A": "=Choose an option=",
+            "Always": "Always",
+            "Usually": "Usually",
+            "Often": "Often",
+            "Sometimes": "Sometimes",
+            "Rarely": "Rarely",
+            "Never": "Never"
+        },
+        "q26": {
+            "N/A": "=Choose an option=",
+            "Always": "Always",
+            "Usually": "Usually",
+            "Often": "Often",
+            "Sometimes": "Sometimes",
+            "Rarely": "Rarely",
+            "Never": "Never"
+        },
+        "type": {
+            "Reassessment": "Reassessment",
+            "Current Baseline": "Current Baseline",
+            "Baseline": "Baseline"
+        }
+    }
+}

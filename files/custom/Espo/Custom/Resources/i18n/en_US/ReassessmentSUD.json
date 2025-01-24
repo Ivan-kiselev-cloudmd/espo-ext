@@ -1,0 +1,105 @@
+{
+    "fields": {
+        "contact": "Case",
+        "level": "Level",
+        "successMgmt": "SuccessMgmt",
+        "baseline": "Baseline",
+        "date": "Date",
+        "improvement": "Improvement %",
+        "initialScore": "Initial Score",
+        "maxScore": "Max Score",
+        "score": "Score",
+        "q1": "Have you used drugs other than those required for medical reasons?",
+        "q2": "Do you abuse more than one drug at a time?",
+        "q3": "Are you unable to stop abusing drugs when you want to?",
+        "q4": "Have you ever had blackouts or flashbacks as a result of drug use?",
+        "q5": "Do you ever feel bad or guilty about your drug use?",
+        "q6": "Does your spouse (or parents) ever complain about your involvement with drugs?",
+        "q7": "Have you neglected your family because of your use of drugs?",
+        "q8": "Have you engaged in illegal activities in order to obtain drugs?",
+        "q9": "Have you ever experienced withdrawal symptoms (felt sick) when you stopped taking drugs?",
+        "q10": "Have you had medical problems as a result of your drug use (e.g. memory loss, hepatitis, convulsions, bleeding)?",
+        "contact1": "Contact1",
+        "latest": "Latest",
+        "type": "Type",
+        "incompleteAssessment": "Incomplete Assessment"
+    },
+    "links": {
+        "contact": "Contact",
+        "contact1": "Contact1"
+    },
+    "labels": {
+        "Create ReassessmentSUD": "Create Reassessment - SUD"
+    },
+    "options": {
+        "level": {
+            "No measurable risk": "No measurable risk",
+            "MINIMAL to MILD": "MINIMAL to MILD",
+            "MODERATE": "MODERATE",
+            "HIGH": "HIGH",
+            "SUBSTANTIAL": "SUBSTANTIAL"
+        },
+        "successMgmt": {
+            "N/A": "N/A",
+            "No Progress": "No Progress",
+            "Improvement": "Improvement",
+            "Significant Improvement": "Significant Improvement",
+            "Excellent Improvement": "Excellent Improvement"
+        },
+        "q1": {
+            "N/A": "=Choose an option=",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "q2": {
+            "N/A": "=Choose an option=",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "q3": {
+            "N/A": "=Choose an option=",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "q4": {
+            "N/A": "=Choose an option=",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "q5": {
+            "N/A": "=Choose an option=",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "q6": {
+            "N/A": "=Choose an option=",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "q7": {
+            "N/A": "=Choose an option=",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "q8": {
+            "N/A": "=Choose an option=",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "q9": {
+            "N/A": "=Choose an option=",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "q10": {
+            "N/A": "=Choose an option=",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "type": {
+            "Reassessment": "Reassessment",
+            "Current Baseline": "Current Baseline",
+            "Baseline": "Baseline"
+        }
+    }
+}

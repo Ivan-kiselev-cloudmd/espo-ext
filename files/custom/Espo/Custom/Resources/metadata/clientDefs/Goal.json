@@ -1,0 +1,110 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "kanbanViewMode": false,
+    "color": null,
+    "iconClass": null,
+    "restrictedInlineEdit": false,
+    "dynamicLogic": {
+        "options": {
+            "interventionDetails": [
+                {
+                    "optionList": [
+                        "LI - Diet",
+                        "LI - Sleep Habits",
+                        "LI - Exercise",
+                        "LI - Caffeine Consumption",
+                        "LI - Nicotine Consumption",
+                        "LI - Alcohol Consumption",
+                        "LI - Socialization",
+                        "LI - Support Groups",
+                        "LI - Outdoor/Nature",
+                        "LI - Relaxation",
+                        "LI - Meditation",
+                        "LI - Stress Management",
+                        "LI - Journaling",
+                        "LI - Nutrition",
+                        "LI - Self-Care",
+                        "LI - Reduce Technology Use",
+                        "LI - Time Management",
+                        "LI - Harm Reduction"
+                    ],
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "intervention",
+                            "value": "Lifestyle Intervention"
+                        }
+                    ]
+                },
+                {
+                    "optionList": [
+                        "B - Eligible practitioners",
+                        "B - Health Spending Account",
+                        "B - Personal spending account"
+                    ],
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "intervention",
+                            "value": "Benefits"
+                        }
+                    ]
+                },
+                {
+                    "optionList": [
+                        "PH - Public Provincial CBT programs",
+                        "PH - Public Crisis services",
+                        "PH - Public Support groups",
+                        "PH - Other free resources"
+                    ],
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "intervention",
+                            "value": "Public Health Program"
+                        }
+                    ]
+                },
+                {
+                    "optionList": [],
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "intervention",
+                            "value": "Employee Assistance Program"
+                        }
+                    ]
+                },
+                {
+                    "optionList": [
+                        "VC - Lumino Health Virtual Care",
+                        "VC - Other"
+                    ],
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "intervention",
+                            "value": "Virtual Care"
+                        }
+                    ]
+                },
+                {
+                    "optionList": [
+                        "VCBT - MindBeacon",
+                        "VCBT - Other"
+                    ],
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "intervention",
+                            "value": "Virtual CBT"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

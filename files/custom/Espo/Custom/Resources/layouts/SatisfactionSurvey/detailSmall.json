@@ -1,0 +1,63 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                }
+            ],
+            [
+                {
+                    "name": "contact"
+                },
+                {
+                    "name": "language"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "resourcesProvidedWereRelevant"
+                }
+            ],
+            [
+                {
+                    "name": "satisfiedWithTheService"
+                }
+            ],
+            [
+                {
+                    "name": "benefitsBetterUnderstanding"
+                }
+            ]
+        ],
+        "style": "default",
+        "customLabel": "New panel"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "recommendServiceToOthers"
+                }
+            ],
+            [
+                {
+                    "name": "whatMadeYouEngageInTheService"
+                }
+            ],
+            [
+                {
+                    "name": "whatMadeYouEngageInTheServiceOther"
+                }
+            ]
+        ],
+        "style": "default",
+        "customLabel": "New panel"
+    }
+]

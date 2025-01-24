@@ -1,0 +1,25 @@
+{
+    "fields": {
+        "medicalIntake": "Medical Intake",
+        "date": "Date",
+        "call": "Call",
+        "followupGp": "F/U with GP",
+        "followupClient": "F/U with Client"
+    },
+    "links": {
+        "medicalIntake": "Medical Intake"
+    },
+    "labels": {
+        "Create MedicalUpdate": "Create Medical Update"
+    },
+    "options": {
+        "call": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6"
+        }
+    }
+}

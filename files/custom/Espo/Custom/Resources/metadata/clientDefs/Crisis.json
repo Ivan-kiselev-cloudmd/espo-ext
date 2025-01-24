@@ -1,0 +1,66 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "dynamicLogic": {
+        "fields": {
+            "activePlan": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "crisisRiskLevel",
+                            "value": [
+                                "High",
+                                "Moderate"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "previousSuicide": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "crisisRiskLevel",
+                            "value": [
+                                "Moderate",
+                                "High"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "worthLiving": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "crisisRiskLevel",
+                            "value": [
+                                "High",
+                                "Moderate"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "handle": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "crisisRiskLevel",
+                            "value": [
+                                "High",
+                                "Moderate"
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

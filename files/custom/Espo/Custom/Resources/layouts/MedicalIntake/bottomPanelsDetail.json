@@ -1,0 +1,11 @@
+{
+    "_delimiter_": {
+        "disabled": true
+    },
+    "medicalHistories": {
+        "index": 0
+    },
+    "medicalUpdates": {
+        "index": 1
+    }
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "email"
+    },
+    {
+        "name": "q1"
+    },
+    {
+        "name": "q1Yes",
+        "notSortable": true
+    },
+    {
+        "name": "q1YesOther"
+    },
+    {
+        "name": "q1No",
+        "notSortable": true
+    },
+    {
+        "name": "q1NoOther"
+    }
+]

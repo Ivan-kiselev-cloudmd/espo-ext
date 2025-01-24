@@ -1,0 +1,27 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "contact"
+                }
+            ],
+            [
+                {
+                    "name": "assessmentStarted"
+                },
+                {
+                    "name": "assessmentCompleted"
+                },
+                {
+                    "name": "crisisScreenVisitDate"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

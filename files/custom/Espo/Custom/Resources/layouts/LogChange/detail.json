@@ -1,0 +1,24 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "contact"
+                }
+            ],
+            [
+                {
+                    "name": "field"
+                },
+                {
+                    "name": "value"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

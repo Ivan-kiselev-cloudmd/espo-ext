@@ -1,0 +1,38 @@
+{
+    "links": [],
+    "labels": {
+        "Create ProgressSurvey": "Create Progress Survey"
+    },
+    "fields": {
+        "q1": "Have you moved forward with any of the treatment providers shared?",
+        "q1Yes": "That’s great! What did you decide to start with?",
+        "q1YesOther": "Other start",
+        "q1No": "All good! Help us understand why you haven’t moved forward",
+        "q1NoOther": "haven’t moved forward Other",
+        "email": "Email"
+    },
+    "options": {
+        "q1": {
+            "Yes": "Yes",
+            "No": "No",
+            "N/A": "N/A"
+        },
+        "q1Yes": {
+            "Use the Employee & Family Assistance program": "Use the Employee & Family Assistance program",
+            "Meet or schedule an appointment with my GP to discuss assessment results": "Meet or schedule an appointment with my GP to discuss assessment results",
+            "Schedule an appointment with a mental health professional.": "Schedule an appointment with a mental health professional.",
+            "Ask my GP to coordinate a referral to a psychiatrist (if recommended)": "Ask my GP to coordinate a referral to a psychiatrist (if recommended)",
+            "Use Lumino Health Virtual Care": "Use Lumino Health Virtual Care",
+            "Enroll in an online CBT program": "Enroll in an online CBT program",
+            "Focus on 1-2 of the Life interventions recommended": "Focus on 1-2 of the Life interventions recommended",
+            "Other": "Other"
+        },
+        "q1No": {
+            "I can’t afford it/it’s too expensive": "I can’t afford it/it’s too expensive",
+            "It’s too hard to get started": "It’s too hard to get started",
+            "I don’t have the time": "I don’t have the time",
+            "I’m not comfortable discussing with others": "I’m not comfortable discussing with others",
+            "Other": "Other"
+        }
+    }
+}

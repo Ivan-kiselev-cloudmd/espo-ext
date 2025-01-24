@@ -1,0 +1,1352 @@
+{
+    "sidePanels": {
+        "detail": [
+            {
+                "name": "activities",
+                "label": "Activities",
+                "view": "medical-confidence:views/record/panels/activities",
+                "aclScope": "Activities"
+            },
+            {
+                "name": "history",
+                "label": "History",
+                "view": "crm:views/record/panels/history",
+                "aclScope": "Activities"
+            },
+            {
+                "name": "tasks",
+                "label": "Tasks",
+                "view": "crm:views/record/panels/tasks",
+                "aclScope": "Task"
+            }
+        ],
+        "detailSmall": [
+            {
+                "name": "activities",
+                "label": "Activities",
+                "view": "medical-confidence:views/record/panels/activities",
+                "aclScope": "Activities"
+            },
+            {
+                "name": "history",
+                "label": "History",
+                "view": "crm:views/record/panels/history",
+                "aclScope": "Activities"
+            },
+            {
+                "name": "tasks",
+                "label": "Tasks",
+                "view": "crm:views/record/panels/tasks",
+                "aclScope": "Task"
+            }
+        ]
+    },
+    "recordViews": {
+        "detail": "medical-confidence:views/contact/record/detail"
+    },
+    "views": {
+        "detail": "medical-confidence:views/contact/detail"
+    },
+    "dynamicLogic": {
+        "fields": {
+            "therapistWillingToTravel": {
+                "visible": null
+            },
+            "workingWithIdentifiedAreasDetails": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "workingWithIdentifiedAreas",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "providerConcernsdetails": {
+                "visible": null
+            },
+            "notProceedReason": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "clientAgreesToProceed",
+                            "value": "No"
+                        }
+                    ]
+                }
+            },
+            "notProceedReasonOther": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "notProceedReason",
+                            "value": "Other"
+                        }
+                    ]
+                }
+            },
+            "therapistTravelDistance": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "therapistWillingToTravel",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "workingWithIdentifiedAreas": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "clientAgreesToProceed",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "providerConcerns": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "clientAgreesToProceed",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "personalizedActionPlanSentDate": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "personalizedActionPlanSent",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "checkinSurveySentDate": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "progressSurveyEmailSent",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "mHCoachIntakeCallComplete": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "clientAgreesToProceed",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "researchStatus": {
+                "visible": null
+            },
+            "materialsNotApprovedComments": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "materialsApprovedByCoach",
+                            "value": "No"
+                        }
+                    ]
+                }
+            },
+            "satisfactionSurveySentDate": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "satisfactionSurveySent",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "otherReasonsForGPRecommendation": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "reasonsForGPRecommendation",
+                            "value": "Other"
+                        }
+                    ]
+                }
+            },
+            "reasonsForGPRecommendation": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "reviewAssessmentWithGP",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "crisisq4": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "crisisRiskLevel",
+                                    "value": "Moderate"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "crisisRiskLevel",
+                                    "value": "High"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "crisisq2": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "crisisRiskLevel",
+                                    "value": "Moderate"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "crisisRiskLevel",
+                                    "value": "High"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "crisisq3": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "crisisRiskLevel",
+                                    "value": "Moderate"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "crisisRiskLevel",
+                                    "value": "High"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "crisisq1": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "crisisRiskLevel",
+                                    "value": "Moderate"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "crisisRiskLevel",
+                                    "value": "High"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "reasonCloudMDTherapistNotSelected": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "cloudMDTherapistSelected",
+                            "value": "No"
+                        }
+                    ]
+                }
+            },
+            "statusOfAppointmentOther": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "statusOfAppointment",
+                            "value": "Other"
+                        }
+                    ]
+                }
+            },
+            "casePathway": {
+                "visible": null
+            },
+            "statusOf2ndAppointmentOther": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "statusOf2ndAppointment",
+                            "value": "Other"
+                        }
+                    ]
+                }
+            },
+            "workingWithIdentifiedAreasYesNo": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "workingWithIdentifiedAreasYes",
+                            "value": "No"
+                        }
+                    ]
+                }
+            },
+            "workingWithIdentifiedAreasYesYes": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "workingWithIdentifiedAreasYes",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "workingWithIdentifiedAreasYes": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "workingWithIdentifiedAreas",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "whatMadeYouEngageInTheServiceOther": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "whatMadeYouEngageInTheService",
+                            "value": "Other"
+                        }
+                    ]
+                }
+            },
+            "scheduleSessionUnlikelyReasons": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "haveYouMovedForward",
+                            "value": "No"
+                        }
+                    ]
+                }
+            },
+            "scheduleSessionUnlikelyReasonsOther": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "scheduleSessionUnlikelyReasons",
+                            "value": "Other"
+                        }
+                    ]
+                }
+            },
+            "statusOf3rdAppointmentOther": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "statusOf3rdAppointment",
+                            "value": "Other"
+                        }
+                    ]
+                }
+            },
+            "implementedLifestyleInterventionYes": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "implementedLifestyleIntervention",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "implementedLifestyleInterventionNoOther": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "has",
+                            "attribute": "implementedLifestyleInterventionNo",
+                            "value": "Other"
+                        }
+                    ]
+                }
+            },
+            "implementedLifestyleInterventionNo": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "implementedLifestyleIntervention",
+                            "value": "No"
+                        }
+                    ]
+                }
+            },
+            "supportMostBeneficialOther": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "supportMostBeneficial",
+                            "value": "Other"
+                        }
+                    ]
+                }
+            },
+            "selectMoreTherapistsDetails": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "notEquals",
+                            "attribute": "selectMoreTherapists",
+                            "value": "N/A"
+                        }
+                    ]
+                }
+            },
+            "workingWithAProfessionalSpecialty": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "workingWithAProfessional",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "clientSummary2Details": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "clientSummary2",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "clientSummary3Details": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "clientSummary3",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "clientSummary4Details": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "clientSummary4",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "clientSummary12Details": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "clientSummary12",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "caseClosedReasons": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "caseStatus",
+                            "value": "Closed"
+                        }
+                    ]
+                }
+            },
+            "actionPlanSentDate": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "actionPlanSent"
+                        }
+                    ]
+                }
+            },
+            "statusOfAppointment4Other": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "statusOfAppointment4",
+                            "value": "Other"
+                        }
+                    ]
+                }
+            },
+            "statusOfAppointment5Other": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "statusOfAppointment5",
+                            "value": "Other"
+                        }
+                    ]
+                }
+            },
+            "statusOfAppointment6Other": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "statusOfAppointment6",
+                            "value": "Other"
+                        }
+                    ]
+                }
+            },
+            "appointment1RescheduleStatus": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "statusOfAppointment",
+                            "value": "Requested Reschedule"
+                        }
+                    ]
+                }
+            },
+            "appointment2RescheduleStatus": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "statusOf2ndAppointment",
+                            "value": "Requested Reschedule"
+                        }
+                    ]
+                }
+            },
+            "appointment3RescheduleStatus": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "statusOf3rdAppointment",
+                            "value": "Requested Reschedule"
+                        }
+                    ]
+                }
+            },
+            "appointment4RescheduleStatus": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "statusOfAppointment4",
+                            "value": "Requested Reschedule"
+                        }
+                    ]
+                }
+            },
+            "appointment5RescheduleStatus": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "statusOfAppointment5",
+                            "value": "Requested Reschedule"
+                        }
+                    ]
+                }
+            },
+            "appointment6RescheduleStatus": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "statusOfAppointment6",
+                            "value": "Requested Reschedule"
+                        }
+                    ]
+                }
+            },
+            "originalCaseStatusAtDeletion": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "duplicateCase"
+                        }
+                    ]
+                }
+            },
+            "originalCaseNumber": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "duplicateCase"
+                        }
+                    ]
+                }
+            },
+            "callFour1No": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isFalse",
+                            "attribute": "callFour1"
+                        }
+                    ]
+                }
+            },
+            "callFive1No": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isFalse",
+                            "attribute": "callFive1"
+                        }
+                    ]
+                }
+            },
+            "callThree1No": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isFalse",
+                            "attribute": "callThree1"
+                        }
+                    ]
+                }
+            },
+            "callSix1No": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isFalse",
+                            "attribute": "callSix1"
+                        }
+                    ]
+                }
+            },
+            "closeCaseDate": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "caseStatus",
+                            "value": "Closed"
+                        }
+                    ]
+                }
+            },
+            "notInterestedInHit": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "noHit"
+                        }
+                    ]
+                }
+            },
+            "eap": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "clientReferredToEap"
+                        }
+                    ]
+                }
+            },
+            "reassessmentADHDs": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "selectedAreaOfRisk1",
+                                    "value": "Attention Deficit Hyperactivity Disorder"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "selectedAreaOfRisk2",
+                                    "value": "Attention Deficit Hyperactivity Disorder"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "reassessmentAlcoholUseDisorders": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "selectedAreaOfRisk1",
+                                    "value": "Alcohol Use Disorder"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "selectedAreaOfRisk2",
+                                    "value": "Alcohol Use Disorder"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "reassessmentAngerManagements": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "selectedAreaOfRisk1",
+                                    "value": "Intermittent Explosive Disorder"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "selectedAreaOfRisk2",
+                                    "value": "Intermittent Explosive Disorder"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "reassessmentBipolars": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "selectedAreaOfRisk1",
+                                    "value": "Bipolar Disorder"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "selectedAreaOfRisk2",
+                                    "value": "Bipolar Disorder"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "reassessmentDepressions": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "selectedAreaOfRisk1",
+                                    "value": "Depression Disorder"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "selectedAreaOfRisk2",
+                                    "value": "Depression Disorder"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "reassessmentEatingDisorders": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "selectedAreaOfRisk1",
+                                    "value": "Eating Disorder"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "selectedAreaOfRisk2",
+                                    "value": "Eating Disorder"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "reassessmentGADs": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "selectedAreaOfRisk1",
+                                    "value": "Generalized Anxiety Disorder"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "selectedAreaOfRisk2",
+                                    "value": "Generalized Anxiety Disorder"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "reassessmentOCDs": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "selectedAreaOfRisk1",
+                                    "value": "Obsessive-Compulsive Disorder"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "selectedAreaOfRisk2",
+                                    "value": "Obsessive-Compulsive Disorder"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "reassessmentPTSDs": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "selectedAreaOfRisk1",
+                                    "value": "Post-Traumatic Stress-Disorder"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "selectedAreaOfRisk2",
+                                    "value": "Post-Traumatic Stress-Disorder"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "reassessmentPanicDisorders": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "selectedAreaOfRisk1",
+                                    "value": "Panic Disorder"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "selectedAreaOfRisk2",
+                                    "value": "Panic Disorder"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "reassessmentSADs": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "selectedAreaOfRisk1",
+                                    "value": "Social Anxiety Disorder"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "selectedAreaOfRisk2",
+                                    "value": "Social Anxiety Disorder"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "reassessmentSUDs": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "selectedAreaOfRisk1",
+                                    "value": "Substance Use Disorder"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "selectedAreaOfRisk2",
+                                    "value": "Substance Use Disorder"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "reassessmentSleepDisorders": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "selectedAreaOfRisk1",
+                                    "value": "Sleep Disorder"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "selectedAreaOfRisk2",
+                                    "value": "Sleep Disorder"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "callSixClientPursuedRecommendedInterventionDate": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "callSixClientPursuedRecommendedIntervention",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "callFiveClientPursuedRecommendedInterventionDate": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "callFiveClientPursuedRecommendedIntervention",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "callFourClientPursuedRecommendedInterventionDate": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "callFourClientPursuedRecommendedIntervention",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "callThreeClientPursuedRecommendedInterventionDate": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "callThreeClientPursuedRecommendedIntervention",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "callTwoClientPursuedRecommendedInterventionDate": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "callTwoClientPursuedRecommendedIntervention",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "callTwoClientPursuedRecommendedInterventionYes": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "callTwoClientPursuedRecommendedIntervention",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "callTwoClientPursuedRecommendedInterventionNo": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "callTwoClientPursuedRecommendedIntervention",
+                            "value": "No"
+                        }
+                    ]
+                }
+            },
+            "callTwoClientPursuedRecommendedInterventionNoOther": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "has",
+                            "attribute": "callTwoClientPursuedRecommendedInterventionNo",
+                            "value": "Other"
+                        }
+                    ]
+                }
+            },
+            "callThreeClientPursuedRecommendedInterventionYes": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "callThreeClientPursuedRecommendedIntervention",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "callFourClientPursuedRecommendedInterventionYes": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "callFourClientPursuedRecommendedIntervention",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "callFiveClientPursuedRecommendedInterventionYes": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "callFiveClientPursuedRecommendedIntervention",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "callSixClientPursuedRecommendedInterventionYes": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "callSixClientPursuedRecommendedIntervention",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "callThreeClientPursuedRecommendedInterventionNo": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "callThreeClientPursuedRecommendedIntervention",
+                            "value": "No"
+                        }
+                    ]
+                }
+            },
+            "callFourClientPursuedRecommendedInterventionNo": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "callFourClientPursuedRecommendedIntervention",
+                            "value": "No"
+                        }
+                    ]
+                }
+            },
+            "callFiveClientPursuedRecommendedInterventionNo": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "callFiveClientPursuedRecommendedIntervention",
+                            "value": "No"
+                        }
+                    ]
+                }
+            },
+            "callSixClientPursuedRecommendedInterventionNo": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "callSixClientPursuedRecommendedIntervention",
+                            "value": "No"
+                        }
+                    ]
+                }
+            },
+            "callThreeClientPursuedRecommendedInterventionNoOther": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "has",
+                            "attribute": "callThreeClientPursuedRecommendedInterventionNo",
+                            "value": "Other"
+                        }
+                    ]
+                }
+            },
+            "callFourClientPursuedRecommendedInterventionNoOther": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "has",
+                            "attribute": "callFourClientPursuedRecommendedInterventionNo",
+                            "value": "Other"
+                        }
+                    ]
+                }
+            },
+            "callFiveClientPursuedRecommendedInterventionNoOther": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "has",
+                            "attribute": "callFiveClientPursuedRecommendedInterventionNo",
+                            "value": "Other"
+                        }
+                    ]
+                }
+            },
+            "callSixClientPursuedRecommendedInterventionNoOther": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "has",
+                            "attribute": "callSixClientPursuedRecommendedInterventionNo",
+                            "value": "Other"
+                        }
+                    ]
+                }
+            },
+            "newBaselineRequired": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "in",
+                                    "attribute": "selectedAreaOfRisk1",
+                                    "value": [
+                                        "Attention Deficit Hyperactivity Disorder",
+                                        "Bipolar Disorder",
+                                        "Eating Disorder",
+                                        "Intermittent Explosive Disorder",
+                                        "Obsessive-Compulsive Disorder",
+                                        "Panic Disorder",
+                                        "Post-Traumatic Stress-Disorder",
+                                        "Social Anxiety Disorder",
+                                        "Substance Use Disorder"
+                                    ]
+                                },
+                                {
+                                    "type": "in",
+                                    "attribute": "selectedAreaOfRisk2",
+                                    "value": [
+                                        "Attention Deficit Hyperactivity Disorder",
+                                        "Bipolar Disorder",
+                                        "Eating Disorder",
+                                        "Intermittent Explosive Disorder",
+                                        "Obsessive-Compulsive Disorder",
+                                        "Panic Disorder",
+                                        "Post-Traumatic Stress-Disorder",
+                                        "Social Anxiety Disorder",
+                                        "Substance Use Disorder"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "benefitOption": [],
+            "benefits": []
+        },
+        "options": {
+            "casePathway": null,
+            "tier": [
+                {
+                    "optionList": [
+                        "Standard Coverage",
+                        "Covered under other plan"
+                    ],
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "accountId",
+                            "data": {
+                                "field": "account",
+                                "values": {
+                                    "accountName": "Apotex"
+                                }
+                            },
+                            "value": "61b22b3c391c88d53"
+                        }
+                    ]
+                },
+                {
+                    "optionList": [
+                        "Tier 1",
+                        "Tier 2",
+                        "Tier 3",
+                        "Tier 4",
+                        "No option",
+                        "Does not know",
+                        "N/A",
+                        "Covered under other plan"
+                    ],
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "accountId",
+                            "data": {
+                                "field": "account",
+                                "values": {
+                                    "accountName": "Sun Life"
+                                }
+                            },
+                            "value": "60465e2a726b352fc"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "kanbanViewMode": false,
+    "color": "#a4c5e0",
+    "iconClass": "fas fa-id-badge",
+    "dynamicFilter": {
+        "fields": {
+            "benefitOption": {
+                "filter": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "accountId",
+                            "data": {
+                                "field": "account",
+                                "values": {}
+                            },
+                            "linkItem": {
+                                "scope": "BenefitOption",
+                                "attribute": "accounts"
+                            }
+                        }
+                    ]
+                }
+            },
+            "benefits": {
+                "filter": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "accountId",
+                            "data": {
+                                "field": "account",
+                                "values": []
+                            },
+                            "linkItem": {
+                                "scope": "Benefit",
+                                "attribute": "accounts"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

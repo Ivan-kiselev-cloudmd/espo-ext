@@ -1,0 +1,24 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "contact"
+    },
+    {
+        "name": "assessmentStarted"
+    },
+    {
+        "name": "assessmentCompleted"
+    },
+    {
+        "name": "crisisScreenVisitDate"
+    },
+    {
+        "name": "createdAt"
+    },
+    {
+        "name": "modifiedAt"
+    }
+]

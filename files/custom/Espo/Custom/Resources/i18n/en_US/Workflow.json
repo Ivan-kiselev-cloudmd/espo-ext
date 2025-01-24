@@ -1,0 +1,7 @@
+{
+  "serviceActions": {
+    "linkMeetingToContact": "Link Meeting to Contact",
+    "resetSnapclarityAssessment": "Reset Snapclarity Assessment",
+    "referMemberToTherapistAction": "Refer Member to Therapist"
+  }
+}

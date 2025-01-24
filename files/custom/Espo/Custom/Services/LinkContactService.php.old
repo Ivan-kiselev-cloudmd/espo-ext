@@ -1,0 +1,33 @@
+<?php
+
+namespace Espo\Custom\Services;
+
+use \Espo\ORM\Entity;
+
+class LinkContactService extends \Espo\Core\Services\Base
+{
+    public function linkMeetingToContact($workflowId, Entity $entity, $additionalParameters = null)
+    {
+
+        $description = $entity->get('description');
+        $pattern = '/[a-zA-Z0-9._\-\+"]+@[a-zA-Z0-9._\-]+\.[a-zA-Z0-9._\-]+/i';
+        $matches = array();
+        preg_match_all($pattern, $description, $matches);
+        if ($matches && $matches[0] && count($matches[0]) > 0) {
+            foreach ($matches[0] as $match) {
+                $contact = $this->getEntityManager()
+                    ->getRepository('Contact')
+                    ->where([
+                        'emailAddress' => $match,
+                    ])->findOne();
+                if ($contact) {
+                    $this->getEntityManager()
+                        ->getRepository('Meeting')
+                        ->getRelation($entity, 'contacts')
+                        ->relate($contact);
+                }
+            }
+        }
+
+    }
+}

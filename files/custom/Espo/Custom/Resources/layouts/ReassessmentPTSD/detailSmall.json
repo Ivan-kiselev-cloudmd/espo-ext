@@ -1,0 +1,53 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "date"
+                },
+                {
+                    "name": "type"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "q1"
+                }
+            ],
+            [
+                {
+                    "name": "q2"
+                }
+            ],
+            [
+                {
+                    "name": "q3"
+                }
+            ],
+            [
+                {
+                    "name": "q4"
+                }
+            ],
+            [
+                {
+                    "name": "q5"
+                }
+            ]
+        ],
+        "style": "default",
+        "subTitle": null,
+        "subTitleStyle": "default",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "accordion": "collapsed",
+        "isCollapsedDynamicLogic": null,
+        "customLabel": "In the past month, have you…"
+    }
+]

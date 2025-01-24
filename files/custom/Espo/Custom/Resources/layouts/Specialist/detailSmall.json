@@ -1,0 +1,122 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "type"
+                },
+                {
+                    "name": "active"
+                },
+                {
+                    "name": "luminoProviderSearch"
+                }
+            ],
+            [
+                {
+                    "name": "specialty"
+                },
+                {
+                    "name": "subspecialty"
+                },
+                {
+                    "name": "therapyApproach1"
+                },
+                {
+                    "name": "visitType"
+                }
+            ],
+            [
+                {
+                    "name": "email"
+                },
+                {
+                    "name": "gender"
+                }
+            ],
+            [
+                {
+                    "name": "fax"
+                },
+                {
+                    "name": "phone"
+                }
+            ],
+            [
+                {
+                    "name": "medExLink"
+                },
+                {
+                    "name": "bio"
+                }
+            ],
+            [
+                {
+                    "name": "language"
+                },
+                {
+                    "name": "waitTime"
+                }
+            ],
+            [
+                {
+                    "name": "provinceMulti"
+                },
+                {
+                    "name": "city"
+                }
+            ],
+            [
+                {
+                    "name": "notes"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "humanaCareTherapistId"
+                },
+                {
+                    "name": "humanaCareTherapistCode"
+                }
+            ],
+            [
+                {
+                    "name": "humanaCareCredentials"
+                },
+                {
+                    "name": "humanaCareLicenseNumber"
+                }
+            ],
+            [
+                {
+                    "name": "humanaCareSupervisor"
+                },
+                {
+                    "name": "humanaCareFocusArea"
+                }
+            ],
+            [
+                {
+                    "name": "humanaCareFocusNotes"
+                }
+            ]
+        ],
+        "style": "default",
+        "subTitle": null,
+        "subTitleStyle": "default",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "accordion": "collapsed",
+        "isCollapsedDynamicLogic": null,
+        "customLabel": "Humana Care"
+    }
+]

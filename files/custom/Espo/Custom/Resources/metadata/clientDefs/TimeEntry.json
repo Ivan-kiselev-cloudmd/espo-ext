@@ -1,0 +1,90 @@
+{
+    "dynamicLogic": {
+        "fields": {
+            "adminActivity": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "activityType",
+                            "value": "Admin"
+                        }
+                    ]
+                }
+            },
+            "researchActivity": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "activityType",
+                            "value": "Research"
+                        }
+                    ]
+                }
+            },
+            "coachActivity": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "activityType",
+                            "value": "Coach"
+                        }
+                    ]
+                }
+            },
+            "description": {
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "activityType",
+                                    "value": "Admin"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "coachActivity",
+                                    "value": "1st Call - Other"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "coachActivity",
+                                    "value": "2nd Call - Other"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "coachActivity",
+                                    "value": "3rd Call - Other"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "coachActivity",
+                                    "value": "4th Call - Other"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "coachActivity",
+                                    "value": "5th Call - Other"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "coachActivity",
+                                    "value": "6th Call - Other"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "coachActivity",
+                                    "value": "Internal review"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

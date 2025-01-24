@@ -1,0 +1,58 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "date"
+                },
+                {
+                    "name": "contact"
+                }
+            ],
+            [
+                {
+                    "name": "symptom1"
+                },
+                {
+                    "name": "severity"
+                },
+                {
+                    "name": "frequency1"
+                },
+                {
+                    "name": "measurement"
+                }
+            ],
+            [
+                {
+                    "name": "symptom2"
+                },
+                {
+                    "name": "severity2"
+                },
+                {
+                    "name": "frequency2"
+                },
+                {
+                    "name": "measurement2"
+                }
+            ],
+            [
+                {
+                    "name": "symptom3"
+                },
+                {
+                    "name": "severity3"
+                },
+                {
+                    "name": "frequency3"
+                },
+                {
+                    "name": "measurement3"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

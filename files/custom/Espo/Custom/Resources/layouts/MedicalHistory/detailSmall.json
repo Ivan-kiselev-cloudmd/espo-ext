@@ -1,0 +1,36 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "relation"
+                },
+                {
+                    "name": "relationOther"
+                }
+            ],
+            [
+                {
+                    "name": "diagnosis"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "copingTools"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "selfperceptionOfCopingAbility"
+                },
+                {
+                    "name": "selfperceptionOfCopingAbilityDetails"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    }
+]

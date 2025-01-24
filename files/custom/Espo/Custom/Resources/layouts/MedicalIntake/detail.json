@@ -1,0 +1,754 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "contact"
+                },
+                {
+                    "name": "gender"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "clientSummary15"
+                },
+                {
+                    "name": "clientSummary16"
+                }
+            ],
+            [
+                {
+                    "name": "clientSummary1"
+                },
+                false,
+                {
+                    "name": "clientSummary1FuGp"
+                },
+                {
+                    "name": "clientSummary1FuClient"
+                }
+            ],
+            [
+                {
+                    "name": "clientSummary2"
+                },
+                {
+                    "name": "clientSummary2Details"
+                },
+                {
+                    "name": "clientSummary2FuGp"
+                },
+                {
+                    "name": "clientSummary2FuClient"
+                }
+            ],
+            [
+                {
+                    "name": "clientSummary3"
+                },
+                {
+                    "name": "clientSummary3Details"
+                },
+                {
+                    "name": "clientSummary3FuGp"
+                },
+                {
+                    "name": "clientSummary3FuClient"
+                }
+            ],
+            [
+                {
+                    "name": "clientSummary4"
+                },
+                {
+                    "name": "clientSummary4Details"
+                },
+                {
+                    "name": "clientSummary4FuGp"
+                },
+                {
+                    "name": "clientSummary4FuClient"
+                }
+            ],
+            [
+                {
+                    "name": "clientSummary5"
+                },
+                false,
+                {
+                    "name": "clientSummary5FuGp"
+                },
+                {
+                    "name": "clientSummary5FuClient"
+                }
+            ],
+            [
+                {
+                    "name": "lifeEventWithinTheLastMonthImpactingYourWellbeing"
+                },
+                {
+                    "name": "introduceAndDiscussAvailableEap"
+                },
+                {
+                    "name": "lifeEvent"
+                }
+            ],
+            [
+                {
+                    "name": "clientSummary6"
+                },
+                false,
+                {
+                    "name": "clientSummary6FuGp"
+                },
+                {
+                    "name": "clientSummary6FuClient"
+                }
+            ],
+            [
+                {
+                    "name": "clientSummary7"
+                },
+                false,
+                {
+                    "name": "clientSummary7FuGp"
+                },
+                {
+                    "name": "clientSummary7FuClient"
+                }
+            ],
+            [
+                {
+                    "name": "clientSummary8"
+                },
+                false,
+                {
+                    "name": "clientSummary8FuGp"
+                },
+                {
+                    "name": "clientSummary8FuClient"
+                }
+            ],
+            [
+                {
+                    "name": "clientSummary9"
+                },
+                false,
+                {
+                    "name": "clientSummary9FuGp"
+                },
+                {
+                    "name": "clientSummary9FuClient"
+                }
+            ],
+            [
+                {
+                    "name": "clientSummary10"
+                },
+                false,
+                {
+                    "name": "clientSummary10FuGp"
+                },
+                {
+                    "name": "clientSummary10FuClient"
+                }
+            ],
+            [
+                {
+                    "name": "clientSummary11"
+                },
+                false,
+                {
+                    "name": "clientSummary11FuGp"
+                },
+                {
+                    "name": "clientSummary11FuClient"
+                }
+            ],
+            [
+                {
+                    "name": "clientSummary12"
+                },
+                {
+                    "name": "clientSummary12Details"
+                },
+                {
+                    "name": "clientSummary12FuGp"
+                },
+                {
+                    "name": "clientSummary12FuClient"
+                }
+            ],
+            [
+                {
+                    "name": "clientSummary13"
+                },
+                false,
+                {
+                    "name": "clientSummary13FuGp"
+                },
+                {
+                    "name": "clientSummary13FuClient"
+                }
+            ],
+            [
+                {
+                    "name": "clientSummary14"
+                },
+                false,
+                {
+                    "name": "clientSummary14FuGp"
+                },
+                {
+                    "name": "clientSummary14FuClient"
+                }
+            ]
+        ],
+        "style": "success",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "accordion": "expanded",
+        "customLabel": "Client Summary"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "affected1"
+                },
+                {
+                    "name": "affected1Details"
+                },
+                {
+                    "name": "affected1FuGp"
+                },
+                {
+                    "name": "affected1FuClient"
+                }
+            ],
+            [
+                {
+                    "name": "affected2"
+                },
+                {
+                    "name": "affected2Details"
+                },
+                {
+                    "name": "affected2FuGp"
+                },
+                {
+                    "name": "affected2FuClient"
+                }
+            ],
+            [
+                {
+                    "name": "affected3"
+                },
+                {
+                    "name": "affected3Details"
+                },
+                {
+                    "name": "affected3FuGp"
+                },
+                {
+                    "name": "affected3FuClient"
+                }
+            ],
+            [
+                {
+                    "name": "affected4"
+                },
+                {
+                    "name": "affected4Details"
+                },
+                {
+                    "name": "conditionsNeurologicalFuGp"
+                },
+                {
+                    "name": "affected4FuClient"
+                }
+            ],
+            [
+                {
+                    "name": "affected5"
+                },
+                {
+                    "name": "affected5Details"
+                },
+                {
+                    "name": "affected5FuGp"
+                },
+                {
+                    "name": "affected5FuClient"
+                }
+            ]
+        ],
+        "style": "primary",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "customLabel": "Has the current medical condition affected your:"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "weight"
+                },
+                {
+                    "name": "weightUnit"
+                },
+                {
+                    "name": "weightFuGp"
+                },
+                {
+                    "name": "weightFuClient"
+                }
+            ],
+            [
+                {
+                    "name": "height"
+                },
+                {
+                    "name": "heightUnit"
+                },
+                {
+                    "name": "heightFuGP"
+                },
+                {
+                    "name": "heightFuClient"
+                }
+            ]
+        ],
+        "style": "info",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "customLabel": "Measurements"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "foodHabits"
+                },
+                false,
+                false
+            ],
+            [
+                {
+                    "name": "frequencyExercise"
+                },
+                false,
+                false
+            ],
+            [
+                {
+                    "name": "frequencyAlcohol"
+                },
+                false,
+                false
+            ],
+            [
+                {
+                    "name": "frequencySmoking"
+                },
+                false,
+                false
+            ],
+            [
+                {
+                    "name": "frequencyCannabis"
+                },
+                false,
+                false
+            ]
+        ],
+        "style": "warning",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "customLabel": "Lifestyle Habits"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "allergiesMedications"
+                },
+                {
+                    "name": "allergiesMedicationsDetails"
+                },
+                {
+                    "name": "allergiesMedicationsFuGp"
+                },
+                {
+                    "name": "allergiesMedicationsFuClient"
+                }
+            ],
+            [
+                {
+                    "name": "allergiesEnvironmental"
+                },
+                {
+                    "name": "allergiesEnvironmentalDetails"
+                },
+                {
+                    "name": "allergiesEnvironmentalFuGp"
+                },
+                {
+                    "name": "allergiesEnvironmentalFuClient"
+                }
+            ],
+            [
+                {
+                    "name": "allergiesFood"
+                },
+                {
+                    "name": "allergiesFoodDetails"
+                },
+                {
+                    "name": "allergiesFoodFuGp"
+                },
+                {
+                    "name": "allergiesFoodFuClient"
+                }
+            ],
+            [
+                {
+                    "name": "allergiesOther"
+                },
+                {
+                    "name": "allergiesOtherDetails"
+                },
+                {
+                    "name": "allergiesOtherFuGp"
+                },
+                {
+                    "name": "allergiesOtherFuClient"
+                }
+            ]
+        ],
+        "style": "danger",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "customLabel": "Allergies"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "conditionsBoneJoint"
+                },
+                {
+                    "name": "conditionsBoneJointDetails"
+                },
+                {
+                    "name": "conditionsBoneJointFuGp"
+                },
+                {
+                    "name": "conditionsBoneJointFuClient"
+                }
+            ],
+            [
+                {
+                    "name": "conditionsCancer"
+                },
+                {
+                    "name": "conditionsCancerDetails"
+                },
+                {
+                    "name": "conditionsCancerFuGp"
+                },
+                {
+                    "name": "conditionsCancerFuClient"
+                }
+            ],
+            [
+                {
+                    "name": "conditionsEndocrinological"
+                },
+                {
+                    "name": "conditionsEndocrinologicaldetails"
+                },
+                {
+                    "name": "conditionsEndocrinologicalFuGp"
+                },
+                {
+                    "name": "conditionsEndocrinologicalFuClient"
+                }
+            ],
+            [
+                {
+                    "name": "conditionsHeart"
+                },
+                {
+                    "name": "conditionsHeartDetails"
+                },
+                {
+                    "name": "conditionsHeartFuGp"
+                },
+                {
+                    "name": "conditionsHeartFuClient"
+                }
+            ],
+            [
+                {
+                    "name": "conditionsImmuniologicalInfection"
+                },
+                {
+                    "name": "conditionsImmuniologicalInfectionDetails"
+                },
+                {
+                    "name": "conditionsImmuniologicalInfectionFuGp"
+                },
+                {
+                    "name": "conditionsImmuniologicalInfectionFuClient"
+                }
+            ],
+            [
+                {
+                    "name": "conditionsLung"
+                },
+                {
+                    "name": "conditionsLungDetails"
+                },
+                {
+                    "name": "conditionsLungFuGp"
+                },
+                {
+                    "name": "conditionsLungFuClient"
+                }
+            ],
+            [
+                {
+                    "name": "conditionsMentalHealth"
+                },
+                {
+                    "name": "conditionsMentalHealthDetails"
+                },
+                {
+                    "name": "conditionsMentalHealthFuGp"
+                },
+                {
+                    "name": "conditionsMentalHealthFuClient"
+                }
+            ],
+            [
+                {
+                    "name": "conditionsNeurological"
+                },
+                {
+                    "name": "conditionsNeurologicaldetails"
+                },
+                {
+                    "name": "affected4FuGp"
+                },
+                {
+                    "name": "conditionsNeurologicalFuClient"
+                }
+            ],
+            [
+                {
+                    "name": "conditionsPastSurgeries"
+                },
+                {
+                    "name": "conditionsPastSurgeriesDetails"
+                },
+                {
+                    "name": "conditionsPastSurgeriesFuGp"
+                },
+                {
+                    "name": "conditionsPastSurgeriesFuClient"
+                }
+            ],
+            [
+                {
+                    "name": "conditionsRespiratory"
+                },
+                {
+                    "name": "conditionsRespiratoryDetails"
+                },
+                {
+                    "name": "conditionsRespiratoryFuGp"
+                },
+                {
+                    "name": "conditionsRespiratoryFuClient"
+                }
+            ],
+            [
+                {
+                    "name": "conditionsRheumatological"
+                },
+                {
+                    "name": "conditionsRheumatologicalDetails"
+                },
+                {
+                    "name": "conditionsRheumatologicalFuGp"
+                },
+                {
+                    "name": "conditionsRheumatologicalFuClient"
+                }
+            ],
+            [
+                {
+                    "name": "conditionsGEU"
+                },
+                {
+                    "name": "conditionsGEUDetails"
+                },
+                {
+                    "name": "conditionsGEUFuGp"
+                },
+                {
+                    "name": "conditionsGEUFuClient"
+                }
+            ],
+            [
+                {
+                    "name": "conditionsVascular"
+                },
+                {
+                    "name": "conditionsVascularDetails"
+                },
+                {
+                    "name": "conditionsVascularFuGp"
+                },
+                {
+                    "name": "conditionsVascularFuClient"
+                }
+            ],
+            [
+                {
+                    "name": "conditionsENT"
+                },
+                {
+                    "name": "conditionsENTDetails"
+                },
+                {
+                    "name": "conditionsENTFuGp"
+                },
+                {
+                    "name": "conditionsENTFuClient"
+                }
+            ],
+            [
+                {
+                    "name": "conditionsDermatology"
+                },
+                {
+                    "name": "conditionsDermatologyDetails"
+                },
+                {
+                    "name": "conditionsDermatologyFuGp"
+                },
+                {
+                    "name": "conditionsDermatologyFuClient"
+                }
+            ],
+            [
+                {
+                    "name": "conditionsGynecology"
+                },
+                {
+                    "name": "conditionsGynecologyDetails"
+                },
+                {
+                    "name": "conditionsGynecologyFuGp"
+                },
+                {
+                    "name": "conditionsGynecologyFuClient"
+                }
+            ],
+            [
+                {
+                    "name": "conditionsOther"
+                },
+                {
+                    "name": "conditionsOtherDetails"
+                },
+                {
+                    "name": "conditionsOtherFuGp"
+                },
+                {
+                    "name": "conditionsOtherFuClient"
+                }
+            ]
+        ],
+        "style": "success",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "customLabel": "Current and Past Conditions"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "femaleMenstrualCycle"
+                },
+                {
+                    "name": "femaleMenstrualCycleLength"
+                }
+            ],
+            [
+                {
+                    "name": "femaleBirthControl"
+                },
+                {
+                    "name": "femaleBirthControlType"
+                }
+            ],
+            [
+                {
+                    "name": "femaleCurrentlyPregnant"
+                },
+                {
+                    "name": "femaleGestationWeek"
+                }
+            ],
+            [
+                {
+                    "name": "femaleNumberOfPregnancies"
+                },
+                {
+                    "name": "femaleNumberOfMiscarriages"
+                }
+            ],
+            [
+                {
+                    "name": "femaleDischarge"
+                },
+                {
+                    "name": "femaleMenopause"
+                }
+            ],
+            [
+                {
+                    "name": "femaleHormoneTreatment"
+                },
+                {
+                    "name": "femaleHormoneTreatmentType"
+                }
+            ]
+        ],
+        "style": "warning",
+        "dynamicLogicVisible": {
+            "conditionGroup": [
+                {
+                    "type": "equals",
+                    "attribute": "gender",
+                    "value": "female"
+                }
+            ]
+        },
+        "hidden": false,
+        "customLabel": "Female Patient"
+    }
+]

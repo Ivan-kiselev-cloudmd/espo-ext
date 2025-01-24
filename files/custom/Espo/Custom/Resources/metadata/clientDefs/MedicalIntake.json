@@ -1,0 +1,390 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "dynamicLogic": {
+        "fields": {
+            "affected1Details": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "affected1"
+                        }
+                    ]
+                }
+            },
+            "affected2Details": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "affected2"
+                        }
+                    ]
+                }
+            },
+            "affected3Details": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "affected3"
+                        }
+                    ]
+                }
+            },
+            "affected4Details": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "affected4"
+                        }
+                    ]
+                }
+            },
+            "affected5Details": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "affected5"
+                        }
+                    ]
+                }
+            },
+            "allergiesMedicationsDetails": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "allergiesMedications"
+                        }
+                    ]
+                }
+            },
+            "conditionsBoneJointDetails": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "conditionsBoneJoint"
+                        }
+                    ]
+                }
+            },
+            "allergiesFoodDetails": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "allergiesFood"
+                        }
+                    ]
+                }
+            },
+            "allergiesEnvironmentalDetails": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "allergiesEnvironmental"
+                        }
+                    ]
+                }
+            },
+            "allergiesOtherDetails": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "allergiesOther"
+                        }
+                    ]
+                }
+            },
+            "conditionsCancerDetails": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "conditionsCancer"
+                        }
+                    ]
+                }
+            },
+            "conditionsEndocrinologicaldetails": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "conditionsEndocrinological"
+                        }
+                    ]
+                }
+            },
+            "conditionsHeartDetails": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "conditionsHeart"
+                        }
+                    ]
+                }
+            },
+            "conditionsImmuniologicalInfectionDetails": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "conditionsImmuniologicalInfection"
+                        }
+                    ]
+                }
+            },
+            "conditionsLungDetails": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "conditionsLung"
+                        }
+                    ]
+                }
+            },
+            "conditionsMentalHealthDetails": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "conditionsMentalHealth"
+                        }
+                    ]
+                }
+            },
+            "conditionsNeurologicaldetails": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "conditionsNeurological"
+                        }
+                    ]
+                }
+            },
+            "conditionsPastSurgeriesDetails": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "conditionsPastSurgeries"
+                        }
+                    ]
+                }
+            },
+            "conditionsRespiratoryDetails": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "conditionsRespiratory"
+                        }
+                    ]
+                }
+            },
+            "conditionsRheumatologicalDetails": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "conditionsRheumatological"
+                        }
+                    ]
+                }
+            },
+            "conditionsGEUDetails": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "conditionsGEU"
+                        }
+                    ]
+                }
+            },
+            "conditionsVascularDetails": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "conditionsVascular"
+                        }
+                    ]
+                }
+            },
+            "conditionsENTDetails": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "conditionsENT"
+                        }
+                    ]
+                }
+            },
+            "conditionsDermatologyDetails": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "conditionsDermatology"
+                        }
+                    ]
+                }
+            },
+            "conditionsGynecology": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "gender",
+                            "value": "female"
+                        }
+                    ]
+                }
+            },
+            "conditionsGynecologyDetails": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "conditionsGynecology"
+                        }
+                    ]
+                }
+            },
+            "conditionsOtherDetails": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "conditionsOther"
+                        }
+                    ]
+                }
+            },
+            "femaleBirthControlType": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "femaleBirthControl",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "femaleGestationWeek": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "femaleCurrentlyPregnant",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "femaleHormoneTreatmentType": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "femaleHormoneTreatment",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "clientSummary2Details": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "clientSummary2",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "clientSummary3Details": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "clientSummary3",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "clientSummary4Details": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "clientSummary4",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "clientSummary12Details": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "clientSummary12",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "conditionsGynecologyFuClient": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "gender",
+                            "value": "female"
+                        }
+                    ]
+                }
+            },
+            "conditionsGynecologyFuGp": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "gender",
+                            "value": "female"
+                        }
+                    ]
+                }
+            },
+            "lifeEvent": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "lifeEventWithinTheLastMonthImpactingYourWellbeing"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

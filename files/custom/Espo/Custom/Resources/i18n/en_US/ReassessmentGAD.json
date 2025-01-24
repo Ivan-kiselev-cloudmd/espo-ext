@@ -1,0 +1,105 @@
+{
+    "fields": {
+        "contact": "Case",
+        "q1": "Feeling nervous, anxious or on edge",
+        "q2": "Not being able to stop or control worrying",
+        "q3": "Worrying too much about different things",
+        "q4": "Trouble relaxing",
+        "q5": "Being so restless that it is hard to sit still",
+        "q6": "Becoming easily annoyed or irritable",
+        "q7": "Feeling afraid as if something awful might happen",
+        "baseline": "Baseline",
+        "date": "Date",
+        "improvement": "Improvement %",
+        "initialScore": "Initial Score",
+        "level": "Level",
+        "maxScore": "Max Score",
+        "score": "Score",
+        "successMgmt": "SuccessMgmt",
+        "q0": "Over the past 2 weeks, have you had difficulty controlling your worrying or fear that something bad may happen?",
+        "latest": "Latest",
+        "type": "Type",
+        "incompleteAssessment": "Incomplete Assessment"
+    },
+    "links": {
+        "contact": "Contact"
+    },
+    "labels": {
+        "Create ReassessmentGAD": "Create Reassessment - GAD"
+    },
+    "options": {
+        "q1": {
+            "N/A": "=Choose an option=",
+            "": "",
+            "Not at all": "Not at all",
+            "Several days": "Several days",
+            "More than half the days": "More than half the days",
+            "Nearly every day": "Nearly every day"
+        },
+        "q2": {
+            "N/A": "=Choose an option=",
+            "Not at all": "Not at all",
+            "Several days": "Several days",
+            "More than half the days": "More than half the days",
+            "Nearly every day": "Nearly every day"
+        },
+        "q3": {
+            "N/A": "=Choose an option=",
+            "Not at all": "Not at all",
+            "Several days": "Several days",
+            "More than half the days": "More than half the days",
+            "Nearly every day": "Nearly every day"
+        },
+        "q4": {
+            "N/A": "=Choose an option=",
+            "Not at all": "Not at all",
+            "Several days": "Several days",
+            "More than half the days": "More than half the days",
+            "Nearly every day": "Nearly every day"
+        },
+        "q5": {
+            "N/A": "=Choose an option=",
+            "Not at all": "Not at all",
+            "Several days": "Several days",
+            "More than half the days": "More than half the days",
+            "Nearly every day": "Nearly every day"
+        },
+        "q6": {
+            "N/A": "=Choose an option=",
+            "Not at all": "Not at all",
+            "Several days": "Several days",
+            "More than half the days": "More than half the days",
+            "Nearly every day": "Nearly every day"
+        },
+        "q7": {
+            "N/A": "=Choose an option=",
+            "Not at all": "Not at all",
+            "Several days": "Several days",
+            "More than half the days": "More than half the days",
+            "Nearly every day": "Nearly every day"
+        },
+        "level": {
+            "No measurable risk": "No measurable risk",
+            "MINIMAL to MILD": "MINIMAL to MILD",
+            "MODERATE": "MODERATE",
+            "HIGH": "HIGH"
+        },
+        "successMgmt": {
+            "N/A": "N/A",
+            "No Progress": "No Progress",
+            "Improvement": "Improvement",
+            "Significant Improvement": "Significant Improvement",
+            "Excellent Improvement": "Excellent Improvement"
+        },
+        "q0": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "type": {
+            "Reassessment": "Reassessment",
+            "Current Baseline": "Current Baseline",
+            "Baseline": "Baseline"
+        }
+    }
+}

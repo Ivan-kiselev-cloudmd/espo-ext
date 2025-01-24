@@ -1,0 +1,1936 @@
+{
+    "fields": {
+        "dob": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "assessmentDiagnosiss": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "noLoad": true,
+            "importDisabled": true,
+            "isCustom": true
+        },
+        "caseid": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "assessmentScores": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "noLoad": true,
+            "importDisabled": true,
+            "isCustom": true
+        },
+        "assessmentReportUrl": {
+            "type": "url",
+            "isCustom": true
+        },
+        "inappmessagess": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "noLoad": true,
+            "importDisabled": true,
+            "isCustom": true
+        },
+        "checkpoints": {
+            "type": "linkOne",
+            "isCustom": true
+        },
+        "age": {
+            "type": "int",
+            "readOnly": true,
+            "isCustom": true
+        },
+        "stageOfService": {
+            "type": "enum",
+            "options": [
+                "Incomplete Assessment",
+                "MH coach appointment reminder",
+                "Review client’s Assessment",
+                "Call with Client",
+                "Research Resources",
+                "Coach Reviews Selections",
+                "Generate Action Plan",
+                "Send Personalized Action Plan",
+                "Send Satisfaction Survey to Client",
+                "Send Progress Follow-Up Survey to Client",
+                "Review Progress Follow-Up Survey",
+                "Invite Client to redo Snap Clarity Assessment",
+                "Close Case"
+            ],
+            "style": {
+                "Incomplete Assessment": null,
+                "MH coach appointment reminder": null,
+                "Review client’s Assessment": "danger",
+                "Call with Client": "danger",
+                "Research Resources": "success",
+                "Coach Reviews Selections": "danger",
+                "Generate Action Plan": "success",
+                "Send Personalized Action Plan": "danger",
+                "Send Satisfaction Survey to Client": null,
+                "Send Progress Follow-Up Survey to Client": null,
+                "Review Progress Follow-Up Survey": "danger",
+                "Invite Client to redo Snap Clarity Assessment": null,
+                "Close Case": null
+            },
+            "default": "Incomplete Assessment",
+            "isCustom": true
+        },
+        "reassessmentDate": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "careProviders": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "dateAssessmentCompleted": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true,
+            "readOnly": true
+        },
+        "tier": {
+            "type": "enum",
+            "options": [
+                "Tier 1",
+                "Tier 2",
+                "Tier 3",
+                "Tier 4",
+                "No option",
+                "Does not know"
+            ],
+            "style": {
+                "Tier 1": null,
+                "Tier 2": null,
+                "Tier 3": null,
+                "Tier 4": null,
+                "No option": null,
+                "Does not know": null
+            },
+            "default": "No option",
+            "isCustom": true
+        },
+        "coachApptDate": {
+            "notNull": false,
+            "type": "datetime",
+            "minuteStep": 30,
+            "isCustom": true
+        },
+        "satisfactionSurveySent": {
+            "type": "enum",
+            "options": [
+                "Yes",
+                "N/A",
+                "Pending"
+            ],
+            "style": {
+                "Yes": "success",
+                "N/A": null,
+                "Pending": "warning"
+            },
+            "default": "N/A",
+            "isCustom": true
+        },
+        "satisfactionSurveySentDate": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "satisfactionSurveyReceivedDate": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "reassessmentInviteSentDate": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "dateReassessmentSurveyReceived": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "checkinSurveySentDate": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "dateCheckinSurveyReceived": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "therapistGender": {
+            "type": "enum",
+            "options": [
+                "Male",
+                "Female",
+                "No preference"
+            ],
+            "style": {
+                "Male": null,
+                "Female": null,
+                "No preference": null
+            },
+            "default": "No preference",
+            "isCustom": true
+        },
+        "therapistVirtual": {
+            "type": "enum",
+            "options": [
+                "Virtual",
+                "In-Person",
+                "No preference"
+            ],
+            "style": {
+                "Virtual": null,
+                "In-Person": null,
+                "No preference": null
+            },
+            "default": "No preference",
+            "isCustom": true
+        },
+        "therapistWillingToTravel": {
+            "type": "enum",
+            "options": [
+                "Yes",
+                "No",
+                "No preference"
+            ],
+            "style": {
+                "Yes": null,
+                "No": null,
+                "No preference": null
+            },
+            "default": "No preference",
+            "isCustom": true
+        },
+        "therapistOtherRequirements": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "researchStatus": {
+            "type": "enum",
+            "options": [
+                "Pending",
+                "N/A",
+                "Yes"
+            ],
+            "style": {
+                "Pending": "warning",
+                "N/A": null,
+                "Yes": "success"
+            },
+            "default": "N/A",
+            "isCustom": true
+        },
+        "reviewAssessmentWithGP": {
+            "type": "enum",
+            "options": [
+                "No",
+                "Yes",
+                "N/A"
+            ],
+            "style": {
+                "No": null,
+                "Yes": "danger",
+                "N/A": null
+            },
+            "default": "N/A",
+            "isCustom": true
+        },
+        "highRiskFactors": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "options": [
+                "Alcohol Use Disorder",
+                "Attention Deficit Hyperactivity Disorder",
+                "Bipolar Disorder",
+                "Depression Disorder",
+                "Eating Disorder",
+                "Generalized Anxiety Disorder",
+                "Intermittent Explosive Disorder",
+                "Obsessive-Compulsive Disorder",
+                "Post-Traumatic Stress-Disorder",
+                "Panic Disorder",
+                "Sleep Disorder",
+                "Social Anxiety Disorder",
+                "Substance Use Disorder"
+            ],
+            "style": {
+                "Alcohol Use Disorder": "danger",
+                "Attention Deficit Hyperactivity Disorder": "danger",
+                "Bipolar Disorder": "danger",
+                "Depression Disorder": "danger",
+                "Eating Disorder": "danger",
+                "Generalized Anxiety Disorder": "danger",
+                "Intermittent Explosive Disorder": "danger",
+                "Obsessive-Compulsive Disorder": "danger",
+                "Post-Traumatic Stress-Disorder": "danger",
+                "Panic Disorder": "danger",
+                "Sleep Disorder": "danger",
+                "Social Anxiety Disorder": "danger",
+                "Substance Use Disorder": "danger"
+            },
+            "isCustom": true,
+            "isSorted": true,
+            "displayAsLabel": true
+        },
+        "moderateRiskFactors": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "options": [
+                "Alcohol Use Disorder",
+                "Attention Deficit Hyperactivity Disorder",
+                "Bipolar Disorder",
+                "Depression Disorder",
+                "Eating Disorder",
+                "Generalized Anxiety Disorder",
+                "Intermittent Explosive Disorder",
+                "Obsessive-Compulsive Disorder",
+                "Panic Disorder",
+                "Post-Traumatic Stress-Disorder",
+                "Sleep Disorder",
+                "Social Anxiety Disorder",
+                "Substance Use Disorder"
+            ],
+            "style": {
+                "Alcohol Use Disorder": "warning",
+                "Attention Deficit Hyperactivity Disorder": "warning",
+                "Bipolar Disorder": "warning",
+                "Depression Disorder": "warning",
+                "Eating Disorder": "warning",
+                "Generalized Anxiety Disorder": "warning",
+                "Intermittent Explosive Disorder": "warning",
+                "Obsessive-Compulsive Disorder": "warning",
+                "Panic Disorder": "warning",
+                "Post-Traumatic Stress-Disorder": "warning",
+                "Sleep Disorder": "warning",
+                "Social Anxiety Disorder": "warning",
+                "Substance Use Disorder": "warning"
+            },
+            "isCustom": true,
+            "displayAsLabel": true,
+            "isSorted": true
+        },
+        "mildRiskFactors": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "options": [
+                "Alcohol Use Disorder",
+                "Attention Deficit Hyperactivity Disorder",
+                "Bipolar Disorder",
+                "Depression Disorder",
+                "Eating Disorder",
+                "Generalized Anxiety Disorder",
+                "Intermittent Explosive Disorder",
+                "Obsessive-Compulsive Disorder",
+                "Panic Disorder",
+                "Post-Traumatic Stress-Disorder",
+                "Sleep Disorder",
+                "Social Anxiety Disorder",
+                "Substance Use Disorder"
+            ],
+            "style": {
+                "Alcohol Use Disorder": "success",
+                "Attention Deficit Hyperactivity Disorder": "success",
+                "Bipolar Disorder": "success",
+                "Depression Disorder": "success",
+                "Eating Disorder": "success",
+                "Generalized Anxiety Disorder": "success",
+                "Intermittent Explosive Disorder": "success",
+                "Obsessive-Compulsive Disorder": "success",
+                "Panic Disorder": "success",
+                "Post-Traumatic Stress-Disorder": "success",
+                "Sleep Disorder": "success",
+                "Social Anxiety Disorder": "success",
+                "Substance Use Disorder": "success"
+            },
+            "isCustom": true,
+            "isSorted": true,
+            "displayAsLabel": true
+        },
+        "clientAgreesToProceed": {
+            "type": "enum",
+            "options": [
+                "Yes",
+                "No",
+                "N/A"
+            ],
+            "style": {
+                "Yes": null,
+                "No": null,
+                "N/A": null
+            },
+            "default": "N/A",
+            "isCustom": true
+        },
+        "workingWithIdentifiedAreas": {
+            "type": "enum",
+            "options": [
+                "Yes",
+                "No",
+                "N/A"
+            ],
+            "style": {
+                "Yes": null,
+                "No": null,
+                "N/A": null
+            },
+            "default": "N/A",
+            "isCustom": true
+        },
+        "workingWithIdentifiedAreasDetails": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "providerConcerns": {
+            "type": "enum",
+            "options": [
+                "Yes",
+                "No",
+                "N/A"
+            ],
+            "style": {
+                "Yes": null,
+                "No": null,
+                "N/A": null
+            },
+            "default": "N/A",
+            "isCustom": true
+        },
+        "providerConcernsdetails": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "importantStatus": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "options": [
+                "Follow Up with GP recommended",
+                "Client in crisis"
+            ],
+            "style": {
+                "Follow Up with GP recommended": null,
+                "Client in crisis": "danger"
+            },
+            "isSorted": true,
+            "isCustom": true,
+            "displayAsLabel": true
+        },
+        "notProceedReason": {
+            "type": "enum",
+            "options": [
+                "Not Applicable",
+                "Comfortable with moving forward on their own",
+                "Not comfortable with sharing information",
+                "Did not understand the purpose of this session/service",
+                "Other"
+            ],
+            "style": {
+                "Not Applicable": null,
+                "Comfortable with moving forward on their own": null,
+                "Not comfortable with sharing information": null,
+                "Did not understand the purpose of this session/service": null,
+                "Other": null
+            },
+            "default": "Not Applicable",
+            "isCustom": true
+        },
+        "notProceedReasonOther": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "therapyPreference": {
+            "type": "enum",
+            "options": [
+                "No preference",
+                "Individual",
+                "Group"
+            ],
+            "style": {
+                "No preference": null,
+                "Individual": null,
+                "Group": null
+            },
+            "default": "No preference",
+            "isCustom": true
+        },
+        "therapistTravelDistance": {
+            "type": "enum",
+            "options": [
+                "0–15km",
+                "15–30km",
+                "30–60km",
+                "Unlimited",
+                "No preference"
+            ],
+            "style": {
+                "0–15km": null,
+                "15–30km": null,
+                "30–60km": null,
+                "Unlimited": null,
+                "No preference": null
+            },
+            "default": "No preference",
+            "isCustom": true
+        },
+        "materialsReviewedByCoach": {
+            "type": "enum",
+            "options": [
+                "Pending",
+                "Yes"
+            ],
+            "style": {
+                "Pending": "warning",
+                "Yes": "success"
+            },
+            "default": "Pending",
+            "isCustom": true
+        },
+        "materialsApprovedByCoach": {
+            "type": "enum",
+            "options": [
+                "Pending",
+                "Yes",
+                "No"
+            ],
+            "style": {
+                "Pending": "warning",
+                "Yes": "success",
+                "No": "danger"
+            },
+            "default": "Pending",
+            "isCustom": true
+        },
+        "personalizedActionPlanGenerated": {
+            "type": "enum",
+            "options": [
+                "Pending",
+                "Yes"
+            ],
+            "style": {
+                "Pending": "warning",
+                "Yes": "success"
+            },
+            "default": "Pending",
+            "isCustom": true
+        },
+        "personalizedActionPlanSent": {
+            "type": "enum",
+            "options": [
+                "Pending",
+                "Yes",
+                "N/A"
+            ],
+            "style": {
+                "Pending": "warning",
+                "Yes": "success",
+                "N/A": null
+            },
+            "default": "N/A",
+            "isCustom": true
+        },
+        "progressSurveyEmailSent": {
+            "type": "enum",
+            "options": [
+                "Pending",
+                "Yes",
+                "N/A"
+            ],
+            "style": {
+                "Pending": "warning",
+                "Yes": "success",
+                "N/A": null
+            },
+            "default": "N/A",
+            "isCustom": true
+        },
+        "progressSurveyReview": {
+            "type": "enum",
+            "options": [
+                "Pending",
+                "Yes",
+                "N/A"
+            ],
+            "style": {
+                "Pending": "warning",
+                "Yes": "success",
+                "N/A": null
+            },
+            "default": "N/A",
+            "isCustom": true
+        },
+        "clientInvitedToRedoAssessment": {
+            "type": "enum",
+            "options": [
+                "Pending",
+                "Yes",
+                "No",
+                "N/A"
+            ],
+            "style": {
+                "Pending": "warning",
+                "Yes": "success",
+                "No": "danger",
+                "N/A": null
+            },
+            "default": "N/A",
+            "isCustom": true
+        },
+        "invitationToReassessmentReceived": {
+            "type": "enum",
+            "options": [
+                "Pending",
+                "Yes"
+            ],
+            "style": {
+                "Pending": "warning",
+                "Yes": "success"
+            },
+            "default": "Pending",
+            "isCustom": true
+        },
+        "personalizedActionPlanSentDate": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "lifeStyleInterventionMotivationLevel1": {
+            "type": "enum",
+            "options": [
+                "Low",
+                "Medium",
+                "High",
+                "Not selected"
+            ],
+            "style": {
+                "Low": "success",
+                "Medium": "warning",
+                "High": "danger",
+                "Not selected": null
+            },
+            "default": "Not selected",
+            "isCustom": true,
+            "displayAsLabel": true
+        },
+        "lifeStyleInterventionMotivationLevel2": {
+            "type": "enum",
+            "options": [
+                "Not Selected",
+                "Low",
+                "Medium",
+                "High"
+            ],
+            "style": {
+                "Not Selected": null,
+                "Low": "success",
+                "Medium": "warning",
+                "High": "danger"
+            },
+            "displayAsLabel": true,
+            "default": "Not Selected",
+            "isCustom": true
+        },
+        "lifeStyleIntervention1": {
+            "type": "enum",
+            "options": [
+                "Not Selected",
+                "Diet",
+                "Sleep Habits",
+                "Exercise",
+                "Caffeine Consumption",
+                "Nicotine Consumption",
+                "Alcohol Consumption",
+                "Socialization",
+                "Support Groups",
+                "Outdoor/Nature",
+                "Relaxation",
+                "Meditation",
+                "Stress Management",
+                "Journaling",
+                "Nutrition",
+                "Self-Care",
+                "Reduce Technology Use",
+                "Time Management"
+            ],
+            "style": {
+                "Not Selected": null,
+                "Diet": null,
+                "Sleep Habits": null,
+                "Exercise": null,
+                "Caffeine Consumption": null,
+                "Nicotine Consumption": null,
+                "Alcohol Consumption": null,
+                "Socialization": null,
+                "Support Groups": null,
+                "Outdoor/Nature": null,
+                "Relaxation": null,
+                "Meditation": null,
+                "Stress Management": null,
+                "Journaling": null,
+                "Nutrition": null,
+                "Self-Care": null,
+                "Reduce Technology Use": null,
+                "Time Management": null
+            },
+            "default": "Not Selected",
+            "isCustom": true
+        },
+        "lifeStyleIntervention2": {
+            "type": "enum",
+            "options": [
+                "Not Selected",
+                "Diet",
+                "Sleep Habits",
+                "Exercise",
+                "Caffeine Consumption",
+                "Nicotine Consumption",
+                "Alcohol Consumption",
+                "Socialization",
+                "Support Groups",
+                "Outdoor/Nature",
+                "Relaxation",
+                "Meditation",
+                "Stress Management",
+                "Journaling",
+                "Nutrition",
+                "Self-Care",
+                "Reduce Technology Use",
+                "Time Management"
+            ],
+            "style": {
+                "Not Selected": null,
+                "Diet": null,
+                "Sleep Habits": null,
+                "Exercise": null,
+                "Caffeine Consumption": null,
+                "Nicotine Consumption": null,
+                "Alcohol Consumption": null,
+                "Socialization": null,
+                "Support Groups": null,
+                "Outdoor/Nature": null,
+                "Relaxation": null,
+                "Meditation": null,
+                "Stress Management": null,
+                "Journaling": null,
+                "Nutrition": null,
+                "Self-Care": null,
+                "Reduce Technology Use": null,
+                "Time Management": null
+            },
+            "default": "Not Selected",
+            "isCustom": true
+        },
+        "gender": {
+            "type": "enum",
+            "options": [
+                "male",
+                "female",
+                "rather not say",
+                "neutral"
+            ],
+            "style": {
+                "male": null,
+                "female": null,
+                "rather not say": null,
+                "neutral": null
+            },
+            "default": "rather not say",
+            "isCustom": true
+        },
+        "lang": {
+            "type": "enum",
+            "options": [
+                "en",
+                "fr"
+            ],
+            "style": {
+                "en": "danger",
+                "fr": "primary"
+            },
+            "default": "en",
+            "isCustom": true
+        },
+        "mHCoachIntakeCallComplete": {
+            "type": "enum",
+            "options": [
+                "No",
+                "Yes"
+            ],
+            "style": {
+                "No": null,
+                "Yes": null
+            },
+            "default": "No",
+            "isCustom": true
+        },
+        "user": {
+            "type": "link"
+        },
+        "materialsNotApprovedComments": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "personalizedActionPlanFile": {
+            "type": "file",
+            "sourceList": [],
+            "accept": [
+                ".pdf"
+            ],
+            "isCustom": true
+        },
+        "satisfactionSurveyFile": {
+            "type": "file",
+            "sourceList": [],
+            "accept": [],
+            "isCustom": true
+        },
+        "progressSurveyFile": {
+            "type": "file",
+            "sourceList": [],
+            "accept": [],
+            "isCustom": true
+        },
+        "specialistOptionAvailable": {
+            "type": "enum",
+            "readOnly": false,
+            "options": [
+                "No",
+                "Yes"
+            ],
+            "style": {
+                "No": "danger",
+                "Yes": "success"
+            },
+            "default": "No",
+            "isCustom": true
+        },
+        "caseStatus": {
+            "type": "enum",
+            "options": [
+                "Not Initiated",
+                "Active",
+                "Closed"
+            ],
+            "style": {
+                "Not Initiated": "danger",
+                "Active": "success",
+                "Closed": null
+            },
+            "default": "Not Initiated",
+            "isCustom": true
+        },
+        "sunLifeInterventionRequest": {
+            "type": "enum",
+            "options": [
+                "No",
+                "Yes"
+            ],
+            "style": {
+                "No": "success",
+                "Yes": "danger"
+            },
+            "default": "No",
+            "isCustom": true
+        },
+        "reasonsForGPRecommendation": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "Potential referral to Psychiatrist",
+                "Potential underlying Gastroenterological concerns",
+                "Potential underlying Respiratory concerns",
+                "Potential underlying Endocrinological concerns",
+                "Potential underlying Orthopedic concerns",
+                "Potential underlying Neurological concerns",
+                "Potential underlying sleep disorder",
+                "Other"
+            ],
+            "style": {
+                "N/A": null,
+                "Potential referral to Psychiatrist": null,
+                "Potential underlying Gastroenterological concerns": null,
+                "Potential underlying Respiratory concerns": null,
+                "Potential underlying Endocrinological concerns": null,
+                "Potential underlying Orthopedic concerns": null,
+                "Potential underlying Neurological concerns": null,
+                "Potential underlying sleep disorder": null,
+                "Other": null
+            },
+            "default": "N/A",
+            "isCustom": true
+        },
+        "otherReasonsForGPRecommendation": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "therapistLanguage": {
+            "type": "enum",
+            "options": [
+                "English",
+                "French",
+                "No Preference"
+            ],
+            "style": {
+                "English": null,
+                "French": null,
+                "No Preference": null
+            },
+            "default": "No Preference",
+            "isCustom": true
+        },
+        "sLEscalationReason": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "Technical/User Issues with Calendar",
+                "Technical/User Issues with Assessment",
+                "Assistance with Therapist Booking",
+                "Other"
+            ],
+            "style": {
+                "N/A": null,
+                "Technical/User Issues with Calendar": null,
+                "Technical/User Issues with Assessment": null,
+                "Assistance with Therapist Booking": null,
+                "Other": null
+            },
+            "default": "N/A",
+            "isCustom": true
+        },
+        "sLEscalationOtherReason": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "sLEscalationDate": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "sLEscalationStatus": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "Pending",
+                "Resolved"
+            ],
+            "style": {
+                "N/A": null,
+                "Pending": "warning",
+                "Resolved": "success"
+            },
+            "default": "N/A",
+            "isCustom": true
+        },
+        "sLEscalationResolvedDate": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "reassessmentHighRiskFactors": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "options": [
+                "Alcohol Use Disorder",
+                "Attention Deficit Hyperactivity Disorder",
+                "Bipolar Disorder",
+                "Depression Disorder",
+                "Generalized Anxiety Disorder",
+                "Eating Disorder",
+                "Intermittent Explosive Disorder",
+                "Obsessive-Compulsive Disorder",
+                "Panic Disorder",
+                "Post-Traumatic Stress-Disorder",
+                "Sleep Disorder",
+                "Social Anxiety Disorder",
+                "Substance Use Disorder"
+            ],
+            "style": {
+                "Alcohol Use Disorder": "danger",
+                "Attention Deficit Hyperactivity Disorder": "danger",
+                "Bipolar Disorder": "danger",
+                "Depression Disorder": "danger",
+                "Generalized Anxiety Disorder": "danger",
+                "Eating Disorder": "danger",
+                "Intermittent Explosive Disorder": "danger",
+                "Obsessive-Compulsive Disorder": "danger",
+                "Panic Disorder": "danger",
+                "Post-Traumatic Stress-Disorder": "danger",
+                "Sleep Disorder": "danger",
+                "Social Anxiety Disorder": "danger",
+                "Substance Use Disorder": "danger"
+            },
+            "isSorted": true,
+            "isCustom": true,
+            "displayAsLabel": true
+        },
+        "reassessmentModerateRiskFactors": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "options": [
+                "Alcohol Use Disorder",
+                "Attention Deficit Hyperactivity Disorder",
+                "Bipolar Disorder",
+                "Depression Disorder",
+                "Eating Disorder",
+                "Generalized Anxiety Disorder",
+                "Intermittent Explosive Disorder",
+                "Obsessive-Compulsive Disorder",
+                "Panic Disorder",
+                "Post-Traumatic Stress-Disorder",
+                "Sleep Disorder",
+                "Social Anxiety Disorder",
+                "Substance Use Disorder"
+            ],
+            "style": {
+                "Alcohol Use Disorder": "warning",
+                "Attention Deficit Hyperactivity Disorder": "warning",
+                "Bipolar Disorder": "warning",
+                "Depression Disorder": "warning",
+                "Eating Disorder": "warning",
+                "Generalized Anxiety Disorder": "warning",
+                "Intermittent Explosive Disorder": "warning",
+                "Obsessive-Compulsive Disorder": "warning",
+                "Panic Disorder": "warning",
+                "Post-Traumatic Stress-Disorder": "warning",
+                "Sleep Disorder": "warning",
+                "Social Anxiety Disorder": "warning",
+                "Substance Use Disorder": "warning"
+            },
+            "isSorted": true,
+            "isCustom": true,
+            "displayAsLabel": true
+        },
+        "reassessmentMildRiskFactors": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "options": [
+                "Alcohol Use Disorder",
+                "Attention Deficit Hyperactivity Disorder",
+                "Bipolar Disorder",
+                "Depression Disorder",
+                "Eating Disorder",
+                "Generalized Anxiety Disorder",
+                "Intermittent Explosive Disorder",
+                "Obsessive-Compulsive Disorder",
+                "Panic Disorder",
+                "Post-Traumatic Stress-Disorder",
+                "Sleep Disorder",
+                "Social Anxiety Disorder",
+                "Substance Use Disorder"
+            ],
+            "style": {
+                "Alcohol Use Disorder": "success",
+                "Attention Deficit Hyperactivity Disorder": "success",
+                "Bipolar Disorder": "success",
+                "Depression Disorder": "success",
+                "Eating Disorder": "success",
+                "Generalized Anxiety Disorder": "success",
+                "Intermittent Explosive Disorder": "success",
+                "Obsessive-Compulsive Disorder": "success",
+                "Panic Disorder": "success",
+                "Post-Traumatic Stress-Disorder": "success",
+                "Sleep Disorder": "success",
+                "Social Anxiety Disorder": "success",
+                "Substance Use Disorder": "success"
+            },
+            "isSorted": true,
+            "isCustom": true,
+            "displayAsLabel": true
+        },
+        "clientInCrisis": {
+            "type": "enum",
+            "options": [
+                "No",
+                "Yes"
+            ],
+            "style": {
+                "No": "success",
+                "Yes": "danger"
+            },
+            "default": "No",
+            "isCustom": true
+        },
+        "casenum": {
+            "type": "number",
+            "len": 36,
+            "notNull": false,
+            "unique": false,
+            "nextNumber": 1,
+            "padLength": 5,
+            "isCustom": true,
+            "inlineEditDisabled": true
+        },
+        "crisisRiskLevel": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "High",
+                "Moderate",
+                "Low"
+            ],
+            "style": {
+                "N/A": null,
+                "High": "danger",
+                "Moderate": "warning",
+                "Low": "success"
+            },
+            "default": "N/A",
+            "tooltip": true,
+            "isCustom": true,
+            "displayAsLabel": true
+        },
+        "crisisq4": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true,
+            "tooltip": true
+        },
+        "satisfactionSurveyQuestion6": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "specialists": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "noLoad": true,
+            "importDisabled": true,
+            "isCustom": true
+        },
+        "snapclaritySpecialists": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "importDisabled": true,
+            "noLoad": true,
+            "isCustom": true
+        },
+        "lastName": {
+            "required": false,
+            "default": null,
+            "options": []
+        },
+        "crisisq2": {
+            "type": "enum",
+            "options": [
+                "Yes",
+                "No",
+                "N/A"
+            ],
+            "style": {
+                "Yes": "danger",
+                "No": "success",
+                "N/A": null
+            },
+            "default": "N/A",
+            "isCustom": true
+        },
+        "crisisq3": {
+            "type": "enum",
+            "options": [
+                "No",
+                "Yes",
+                "N/A"
+            ],
+            "style": {
+                "No": "success",
+                "Yes": "danger",
+                "N/A": null
+            },
+            "default": "N/A",
+            "isCustom": true
+        },
+        "crisisq1": {
+            "type": "enum",
+            "options": [
+                "No",
+                "Yes",
+                "N/A"
+            ],
+            "style": {
+                "No": "success",
+                "Yes": "danger",
+                "N/A": null
+            },
+            "default": "N/A",
+            "isCustom": true
+        },
+        "memberCode": {
+            "type": "varchar",
+            "maxLength": 6,
+            "trim": true,
+            "options": [],
+            "isCustom": true
+        },
+        "completeAssessmentChoice": {
+            "type": "enum",
+            "options": [
+                "sendInfo",
+                "bookLater",
+                "N/A",
+                "noThanks",
+                "bookNow"
+            ],
+            "style": {
+                "sendInfo": null,
+                "bookLater": null,
+                "N/A": null,
+                "noThanks": null,
+                "bookNow": null
+            },
+            "default": "N/A",
+            "isCustom": true
+        },
+        "cloudMDTherapistSelected": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "Yes",
+                "No"
+            ],
+            "style": {
+                "N/A": null,
+                "Yes": null,
+                "No": null
+            },
+            "default": "N/A",
+            "isCustom": true
+        },
+        "reasonCloudMDTherapistNotSelected": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "selectedAreaOfRisk1": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "Alcohol Use Disorder",
+                "Attention Deficit Hyperactivity Disorder",
+                "Bipolar Disorder",
+                "Depression Disorder",
+                "Eating Disorder",
+                "Generalized Anxiety Disorder",
+                "Intermittent Explosive Disorder",
+                "Obsessive-Compulsive Disorder",
+                "Panic Disorder",
+                "Post-Traumatic Stress-Disorder",
+                "Sleep Disorder",
+                "Social Anxiety Disorder",
+                "Substance Use Disorder"
+            ],
+            "style": {
+                "N/A": null,
+                "Alcohol Use Disorder": null,
+                "Attention Deficit Hyperactivity Disorder": null,
+                "Bipolar Disorder": null,
+                "Depression Disorder": null,
+                "Eating Disorder": null,
+                "Generalized Anxiety Disorder": null,
+                "Intermittent Explosive Disorder": null,
+                "Obsessive-Compulsive Disorder": null,
+                "Panic Disorder": null,
+                "Post-Traumatic Stress-Disorder": null,
+                "Sleep Disorder": null,
+                "Social Anxiety Disorder": null,
+                "Substance Use Disorder": null
+            },
+            "default": "N/A",
+            "isCustom": true,
+            "isSorted": true
+        },
+        "stage": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true,
+            "default": "Intake"
+        },
+        "selectedAreaOfRisk2": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "Alcohol Use Disorder",
+                "Attention Deficit Hyperactivity Disorder",
+                "Bipolar Disorder",
+                "Depression Disorder",
+                "Eating Disorder",
+                "Generalized Anxiety Disorder",
+                "Intermittent Explosive Disorder",
+                "Obsessive-Compulsive Disorder",
+                "Panic Disorder",
+                "Post-Traumatic Stress-Disorder",
+                "Sleep Disorder",
+                "Social Anxiety Disorder",
+                "Substance Use Disorder"
+            ],
+            "style": {
+                "N/A": null,
+                "Alcohol Use Disorder": null,
+                "Attention Deficit Hyperactivity Disorder": null,
+                "Bipolar Disorder": null,
+                "Depression Disorder": null,
+                "Eating Disorder": null,
+                "Generalized Anxiety Disorder": null,
+                "Intermittent Explosive Disorder": null,
+                "Obsessive-Compulsive Disorder": null,
+                "Panic Disorder": null,
+                "Post-Traumatic Stress-Disorder": null,
+                "Sleep Disorder": null,
+                "Social Anxiety Disorder": null,
+                "Substance Use Disorder": null
+            },
+            "default": "N/A",
+            "isCustom": true,
+            "isSorted": true
+        },
+        "overallAssessmentRiskLevel": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true,
+            "default": "N/A"
+        },
+        "overallReassessmentRiskLevel": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true,
+            "default": "N/A"
+        },
+        "selectedTherapies1": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "CBT - Cognitive Behavioural Therapy – General",
+                "Therapy - Problem-Solving",
+                "CBT - Insomnia",
+                "IPT - Interpersonal Therapy",
+                "MBCT - Mindfulness Based Cognitive Therapy",
+                "Psychodynamic Therapy",
+                "MI - Motivational Interviewing",
+                "Therapy - Marriage and Family",
+                "Twelve-Step Facilitation",
+                "Brief Intervention",
+                "Therapy – Group",
+                "Therapy - Guided",
+                "Therapy - Exposure",
+                "Therapy - Mindfulness Based",
+                "DBT - Dialectical Behavioural Therapy",
+                "DBT - Skills Training – Mindfulness",
+                "DBT - Skills Training – Distress Tolerance",
+                "DBT - Skills Training – Interpersonal Effectiveness",
+                "DBT - Skills Training – Emotion Regulation",
+                "ADHD Coaching",
+                "Biofeedback",
+                "Stress Management",
+                "Basic Sleep Hygiene Strategies",
+                "Sleep Consolidation / Restriction Therapy",
+                "Therapeutic Alliance Building",
+                "Motivational Enhancement Strategies Training",
+                "Psychoeducation – Individual",
+                "Psychoeducation - Family",
+                "Eating Disorder - Family Based Therapy (FBT)",
+                "Trauma-Informed Care",
+                "Stress Management Training",
+                "Relaxation Training (deep breathing, muscle relaxation and exercise)",
+                "Cognitive Restructuring Training",
+                "Rehearsal of Coping Skill Training",
+                "EMDR - Eye Movement Desensitization and Reprocessing ",
+                "Psychoeducation",
+                "Diary monitoring – Symptom Triggers"
+            ],
+            "style": {
+                "N/A": null,
+                "CBT - Cognitive Behavioural Therapy – General": null,
+                "Therapy - Problem-Solving": null,
+                "CBT - Insomnia": null,
+                "IPT - Interpersonal Therapy": null,
+                "MBCT - Mindfulness Based Cognitive Therapy": null,
+                "Psychodynamic Therapy": null,
+                "MI - Motivational Interviewing": null,
+                "Therapy - Marriage and Family": null,
+                "Twelve-Step Facilitation": null,
+                "Brief Intervention": null,
+                "Therapy – Group": null,
+                "Therapy - Guided": null,
+                "Therapy - Exposure": null,
+                "Therapy - Mindfulness Based": null,
+                "DBT - Dialectical Behavioural Therapy": null,
+                "DBT - Skills Training – Mindfulness": null,
+                "DBT - Skills Training – Distress Tolerance": null,
+                "DBT - Skills Training – Interpersonal Effectiveness": null,
+                "DBT - Skills Training – Emotion Regulation": null,
+                "ADHD Coaching": null,
+                "Biofeedback": null,
+                "Stress Management": null,
+                "Basic Sleep Hygiene Strategies": null,
+                "Sleep Consolidation / Restriction Therapy": null,
+                "Therapeutic Alliance Building": null,
+                "Motivational Enhancement Strategies Training": null,
+                "Psychoeducation – Individual": null,
+                "Psychoeducation - Family": null,
+                "Eating Disorder - Family Based Therapy (FBT)": null,
+                "Trauma-Informed Care": null,
+                "Stress Management Training": null,
+                "Relaxation Training (deep breathing, muscle relaxation and exercise)": null,
+                "Cognitive Restructuring Training": null,
+                "Rehearsal of Coping Skill Training": null,
+                "EMDR - Eye Movement Desensitization and Reprocessing ": null,
+                "Psychoeducation": null,
+                "Diary monitoring – Symptom Triggers": null
+            },
+            "default": "N/A",
+            "isCustom": true,
+            "isSorted": true
+        },
+        "selectedTherapies2": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "CBT - Cognitive Behavioural Therapy – General",
+                "Therapy - Problem-Solving",
+                "CBT - Insomnia",
+                "IPT - Interpersonal Therapy",
+                "MBCT - Mindfulness Based Cognitive Therapy",
+                "Psychodynamic Therapy",
+                "MI - Motivational Interviewing",
+                "Therapy - Marriage and Family",
+                "Twelve-Step Facilitation",
+                "Brief Intervention",
+                "Therapy – Group",
+                "Therapy - Guided",
+                "Therapy - Exposure",
+                "Therapy - Mindfulness Based",
+                "DBT - Dialectical Behavioural Therapy",
+                "DBT - Skills Training – Mindfulness",
+                "DBT - Skills Training – Distress Tolerance",
+                "DBT - Skills Training – Interpersonal Effectiveness",
+                "DBT - Skills Training – Emotion Regulation",
+                "ADHD Coaching",
+                "Biofeedback",
+                "Stress Management",
+                "Basic Sleep Hygiene Strategies",
+                "Sleep Consolidation / Restriction Therapy",
+                "Therapeutic Alliance Building",
+                "Motivational Enhancement Strategies Training",
+                "Psychoeducation – Individual",
+                "Psychoeducation - Family",
+                "Eating Disorder - Family Based Therapy (FBT)",
+                "Trauma-Informed Care",
+                "Stress Management Training",
+                "Relaxation Training (deep breathing, muscle relaxation and exercise)",
+                "Cognitive Restructuring Training",
+                "Rehearsal of Coping Skill Training",
+                "EMDR - Eye Movement Desensitization and Reprocessing ",
+                "Psychoeducation",
+                "Diary monitoring – Symptom Triggers"
+            ],
+            "style": {
+                "N/A": null,
+                "CBT - Cognitive Behavioural Therapy – General": null,
+                "Therapy - Problem-Solving": null,
+                "CBT - Insomnia": null,
+                "IPT - Interpersonal Therapy": null,
+                "MBCT - Mindfulness Based Cognitive Therapy": null,
+                "Psychodynamic Therapy": null,
+                "MI - Motivational Interviewing": null,
+                "Therapy - Marriage and Family": null,
+                "Twelve-Step Facilitation": null,
+                "Brief Intervention": null,
+                "Therapy – Group": null,
+                "Therapy - Guided": null,
+                "Therapy - Exposure": null,
+                "Therapy - Mindfulness Based": null,
+                "DBT - Dialectical Behavioural Therapy": null,
+                "DBT - Skills Training – Mindfulness": null,
+                "DBT - Skills Training – Distress Tolerance": null,
+                "DBT - Skills Training – Interpersonal Effectiveness": null,
+                "DBT - Skills Training – Emotion Regulation": null,
+                "ADHD Coaching": null,
+                "Biofeedback": null,
+                "Stress Management": null,
+                "Basic Sleep Hygiene Strategies": null,
+                "Sleep Consolidation / Restriction Therapy": null,
+                "Therapeutic Alliance Building": null,
+                "Motivational Enhancement Strategies Training": null,
+                "Psychoeducation – Individual": null,
+                "Psychoeducation - Family": null,
+                "Eating Disorder - Family Based Therapy (FBT)": null,
+                "Trauma-Informed Care": null,
+                "Stress Management Training": null,
+                "Relaxation Training (deep breathing, muscle relaxation and exercise)": null,
+                "Cognitive Restructuring Training": null,
+                "Rehearsal of Coping Skill Training": null,
+                "EMDR - Eye Movement Desensitization and Reprocessing ": null,
+                "Psychoeducation": null,
+                "Diary monitoring – Symptom Triggers": null
+            },
+            "default": "N/A",
+            "isCustom": true,
+            "isSorted": true
+        },
+        "sLEscalationAppointmentDate": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "initiatedAssessment": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true,
+            "default": "Not Initiated"
+        },
+        "reportPersonalizedCarePlanProvided": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true,
+            "default": "No"
+        },
+        "eligibility": {
+            "type": "linkOne",
+            "isCustom": true
+        },
+        "sunLifeUniqueId": {
+            "readOnly": true,
+            "type": "foreign",
+            "link": "eligibility",
+            "field": "partyId",
+            "view": "views/fields/foreign-int",
+            "isCustom": true
+        },
+        "clientVisitedCrisisScreenDuringAssessment": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true,
+            "default": "No",
+            "readOnly": true
+        },
+        "statusOfAppointment": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "Pending",
+                "Appointment completed",
+                "No Show",
+                "Asked to reschedule",
+                "Didn't want to proceed",
+                "Other"
+            ],
+            "style": {
+                "N/A": null,
+                "Pending": "success",
+                "Appointment completed": "success",
+                "No Show": "danger",
+                "Asked to reschedule": "primary",
+                "Didn't want to proceed": "danger",
+                "Other": null
+            },
+            "default": "N/A",
+            "isCustom": true,
+            "displayAsLabel": true,
+            "isSorted": true
+        },
+        "statusOfAppointmentOther": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "additionalSupportRequired": {
+            "type": "enum",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "style": {
+                "Yes": null,
+                "No": null
+            },
+            "default": "No",
+            "displayAsLabel": true,
+            "isCustom": true
+        },
+        "dateOfRegistration": {
+            "notNull": false,
+            "type": "date",
+            "default": "javascript: return this.dateTime.getToday();",
+            "isCustom": true
+        },
+        "casePathway": {
+            "type": "enum",
+            "options": [
+                "Pending",
+                "PAP",
+                "CAP",
+                "GAP"
+            ],
+            "style": {
+                "Pending": "warning",
+                "PAP": null,
+                "CAP": null,
+                "GAP": null
+            },
+            "default": "Pending",
+            "isCustom": true
+        },
+        "assessmentFirstAnswerDate": {
+            "notNull": false,
+            "type": "datetime",
+            "minuteStep": 30,
+            "isCustom": true
+        },
+        "assessmentLastAnswerDate": {
+            "notNull": false,
+            "type": "datetime",
+            "minuteStep": 30,
+            "isCustom": true
+        },
+        "assessmentQuestion": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "assessmentProgress": {
+            "notNull": false,
+            "type": "float",
+            "isCustom": true
+        },
+        "teamCommunicationBoards": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "noLoad": true,
+            "importDisabled": true,
+            "isCustom": true
+        },
+        "dateAssessmentStarted": {
+            "readOnly": true,
+            "type": "foreign",
+            "link": "checkpoints",
+            "field": "assessmentStarted",
+            "view": "views/fields/foreign-datetime",
+            "isCustom": true
+        },
+        "coach2ndApptDate": {
+            "notNull": false,
+            "type": "datetime",
+            "minuteStep": 30,
+            "isCustom": true
+        },
+        "statusOf2ndAppointment": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "Pending",
+                "Appointment completed",
+                "No Show",
+                "Asked to reschedule",
+                "Didn't want to proceed",
+                "Other"
+            ],
+            "style": {
+                "N/A": null,
+                "Pending": "success",
+                "Appointment completed": "success",
+                "No Show": "danger",
+                "Asked to reschedule": "primary",
+                "Didn't want to proceed": "danger",
+                "Other": null
+            },
+            "displayAsLabel": true,
+            "isSorted": true,
+            "default": "N/A",
+            "isCustom": true
+        },
+        "statusOf2ndAppointmentOther": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "workingWithIdentifiedAreasYesNo": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true,
+            "tooltip": false
+        },
+        "workingWithIdentifiedAreasYesYes": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "tooltip": false,
+            "isCustom": true
+        },
+        "workingWithIdentifiedAreasYes": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "Yes",
+                "No"
+            ],
+            "style": {
+                "N/A": null,
+                "Yes": null,
+                "No": null
+            },
+            "default": "N/A",
+            "isCustom": true
+        },
+        "whatMadeYouEngageInTheService": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "Curious, wanted to see what this was about.",
+                "Was thinking about accessing therapy for a while.",
+                "I know I need assistance, and I hope this will help.",
+                "Wanted firsthand experience for future referrals of SL clients.",
+                "Was advised to call.",
+                "Other"
+            ],
+            "style": {
+                "N/A": null,
+                "Curious, wanted to see what this was about.": null,
+                "Was thinking about accessing therapy for a while.": null,
+                "I know I need assistance, and I hope this will help.": null,
+                "Wanted firsthand experience for future referrals of SL clients.": null,
+                "Was advised to call.": null,
+                "Other": null
+            },
+            "default": "N/A",
+            "isCustom": true
+        },
+        "whatMadeYouEngageInTheServiceOther": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "scheduleSessionProbability": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "Unlikely",
+                "Possible",
+                "Likely"
+            ],
+            "style": {
+                "N/A": null,
+                "Unlikely": null,
+                "Possible": null,
+                "Likely": null
+            },
+            "default": "N/A",
+            "isCustom": true
+        },
+        "scheduleSessionUnlikelyReasons": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "Too expensive.",
+                "Current benefits don’t cover.",
+                "Not a financial priority right now.",
+                "Not an emotional priority right now.",
+                "Feel I can manage on my own.",
+                "Don’t feel I would benefit from therapy.",
+                "Already have a therapist or alternative.",
+                "Need more time to think about it.",
+                "Don’t feel comfortable sharing my credit card information.",
+                "Too complicated process to book.",
+                "Other"
+            ],
+            "style": {
+                "N/A": null,
+                "Too expensive.": null,
+                "Current benefits don’t cover.": null,
+                "Not a financial priority right now.": null,
+                "Not an emotional priority right now.": null,
+                "Feel I can manage on my own.": null,
+                "Don’t feel I would benefit from therapy.": null,
+                "Already have a therapist or alternative.": null,
+                "Need more time to think about it.": null,
+                "Don’t feel comfortable sharing my credit card information.": null,
+                "Too complicated process to book.": null,
+                "Other": null
+            },
+            "default": "N/A",
+            "isCustom": true
+        },
+        "scheduleSessionUnlikelyReasonsOther": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "scheduleSessionUnlikelyTherapistLikelihood": {
+            "type": "array",
+            "storeArrayValues": true,
+            "options": [
+                "Yes",
+                "No",
+                "Undecided"
+            ],
+            "isCustom": true
+        },
+        "scheduleSessionPossible": {
+            "type": "array",
+            "storeArrayValues": true,
+            "options": [
+                "Book appointment for you",
+                "Provide more Bio info on recommended therapist?",
+                "Other"
+            ],
+            "isCustom": true
+        },
+        "scheduleSessionPossibleOther": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "assessmentScoreArchives": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "noLoad": true,
+            "importDisabled": true,
+            "isCustom": true
+        }
+    },
+    "links": {
+        "assessmentDiagnosiss": {
+            "type": "hasMany",
+            "foreign": "contact",
+            "entity": "AssessmentDiagnosis",
+            "audited": false,
+            "isCustom": true
+        },
+        "assessmentScores": {
+            "type": "hasMany",
+            "foreign": "contact",
+            "entity": "AssessmentScore",
+            "audited": false,
+            "isCustom": true
+        },
+        "inappmessagess": {
+            "type": "hasMany",
+            "foreign": "contact",
+            "entity": "Inappmessages",
+            "audited": false,
+            "isCustom": true
+        },
+        "checkpoints": {
+            "type": "hasOne",
+            "foreign": "contact",
+            "entity": "Checkpoints",
+            "isCustom": true
+        },
+        "user": {
+            "type": "belongsTo",
+            "foreign": "contacts",
+            "entity": "User",
+            "audited": false,
+            "isCustom": true
+        },
+        "personalizedActionPlanFile": {
+            "type": "belongsTo",
+            "entity": "Attachment",
+            "skipOrmDefs": true,
+            "disabled": true
+        },
+        "satisfactionSurveyFile": {
+            "type": "belongsTo",
+            "entity": "Attachment",
+            "skipOrmDefs": true,
+            "disabled": true
+        },
+        "progressSurveyFile": {
+            "type": "belongsTo",
+            "entity": "Attachment",
+            "skipOrmDefs": true,
+            "disabled": true
+        },
+        "specialists": {
+            "type": "hasMany",
+            "foreign": "contact",
+            "entity": "Specialist",
+            "audited": false,
+            "isCustom": true
+        },
+        "snapclaritySpecialists": {
+            "type": "hasMany",
+            "relationName": "contactSnapclaritySpecialist",
+            "foreign": "contacts",
+            "entity": "SnapclaritySpecialist",
+            "audited": false,
+            "isCustom": true
+        },
+        "eligibility": {
+            "type": "hasOne",
+            "foreign": "contact",
+            "entity": "Eligibility",
+            "isCustom": true
+        },
+        "teamCommunicationBoards": {
+            "type": "hasMany",
+            "foreign": "contact",
+            "entity": "TeamCommunicationBoard",
+            "audited": false,
+            "isCustom": true
+        },
+        "assessmentScoreArchives": {
+            "type": "hasMany",
+            "foreign": "contact",
+            "entity": "AssessmentScoreArchive",
+            "audited": false,
+            "isCustom": true
+        }
+    },
+    "collection": {
+        "orderBy": "createdAt",
+        "order": "desc",
+        "textFilterFields": [
+            "name",
+            "emailAddress"
+        ],
+        "fullTextSearch": false,
+        "countDisabled": false
+    }
+}

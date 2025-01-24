@@ -1,0 +1,20 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "snapclarityOrganizationId"
+    },
+    {
+        "name": "sponsorId"
+    },
+    {
+        "name": "benefits",
+        "notSortable": true
+    },
+    {
+        "name": "benefitOptions",
+        "notSortable": true
+    }
+]

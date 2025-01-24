@@ -1,0 +1,21 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "partyId"
+    },
+    {
+        "name": "firstName"
+    },
+    {
+        "name": "lastName"
+    },
+    {
+        "name": "email"
+    },
+    {
+        "name": "changeStatus"
+    }
+]

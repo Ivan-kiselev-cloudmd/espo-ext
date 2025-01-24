@@ -1,0 +1,9 @@
+{
+    "fields": {
+        "caseid": "Case_id"
+    },
+    "links": [],
+    "labels": {
+        "Create Score": "Create Score"
+    }
+}

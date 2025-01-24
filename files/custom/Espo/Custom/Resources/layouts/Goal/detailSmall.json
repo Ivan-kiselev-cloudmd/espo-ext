@@ -1,0 +1,56 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "intervention"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "interventionDetails"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "name"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "dateAdded"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "task"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "dueDate"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "status"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "actualCompletionDate"
+                },
+                false
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    }
+]

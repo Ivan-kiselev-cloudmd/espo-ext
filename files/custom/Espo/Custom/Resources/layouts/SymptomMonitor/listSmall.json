@@ -1,0 +1,41 @@
+[
+    {
+        "name": "date",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "symptom1",
+        "align": "left"
+    },
+    {
+        "name": "severity",
+        "align": "left"
+    },
+    {
+        "name": "frequency1Measurement"
+    },
+    {
+        "name": "symptom2",
+        "align": "left"
+    },
+    {
+        "name": "severity2",
+        "align": "left"
+    },
+    {
+        "name": "frequency2Measurement2"
+    },
+    {
+        "name": "symptom3",
+        "align": "left"
+    },
+    {
+        "name": "severity3",
+        "align": "left"
+    },
+    {
+        "name": "frequency3Measurement3",
+        "align": "left"
+    }
+]

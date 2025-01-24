@@ -1,0 +1,27 @@
+{
+    "fields": {
+        "diagnosisName": "Diagnosis Name",
+        "level": "Level",
+        "score": "Score",
+        "contact": "Contact",
+        "type": "Type"
+    },
+    "links": {
+        "contact": "Contact"
+    },
+    "labels": {
+        "Create AssessmentScoreArchive": "Create Assessment Score Archive"
+    },
+    "options": {
+        "level": {
+            "N/A": "N/A",
+            "MINIMAL to MILD": "Minimal to Mild",
+            "MODERATE": "Moderate",
+            "HIGH": "High"
+        },
+        "type": {
+            "Initial": "Initial",
+            "Reassessment": "Reassessment"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "fields": {
+        "organizationId": "Organization Id",
+        "aPIEmail": "API Email",
+        "aPIPassword": "API Password",
+        "eligibility": "Eligibility",
+        "authurl": "Auth URL",
+        "resetAssessmentUrl": "Reset Assessment URL",
+        "referMemberToTherapistUrl": "Refer Member To Therapist URL",
+        "referMemberToTherapistDestinationUrl": "Refer Member To Therapist Destination URL",
+        "sponsorId": "Sponsor Id",
+        "benefits": "Benefits",
+        "lives": "Number of Lives",
+        "effectiveDate": "Effective Date",
+        "offices": "Offices",
+        "snapclarityOrganizationId": "Snapclarity Organization Id",
+        "benefitOptions": "Benefit Options",
+        "eligibilities": "Eligibilities"
+    },
+    "links": {
+        "eligibility": "Eligibility",
+        "benefits": "Benefits",
+        "offices": "Offices",
+        "benefitOptions": "Benefit Options",
+        "eligibilities": "Eligibilities"
+    }
+}

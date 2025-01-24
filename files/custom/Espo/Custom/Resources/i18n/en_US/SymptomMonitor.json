@@ -1,0 +1,105 @@
+{
+    "fields": {
+        "contact": "Case",
+        "severity": "Severity",
+        "measurement": "Measurement",
+        "date": "Date",
+        "severity2": "Severity",
+        "severity3": "Severity",
+        "measurement2": "Measurement",
+        "measurement3": "Measurement",
+        "contact1": "Contact1",
+        "contacts": "Contacts",
+        "frequency1": "Frequency 1",
+        "frequency2": "Frequency 2",
+        "frequency3": "Frequency 3",
+        "casenum": "Casenum",
+        "frequency1Measurement": "Frequency",
+        "frequency2Measurement2": "Frequency",
+        "frequency3Measurement3": "Frequency",
+        "symptom1": "Symptom",
+        "symptom2": "Symptom",
+        "symptom3": "Symptom"
+    },
+    "links": {
+        "contact": "Contact",
+        "contact1": "Contact1",
+        "contacts": "Contacts"
+    },
+    "labels": {
+        "Create SymptomMonitor": "Create SymptomMonitor"
+    },
+    "options": {
+        "severity": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "N/A": "N/A",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9",
+            "10": "10"
+        },
+        "measurement": {
+            "N/A": "N/A",
+            "Hourly": "Hourly",
+            "Daily": "Daily",
+            "Weekly": "Weekly",
+            "Monthly": "Monthly",
+            "Yearly": "Yearly"
+        },
+        "severity2": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9",
+            "10": "10",
+            "N/A": "N/A"
+        },
+        "severity3": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9",
+            "10": "10",
+            "N/A": "N/A"
+        },
+        "measurement2": {
+            "h": "h",
+            "d": "d",
+            "Hourly": "Hourly",
+            "Daily": "Daily",
+            "Weekly": "Weekly",
+            "Monthly": "Monthly",
+            "Yearly": "Yearly",
+            "N/A": "N/A"
+        },
+        "measurement3": {
+            "h": "h",
+            "m": "m",
+            "Hourly": "Hourly",
+            "Daily": "Daily",
+            "Weekly": "Weekly",
+            "Monthly": "Monthly",
+            "Yearly": "Yearly",
+            "N/A": "N/A"
+        }
+    },
+    "tooltips": {
+        "symptom2": "2",
+        "symptom3": "3"
+    }
+}

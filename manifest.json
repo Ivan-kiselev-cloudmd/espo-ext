@@ -1,0 +1,10 @@
+{
+    "name": "Development extension",
+    "version": "8.0.0",
+    "acceptableVersions": [
+        ">=6.0.6"
+    ],
+    "releaseDate": "2021-30-08",
+    "author": "Tazo mindiashvili",
+    "description": "Development extension"
+}

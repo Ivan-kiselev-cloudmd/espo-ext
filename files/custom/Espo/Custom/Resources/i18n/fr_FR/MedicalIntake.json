@@ -1,0 +1,8 @@
+{
+    "labels": {
+        "Create MedicalIntake": "Créer un Medical Intake"
+    },
+    "fields": {
+        "clientSummary1": "Comment décririez-vous votre état de santé général ?"
+    }
+}

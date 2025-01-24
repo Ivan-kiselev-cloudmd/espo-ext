@@ -1,0 +1,35 @@
+[
+    {
+        "name": "intervention"
+    },
+    {
+        "name": "interventionDetails"
+    },
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "dateAdded",
+        "width": 10,
+        "align": "left"
+    },
+    {
+        "name": "task"
+    },
+    {
+        "name": "dueDate",
+        "width": 10,
+        "align": "left"
+    },
+    {
+        "name": "status",
+        "width": 15,
+        "align": "left"
+    },
+    {
+        "name": "actualCompletionDate",
+        "width": 10,
+        "align": "left"
+    }
+]

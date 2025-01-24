@@ -1,0 +1,14 @@
+{
+    "links": {
+        "contact": "Contact"
+    },
+    "labels": {
+        "Create Checkpoints": "Create Checkpoint"
+    },
+    "fields": {
+        "assessmentStarted": "Assessment Started",
+        "assessmentCompleted": "Assessment Completed",
+        "contact": "Case",
+        "crisisScreenVisitDate": "Crisis Screen Visit Date"
+    }
+}

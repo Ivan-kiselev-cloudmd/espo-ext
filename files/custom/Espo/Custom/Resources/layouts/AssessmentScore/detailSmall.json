@@ -1,0 +1,24 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "diagnosisname"
+                }
+            ],
+            [
+                {
+                    "name": "reportedLevel"
+                },
+                {
+                    "name": "score"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    }
+]

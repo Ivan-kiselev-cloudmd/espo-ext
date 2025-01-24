@@ -1,0 +1,110 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "website"
+                }
+            ],
+            [
+                {
+                    "name": "emailAddress"
+                },
+                {
+                    "name": "phoneNumber"
+                }
+            ],
+            [
+                {
+                    "name": "billingAddress"
+                },
+                {
+                    "name": "shippingAddress"
+                }
+            ],
+            [
+                {
+                    "name": "snapclarityOrganizationId"
+                },
+                {
+                    "name": "sponsorId"
+                }
+            ],
+            [
+                {
+                    "name": "lives"
+                },
+                {
+                    "name": "effectiveDate"
+                }
+            ],
+            [
+                {
+                    "name": "benefits"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "type"
+                },
+                {
+                    "name": "industry"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Details"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "aPIEmail"
+                },
+                {
+                    "name": "aPIPassword"
+                }
+            ],
+            [
+                {
+                    "name": "authurl"
+                },
+                {
+                    "name": "resetAssessmentUrl"
+                }
+            ],
+            [
+                {
+                    "name": "referMemberToTherapistUrl"
+                },
+                {
+                    "name": "referMemberToTherapistDestinationUrl"
+                }
+            ],
+            [
+                {
+                    "name": "organizationId"
+                },
+                false
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "customLabel": "API"
+    }
+]

@@ -1,0 +1,21 @@
+[
+    {
+        "name": "name",
+        "width": 40,
+        "link": true
+    },
+    {
+        "name": "description"
+    },
+    {
+        "name": "file",
+        "width": 10,
+        "notSortable": true
+    },
+    {
+        "name": "folder"
+    },
+    {
+        "name": "createdAt"
+    }
+]

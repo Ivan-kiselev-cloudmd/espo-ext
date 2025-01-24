@@ -1,0 +1,30 @@
+{
+    "fields": {
+        "partyId": "Party Id",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "changeStatus": "Change Status",
+        "account": "Account",
+        "contact": "Case",
+        "email": "Email",
+        "policy": "Policy",
+        "sponsorId": "Sponsor Id",
+        "dayMonthOfBirth": "Day/month of birth",
+        "contacts": "Cases"
+    },
+    "links": {
+        "account": "Account",
+        "contact": "Contact",
+        "contacts": "Contacts"
+    },
+    "labels": {
+        "Create Eligibility": "Create Eligibility"
+    },
+    "options": {
+        "changeStatus": {
+            "Active": "Active",
+            "New": "New",
+            "Ineligible": "Ineligible"
+        }
+    }
+}

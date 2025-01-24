@@ -1,0 +1,47 @@
+[
+    {
+        "name": "source"
+    },
+    {
+        "name": "dateAssessmentCompleted",
+        "width": 10,
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "baseline1"
+    },
+    {
+        "name": "selectedAreaOfRisk1",
+        "width": 20,
+        "align": "left"
+    },
+    {
+        "name": "risk1Score",
+        "width": 5,
+        "align": "left"
+    },
+    {
+        "name": "risk1Level",
+        "width": 10,
+        "align": "left"
+    },
+    {
+        "name": "selectedAreaOfRisk2",
+        "width": 20,
+        "align": "left"
+    },
+    {
+        "name": "baseline2"
+    },
+    {
+        "name": "risk2Score",
+        "width": 5,
+        "align": "left"
+    },
+    {
+        "name": "risk2Level",
+        "width": 10,
+        "align": "left"
+    }
+]

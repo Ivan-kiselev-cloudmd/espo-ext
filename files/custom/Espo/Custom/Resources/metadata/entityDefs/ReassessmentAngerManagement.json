@@ -1,0 +1,591 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "required": false,
+            "trim": true,
+            "options": []
+        },
+        "description": {
+            "type": "text"
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user"
+        },
+        "modifiedBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user"
+        },
+        "assignedUser": {
+            "type": "link",
+            "required": true,
+            "view": "views/fields/assigned-user"
+        },
+        "teams": {
+            "type": "linkMultiple",
+            "view": "views/fields/teams"
+        },
+        "q1": {
+            "type": "enum",
+            "options": [
+                "I do not feel angry.",
+                "I feel angry.",
+                "I am angry most of the time now.",
+                "I am so angry and hostile all the time that I can't stand it."
+            ],
+            "style": {
+                "I do not feel angry.": "success",
+                "I feel angry.": "primary",
+                "I am angry most of the time now.": "warning",
+                "I am so angry and hostile all the time that I can't stand it.": "danger"
+            },
+            "displayAsLabel": true,
+            "default": null,
+            "isCustom": true,
+            "setDefaultNull": true
+        },
+        "q2": {
+            "type": "enum",
+            "options": [
+                "I am not particularly angry about my future.",
+                "When I think about my future, I feel angry.",
+                "I feel angry about what I have to look forward to.",
+                "I feel intensely angry about my future, since it cannot be improved."
+            ],
+            "style": {
+                "I am not particularly angry about my future.": "success",
+                "When I think about my future, I feel angry.": "primary",
+                "I feel angry about what I have to look forward to.": "warning",
+                "I feel intensely angry about my future, since it cannot be improved.": "danger"
+            },
+            "displayAsLabel": true,
+            "default": null,
+            "isCustom": true,
+            "setDefaultNull": true
+        },
+        "q3": {
+            "type": "enum",
+            "options": [
+                "It makes me angry that I feel like such a failure.",
+                "It makes me angry that I have failed more than the average person.",
+                "As I look back on my life, I feel angry about my failures.",
+                "It makes me angry to feel like a complete failure as a person."
+            ],
+            "style": {
+                "It makes me angry that I feel like such a failure.": "success",
+                "It makes me angry that I have failed more than the average person.": "primary",
+                "As I look back on my life, I feel angry about my failures.": "warning",
+                "It makes me angry to feel like a complete failure as a person.": "danger"
+            },
+            "displayAsLabel": true,
+            "default": null,
+            "isCustom": true,
+            "setDefaultNull": true
+        },
+        "q4": {
+            "type": "enum",
+            "options": [
+                "I am not all that angry about things.",
+                "I am becoming more hostile about things than I used to be.",
+                "I am pretty angry about things these days.",
+                "I am angry and hostile about everything."
+            ],
+            "style": {
+                "I am not all that angry about things.": "success",
+                "I am becoming more hostile about things than I used to be.": "primary",
+                "I am pretty angry about things these days.": "warning",
+                "I am angry and hostile about everything.": "danger"
+            },
+            "displayAsLabel": true,
+            "default": null,
+            "isCustom": true,
+            "setDefaultNull": true
+        },
+        "q5": {
+            "type": "enum",
+            "options": [
+                "I don't feel particularly hostile at others.",
+                "I feel hostile a good deal of the time.",
+                "I feel quite hostile most of the time.",
+                "I feel hostile all of the time."
+            ],
+            "style": {
+                "I don't feel particularly hostile at others.": "success",
+                "I feel hostile a good deal of the time.": "primary",
+                "I feel quite hostile most of the time.": "warning",
+                "I feel hostile all of the time.": "danger"
+            },
+            "displayAsLabel": true,
+            "default": null,
+            "isCustom": true,
+            "setDefaultNull": true
+        },
+        "q6": {
+            "type": "enum",
+            "options": [
+                "I don't feel that others are trying to annoy me.",
+                "At times I think people are trying to annoy me.",
+                "More people than usual are beginning to make me feel angry.",
+                "I feel that others are constantly and intentionally making me angry."
+            ],
+            "style": {
+                "I don't feel that others are trying to annoy me.": "success",
+                "At times I think people are trying to annoy me.": "primary",
+                "More people than usual are beginning to make me feel angry.": "warning",
+                "I feel that others are constantly and intentionally making me angry.": "danger"
+            },
+            "displayAsLabel": true,
+            "default": null,
+            "isCustom": true,
+            "setDefaultNull": true
+        },
+        "q7": {
+            "type": "enum",
+            "options": [
+                "I don't feel angry when I think about myself.",
+                "I feel more angry about myself these days than I used to.",
+                "I feel angry about myself a good deal of the time.",
+                "When I think about myself, I feel intense anger."
+            ],
+            "style": {
+                "I don't feel angry when I think about myself.": "success",
+                "I feel more angry about myself these days than I used to.": "primary",
+                "I feel angry about myself a good deal of the time.": "warning",
+                "When I think about myself, I feel intense anger.": "danger"
+            },
+            "displayAsLabel": true,
+            "default": null,
+            "isCustom": true,
+            "setDefaultNull": true
+        },
+        "q8": {
+            "type": "enum",
+            "options": [
+                "I don't have angry feelings about others having screwed up my life.",
+                "It's beginning to make me angry that others are screwing up my life.",
+                "I feel angry that others prevent me from having a good life.",
+                "I am constantly angry because others have made my life totally miserable."
+            ],
+            "style": {
+                "I don't have angry feelings about others having screwed up my life.": "success",
+                "It's beginning to make me angry that others are screwing up my life.": "primary",
+                "I feel angry that others prevent me from having a good life.": "warning",
+                "I am constantly angry because others have made my life totally miserable.": "danger"
+            },
+            "displayAsLabel": true,
+            "default": null,
+            "isCustom": true,
+            "setDefaultNull": true
+        },
+        "q9": {
+            "type": "enum",
+            "options": [
+                "I don't feel angry enough to hurt someone.",
+                "Sometimes I am so angry that I feel like hurting others, but I would not really do it.",
+                "My anger is so intense that I sometimes feel like hurting others.",
+                "I'm so angry that I would like to hurt someone."
+            ],
+            "style": {
+                "I don't feel angry enough to hurt someone.": "success",
+                "Sometimes I am so angry that I feel like hurting others, but I would not really do it.": "primary",
+                "My anger is so intense that I sometimes feel like hurting others.": "warning",
+                "I'm so angry that I would like to hurt someone.": "danger"
+            },
+            "displayAsLabel": true,
+            "default": null,
+            "isCustom": true,
+            "setDefaultNull": true
+        },
+        "q10": {
+            "type": "enum",
+            "options": [
+                "I don't shout at people any more than usual.",
+                "I shout at others more now than I used to.",
+                "I shout at people all the time now.",
+                "I shout at others so often that sometimes I just can't stop."
+            ],
+            "style": {
+                "I don't shout at people any more than usual.": "success",
+                "I shout at others more now than I used to.": "primary",
+                "I shout at people all the time now.": "warning",
+                "I shout at others so often that sometimes I just can't stop.": "danger"
+            },
+            "displayAsLabel": true,
+            "default": null,
+            "isCustom": true,
+            "setDefaultNull": true
+        },
+        "q11": {
+            "type": "enum",
+            "options": [
+                "Things are not more irritating to me now than usual.",
+                "I feel slightly more irritated now than usual.",
+                "I feel irritated a good deal of the time.",
+                "I'm irritated all the time now."
+            ],
+            "style": {
+                "Things are not more irritating to me now than usual.": "success",
+                "I feel slightly more irritated now than usual.": "primary",
+                "I feel irritated a good deal of the time.": "warning",
+                "I'm irritated all the time now.": "danger"
+            },
+            "displayAsLabel": true,
+            "default": null,
+            "isCustom": true,
+            "setDefaultNull": true
+        },
+        "q12": {
+            "type": "enum",
+            "options": [
+                "My anger does not interfere with my interest in other people.",
+                "My anger sometimes interferes with my interest in others.",
+                "I am becoming so angry that I don't want to be around others.",
+                "I'm so angry that I can't stand being around people."
+            ],
+            "style": {
+                "My anger does not interfere with my interest in other people.": "success",
+                "My anger sometimes interferes with my interest in others.": "primary",
+                "I am becoming so angry that I don't want to be around others.": "warning",
+                "I'm so angry that I can't stand being around people.": "danger"
+            },
+            "displayAsLabel": true,
+            "default": null,
+            "isCustom": true,
+            "setDefaultNull": true
+        },
+        "q13": {
+            "type": "enum",
+            "options": [
+                "I don't have any persistent angry feelings that influence my ability to make decisions.",
+                "My feelings of anger occasionally undermine my ability to make decisions.",
+                "I am angry to the extent that it interferes with my making good decisions.",
+                "I'm so angry that I can't make good decisions anymore."
+            ],
+            "style": {
+                "I don't have any persistent angry feelings that influence my ability to make decisions.": "success",
+                "My feelings of anger occasionally undermine my ability to make decisions.": "primary",
+                "I am angry to the extent that it interferes with my making good decisions.": "warning",
+                "I'm so angry that I can't make good decisions anymore.": "danger"
+            },
+            "displayAsLabel": true,
+            "default": null,
+            "isCustom": true,
+            "setDefaultNull": true
+        },
+        "q14": {
+            "type": "enum",
+            "options": [
+                "I'm not so angry and hostile that others dislike me.",
+                "People sometimes dislike being around me since I become angry.",
+                "More often than not, people stay away from me because I'm so hostile and angry.",
+                "People don't like me anymore because I'm constantly angry all the time."
+            ],
+            "style": {
+                "I'm not so angry and hostile that others dislike me.": "success",
+                "People sometimes dislike being around me since I become angry.": "primary",
+                "More often than not, people stay away from me because I'm so hostile and angry.": "warning",
+                "People don't like me anymore because I'm constantly angry all the time.": "danger"
+            },
+            "displayAsLabel": true,
+            "default": null,
+            "isCustom": true,
+            "setDefaultNull": true
+        },
+        "q15": {
+            "type": "enum",
+            "options": [
+                "My feelings of anger do not interfere with my work.",
+                "From time to time my feelings of anger interfere with my work.",
+                "I feel so angry that it interferes with my capacity to work.",
+                "My feelings of anger prevent me from doing any work at all."
+            ],
+            "style": {
+                "My feelings of anger do not interfere with my work.": "success",
+                "From time to time my feelings of anger interfere with my work.": "primary",
+                "I feel so angry that it interferes with my capacity to work.": "warning",
+                "My feelings of anger prevent me from doing any work at all.": "danger"
+            },
+            "displayAsLabel": true,
+            "default": null,
+            "isCustom": true,
+            "setDefaultNull": true
+        },
+        "q16": {
+            "type": "enum",
+            "options": [
+                "My anger does not interfere with my sleep.",
+                "Sometimes I don't sleep very well because I'm feeling angry.",
+                "My anger is so great that I stay awake 1—2 hours later than usual.",
+                "I am so intensely angry that I can't get much sleep during the night."
+            ],
+            "style": {
+                "My anger does not interfere with my sleep.": "success",
+                "Sometimes I don't sleep very well because I'm feeling angry.": "primary",
+                "My anger is so great that I stay awake 1—2 hours later than usual.": "warning",
+                "I am so intensely angry that I can't get much sleep during the night.": "danger"
+            },
+            "displayAsLabel": true,
+            "default": null,
+            "isCustom": true,
+            "setDefaultNull": true
+        },
+        "q17": {
+            "type": "enum",
+            "options": [
+                "My anger does not make me feel anymore tired than usual.",
+                "My feelings of anger are beginning to tire me out.",
+                "My anger is intense enough that it makes me feel very tired.",
+                "My feelings of anger leave me too tired to do anything."
+            ],
+            "style": {
+                "My anger does not make me feel anymore tired than usual.": "success",
+                "My feelings of anger are beginning to tire me out.": "primary",
+                "My anger is intense enough that it makes me feel very tired.": "warning",
+                "My feelings of anger leave me too tired to do anything.": "danger"
+            },
+            "displayAsLabel": true,
+            "default": null,
+            "isCustom": true,
+            "setDefaultNull": true
+        },
+        "q18": {
+            "type": "enum",
+            "options": [
+                "My appetite does not suffer because of my feelings of anger.",
+                "My feelings of anger are beginning to affect my appetite.",
+                "My feelings of anger leave me without much of an appetite.",
+                "My anger is so intense that it has taken away my appetite."
+            ],
+            "style": {
+                "My appetite does not suffer because of my feelings of anger.": "success",
+                "My feelings of anger are beginning to affect my appetite.": "primary",
+                "My feelings of anger leave me without much of an appetite.": "warning",
+                "My anger is so intense that it has taken away my appetite.": "danger"
+            },
+            "displayAsLabel": true,
+            "default": null,
+            "isCustom": true,
+            "setDefaultNull": true
+        },
+        "q19": {
+            "type": "enum",
+            "displayAsLabel": true,
+            "options": [
+                "My feelings of anger don't interfere with my health.",
+                "My feelings of anger are beginning to interfere with my health.",
+                "My anger prevents me from devoting much time and attention to my health.",
+                "I'm so angry at everything these days that I pay no attention to my health and well-being."
+            ],
+            "style": {
+                "My feelings of anger don't interfere with my health.": "success",
+                "My feelings of anger are beginning to interfere with my health.": "primary",
+                "My anger prevents me from devoting much time and attention to my health.": "warning",
+                "I'm so angry at everything these days that I pay no attention to my health and well-being.": "danger"
+            },
+            "default": null,
+            "isCustom": true,
+            "setDefaultNull": true
+        },
+        "q20": {
+            "type": "enum",
+            "options": [
+                "My ability to think clearly is unaffected by my feelings of anger.",
+                "Sometimes my feelings of anger prevent me from thinking in a clear-headed way.",
+                "My anger makes it hard for me to think of anything else.",
+                "I'm so intensely angry and hostile that it completely interferes with my thinking."
+            ],
+            "style": {
+                "My ability to think clearly is unaffected by my feelings of anger.": "success",
+                "Sometimes my feelings of anger prevent me from thinking in a clear-headed way.": "primary",
+                "My anger makes it hard for me to think of anything else.": "warning",
+                "I'm so intensely angry and hostile that it completely interferes with my thinking.": "danger"
+            },
+            "displayAsLabel": true,
+            "default": null,
+            "isCustom": true,
+            "setDefaultNull": true
+        },
+        "q21": {
+            "type": "enum",
+            "options": [
+                "I don't feel so angry that it interferes with my interest in sex.",
+                "My feelings of anger leave me less interested in sex than I used to be.",
+                "My current feelings of anger undermine my interest in sex.",
+                "I'm so angry about my life that I've completely lost interest in sex."
+            ],
+            "style": {
+                "I don't feel so angry that it interferes with my interest in sex.": "success",
+                "My feelings of anger leave me less interested in sex than I used to be.": "primary",
+                "My current feelings of anger undermine my interest in sex.": "warning",
+                "I'm so angry about my life that I've completely lost interest in sex.": "danger"
+            },
+            "displayAsLabel": true,
+            "default": null,
+            "isCustom": true,
+            "setDefaultNull": true
+        },
+        "baseline": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "date": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true,
+            "required": true,
+            "default": "javascript: return this.dateTime.getToday();"
+        },
+        "improvement": {
+            "type": "int",
+            "isCustom": true,
+            "readOnly": true
+        },
+        "initialScore": {
+            "type": "int",
+            "isCustom": true,
+            "readOnly": true
+        },
+        "level": {
+            "type": "enum",
+            "options": [
+                "No measurable risk",
+                "MINIMAL to MILD",
+                "MODERATE",
+                "HIGH"
+            ],
+            "style": {
+                "No measurable risk": "success",
+                "MINIMAL to MILD": "primary",
+                "MODERATE": "warning",
+                "HIGH": "danger"
+            },
+            "displayAsLabel": true,
+            "default": "No measurable risk",
+            "isCustom": true,
+            "readOnly": true
+        },
+        "maxScore": {
+            "type": "int",
+            "default": 63,
+            "readOnly": true,
+            "isCustom": true
+        },
+        "score": {
+            "type": "int",
+            "readOnly": true,
+            "isCustom": true
+        },
+        "successMgmt": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "No Progress",
+                "Improvement",
+                "Significant Improvement",
+                "Excellent Improvement"
+            ],
+            "style": {
+                "N/A": null,
+                "No Progress": "warning",
+                "Improvement": "info",
+                "Significant Improvement": "primary",
+                "Excellent Improvement": "success"
+            },
+            "displayAsLabel": true,
+            "readOnly": true,
+            "default": "N/A",
+            "isCustom": true
+        },
+        "contact": {
+            "type": "link"
+        },
+        "latest": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "type": {
+            "type": "enum",
+            "options": [
+                "Reassessment",
+                "Current Baseline",
+                "Baseline"
+            ],
+            "style": {
+                "Reassessment": "success",
+                "Current Baseline": "danger",
+                "Baseline": "warning"
+            },
+            "displayAsLabel": true,
+            "default": "Reassessment",
+            "isCustom": true
+        },
+        "incompleteAssessment": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        }
+    },
+    "links": {
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "modifiedBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "assignedUser": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "teams": {
+            "type": "hasMany",
+            "entity": "Team",
+            "relationName": "EntityTeam",
+            "layoutRelationshipsDisabled": true
+        },
+        "contact": {
+            "type": "belongsTo",
+            "foreign": "reassessmentAngerManagements",
+            "entity": "Contact",
+            "audited": false,
+            "isCustom": true
+        }
+    },
+    "collection": {
+        "orderBy": "date",
+        "order": "desc",
+        "textFilterFields": [
+            "name"
+        ],
+        "fullTextSearch": false,
+        "countDisabled": false
+    },
+    "indexes": {
+        "name": {
+            "columns": [
+                "name",
+                "deleted"
+            ]
+        },
+        "assignedUser": {
+            "columns": [
+                "assignedUserId",
+                "deleted"
+            ]
+        }
+    }
+}

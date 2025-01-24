@@ -1,0 +1,53 @@
+{
+    "fields": {
+        "contact": "Case",
+        "date": "Date",
+        "call": "Call",
+        "crisisRiskLevel": "Risk Level",
+        "activePlan": "Active Plan Ready?",
+        "previousSuicide": "Past Suicide Attempt",
+        "worthLiving": "Desire to Live?",
+        "handle": "Notes",
+        "casenum": "Casenum"
+    },
+    "links": {
+        "contact": "Contact"
+    },
+    "labels": {
+        "Create Crisis": "Create Crisis"
+    },
+    "options": {
+        "call": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6"
+        },
+        "crisisRiskLevel": {
+            "N/A": "N/A",
+            "High": "High",
+            "Moderate": "Moderate",
+            "Low": "Low"
+        },
+        "activePlan": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "previousSuicide": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "worthLiving": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        }
+    },
+    "tooltips": {
+        "handle": "document everything that we said/offered to the client including crisis intervention hotlines, referrals to GP, etc."
+    }
+}

@@ -1,0 +1,239 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "contact"
+                },
+                {
+                    "name": "casenum"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "disableIncompleteAssessment1"
+                },
+                {
+                    "name": "sentIncompleteAssessment1"
+                },
+                {
+                    "name": "incompleteAssessment1Date"
+                }
+            ],
+            [
+                {
+                    "name": "disableIncompleteAssessment2"
+                },
+                {
+                    "name": "sentIncompleteAssessment2"
+                },
+                {
+                    "name": "incompleteAssessment2Date"
+                }
+            ],
+            [
+                {
+                    "name": "disableCompleteYourAssessment3"
+                },
+                {
+                    "name": "completeYourAssessment3Sent"
+                },
+                {
+                    "name": "completeYourAssessment3Date"
+                }
+            ]
+        ],
+        "style": "danger",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "accordion": "expanded",
+        "isCollapsedDynamicLogic": null,
+        "customLabel": "Incomplete Assessment"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "disableAutoCapReinvite"
+                },
+                {
+                    "name": "sentAutoCapReinvite"
+                },
+                {
+                    "name": "autoCapReinviteDate"
+                }
+            ],
+            [
+                {
+                    "name": "disableAutoCapReinvite2"
+                },
+                {
+                    "name": "sentAutoCapReinvite2"
+                },
+                {
+                    "name": "autoCapReinvite2Date"
+                }
+            ],
+            [
+                {
+                    "name": "disableAutoCAPGAPSurvey"
+                },
+                {
+                    "name": "sentAutoCAPGAPSurveyEmail"
+                },
+                {
+                    "name": "autoCAPGAPSurveyEmailDate"
+                }
+            ]
+        ],
+        "style": "success",
+        "subTitle": null,
+        "subTitleStyle": "default",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "accordion": "expanded",
+        "isCollapsedDynamicLogic": null,
+        "customLabel": "CAP\/GAP"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "disableAutoCompletedNoAction"
+                },
+                {
+                    "name": "sentAutoCompletedNoAction"
+                },
+                {
+                    "name": "autoCompletedNoActionDate"
+                }
+            ],
+            [
+                {
+                    "name": "disableAutoCompletedNoAction2"
+                },
+                {
+                    "name": "sentAutoCompletedNoAction2"
+                },
+                {
+                    "name": "autoCompletedNoAction2Date"
+                }
+            ],
+            [
+                {
+                    "name": "disableBookCoachActionNoBookingLast"
+                },
+                {
+                    "name": "bookCoachActionNoBookingLastSent"
+                },
+                {
+                    "name": "bookCoachActionNoBookingLastDate"
+                }
+            ],
+            [
+                {
+                    "name": "disableAutoRemind"
+                },
+                {
+                    "name": "sentAutoRemind"
+                },
+                {
+                    "name": "autoRemindDate"
+                }
+            ],
+            [
+                {
+                    "name": "disableAutoRemind2"
+                },
+                {
+                    "name": "sentAutoRemind2"
+                },
+                {
+                    "name": "autoRemind2Date"
+                }
+            ],
+            [
+                {
+                    "name": "disableRemindMeLast"
+                },
+                {
+                    "name": "remindMeLastSent"
+                },
+                {
+                    "name": "remindMeLastDate"
+                }
+            ],
+            [
+                {
+                    "name": "disableYouHaveNotBookedYourAppointment1"
+                },
+                {
+                    "name": "sentYouHaveNotBookedYourAppointment1"
+                },
+                {
+                    "name": "youHaveNotBookedYourAppointment1Date"
+                }
+            ],
+            [
+                {
+                    "name": "disableYouHaveNotBookedYourAppointment2"
+                },
+                {
+                    "name": "sentYouHaveNotBookedYourAppointment2"
+                },
+                {
+                    "name": "youHaveNotBookedYourAppointment2Date"
+                }
+            ],
+            [
+                {
+                    "name": "disableYouHaveNotBookedYourAppointment3"
+                },
+                {
+                    "name": "sentYouHaveNotBookedYourAppointment3"
+                },
+                {
+                    "name": "youHaveNotBookedYourAppointment3Date"
+                }
+            ]
+        ],
+        "style": "warning",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "accordion": "expanded",
+        "isCollapsedDynamicLogic": null,
+        "customLabel": "Book appointment Reminder"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "disablePostAssessmentBooking"
+                },
+                {
+                    "name": "postAssessmentBookingSent"
+                },
+                {
+                    "name": "postAssessmentBookingDate"
+                }
+            ]
+        ],
+        "style": "default",
+        "subTitle": null,
+        "subTitleStyle": "default",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "accordion": "collapsed",
+        "isCollapsedDynamicLogic": null,
+        "customLabel": "Call Preparation"
+    }
+]

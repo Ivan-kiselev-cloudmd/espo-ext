@@ -1,0 +1,15 @@
+{
+    "fields": {
+        "accounts": "Accounts",
+        "contacts": "Cases",
+        "default": "Default",
+        "technicalName": "Technical Name"
+    },
+    "links": {
+        "accounts": "Accounts",
+        "contacts": "Contacts"
+    },
+    "labels": {
+        "Create BenefitOption": "Create Benefit Option"
+    }
+}

@@ -1,0 +1,102 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "date"
+                },
+                {
+                    "name": "type"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "q1"
+                }
+            ],
+            [
+                {
+                    "name": "q2"
+                }
+            ],
+            [
+                {
+                    "name": "q3"
+                }
+            ]
+        ],
+        "style": "default",
+        "subTitle": null,
+        "subTitleStyle": "default",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "accordion": "collapsed",
+        "isCollapsedDynamicLogic": null,
+        "customLabel": "Please answer each question"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "q4"
+                }
+            ],
+            [
+                {
+                    "name": "q5"
+                }
+            ],
+            [
+                {
+                    "name": "q6"
+                }
+            ],
+            [
+                {
+                    "name": "q7"
+                }
+            ],
+            [
+                {
+                    "name": "q8"
+                }
+            ]
+        ],
+        "style": "default",
+        "subTitle": null,
+        "subTitleStyle": "default",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "accordion": "collapsed",
+        "isCollapsedDynamicLogic": null,
+        "customLabel": "How often during the last year have you..."
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "q9"
+                }
+            ],
+            [
+                {
+                    "name": "q10"
+                }
+            ]
+        ],
+        "style": "default",
+        "subTitle": null,
+        "subTitleStyle": "default",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "accordion": "collapsed",
+        "isCollapsedDynamicLogic": null,
+        "customLabel": "Please answer each question"
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "date"
+                },
+                {
+                    "name": "type"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "q1"
+                }
+            ],
+            [
+                {
+                    "name": "q2"
+                }
+            ],
+            [
+                {
+                    "name": "q3"
+                }
+            ],
+            [
+                {
+                    "name": "q4"
+                }
+            ],
+            [
+                {
+                    "name": "q5"
+                }
+            ],
+            [
+                {
+                    "name": "q6"
+                }
+            ]
+        ],
+        "style": "default",
+        "subTitle": null,
+        "subTitleStyle": "default",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "accordion": "collapsed",
+        "isCollapsedDynamicLogic": null,
+        "customLabel": "Check the box that best describes how you have felt and conducted yourself over the past 6 months."
+    }
+]

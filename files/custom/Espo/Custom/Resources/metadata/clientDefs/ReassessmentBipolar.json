@@ -1,0 +1,184 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "kanbanViewMode": false,
+    "color": null,
+    "iconClass": null,
+    "restrictedInlineEdit": false,
+    "dynamicLogic": {
+        "fields": {
+            "q1": {
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "isFalse",
+                            "attribute": "incompleteAssessment"
+                        }
+                    ]
+                }
+            },
+            "q2": {
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "isFalse",
+                            "attribute": "incompleteAssessment"
+                        }
+                    ]
+                }
+            },
+            "q3": {
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "isFalse",
+                            "attribute": "incompleteAssessment"
+                        }
+                    ]
+                }
+            },
+            "q4": {
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "isFalse",
+                            "attribute": "incompleteAssessment"
+                        }
+                    ]
+                }
+            },
+            "q5": {
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "isFalse",
+                            "attribute": "incompleteAssessment"
+                        }
+                    ]
+                }
+            },
+            "q6": {
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "isFalse",
+                            "attribute": "incompleteAssessment"
+                        }
+                    ]
+                }
+            },
+            "q7": {
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "isFalse",
+                            "attribute": "incompleteAssessment"
+                        }
+                    ]
+                }
+            },
+            "q8": {
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "isFalse",
+                            "attribute": "incompleteAssessment"
+                        }
+                    ]
+                }
+            },
+            "q9": {
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "isFalse",
+                            "attribute": "incompleteAssessment"
+                        }
+                    ]
+                }
+            },
+            "q10": {
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "isFalse",
+                            "attribute": "incompleteAssessment"
+                        }
+                    ]
+                }
+            },
+            "q11": {
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "isFalse",
+                            "attribute": "incompleteAssessment"
+                        }
+                    ]
+                }
+            },
+            "q12": {
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "isFalse",
+                            "attribute": "incompleteAssessment"
+                        }
+                    ]
+                }
+            },
+            "q13": {
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "isFalse",
+                            "attribute": "incompleteAssessment"
+                        }
+                    ]
+                }
+            },
+            "q14": {
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "isFalse",
+                            "attribute": "incompleteAssessment"
+                        }
+                    ]
+                }
+            },
+            "q15": {
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "isFalse",
+                            "attribute": "incompleteAssessment"
+                        }
+                    ]
+                }
+            },
+            "q16": {
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "isFalse",
+                            "attribute": "incompleteAssessment"
+                        }
+                    ]
+                }
+            },
+            "q17": {
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "isFalse",
+                            "attribute": "incompleteAssessment"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

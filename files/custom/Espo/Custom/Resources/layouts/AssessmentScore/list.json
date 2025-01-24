@@ -1,0 +1,27 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "contact"
+    },
+    {
+        "name": "diagnosisname"
+    },
+    {
+        "name": "reportedLevel"
+    },
+    {
+        "name": "score"
+    },
+    {
+        "name": "maxScore"
+    },
+    {
+        "name": "createdAt"
+    },
+    {
+        "name": "modifiedAt"
+    }
+]

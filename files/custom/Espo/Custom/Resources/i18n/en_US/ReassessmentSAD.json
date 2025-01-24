@@ -1,0 +1,157 @@
+{
+    "fields": {
+        "baseline": "Baseline",
+        "date": "Date",
+        "improvement": "Improvement %",
+        "initialScore": "Initial Score",
+        "maxScore": "Max Score",
+        "score": "Score",
+        "level": "Level",
+        "successMgmt": "SuccessMgmt",
+        "q1": "felt moments of sudden terror, fear, or fright in social situations",
+        "q2": "felt anxious, worried, or nervous about social situations",
+        "q3": "had thoughts of being rejected, humiliated, embarrassed, ridiculed, or offending others",
+        "q4": "felt a racing heart, sweaty, trouble breathing, faint, or shaky in social situations",
+        "q5": "felt tense muscles, felt on edge or restless, or had trouble relaxing in social situations",
+        "q6": "avoided, or did not approach or enter, social situations",
+        "q7": "left social situations early or participated only minimally (e.g., said little, avoided eye contact)",
+        "q8": "spent a lot of time preparing what to say or how to act in social situations",
+        "q9": "distracted myself to avoid thinking about social situations",
+        "q10": "needed help to cope with social situations (e.g., alcohol or medications, superstitious objects)",
+        "contact": "Case",
+        "latest": "Latest",
+        "type": "Type",
+        "incompleteAssessment": "Incomplete Assessment"
+    },
+    "links": {
+        "contact": "Contact"
+    },
+    "labels": {
+        "Create ReassessmentSAD": "Create Reassessment - SAD"
+    },
+    "options": {
+        "level": {
+            "No measurable risk": "No measurable risk",
+            "MINIMAL to MILD": "MINIMAL to MILD",
+            "MODERATE": "MODERATE",
+            "HIGH": "HIGH"
+        },
+        "successMgmt": {
+            "N/A": "N/A",
+            "No Progress": "No Progress",
+            "Improvement": "Improvement",
+            "Significant Improvement": "Significant Improvement",
+            "Excellent Improvement": "Excellent Improvement"
+        },
+        "q1": {
+            "N/A": "=Choose an option=",
+            "Never": "Never",
+            "Occasionally": "Occasionally",
+            "Half of  the time": "Half of  the time",
+            "Most of  the time": "Most of  the time",
+            "All of  the time": "All of  the time",
+            "Most of the time": "Most of the time",
+            "All of the time": "All of the time",
+            "Half of the time": "Half of the time"
+        },
+        "q2": {
+            "N/A": "=Choose an option=",
+            "Never": "Never",
+            "Occasionally": "Occasionally",
+            "Half of  the time": "Half of  the time",
+            "Most of  the time": "Most of  the time",
+            "All of  the time": "All of  the time",
+            "Half of the time": "Half of the time",
+            "Most of the time": "Most of the time",
+            "All of the time": "All of the time"
+        },
+        "q3": {
+            "N/A": "=Choose an option=",
+            "Never": "Never",
+            "Occasionally": "Occasionally",
+            "Half of  the time": "Half of  the time",
+            "Most of  the time": "Most of  the time",
+            "All of  the time": "All of  the time",
+            "Half of the time": "Half of the time",
+            "Most of the time": "Most of the time",
+            "All of the time": "All of the time"
+        },
+        "q4": {
+            "N/A": "=Choose an option=",
+            "Never": "Never",
+            "Occasionally": "Occasionally",
+            "Half of  the time": "Half of  the time",
+            "Most of  the time": "Most of  the time",
+            "All of  the time": "All of  the time",
+            "Half of the time": "Half of the time",
+            "Most of the time": "Most of the time",
+            "All of the time": "All of the time"
+        },
+        "q5": {
+            "N/A": "=Choose an option=",
+            "Never": "Never",
+            "Occasionally": "Occasionally",
+            "Half of  the time": "Half of  the time",
+            "Most of  the time": "Most of  the time",
+            "All of  the time": "All of  the time",
+            "Half of the time": "Half of the time",
+            "Most of the time": "Most of the time",
+            "All of the time": "All of the time"
+        },
+        "q6": {
+            "N/A": "=Choose an option=",
+            "Never": "Never",
+            "Occasionally": "Occasionally",
+            "Half of  the time": "Half of  the time",
+            "Most of  the time": "Most of  the time",
+            "All of  the time": "All of  the time",
+            "Half of the time": "Half of the time",
+            "Most of the time": "Most of the time",
+            "All of the time": "All of the time"
+        },
+        "q7": {
+            "N/A": "=Choose an option=",
+            "Never": "Never",
+            "Occasionally": "Occasionally",
+            "Half of  the time": "Half of  the time",
+            "Most of  the time": "Most of  the time",
+            "All of  the time": "All of  the time",
+            "Half of the time": "Half of the time",
+            "Most of the time": "Most of the time",
+            "All of the time": "All of the time"
+        },
+        "q8": {
+            "N/A": "=Choose an option=",
+            "Never": "Never",
+            "Occasionally": "Occasionally",
+            "Half of  the time": "Half of  the time",
+            "Most of  the time": "Most of  the time",
+            "All of  the time": "All of  the time",
+            "Half of the time": "Half of the time",
+            "Most of the time": "Most of the time",
+            "All of the time": "All of the time"
+        },
+        "q9": {
+            "N/A": "=Choose an option=",
+            "Never": "Never",
+            "Occasionally": "Occasionally",
+            "Half of  the time": "Half of  the time",
+            "Most of the time": "Most of the time",
+            "All of the time": "All of the time",
+            "Half of the time": "Half of the time"
+        },
+        "q10": {
+            "N/A": "=Choose an option=",
+            "Never": "Never",
+            "Occasionally": "Occasionally",
+            "Half of the time": "Half of the time",
+            "Most of the time": "Most of the time",
+            "All of the time": "All of the time"
+        },
+        "type": {
+            "Reassessment": "Reassessment",
+            "Current Baseline": "Current Baseline",
+            "Baseline": "Baseline"
+        }
+    }
+}

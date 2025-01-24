@@ -1,0 +1,38 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "email"
+                }
+            ],
+            [
+                {
+                    "name": "q1"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "q1Yes"
+                },
+                {
+                    "name": "q1YesOther"
+                }
+            ],
+            [
+                {
+                    "name": "q1No"
+                },
+                {
+                    "name": "q1NoOther"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    }
+]

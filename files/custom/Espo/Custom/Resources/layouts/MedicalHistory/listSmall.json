@@ -1,0 +1,19 @@
+[
+    {
+        "name": "relation",
+        "width": 15,
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "diagnosis",
+        "notSortable": true
+    },
+    {
+        "name": "copingTools"
+    },
+    {
+        "name": "selfperceptionOfCopingAbility",
+        "align": "left"
+    }
+]

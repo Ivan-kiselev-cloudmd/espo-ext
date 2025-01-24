@@ -1,0 +1,13 @@
+{
+    "fields": {
+        "researchContact": "Research",
+        "contacts": "Contacts",
+        "calendarLink": "Calendar link",
+        "logChanges": "Log Changes"
+    },
+    "links": {
+        "researchContact": "Research",
+        "contacts": "Contacts",
+        "logChanges": "Log Changes"
+    }
+}

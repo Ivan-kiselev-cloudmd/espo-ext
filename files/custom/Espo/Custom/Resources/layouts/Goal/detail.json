@@ -1,0 +1,46 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "contact"
+                },
+                {
+                    "name": "dateAdded"
+                }
+            ],
+            [
+                {
+                    "name": "intervention"
+                },
+                {
+                    "name": "interventionDetails"
+                }
+            ],
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "task"
+                }
+            ],
+            [
+                {
+                    "name": "status"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "dueDate"
+                },
+                {
+                    "name": "actualCompletionDate"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

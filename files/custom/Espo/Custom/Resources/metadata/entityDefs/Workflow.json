@@ -1,0 +1,20 @@
+{
+  "serviceActions": {
+    "Meeting":{
+      "linkMeetingToContact": {
+        "serviceName": "LinkContactService",
+        "methodName": "linkMeetingToContact"
+      }
+    },
+    "Contact":{
+      "resetSnapclarityAssessment": {
+        "serviceName": "Snapclarity",
+        "methodName": "resetSnapclarityAssessment"
+      },
+      "referMemberToTherapistAction": {
+        "serviceName": "Therapist",
+        "methodName": "referMemberToTherapist"
+      }
+    }
+  }
+}

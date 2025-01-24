@@ -1,0 +1,57 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "dynamicLogic": {
+        "fields": {
+            "q1Yes": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "q1",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "q1YesOther": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "has",
+                            "attribute": "q1Yes",
+                            "value": "Other"
+                        }
+                    ]
+                }
+            },
+            "q1No": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "q1",
+                            "value": "No"
+                        }
+                    ]
+                }
+            },
+            "q1NoOther": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "has",
+                            "attribute": "q1No",
+                            "value": "Other"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "kanbanViewMode": false,
+    "color": null,
+    "iconClass": null
+}

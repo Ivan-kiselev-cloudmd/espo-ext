@@ -1,0 +1,79 @@
+{
+    "fields": {
+        "contact": "Case",
+        "baseline": "Baseline",
+        "date": "Date",
+        "successMgmt": "SuccessMgmt",
+        "improvement": "Improvement %",
+        "initialScore": "Initial Score",
+        "maxScore": "Max Score",
+        "score": "Score",
+        "level": "Level",
+        "q0": "Sometimes things happen to people that are unusually or especially frightening, horrible, or traumatic. For example: • a serious accident or fire • a physical or sexual assault or abuse • an earthquake or flood • a war • seeing someone be killed or seriously injured • having a loved one die through homicide or suicide. Have you ever experienced this kind of event?",
+        "q1": "had nightmares about the event(s) or thought about the event(s) when you did not want to?",
+        "q2": "tried hard not to think about the event(s) or went out of your way to avoid situations that reminded you of the event(s)?",
+        "q3": "been constantly on guard, watchful, or easily startled?",
+        "q4": "felt numb or detached from people, activities, or your surroundings?",
+        "q5": "felt guilty or unable to stop blaming yourself or others for the event(s) or any problems the event(s) may have caused?",
+        "latest": "Latest",
+        "type": "Type",
+        "incompleteAssessment": "Incomplete Assessment"
+    },
+    "links": {
+        "contact": "Contact"
+    },
+    "labels": {
+        "Create ReassessmentPTSD": "Create Reassessment - PTSD"
+    },
+    "options": {
+        "successMgmt": {
+            "N/A": "N/A",
+            "No Progress": "No Progress",
+            "Improvement": "Improvement",
+            "Significant Improvement": "Significant Improvement",
+            "Excellent Improvement": "Excellent Improvement"
+        },
+        "level": {
+            "No measurable risk": "No measurable risk",
+            "MINIMAL to MILD": "MINIMAL to MILD",
+            "MODERATE": "MODERATE",
+            "HIGH": "HIGH",
+            "Moderate to Severe": "Moderate to Severe"
+        },
+        "q0": {
+            "N/A": "N/A",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "q1": {
+            "N/A": "=Choose an option=",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "q2": {
+            "N/A": "=Choose an option=",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "q3": {
+            "N/A": "=Choose an option=",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "q4": {
+            "N/A": "=Choose an option=",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "q5": {
+            "N/A": "=Choose an option=",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "type": {
+            "Reassessment": "Reassessment",
+            "Current Baseline": "Current Baseline",
+            "Baseline": "Baseline"
+        }
+    }
+}

@@ -1,0 +1,4111 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "dynamicLogic": {
+        "fields": {
+            "mh4": {
+                "visible": null,
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "mh3": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "mh2",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ds1": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "not",
+                            "value": {
+                                "type": "or",
+                                "value": [
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "Not at all"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "Not at all"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "Not at all"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "A little"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "A little"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "Not at all"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "notEquals",
+                            "attribute": "dps1",
+                            "value": "N/A"
+                        },
+                        {
+                            "type": "notEquals",
+                            "attribute": "dps2",
+                            "value": "N/A"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ds2": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "notEquals",
+                            "attribute": "dps1",
+                            "value": "N/A"
+                        },
+                        {
+                            "type": "notEquals",
+                            "attribute": "dps2",
+                            "value": "N/A"
+                        },
+                        {
+                            "type": "not",
+                            "value": {
+                                "type": "or",
+                                "value": [
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "Not at all"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "Not at all"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "Not at all"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "A little"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "A little"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "Not at all"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ds3": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "notEquals",
+                            "attribute": "dps1",
+                            "value": "N/A"
+                        },
+                        {
+                            "type": "notEquals",
+                            "attribute": "dps2",
+                            "value": "N/A"
+                        },
+                        {
+                            "type": "not",
+                            "value": {
+                                "type": "or",
+                                "value": [
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "Not at all"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "Not at all"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "Not at all"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "A little"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "A little"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "Not at all"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ds4": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "notEquals",
+                            "attribute": "dps1",
+                            "value": "N/A"
+                        },
+                        {
+                            "type": "notEquals",
+                            "attribute": "dps2",
+                            "value": "N/A"
+                        },
+                        {
+                            "type": "not",
+                            "value": {
+                                "type": "or",
+                                "value": [
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "Not at all"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "Not at all"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "Not at all"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "A little"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "A little"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "Not at all"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ds5": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "notEquals",
+                            "attribute": "dps1",
+                            "value": "N/A"
+                        },
+                        {
+                            "type": "notEquals",
+                            "attribute": "dps2",
+                            "value": "N/A"
+                        },
+                        {
+                            "type": "not",
+                            "value": {
+                                "type": "or",
+                                "value": [
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "Not at all"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "Not at all"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "Not at all"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "A little"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "A little"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "Not at all"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ds6": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "notEquals",
+                            "attribute": "dps1",
+                            "value": "N/A"
+                        },
+                        {
+                            "type": "notEquals",
+                            "attribute": "dps2",
+                            "value": "N/A"
+                        },
+                        {
+                            "type": "not",
+                            "value": {
+                                "type": "or",
+                                "value": [
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "Not at all"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "Not at all"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "Not at all"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "A little"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "A little"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "Not at all"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ds7": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "notEquals",
+                            "attribute": "dps1",
+                            "value": "N/A"
+                        },
+                        {
+                            "type": "notEquals",
+                            "attribute": "dps2",
+                            "value": "N/A"
+                        },
+                        {
+                            "type": "not",
+                            "value": {
+                                "type": "or",
+                                "value": [
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "Not at all"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "Not at all"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "Not at all"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "A little"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "A little"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "Not at all"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ds8": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "notEquals",
+                            "attribute": "dps1",
+                            "value": "N/A"
+                        },
+                        {
+                            "type": "notEquals",
+                            "attribute": "dps2",
+                            "value": "N/A"
+                        },
+                        {
+                            "type": "not",
+                            "value": {
+                                "type": "or",
+                                "value": [
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "Not at all"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "Not at all"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "Not at all"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "A little"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "A little"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "Not at all"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ds9": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "notEquals",
+                            "attribute": "dps1",
+                            "value": "N/A"
+                        },
+                        {
+                            "type": "notEquals",
+                            "attribute": "dps2",
+                            "value": "N/A"
+                        },
+                        {
+                            "type": "not",
+                            "value": {
+                                "type": "or",
+                                "value": [
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "Not at all"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "Not at all"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "Not at all"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "A little"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "and",
+                                        "value": [
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps1",
+                                                "value": "A little"
+                                            },
+                                            {
+                                                "type": "equals",
+                                                "attribute": "dps2",
+                                                "value": "Not at all"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "gad1": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "gadps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "gad2": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "gadps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "gad3": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "gadps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "gad4": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "gadps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "gad5": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "gadps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "gad6": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "gadps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "gad7": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "gadps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "padis2": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "notIn",
+                            "attribute": "padis1",
+                            "value": [
+                                "N/A",
+                                "None"
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "padis3": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "notIn",
+                            "attribute": "padis1",
+                            "value": [
+                                "N/A",
+                                "None"
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "padis4": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "notIn",
+                            "attribute": "padis1",
+                            "value": [
+                                "N/A",
+                                "None"
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "sad1": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "sadps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "sad2": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "sadps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "sad3": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "sadps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "sad4": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "sadps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "sad5": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "sadps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "sad6": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "sadps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "sad7": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "sadps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "sad8": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "sadps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "sad9": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "sadps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "sad10": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "sadps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ocd1": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ocd2": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ocd3": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ocd4": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ocd5": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ocd6": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ocd7": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ocd8": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ocd9": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ocd10": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ocd11": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ocd12": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ocd13": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ocd14": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ocd15": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ocir1": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ocir2": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ocir3": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ocir4": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ocir5": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ocir6": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ocir7": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ocir8": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ocir9": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ocir10": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ocir12": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ocir13": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ocir11": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ocir14": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ocir15": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ocir16": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ocir17": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ocir18": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ocdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "adhd1": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "adhdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "adhd2": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "adhdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "adhd3": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "adhdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "adhd4": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "adhdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "adhd5": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "adhdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "adhd6": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "adhdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "bp1a": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "bps1",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        },
+                        {
+                            "type": "in",
+                            "attribute": "bps2",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "bp1b": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "bps1",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        },
+                        {
+                            "type": "in",
+                            "attribute": "bps2",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "bp1c": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "bps1",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        },
+                        {
+                            "type": "in",
+                            "attribute": "bps2",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "bp1d": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "bps1",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        },
+                        {
+                            "type": "in",
+                            "attribute": "bps2",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "bp1e": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "bps1",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        },
+                        {
+                            "type": "in",
+                            "attribute": "bps2",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "bp1f": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "bps1",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        },
+                        {
+                            "type": "in",
+                            "attribute": "bps2",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "bp1g": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "bps1",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        },
+                        {
+                            "type": "in",
+                            "attribute": "bps2",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "bp1h": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "bps1",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        },
+                        {
+                            "type": "in",
+                            "attribute": "bps2",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "bp1i": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "bps1",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        },
+                        {
+                            "type": "in",
+                            "attribute": "bps2",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "bp1j": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "bps1",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        },
+                        {
+                            "type": "in",
+                            "attribute": "bps2",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "bp1k": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "bps1",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        },
+                        {
+                            "type": "in",
+                            "attribute": "bps2",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "bp1l": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "bps1",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        },
+                        {
+                            "type": "in",
+                            "attribute": "bps2",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "bp1m": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "bps1",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        },
+                        {
+                            "type": "in",
+                            "attribute": "bps2",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "bp2": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "bps1",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        },
+                        {
+                            "type": "in",
+                            "attribute": "bps2",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "bp3": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "bps1",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        },
+                        {
+                            "type": "in",
+                            "attribute": "bps2",
+                            "value": [
+                                "Mild",
+                                "Moderate",
+                                "Severe"
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ied1": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ieps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ied2": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ieps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ied3": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ieps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ied4": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ieps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ied5": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ieps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "aud1": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "audps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "aud2": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "audps1",
+                            "value": "Yes"
+                        },
+                        {
+                            "type": "notIn",
+                            "attribute": "aud1",
+                            "value": [
+                                "N/A",
+                                "Never"
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "aud3": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "audps1",
+                            "value": "Yes"
+                        },
+                        {
+                            "type": "notIn",
+                            "attribute": "aud1",
+                            "value": [
+                                "N/A",
+                                "Never"
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "aud4": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "audps1",
+                            "value": "Yes"
+                        },
+                        {
+                            "type": "notIn",
+                            "attribute": "aud2",
+                            "value": [
+                                "N/A",
+                                "1 or 2"
+                            ]
+                        },
+                        {
+                            "type": "notIn",
+                            "attribute": "aud3",
+                            "value": [
+                                "N/A",
+                                "Never"
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "aud5": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "audps1",
+                            "value": "Yes"
+                        },
+                        {
+                            "type": "notIn",
+                            "attribute": "aud2",
+                            "value": [
+                                "N/A",
+                                "1 or 2"
+                            ]
+                        },
+                        {
+                            "type": "notIn",
+                            "attribute": "aud3",
+                            "value": [
+                                "N/A",
+                                "Never"
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "aud6": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "audps1",
+                            "value": "Yes"
+                        },
+                        {
+                            "type": "notIn",
+                            "attribute": "aud2",
+                            "value": [
+                                "N/A",
+                                "1 or 2"
+                            ]
+                        },
+                        {
+                            "type": "notIn",
+                            "attribute": "aud3",
+                            "value": [
+                                "N/A",
+                                "Never"
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "aud7": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "audps1",
+                            "value": "Yes"
+                        },
+                        {
+                            "type": "notIn",
+                            "attribute": "aud2",
+                            "value": [
+                                "N/A",
+                                "1 or 2"
+                            ]
+                        },
+                        {
+                            "type": "notIn",
+                            "attribute": "aud3",
+                            "value": [
+                                "N/A",
+                                "Never"
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "aud8": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "audps1",
+                            "value": "Yes"
+                        },
+                        {
+                            "type": "notIn",
+                            "attribute": "aud2",
+                            "value": [
+                                "N/A",
+                                "1 or 2"
+                            ]
+                        },
+                        {
+                            "type": "notIn",
+                            "attribute": "aud3",
+                            "value": [
+                                "N/A",
+                                "Never"
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "aud9": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "audps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "aud10": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "audps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "sud1": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps1",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps2",
+                                    "value": "Yes"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "sud2": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps1",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps2",
+                                    "value": "Yes"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "sud3": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps1",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps2",
+                                    "value": "Yes"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "sud4": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps1",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps2",
+                                    "value": "Yes"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "sud5": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps1",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps2",
+                                    "value": "Yes"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "sud6": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps1",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps2",
+                                    "value": "Yes"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "sud7": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps1",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps2",
+                                    "value": "Yes"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "sud8": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps1",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps2",
+                                    "value": "Yes"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "sud9": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps1",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps2",
+                                    "value": "Yes"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "sud10": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps1",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "sudps2",
+                                    "value": "Yes"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "sl1": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "slps1",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "slps2",
+                                    "value": "Yes"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "sl2": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "slps1",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "slps2",
+                                    "value": "Yes"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "sl3": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "slps1",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "slps2",
+                                    "value": "Yes"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "sl4": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "slps1",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "slps2",
+                                    "value": "Yes"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "sl5": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "slps1",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "slps2",
+                                    "value": "Yes"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "sl6": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "slps1",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "slps2",
+                                    "value": "Yes"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "sl7": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "slps1",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "slps2",
+                                    "value": "Yes"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ed1": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "edps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ed2": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "edps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ed3": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "edps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ed4": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "edps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ed5": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "edps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ptsd1": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ptsdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ptsd2": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ptsdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ptsd3": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ptsdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ptsd4": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ptsdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ptsd5": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "ptsdps1",
+                            "value": "Yes"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "mh6": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "mh5",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "mh8": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "mh7",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            },
+            "mh9": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "mh8",
+                            "value": "Other"
+                        }
+                    ]
+                }
+            },
+            "mh10": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "mh7",
+                            "value": "No"
+                        }
+                    ]
+                }
+            },
+            "mh11": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "mh10",
+                            "value": "Other"
+                        }
+                    ]
+                }
+            },
+            "adhdps1": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "audps1": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "bps1": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "bps2": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "dps1": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "dps2": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "edps1": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "gadps1": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ieps1": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "lf1": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "lf10": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "lf11": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "lf12": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "lf2": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "lf3": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "lf4": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "lf5": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "lf6": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "lf7": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "lf8": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "lf9": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "mh1": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "mh2": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "mh5": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "mhh1": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "mw1": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "mw2": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ocdps1": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "padis1": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "ptsdps1": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "sadps1": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "shs4": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "shs1": {
+                "visible": null,
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "shs2": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "shs3": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "slps1": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "slps2": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "sudps1": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "sudps2": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Initial"
+                        }
+                    ]
+                }
+            },
+            "successMgmt1": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Reassessment"
+                        }
+                    ]
+                }
+            },
+            "successMgmt2": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Reassessment"
+                        }
+                    ]
+                }
+            },
+            "maxScoreForAreaOfRisk1": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Reassessment"
+                        }
+                    ]
+                }
+            },
+            "maxScoreForAreaOfRisk2": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Reassessment"
+                        }
+                    ]
+                }
+            },
+            "initialScoreForAreaOfRisk1": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Reassessment"
+                        }
+                    ]
+                }
+            },
+            "initialScoreForAreaOfRisk2": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Reassessment"
+                        }
+                    ]
+                }
+            },
+            "improvement1": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Reassessment"
+                        }
+                    ]
+                }
+            },
+            "improvement2": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "source",
+                            "value": "Reassessment"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "kanbanViewMode": false,
+    "color": null,
+    "iconClass": null,
+    "restrictedInlineEdit": false
+}

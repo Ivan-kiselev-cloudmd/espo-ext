@@ -1,0 +1,58 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "target"
+                },
+                {
+                    "name": "parent"
+                },
+                {
+                    "name": "casenum"
+                }
+            ],
+            [
+                {
+                    "name": "dateStart"
+                },
+                {
+                    "name": "dateEnd"
+                }
+            ],
+            [
+                {
+                    "name": "activityType"
+                },
+                {
+                    "name": "duration"
+                }
+            ],
+            [
+                {
+                    "name": "adminActivity"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "coachActivity"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "researchActivity"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "description"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    }
+]

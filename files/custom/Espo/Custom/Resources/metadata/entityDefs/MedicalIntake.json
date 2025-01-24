@@ -1,0 +1,1407 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "required": false,
+            "trim": true,
+            "options": []
+        },
+        "description": {
+            "type": "text"
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user"
+        },
+        "modifiedBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user"
+        },
+        "assignedUser": {
+            "type": "link",
+            "required": true,
+            "view": "views/fields/assigned-user"
+        },
+        "teams": {
+            "type": "linkMultiple",
+            "view": "views/fields/teams"
+        },
+        "contact": {
+            "type": "linkOne"
+        },
+        "affected1": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "affected2": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "affected3": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "affected4": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "affected5": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "affected1Details": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "affected2Details": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "affected3Details": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "affected4Details": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "affected5Details": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "weight": {
+            "notNull": false,
+            "type": "float",
+            "isCustom": true
+        },
+        "weightUnit": {
+            "type": "enum",
+            "options": [
+                "LBS",
+                "KG"
+            ],
+            "style": {
+                "LBS": null,
+                "KG": null
+            },
+            "default": "KG",
+            "isCustom": true
+        },
+        "heightUnit": {
+            "type": "enum",
+            "options": [
+                "Сentimeters ",
+                "Inches"
+            ],
+            "style": {
+                "Сentimeters ": null,
+                "Inches": null
+            },
+            "default": "Сentimeters ",
+            "isCustom": true
+        },
+        "height": {
+            "type": "varchar",
+            "maxLength": 150,
+            "trim": true,
+            "options": [],
+            "isCustom": true
+        },
+        "foodHabits": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true,
+            "tooltip": true
+        },
+        "frequencyExercise": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true,
+            "tooltip": true
+        },
+        "frequencyAlcohol": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true,
+            "tooltip": true
+        },
+        "frequencySmoking": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true,
+            "tooltip": true
+        },
+        "frequencyCannabis": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "allergiesMedications": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "allergiesMedicationsDetails": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "conditionsBoneJoint": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsBoneJointDetails": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "gender": {
+            "readOnly": true,
+            "type": "foreign",
+            "link": "contact",
+            "field": "gender",
+            "view": "views/fields/foreign-enum",
+            "isCustom": true
+        },
+        "femaleMenstrualCycle": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "Regular",
+                "Irregular"
+            ],
+            "style": {
+                "N/A": null,
+                "Regular": null,
+                "Irregular": null
+            },
+            "default": "N/A",
+            "isCustom": true
+        },
+        "femaleMenstrualCycleLength": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "allergiesEnvironmental": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "allergiesFood": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "allergiesOther": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "allergiesEnvironmentalDetails": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "allergiesFoodDetails": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "allergiesOtherDetails": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "conditionsCancer": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsCancerDetails": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "conditionsEndocrinological": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsEndocrinologicaldetails": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "conditionsHeart": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsHeartDetails": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "conditionsImmuniologicalInfection": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsImmuniologicalInfectionDetails": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "conditionsLung": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsLungDetails": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "conditionsMentalHealth": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsMentalHealthDetails": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "conditionsNeurological": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsNeurologicaldetails": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "conditionsPastSurgeries": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsPastSurgeriesDetails": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "conditionsRespiratory": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsRespiratoryDetails": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "conditionsRheumatological": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsRheumatologicalDetails": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "conditionsGEU": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsGEUDetails": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "conditionsVascular": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsVascularDetails": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "conditionsENT": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsENTDetails": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "conditionsDermatology": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsDermatologyDetails": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "conditionsGynecology": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsGynecologyDetails": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "conditionsOther": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsOtherDetails": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "femaleBirthControl": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "Yes",
+                "No"
+            ],
+            "style": {
+                "N/A": null,
+                "Yes": null,
+                "No": null
+            },
+            "default": "N/A",
+            "isCustom": true
+        },
+        "femaleBirthControlType": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "femaleCurrentlyPregnant": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "Yes",
+                "No"
+            ],
+            "style": {
+                "N/A": null,
+                "Yes": null,
+                "No": null
+            },
+            "default": "N/A",
+            "isCustom": true
+        },
+        "femaleGestationWeek": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "femaleNumberOfPregnancies": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "femaleNumberOfMiscarriages": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "femaleDischarge": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "femaleMenopause": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "Yes",
+                "No"
+            ],
+            "style": {
+                "N/A": null,
+                "Yes": null,
+                "No": null
+            },
+            "default": "N/A",
+            "isCustom": true
+        },
+        "femaleHormoneTreatment": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "Yes",
+                "No"
+            ],
+            "style": {
+                "N/A": null,
+                "Yes": null,
+                "No": null
+            },
+            "default": "N/A",
+            "isCustom": true
+        },
+        "femaleHormoneTreatmentType": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "clientSummary1": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "Excellent",
+                "Good",
+                "Poor"
+            ],
+            "style": {
+                "N/A": null,
+                "Excellent": "success",
+                "Good": "primary",
+                "Poor": "danger"
+            },
+            "displayAsLabel": true,
+            "default": "N/A",
+            "isCustom": true,
+            "tooltip": true
+        },
+        "clientSummary2": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "Yes",
+                "No"
+            ],
+            "style": {
+                "N/A": null,
+                "Yes": "danger",
+                "No": "success"
+            },
+            "displayAsLabel": true,
+            "default": "N/A",
+            "isCustom": true,
+            "tooltip": true
+        },
+        "clientSummary2Details": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "clientSummary3": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "Yes",
+                "No"
+            ],
+            "style": {
+                "N/A": null,
+                "Yes": "danger",
+                "No": "success"
+            },
+            "displayAsLabel": true,
+            "default": "N/A",
+            "isCustom": true,
+            "tooltip": true
+        },
+        "clientSummary3Details": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "clientSummary4": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "Yes",
+                "No"
+            ],
+            "style": {
+                "N/A": null,
+                "Yes": "danger",
+                "No": "success"
+            },
+            "displayAsLabel": true,
+            "default": "N/A",
+            "isCustom": true,
+            "tooltip": true
+        },
+        "clientSummary4Details": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "clientSummary5": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "Family",
+                "Friends",
+                "Family & Friends",
+                "Limited",
+                "No supports"
+            ],
+            "style": {
+                "N/A": null,
+                "Family": null,
+                "Friends": null,
+                "Family & Friends": null,
+                "Limited": null,
+                "No supports": "danger"
+            },
+            "displayAsLabel": true,
+            "default": "N/A",
+            "isCustom": true,
+            "tooltip": true
+        },
+        "clientSummary6": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "Regular/Balanced",
+                "Irregular/Balanced",
+                "Irregular/Not Balanced"
+            ],
+            "style": {
+                "N/A": null,
+                "Regular/Balanced": "success",
+                "Irregular/Balanced": "primary",
+                "Irregular/Not Balanced": "danger"
+            },
+            "displayAsLabel": true,
+            "default": "N/A",
+            "isCustom": true,
+            "tooltip": true
+        },
+        "clientSummary7": {
+            "type": "enum",
+            "displayAsLabel": true,
+            "options": [
+                "N/A",
+                "Regular/minimum of 7 hours ",
+                "Regular/less than 7 hours ",
+                "Trouble falling asleep",
+                "Trouble waking up"
+            ],
+            "style": {
+                "N/A": null,
+                "Regular/minimum of 7 hours ": "success",
+                "Regular/less than 7 hours ": "primary",
+                "Trouble falling asleep": "danger",
+                "Trouble waking up": "danger"
+            },
+            "default": "N/A",
+            "isCustom": true,
+            "tooltip": true
+        },
+        "clientSummary8": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "Daily exercise - Minimum of 1 hour a day",
+                "Weekly exercise - 2-3 times a week",
+                "Used to exercise/no longer do",
+                "Never have exercised",
+                "Activity is around daily chores/tasks"
+            ],
+            "style": {
+                "N/A": null,
+                "Daily exercise - Minimum of 1 hour a day": "success",
+                "Weekly exercise - 2-3 times a week": "primary",
+                "Used to exercise/no longer do": "info",
+                "Never have exercised": "warning",
+                "Activity is around daily chores/tasks": "danger"
+            },
+            "displayAsLabel": true,
+            "default": "N/A",
+            "isCustom": true,
+            "tooltip": true
+        },
+        "clientSummary9": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "Daily/1-2 drinks",
+                "Daily/2-5 drinks",
+                "Weekly/1-2 drinks",
+                "Rarely Drink - 1-4 drinks per month",
+                "Do not Drink"
+            ],
+            "style": {
+                "N/A": null,
+                "Daily/1-2 drinks": "warning",
+                "Daily/2-5 drinks": "danger",
+                "Weekly/1-2 drinks": "info",
+                "Rarely Drink - 1-4 drinks per month": "primary",
+                "Do not Drink": "success"
+            },
+            "displayAsLabel": true,
+            "default": "N/A",
+            "isCustom": true,
+            "tooltip": true
+        },
+        "clientSummary10": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "Daily",
+                "Weekly",
+                "Monthly",
+                "Rarely",
+                "Do not take any "
+            ],
+            "style": {
+                "N/A": null,
+                "Daily": "danger",
+                "Weekly": "warning",
+                "Monthly": "info",
+                "Rarely": "primary",
+                "Do not take any ": "success"
+            },
+            "displayAsLabel": true,
+            "default": "N/A",
+            "isCustom": true,
+            "tooltip": true
+        },
+        "clientSummary11": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "Yes",
+                "No",
+                "Somewhat"
+            ],
+            "style": {
+                "N/A": null,
+                "Yes": null,
+                "No": null,
+                "Somewhat": null
+            },
+            "displayAsLabel": true,
+            "default": "N/A",
+            "isCustom": true,
+            "tooltip": true
+        },
+        "clientSummary12": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "Yes",
+                "No"
+            ],
+            "style": {
+                "N/A": null,
+                "Yes": null,
+                "No": null
+            },
+            "displayAsLabel": true,
+            "default": "N/A",
+            "isCustom": true,
+            "tooltip": true
+        },
+        "clientSummary12Details": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "clientSummary13": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "Yes",
+                "No"
+            ],
+            "style": {
+                "N/A": null,
+                "Yes": "danger",
+                "No": "success"
+            },
+            "displayAsLabel": true,
+            "default": "N/A",
+            "isCustom": true,
+            "tooltip": true
+        },
+        "clientSummary14": {
+            "type": "enum",
+            "options": [
+                "Panic Disorder",
+                "Obsessive-Compulsive Disorder",
+                "Intermittent Explosive Disorder",
+                "Alcohol Use Disorder",
+                "Sleep Disorder",
+                "Attention Deficit Hyperactivity Disorder",
+                "Bipolar Disorder",
+                "Depression Disorder",
+                "Eating Disorder",
+                "Generalized Anxiety Disorder",
+                "Post-Traumatic Stress Disorder",
+                "Social Anxiety Disorder",
+                "Substance Use Disorder",
+                "No",
+                "N/A"
+            ],
+            "style": {
+                "Panic Disorder": "danger",
+                "Obsessive-Compulsive Disorder": "danger",
+                "Intermittent Explosive Disorder": "danger",
+                "Alcohol Use Disorder": "danger",
+                "Sleep Disorder": "danger",
+                "Attention Deficit Hyperactivity Disorder": "danger",
+                "Bipolar Disorder": "danger",
+                "Depression Disorder": "danger",
+                "Eating Disorder": "danger",
+                "Generalized Anxiety Disorder": "danger",
+                "Post-Traumatic Stress Disorder": "danger",
+                "Social Anxiety Disorder": "danger",
+                "Substance Use Disorder": "danger",
+                "No": "danger",
+                "N/A": null
+            },
+            "displayAsLabel": true,
+            "default": "N/A",
+            "isSorted": true,
+            "isCustom": true,
+            "tooltip": true
+        },
+        "medicalHistories": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "noLoad": true,
+            "importDisabled": true,
+            "isCustom": true
+        },
+        "medicalUpdates": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "noLoad": true,
+            "importDisabled": true,
+            "isCustom": true
+        },
+        "affected1FuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "affected1FuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "affected2FuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "affected2FuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "affected3FuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "affected3FuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "affected4FuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "affected4FuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "affected5FuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "affected5FuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "clientSummary1FuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "clientSummary1FuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "clientSummary2FuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "clientSummary2FuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "clientSummary3FuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "clientSummary3FuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "clientSummary4FuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "clientSummary4FuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "clientSummary5FuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "clientSummary5FuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "clientSummary6FuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "clientSummary6FuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "clientSummary7FuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "clientSummary7FuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "clientSummary8FuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "clientSummary8FuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "clientSummary9FuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "clientSummary9FuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "clientSummary10FuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "clientSummary10FuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "clientSummary11FuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "clientSummary11FuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "clientSummary12FuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "clientSummary12FuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "clientSummary13FuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "clientSummary13FuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "clientSummary14FuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "clientSummary14FuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "weightFuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "weightFuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "heightFuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "heightFuGP": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "allergiesMedicationsFuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "allergiesMedicationsFuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "allergiesEnvironmentalFuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "allergiesEnvironmentalFuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "allergiesFoodFuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "allergiesFoodFuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "allergiesOtherFuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "allergiesOtherFuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsBoneJointFuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsBoneJointFuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsCancerFuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsCancerFuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsEndocrinologicalFuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsEndocrinologicalFuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsHeartFuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsHeartFuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsImmuniologicalInfectionFuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsImmuniologicalInfectionFuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsLungFuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsLungFuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsMentalHealthFuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsMentalHealthFuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsNeurologicalFuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsNeurologicalFuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsPastSurgeriesFuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsPastSurgeriesFuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsRespiratoryFuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsRespiratoryFuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsRheumatologicalFuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsRheumatologicalFuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsGEUFuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsGEUFuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsVascularFuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsVascularFuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsENTFuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsENTFuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsDermatologyFuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsDermatologyFuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsOtherFuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsOtherFuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsGynecologyFuClient": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "conditionsGynecologyFuGp": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "casenum": {
+            "readOnly": true,
+            "type": "foreign",
+            "link": "contact",
+            "field": "casenum",
+            "view": "views/fields/foreign-varchar",
+            "isCustom": true
+        },
+        "clientSummary15": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "Yes",
+                "No"
+            ],
+            "style": {
+                "N/A": null,
+                "Yes": "success",
+                "No": "danger"
+            },
+            "displayAsLabel": true,
+            "default": "N/A",
+            "isCustom": true
+        },
+        "clientSummary16": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "lifeEventWithinTheLastMonthImpactingYourWellbeing": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "lifeEvent": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "Eldercare",
+                "Childcare",
+                "Parenting problems",
+                "Marital/Relationship",
+                "New immigrants",
+                "Job/workplace stress/conflicts",
+                "Financial",
+                "Legal"
+            ],
+            "style": {
+                "N/A": null,
+                "Eldercare": null,
+                "Childcare": null,
+                "Parenting problems": null,
+                "Marital/Relationship": null,
+                "New immigrants": null,
+                "Job/workplace stress/conflicts": null,
+                "Financial": null,
+                "Legal": null
+            },
+            "default": "N/A",
+            "isCustom": true
+        },
+        "introduceAndDiscussAvailableEap": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        }
+    },
+    "links": {
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "modifiedBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "assignedUser": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "teams": {
+            "type": "hasMany",
+            "entity": "Team",
+            "relationName": "EntityTeam",
+            "layoutRelationshipsDisabled": true
+        },
+        "contact": {
+            "type": "hasOne",
+            "foreign": "medicalIntake",
+            "entity": "Contact",
+            "isCustom": true
+        },
+        "medicalHistories": {
+            "type": "hasMany",
+            "foreign": "medicalIntake",
+            "entity": "MedicalHistory",
+            "audited": false,
+            "isCustom": true
+        },
+        "medicalUpdates": {
+            "type": "hasMany",
+            "foreign": "medicalIntake",
+            "entity": "MedicalUpdate",
+            "audited": false,
+            "isCustom": true
+        }
+    },
+    "collection": {
+        "orderBy": "createdAt",
+        "order": "desc"
+    },
+    "indexes": {
+        "name": {
+            "columns": [
+                "name",
+                "deleted"
+            ]
+        },
+        "assignedUser": {
+            "columns": [
+                "assignedUserId",
+                "deleted"
+            ]
+        }
+    }
+}

@@ -1,0 +1,21 @@
+[
+    "type",
+    "name",
+    "provinceMulti",
+    "city",
+    "phone",
+    "fax",
+    "email",
+    "specialty",
+    "subspecialty",
+    "humanaCareFocusArea",
+    "therapyApproach1",
+    "visitType",
+    "language",
+    "gender",
+    "luminoProviderSearch",
+    "createdAt",
+    "createdBy",
+    "modifiedAt",
+    "modifiedBy"
+]

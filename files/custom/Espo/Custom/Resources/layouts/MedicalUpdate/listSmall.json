@@ -1,0 +1,19 @@
+[
+    {
+        "name": "date",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "call"
+    },
+    {
+        "name": "description"
+    },
+    {
+        "name": "followupGp"
+    },
+    {
+        "name": "followupClient"
+    }
+]

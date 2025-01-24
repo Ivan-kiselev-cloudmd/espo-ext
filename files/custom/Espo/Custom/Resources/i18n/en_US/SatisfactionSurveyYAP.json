@@ -1,0 +1,70 @@
+{
+    "fields": {
+        "email": "Email",
+        "iHaveNoticedAnImprovement": "I have noticed an improvement in the mental health symptoms identified and discussed with my Coach at the start of this service.",
+        "iHadAPositiveExperienceWithMyCoach": "I had a positive experience with my coach.",
+        "materialsUseful": "The materials my coach presented me with were useful.",
+        "benefitsBetterUnderstanding": "I have a better understanding of my benefits.",
+        "recommendServiceToOthers": "Based on your Mental Health Coach experience, how likely would you be to recommend this service to others?",
+        "thoughtsaboutyourexperience": "Any final thoughts you would like to share about your experience?",
+        "language": "Language",
+        "contact": "Case"
+    },
+    "links": {
+        "contact": "Contact"
+    },
+    "labels": {
+        "Create SatisfactionSurveyYAP": "Create Satisfaction Survey YAP"
+    },
+    "tooltips": {
+        "iHaveNoticedAnImprovement": "Weight\n1 - Strongly Agree\n2 - Agree\n3 - Neutral\n4 - Disagree\n5 - Strongly Disagree",
+        "iHadAPositiveExperienceWithMyCoach": "Weight\n1 - Strongly Agree\n2 - Agree\n3 - Neutral\n4 - Disagree\n5 - Strongly Disagree",
+        "recommendServiceToOthers": "Weight\n1 - Very Likely\n2 - Somewhat Likely\n3 - Not Sure\n4 - Not Likely\n5 - Not Likely At All"
+    },
+    "options": {
+        "iHaveNoticedAnImprovement": {
+            "N/A": "N/A",
+            "Strongly Agree": "Strongly Agree",
+            "Agree": "Agree",
+            "Neutral": "Neutral",
+            "Disagree": "Disagree",
+            "Strongly Disagree": "Strongly Disagree"
+        },
+        "iHadAPositiveExperienceWithMyCoach": {
+            "N/A": "N/A",
+            "Strongly Agree": "Strongly Agree",
+            "Agree": "Agree",
+            "Neutral": "Neutral",
+            "Disagree": "Disagree",
+            "Strongly Disagree": "Strongly Disagree"
+        },
+        "materialsUseful": {
+            "N/A": "N/A",
+            "Strongly Agree": "Strongly Agree",
+            "Agree": "Agree",
+            "Neutral": "Neutral",
+            "Disagree": "Disagree",
+            "Strongly Disagree": "Strongly Disagree"
+        },
+        "benefitsBetterUnderstanding": {
+            "N/A": "N/A",
+            "Strongly Agree": "Strongly Agree",
+            "Agree": "Agree",
+            "Neutral": "Neutral",
+            "Disagree": "Disagree",
+            "Strongly Disagree": "Strongly Disagree"
+        },
+        "recommendServiceToOthers": {
+            "N/A": "N/A",
+            "Very Likely": "Very Likely",
+            "Somewhat Likely": "Somewhat Likely",
+            "Not Sure": "Not Sure",
+            "Not Likely": "Not Likely",
+            "Not Likely At All": "Not Likely At All"
+        },
+        "language": {
+            "EN": "EN",
+            "FR": "FR"
+        }
+    }
+}

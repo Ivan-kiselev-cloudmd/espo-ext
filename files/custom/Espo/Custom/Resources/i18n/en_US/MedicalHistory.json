@@ -1,0 +1,66 @@
+{
+    "fields": {
+        "diagnosis": "Diagnosis",
+        "copingTools": "Coping tools",
+        "selfperceptionOfCopingAbility": "Self-perception of Coping Ability",
+        "relation": "Relation",
+        "relationOther": "Relation Other",
+        "selfperceptionOfCopingAbilityDetails": "Self-perception of Coping Ability Details",
+        "contact": "Contact",
+        "medicalIntake": "Medical Intake"
+    },
+    "links": {
+        "contact": "Contact",
+        "medicalIntake": "Medical Intake"
+    },
+    "labels": {
+        "Create MedicalHistory": "Create Medical History"
+    },
+    "options": {
+        "diagnosis": {
+            "Alcohol Use Disorder": "Alcohol Use Disorder",
+            "Attention Deficit Hyperactivity Disorder": "Attention Deficit Hyperactivity Disorder",
+            "Bipolar Disorder": "Bipolar Disorder",
+            "Depression Disorder": "Depression Disorder",
+            "Eating Disorder": "Eating Disorder",
+            "Generalized Anxiety Disorder": "Generalized Anxiety Disorder",
+            "Intermittent Explosive Disorder": "Intermittent Explosive Disorder",
+            "Obsessive-Compulsive Disorder": "Obsessive-Compulsive Disorder",
+            "Panic Disorder": "Panic Disorder",
+            "Post-Traumatic Stress-Disorder": "Post-Traumatic Stress-Disorder",
+            "Sleep Disorder": "Sleep Disorder",
+            "Social Anxiety Disorder": "Social Anxiety Disorder",
+            "Substance Use Disorder": "Substance Use Disorder",
+            "Schizophrenia": "Schizophrenia",
+            "Multiple Personality Disorder": "Multiple Personality Disorder",
+            "Borderline personality disorder": "Borderline personality disorder"
+        },
+        "copingTools": {
+            "N/A": "N/A",
+            "None": "None",
+            "Seeing a professional": "Seeing a professional",
+            "Speaking with/support from friends/family": "Speaking with/support from friends/family",
+            "Practicing self-care": "Practicing self-care",
+            "Self-medicating (food, alcohol, medication)": "Self-medicating (food, alcohol, medication)",
+            "Have not been managing": "Have not been managing"
+        },
+        "selfperceptionOfCopingAbility": {
+            "N/A": "N/A",
+            "Well": "Well",
+            "Manageble": "Manageble",
+            "Good and Bad days": "Good and Bad days",
+            "Not managing": "Not managing",
+            "Other": "Other"
+        },
+        "relation": {
+            "Individual": "Individual",
+            "Mother": "Mother",
+            "Father": "Father",
+            "Grandparent": "Grandparent",
+            "Sister": "Sister",
+            "Brother": "Brother",
+            "Other": "Other",
+            "Client": "Client"
+        }
+    }
+}

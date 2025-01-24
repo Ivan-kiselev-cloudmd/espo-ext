@@ -1,0 +1,3 @@
+{
+    "beforeSaveCustomScript": "age = datetime\\diff(datetime\\today(), dob, 'years');"
+}

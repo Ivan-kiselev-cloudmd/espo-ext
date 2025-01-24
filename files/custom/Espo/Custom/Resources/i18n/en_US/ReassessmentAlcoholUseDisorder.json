@@ -1,0 +1,136 @@
+{
+    "fields": {
+        "q1": "How often do you have a drink containing alcohol?",
+        "q2": "How many drinks containing alcohol do you have on a typical day when you are drinking?",
+        "q3": "How often do you have five or more drinks on one occasion?",
+        "q4": "found that you were not able to stop drinking once you had started?",
+        "q5": "failed to do what was normally expected of you because of drinking?",
+        "q6": "needed a first drink in the morning to get yourself going after a heavy drinking session?",
+        "q7": "had a feeling of guilt or remorse after drinking?",
+        "q8": "been unable to remember what happened the night before because of your drinking?",
+        "q9": "Have you or someone else been injured because of your drinking?",
+        "q10": "Has a relative, friend, doctor, or other health care worker been concerned about your drinking or suggested you cut down?",
+        "baseline": "Baseline",
+        "date": "Date",
+        "improvement": "Improvement %",
+        "initialScore": "Initial Score",
+        "maxScore": "Max Score",
+        "level": "Level",
+        "score": "Score",
+        "successMgmt": "SuccessMgmt",
+        "contact": "Case",
+        "contact1": "Contact1",
+        "latest": "Latest",
+        "type": "Type",
+        "incompleteAssessment": "Incomplete Assessment"
+    },
+    "links": {
+        "contact": "Contact",
+        "contact1": "Contact1"
+    },
+    "labels": {
+        "Create ReassessmentAlcoholUseDisorder": "Create Reassessment - Alcohol Use Disorder"
+    },
+    "options": {
+        "q1": {
+            "N/A": "=Choose an option=",
+            "Never": "Never",
+            "Monthly or less": "Monthly or less",
+            "2 - 4 times a month": "2 - 4 times a month",
+            "2 - 3 times a week": "2 - 3 times a week",
+            "4 or more times a week": "4 or more times a week",
+            "2 to 4 times a month": "2 to 4 times a month",
+            "2 to 3 times a week": "2 to 3 times a week"
+        },
+        "q2": {
+            "N/A": "=Choose an option=",
+            "0 - 2": "0 - 2",
+            "3 or 4": "3 or 4",
+            "5 or 6": "5 or 6",
+            "7 - 9": "7 - 9",
+            "10 or more": "10 or more",
+            "1 or 2": "1 or 2",
+            "7, 8 or 9": "7, 8 or 9"
+        },
+        "q3": {
+            "N/A": "=Choose an option=",
+            "Never": "Never",
+            "Less than monthly": "Less than monthly",
+            "Monthly": "Monthly",
+            "Weekly": "Weekly",
+            "Daily or almost daily": "Daily or almost daily"
+        },
+        "q4": {
+            "N/A": "=Choose an option=",
+            "Never": "Never",
+            "Less than monthly": "Less than monthly",
+            "Monthly": "Monthly",
+            "Weekly": "Weekly",
+            "Daily or almost daily": "Daily or almost daily"
+        },
+        "q5": {
+            "N/A": "=Choose an option=",
+            "Never": "Never",
+            "Less than monthly": "Less than monthly",
+            "Monthly": "Monthly",
+            "Weekly": "Weekly",
+            "Daily or almost daily": "Daily or almost daily"
+        },
+        "q6": {
+            "N/A": "=Choose an option=",
+            "Never": "Never",
+            "Less than monthly": "Less than monthly",
+            "Monthly": "Monthly",
+            "Weekly": "Weekly",
+            "Daily or almost daily": "Daily or almost daily"
+        },
+        "q7": {
+            "N/A": "=Choose an option=",
+            "Never": "Never",
+            "Less than monthly": "Less than monthly",
+            "Monthly": "Monthly",
+            "Weekly": "Weekly",
+            "Daily or almost daily": "Daily or almost daily"
+        },
+        "q8": {
+            "N/A": "=Choose an option=",
+            "Never": "Never",
+            "Less than monthly": "Less than monthly",
+            "Monthly": "Monthly",
+            "Weekly": "Weekly",
+            "Daily or almost daily": "Daily or almost daily"
+        },
+        "q9": {
+            "N/A": "=Choose an option=",
+            "No": "No",
+            "Yes, but not in the last year": "Yes, but not in the last year",
+            "Yes, in the last year": "Yes, in the last year",
+            "Yes, during the last year": "Yes, during the last year"
+        },
+        "q10": {
+            "N/A": "=Choose an option=",
+            "No": "No",
+            "Yes, but not in the last year": "Yes, but not in the last year",
+            "Yes, in the last year": "Yes, in the last year",
+            "Yes, during the last year": "Yes, during the last year"
+        },
+        "level": {
+            "No measurable risk": "No measurable risk",
+            "MINIMAL to MILD": "MINIMAL to MILD",
+            "MODERATE": "MODERATE",
+            "HIGH": "HIGH"
+        },
+        "successMgmt": {
+            "N/A": "N/A",
+            "No Progress": "No Progress",
+            "Improvement": "Improvement",
+            "Significant Improvement": "Significant Improvement",
+            "Excellent Improvement": "Excellent Improvement"
+        },
+        "type": {
+            "Reassessment": "Reassessment",
+            "Current Baseline": "Current Baseline",
+            "Baseline": "Baseline"
+        }
+    }
+}

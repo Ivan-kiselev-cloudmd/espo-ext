@@ -1,0 +1,33 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "contact"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "diagnosisname"
+                }
+            ],
+            [
+                {
+                    "name": "reportedLevel"
+                },
+                {
+                    "name": "score"
+                },
+                {
+                    "name": "maxScore"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

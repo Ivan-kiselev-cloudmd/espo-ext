@@ -1,0 +1,74 @@
+{
+    "fields": {
+        "email": "Email",
+        "resourcesProvidedWereRelevant": "I found the resources provided were relevant to my assessment results.",
+        "satisfiedWithTheService": "I am satisfied with the service provided.",
+        "benefitsBetterUnderstanding": "I have a better understanding of my benefits.",
+        "recommendServiceToOthers": "Based on your Mental Health Coach experience, how likely would you be to recommend this service to others?",
+        "whatMadeYouEngageInTheService": "What made you engage in the service?",
+        "language": "Language",
+        "whatMadeYouEngageInTheServiceOther": "WhatMadeYouEngageInTheServiceOther",
+        "contact": "Case"
+    },
+    "links": {
+        "contact": "Contact"
+    },
+    "labels": {
+        "Create SatisfactionSurvey": "Create Satisfaction Survey CAP/GAP"
+    },
+    "tooltips": {
+        "resourcesProvidedWereRelevant": "Weight\n1 - Strongly Agree\n2 - Agree\n3 - Neutral\n4 - Disagree\n5 - Strongly Disagree",
+        "satisfiedWithTheService": "Weight\n1 - Strongly Agree\n2 - Agree\n3 - Neutral\n4 - Disagree\n5 - Strongly Disagree",
+        "benefitsBetterUnderstanding": "Weight\n1 - Strongly Agree\n2 - Agree\n3 - Neutral\n4 - Disagree\n5 - Strongly Disagree",
+        "recommendServiceToOthers": "Weight\n1 - Very Likely\n2 - Somewhat Likely\n3 - Not Sure\n4 - Not Likely\n5 - Not Likely At All"
+    },
+    "options": {
+        "resourcesProvidedWereRelevant": {
+            "N/A": "N/A",
+            "Strongly Agree": "Strongly Agree",
+            "Agree": "Agree",
+            "Neutral": "Neutral",
+            "Disagree": "Disagree",
+            "Strongly Disagree": "Strongly Disagree"
+        },
+        "satisfiedWithTheService": {
+            "N/A": "N/A",
+            "Strongly Agree": "Strongly Agree",
+            "Agree": "Agree",
+            "Neutral": "Neutral",
+            "Disagree": "Disagree",
+            "Strongly Disagree": "Strongly Disagree"
+        },
+        "benefitsBetterUnderstanding": {
+            "N/A": "N/A",
+            "Strongly Agree": "Strongly Agree",
+            "Agree": "Agree",
+            "Neutral": "Neutral",
+            "Disagree": "Disagree",
+            "Strongly Disagree": "Strongly Disagree"
+        },
+        "recommendServiceToOthers": {
+            "N/A": "N/A",
+            "Very Likely": "Very Likely",
+            "Somewhat Likely": "Somewhat Likely",
+            "Not Sure": "Not Sure",
+            "Not Likely": "Not Likely",
+            "Not Likely At All": "Not Likely At All"
+        },
+        "whatMadeYouEngageInTheService": {
+            "I was curious and wanted to see what it was about": "I was curious and wanted to see what it was about",
+            "I thought this would be a therapy session": "I thought this would be a therapy session",
+            "I feel like I could use some help/support with my mental health": "I feel like I could use some help/support with my mental health",
+            "I was advised to try it": "I was advised to try it",
+            "Other": "Other",
+            "I was curious and wanted to see what it was about.": "I was curious and wanted to see what it was about.",
+            "I thought this would be a therapy session.": "I thought this would be a therapy session.",
+            "I feel like I could use some help/support with my mental health.": "I feel like I could use some help/support with my mental health.",
+            "I was advised to try it.": "I was advised to try it."
+        },
+        "language": {
+            "EN": "EN",
+            "FR": "FR"
+        }
+    }
+}

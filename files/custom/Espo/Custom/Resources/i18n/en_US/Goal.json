@@ -1,0 +1,73 @@
+{
+    "fields": {
+        "contact": "Case",
+        "dateAdded": "Date Added",
+        "task": "Task",
+        "dueDate": "Due Date",
+        "status": "Status",
+        "actualCompletionDate": "Actual Completion Date",
+        "casenum": "Casenum",
+        "intervention": "Intervention",
+        "name": "Goal",
+        "interventionDetails": "Intervention Details"
+    },
+    "links": {
+        "contact": "Contact"
+    },
+    "labels": {
+        "Create Goal": "Create Intervention"
+    },
+    "options": {
+        "status": {
+            "Planned": "Planned",
+            "Progressing": "Progressing",
+            "Completed": "Completed"
+        },
+        "intervention": {
+            "Benefits": "Benefits",
+            "Employee Assistance program": "Employee Assistance Program",
+            "RightDirections": "RightDirections",
+            "Virtual Care": "Virtual Care",
+            "MindBeacon": "MindBeacon",
+            "Public Health": "Public Health",
+            "Lifestyle intervention": "Lifestyle Intervention",
+            "Virtual CBT": "Virtual CBT",
+            "Public Health Program": "Public Health Program",
+            "Lifestyle Intervention": "Lifestyle Intervention",
+            "Employee Assistance Program": "Employee Assistance Program"
+        },
+        "interventionDetails": {
+            "N/A": "N/A",
+            "LI - Diet": "Diet",
+            "LI - Sleep Habits": "Sleep Habits",
+            "LI - Exercise": "Exercise",
+            "LI - Caffeine Consumption": "Caffeine Consumption",
+            "LI - Nicotine Consumption": "Nicotine Consumption",
+            "LI - Alcohol Consumption": "Alcohol Consumption",
+            "LI - Socialization": "Socialization",
+            "LI - Support Groups": "Support Groups",
+            "LI - Outdoor/Nature": "Outdoor/Nature",
+            "LI - Relaxation": "Relaxation",
+            "LI - Meditation": "Meditation",
+            "LI - Stress Management": "Stress Management",
+            "LI - Journaling": "Journaling",
+            "LI - Nutrition": "Nutrition",
+            "LI - Self-Care": "Self-Care",
+            "LI - Reduce Technology Use": "Reduce Technology Use",
+            "LI - Time Management": "Time Management",
+            "B - Eligible practitioners": "Eligible practitioners",
+            "B - Health Spending Account": "Health Spending Account",
+            "B - Personal spending account": "Personal spending account",
+            "PH - Public Provincial CBT programs": "Public Provincial CBT programs",
+            "PH - Public Crisis services": "Public Crisis services",
+            "PH - Public Support groups": "Public Support groups",
+            "PH - Other free resources": "Other free resources",
+            "EAP - RightDirections ": "RightDirections ",
+            "VC - Lumino Health Virtual Care": "Lumino Health Virtual Care",
+            "VC - Other": "Other",
+            "VCBT - MindBeacon": "MindBeacon",
+            "VCBT - Other": "Other",
+            "LI - Harm Reduction": "Harm Reduction"
+        }
+    }
+}

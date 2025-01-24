@@ -1,0 +1,40 @@
+{
+    "fields": {
+        "contacts": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "noLoad": true,
+            "importDisabled": true,
+            "isCustom": true
+        },
+        "calendarLink": {
+            "type": "url",
+            "isCustom": true
+        },
+        "logChanges": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "noLoad": true,
+            "importDisabled": true,
+            "isCustom": true
+        }
+    },
+    "links": {
+        "contacts": {
+            "type": "hasMany",
+            "foreign": "user",
+            "entity": "Contact",
+            "audited": false,
+            "isCustom": true
+        },
+        "logChanges": {
+            "type": "hasMany",
+            "foreign": "user",
+            "entity": "LogChange",
+            "audited": false,
+            "isCustom": true
+        }
+    }
+}

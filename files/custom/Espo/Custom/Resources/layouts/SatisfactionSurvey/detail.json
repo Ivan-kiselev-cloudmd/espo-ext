@@ -1,0 +1,76 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "contact"
+                },
+                {
+                    "name": "email"
+                },
+                {
+                    "name": "language"
+                }
+            ],
+            [
+                {
+                    "name": "surveyId"
+                },
+                {
+                    "name": "surveyAnswerId"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "resourcesProvidedWereRelevant"
+                }
+            ],
+            [
+                {
+                    "name": "satisfiedWithTheService"
+                }
+            ],
+            [
+                {
+                    "name": "benefitsBetterUnderstanding"
+                }
+            ]
+        ],
+        "style": "default",
+        "subTitle": null,
+        "subTitleStyle": "default",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "accordion": "collapsed",
+        "isCollapsedDynamicLogic": null,
+        "customLabel": "How much do you agree with the following statements?"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "recommendServiceToOthers"
+                }
+            ],
+            [
+                {
+                    "name": "whatMadeYouEngageInTheService"
+                },
+                {
+                    "name": "whatMadeYouEngageInTheServiceOther"
+                }
+            ]
+        ],
+        "style": "default",
+        "customLabel": "New panel"
+    }
+]

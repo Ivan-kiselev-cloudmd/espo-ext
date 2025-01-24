@@ -1,0 +1,13 @@
+[
+    {
+        "name": "createdBy"
+    },
+    {
+        "name": "createdAt"
+    },
+    {
+        "name": "description",
+        "width": 70,
+        "align": "left"
+    }
+]

@@ -1,0 +1,11 @@
+{
+    "labels": {
+        "Create Case": "Create Case Case"
+    },
+    "fields": {
+        "specialists": "Specialists"
+    },
+    "links": {
+        "specialists": "Specialists"
+    }
+}

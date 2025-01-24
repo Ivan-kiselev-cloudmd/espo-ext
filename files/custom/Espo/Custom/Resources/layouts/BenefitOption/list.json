@@ -1,0 +1,13 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "description"
+    },
+    {
+        "name": "accounts",
+        "notSortable": true
+    }
+]

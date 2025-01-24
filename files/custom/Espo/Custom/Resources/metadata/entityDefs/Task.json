@@ -1,0 +1,68 @@
+{
+    "fields": {
+        "type": {
+            "type": "enum",
+            "options": [
+                "Generic",
+                "Research",
+                "Navigator"
+            ],
+            "style": {
+                "Generic": null,
+                "Research": "success",
+                "Navigator": "danger"
+            },
+            "default": "Generic",
+            "isCustom": true
+        },
+        "auto": {
+            "type": "enum",
+            "required": true,
+            "options": [
+                "Automated",
+                "Manual"
+            ],
+            "style": {
+                "Automated": null,
+                "Manual": null
+            },
+            "default": "Manual",
+            "isCustom": true
+        },
+        "category": {
+            "type": "enum",
+            "options": [
+                "N/A",
+                "Generate Action Plan",
+                "Review Client’s Assessment"
+            ],
+            "style": {
+                "N/A": null,
+                "Generate Action Plan": "success",
+                "Review Client’s Assessment": "danger"
+            },
+            "default": "N/A",
+            "isCustom": true,
+            "displayAsLabel": true
+        },
+        "caseNumber": {
+            "readOnly": true,
+            "type": "foreign",
+            "link": "contact",
+            "field": "casenum",
+            "view": "views/fields/foreign-varchar",
+            "isCustom": true
+        },
+        "parent": {
+            "entityList": [
+                "Account",
+                "Contact",
+                "Lead",
+                "Opportunity",
+                "Case",
+                "AlternativeContact",
+                "Office"
+            ]
+        }
+    }
+}

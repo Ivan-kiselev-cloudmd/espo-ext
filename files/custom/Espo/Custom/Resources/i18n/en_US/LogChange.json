@@ -1,0 +1,23 @@
+{
+    "fields": {
+        "contact": "Case",
+        "field": "Field",
+        "value": "Value",
+        "user": "User"
+    },
+    "links": {
+        "contact": "Contact",
+        "user": "User"
+    },
+    "labels": {
+        "Create LogChange": "Create LogChange"
+    },
+    "options": {
+        "field": {
+            "Case Status": "Case Status",
+            "Case Pathway": "Case Pathway",
+            "Current Step": "Current Step",
+            "N/A": "N/A"
+        }
+    }
+}

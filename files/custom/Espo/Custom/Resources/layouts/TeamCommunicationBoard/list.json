@@ -1,0 +1,17 @@
+[
+    {
+        "name": "contact"
+    },
+    {
+        "name": "casenum"
+    },
+    {
+        "name": "createdAt"
+    },
+    {
+        "name": "createdBy"
+    },
+    {
+        "name": "description"
+    }
+]

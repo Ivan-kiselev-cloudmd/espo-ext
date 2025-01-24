@@ -1,0 +1,37 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "partyId"
+    },
+    {
+        "name": "firstName"
+    },
+    {
+        "name": "lastName"
+    },
+    {
+        "name": "policy"
+    },
+    {
+        "name": "sponsorId"
+    },
+    {
+        "name": "account"
+    },
+    {
+        "name": "dayMonthOfBirth"
+    },
+    {
+        "name": "email"
+    },
+    {
+        "name": "changeStatus"
+    },
+    {
+        "name": "contacts",
+        "notSortable": true
+    }
+]

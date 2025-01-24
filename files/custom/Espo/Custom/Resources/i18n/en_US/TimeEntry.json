@@ -1,0 +1,82 @@
+{
+    "fields": {
+        "activityType": "Activity Type",
+        "adminActivity": "Admin activity",
+        "researchActivity": "Research Activity",
+        "coachActivity": "Coach Activity",
+        "description": "Description",
+        "contact": "Contact",
+        "casenum": "Casenum"
+    },
+    "options": {
+        "activityType": {
+            "Admin": "Admin",
+            "Coach": "Coach",
+            "Research": "Research",
+            "N/A": "N/A"
+        },
+        "adminActivity": {
+            "CRM revision/updates": "CRM revision/updates",
+            "Team Meeting": "Team Meeting",
+            "N/A": "N/A",
+            "Vacation": "Vacation",
+            "STAT day": "STAT day",
+            "Email/Zoom/Call – Internal": "Email/Zoom/Call – Internal",
+            "Tech/System Issue": "Tech/System Issue",
+            "Personal Time Off ": "Personal Time Off ",
+            "Education/ Training": "Education/ Training",
+            "Support and Resources Research": "Support and Resources Research",
+            "Timecard Entry": "Timecard Entry"
+        },
+        "researchActivity": {
+            "Case Research": "Case Research",
+            "N/A": "N/A",
+            "New bio - specialist": "New bio - specialist",
+            "New bio - clinic": "New bio - clinic",
+            "Process Updates/Improvements": "Process Updates/Improvements",
+            "PAP Creation": "PAP Creation",
+            "CAP Creation": "CAP Creation",
+            "GAP Creation": "GAP Creation",
+            "New bio - Specialist": "New bio - Specialist",
+            "New bio - Clinic": "New bio - Clinic"
+        },
+        "coachActivity": {
+            "1st Call - prep": "1st Call - prep",
+            "1st Call - call": "1st Call - call",
+            "1st Call - Other": "1st Call - Other",
+            "N/A": "N/A",
+            "1st Call – PREP": "1st Call – PREP",
+            "1st Call - Call": "1st Call - Call",
+            "1st Call - Email": "1st Call - Email",
+            "2nd Call – PREP": "2nd Call – PREP",
+            "2nd Call - Call": "2nd Call - Call",
+            "2nd Call - Email": "2nd Call - Email",
+            "2nd Call - Other": "2nd Call - Other",
+            "3rd Call – PREP": "3rd Call – PREP",
+            "3rd Call - Call": "3rd Call - Call",
+            "3rd Call - Email": "3rd Call - Email",
+            "3rd Call - Other": "3rd Call - Other",
+            "4th Call – PREP": "4th Call – PREP",
+            "4th Call - Call": "4th Call - Call",
+            "4th Call - Email": "4th Call - Email",
+            "4th Call - Other": "4th Call - Other",
+            "5th Call – PREP": "5th Call – PREP",
+            "5th Call - Call": "5th Call - Call",
+            "5th Call - Email": "5th Call - Email",
+            "5th Call - Other": "5th Call - Other",
+            "6th Call – PREP": "6th Call – PREP",
+            "6th Call - Call": "6th Call - Call",
+            "6th Call - Email": "6th Call - Email",
+            "6th Call - Other": "6th Call - Other",
+            "PAP Sent": "PAP Sent",
+            "CAP Sent": "CAP Sent",
+            "GAP Sent": "GAP Sent",
+            "Book coach meeting": "Book coach meeting",
+            "Therapist Review/Revision": "Therapist Review/Revision",
+            "Internal review": "Internal review"
+        }
+    },
+    "links": {
+        "contact": "Contact"
+    }
+}

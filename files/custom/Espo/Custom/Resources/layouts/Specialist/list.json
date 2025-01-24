@@ -1,0 +1,51 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "active"
+    },
+    {
+        "name": "type"
+    },
+    {
+        "name": "humanaCareTherapistCode"
+    },
+    {
+        "name": "humanaCareFocusArea",
+        "notSortable": true
+    },
+    {
+        "name": "subspecialty"
+    },
+    {
+        "name": "therapyApproach1",
+        "notSortable": true
+    },
+    {
+        "name": "provinceMulti",
+        "notSortable": true
+    },
+    {
+        "name": "city"
+    },
+    {
+        "name": "gender"
+    },
+    {
+        "name": "visitType"
+    },
+    {
+        "name": "email"
+    },
+    {
+        "name": "waitTime"
+    },
+    {
+        "name": "bio"
+    },
+    {
+        "name": "notes"
+    }
+]

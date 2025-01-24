@@ -1,0 +1,146 @@
+{
+    "fields": {
+        "contact": "Case",
+        "baseline": "Baseline",
+        "date": "Date",
+        "improvement": "Improvement %",
+        "initialScore": "Initial Score",
+        "maxScore": "Max Score",
+        "score": "Score",
+        "level": "Level",
+        "successMgmt": "SuccessMgmt",
+        "q1": "you felt so good or so hyper that other people thought you were not your normal self or you were so hyper that you got into trouble?",
+        "q2": "you were so irritable that you shouted at people or started fights or arguments?",
+        "q3": "you felt much more self-confident than usual?",
+        "q4": "you got much less sleep than usual and found you didn’t really miss it?",
+        "q5": "you were much more talkative or spoke faster than usual?",
+        "q6": "thoughts raced through your head or you couldn’t slow your mind down?",
+        "q7": "you were so easily distracted by things around you that you had trouble concentrating or staying on track?",
+        "q8": "you had much more energy than usual?",
+        "q9": "you were much more active or did many more things than usual?",
+        "q10": "you were much more social or outgoing than usual, for example, you telephoned friends in the middle of the night?",
+        "q11": "you were much more interested in sex than usual?",
+        "q12": "you did things that were unusual for you or that other people might have thought were excessive, foolish, or risky?",
+        "q13": "spending money got you or your family in trouble?",
+        "q14": "If you checked YES to more than one of the above, have several of these ever happened during the same period of time?",
+        "q15": "How much of a problem did any of these cause you — like being able to work; having family, money, or legal troubles; getting into arguments or fights?",
+        "q16": "Have any of your blood relatives (ie, children, siblings, parents, grandparents, aunts, uncles) had manic-depressive illness or bipolar disorder?",
+        "q17": "Has a health professional ever told you that you have manic-depressive illness or bipolar disorder?",
+        "latest": "Latest",
+        "type": "Type",
+        "incompleteAssessment": "Incomplete Assessment"
+    },
+    "links": {
+        "contact": "Contact"
+    },
+    "labels": {
+        "Create ReassessmentBipolar": "Create Reassessment - Bipolar Disorder"
+    },
+    "options": {
+        "level": {
+            "No measurable risk": "No measurable risk",
+            "MINIMAL to MILD": "MINIMAL to MILD",
+            "MODERATE": "MODERATE",
+            "HIGH": "HIGH"
+        },
+        "successMgmt": {
+            "N/A": "N/A",
+            "No Progress": "No Progress",
+            "Improvement": "Improvement",
+            "Significant Improvement": "Significant Improvement",
+            "Excellent Improvement": "Excellent Improvement"
+        },
+        "q1": {
+            "N/A": "=Choose an option=",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "q2": {
+            "N/A": "=Choose an option=",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "q3": {
+            "N/A": "=Choose an option=",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "q4": {
+            "N/A": "=Choose an option=",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "q5": {
+            "N/A": "=Choose an option=",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "q6": {
+            "N/A": "=Choose an option=",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "q7": {
+            "N/A": "=Choose an option=",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "q8": {
+            "N/A": "=Choose an option=",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "q9": {
+            "N/A": "=Choose an option=",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "q10": {
+            "N/A": "=Choose an option=",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "q11": {
+            "N/A": "=Choose an option=",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "q12": {
+            "N/A": "=Choose an option=",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "q13": {
+            "N/A": "=Choose an option=",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "q14": {
+            "N/A": "=Choose an option=",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "q15": {
+            "N/A": "=Choose an option=",
+            "No problem": "No problem",
+            "Minor problem": "Minor problem",
+            "Moderate problem": "Moderate problem",
+            "Serious problem": "Serious problem"
+        },
+        "q16": {
+            "N/A": "=Choose an option=",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "q17": {
+            "N/A": "=Choose an option=",
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "type": {
+            "Reassessment": "Reassessment",
+            "Current Baseline": "Current Baseline",
+            "Baseline": "Baseline"
+        }
+    }
+}

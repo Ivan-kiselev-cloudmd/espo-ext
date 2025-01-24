@@ -1,0 +1,22 @@
+{
+    "fields": {
+        "type": "Type",
+        "mapped": "Mapped",
+        "contacts": "Cases"
+    },
+    "options": {
+        "type": {
+            "N/A": "N/A",
+            "2nd Appointment": "2nd Appointment",
+            "1st Appointment": "1st Appointment",
+            "3rd Appointment": "3rd Appointment",
+            "4th Appointment": "4th Appointment",
+            "5th Appointment": "5th Appointment",
+            "6th Appointment": "6th Appointment"
+        },
+        "mapped": {
+            "N/A": "N/A",
+            "Yes": "Yes"
+        }
+    }
+}

@@ -1,0 +1,49 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "account"
+                }
+            ],
+            [
+                {
+                    "name": "partyId"
+                },
+                {
+                    "name": "email"
+                }
+            ],
+            [
+                {
+                    "name": "firstName"
+                },
+                {
+                    "name": "lastName"
+                }
+            ],
+            [
+                {
+                    "name": "policy"
+                },
+                {
+                    "name": "sponsorId"
+                },
+                {
+                    "name": "dayMonthOfBirth"
+                }
+            ],
+            [
+                {
+                    "name": "changeStatus"
+                },
+                false
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

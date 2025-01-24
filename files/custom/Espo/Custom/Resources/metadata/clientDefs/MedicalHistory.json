@@ -1,0 +1,54 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "dynamicLogic": {
+        "fields": {
+            "copingTools": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "relation",
+                            "value": "Client"
+                        }
+                    ]
+                }
+            },
+            "selfperceptionOfCopingAbility": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "relation",
+                            "value": "Client"
+                        }
+                    ]
+                }
+            },
+            "relationOther": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "relation",
+                            "value": "Other"
+                        }
+                    ]
+                }
+            },
+            "selfperceptionOfCopingAbilityDetails": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "selfperceptionOfCopingAbility",
+                            "value": "Other"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

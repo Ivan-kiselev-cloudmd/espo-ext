@@ -1,0 +1,25 @@
+{
+    "fields": {
+        "contact": "Contact",
+        "campaign": "Campaign",
+        "type": "Type",
+        "title": "Title",
+        "body": "Body",
+        "bodyContentType": "BodyContentType",
+        "actionUrl": "ActionUrl",
+        "actionTitle": "ActionTitle",
+        "actionType": "ActionType",
+        "date": "Date",
+        "dateSeen": "DateSeen",
+        "dateActioned": "DateActioned",
+        "v": "V",
+        "caseid": "Caseid",
+        "apid": "Apid"
+    },
+    "links": {
+        "contact": "Contact"
+    },
+    "labels": {
+        "Create Inappmessages": "Create Inappmessage"
+    }
+}

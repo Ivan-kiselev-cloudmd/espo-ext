@@ -1,0 +1,84 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "kanbanViewMode": false,
+    "color": null,
+    "iconClass": null,
+    "restrictedInlineEdit": false,
+    "dynamicLogic": {
+        "fields": {
+            "q1": {
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "isFalse",
+                            "attribute": "incompleteAssessment"
+                        }
+                    ]
+                }
+            },
+            "q2": {
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "isFalse",
+                            "attribute": "incompleteAssessment"
+                        }
+                    ]
+                }
+            },
+            "q3": {
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "isFalse",
+                            "attribute": "incompleteAssessment"
+                        }
+                    ]
+                }
+            },
+            "q4": {
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "isFalse",
+                            "attribute": "incompleteAssessment"
+                        }
+                    ]
+                }
+            },
+            "q5": {
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "isFalse",
+                            "attribute": "incompleteAssessment"
+                        }
+                    ]
+                }
+            },
+            "q6": {
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "isFalse",
+                            "attribute": "incompleteAssessment"
+                        }
+                    ]
+                }
+            },
+            "q7": {
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "isFalse",
+                            "attribute": "incompleteAssessment"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

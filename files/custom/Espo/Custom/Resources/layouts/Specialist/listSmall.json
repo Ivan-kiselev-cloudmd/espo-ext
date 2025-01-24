@@ -1,0 +1,34 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "contactIsSelected"
+    },
+    {
+        "name": "type"
+    },
+    {
+        "name": "specialty"
+    },
+    {
+        "name": "provinceMulti",
+        "notSortable": true
+    },
+    {
+        "name": "city"
+    },
+    {
+        "name": "visitType"
+    },
+    {
+        "name": "waitTime"
+    },
+    {
+        "name": "bio"
+    },
+    {
+        "name": "notes"
+    }
+]

@@ -1,0 +1,12 @@
+{
+    "fields": {
+        "contact": "Contact",
+        "timeStamp": "Time Stamp"
+    },
+    "links": {
+        "contact": "Contact"
+    },
+    "labels": {
+        "Create Checkpoint": "Create CheckpointN"
+    }
+}

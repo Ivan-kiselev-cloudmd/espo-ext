@@ -1,0 +1,17 @@
+{
+    "fields": {
+        "billingAddress": "Billing Address",
+        "shippingAddress": "Shipping Address",
+        "website": "Website",
+        "account": "Account"
+    },
+    "links": {
+        "meetings": "Meetings",
+        "calls": "Calls",
+        "tasks": "Tasks",
+        "account": "Account"
+    },
+    "labels": {
+        "Create Office": "Create Office"
+    }
+}

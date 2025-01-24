@@ -1,0 +1,31 @@
+{
+    "fields": {
+        "type": "Type",
+        "auto": "Auto",
+        "category": "Category",
+        "contact1": "Contact1",
+        "casenum": "Case Number",
+        "caseNumber": "Case Number",
+        "contact": "Case"
+    },
+    "options": {
+        "type": {
+            "Generic": "Generic",
+            "Research": "Research",
+            "Navigator": "Navigator"
+        },
+        "auto": {
+            "Automated": "Automated",
+            "Manual": "Manual"
+        },
+        "category": {
+            "N/A": "N/A",
+            "Generate Action Plan": "Generate Action Plan",
+            "Review Client’s Assessment": "Review Client’s Assessment"
+        }
+    },
+    "links": {
+        "contact1": "Contact1",
+        "casenum": "Case Number"
+    }
+}

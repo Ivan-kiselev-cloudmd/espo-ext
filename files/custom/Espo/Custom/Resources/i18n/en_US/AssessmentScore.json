@@ -1,0 +1,51 @@
+{
+    "fields": {
+        "assessmentDiagnosis": "Assessment Diagnosis",
+        "contact": "Case",
+        "assessmentDiagnosis1": "Assessment Diagnosis1",
+        "level": "SC Level",
+        "casenum": "Casenum",
+        "maxScore": "Max Score",
+        "diagnosisname": "Risk Area",
+        "score": "Score",
+        "reportedLevel": "Level"
+    },
+    "links": {
+        "assessmentDiagnosis": "Assessment Diagnosis",
+        "contact": "Contact",
+        "assessmentDiagnosis1": "Assessment Diagnosis1"
+    },
+    "labels": {
+        "Create AssessmentScore": "Create Assessment Score"
+    },
+    "options": {
+        "level": {
+            "HIGH": "High",
+            "MODERATE": "Moderate",
+            "MINIMAL to MILD": "Minimal to Mild",
+            "N/A": "N/A"
+        },
+        "diagnosisname": {
+            "N/A": "N/A",
+            "Alcohol Use Disorder": "Alcohol Use Disorder",
+            "Attention Deficit Hyperactivity Disorder": "Attention Deficit Hyperactivity Disorder",
+            "Bipolar Disorder": "Bipolar Disorder",
+            "Depression Disorder": "Depression Disorder",
+            "Eating Disorder": "Eating Disorder",
+            "Generalized Anxiety Disorder": "Generalized Anxiety Disorder",
+            "Intermittent Explosive Disorder": "Intermittent Explosive Disorder",
+            "Obsessive-Compulsive Disorder": "Obsessive-Compulsive Disorder",
+            "Panic Disorder": "Panic Disorder",
+            "Post-Traumatic Stress-Disorder": "Post-Traumatic Stress-Disorder",
+            "Sleep Disorder": "Sleep Disorder",
+            "Social Anxiety Disorder": "Social Anxiety Disorder",
+            "Substance Use Disorder": "Substance Use Disorder"
+        },
+        "reportedLevel": {
+            "HIGH": "High",
+            "MODERATE": "Moderate",
+            "MINIMAL to MILD": "Minimal to Mild",
+            "No measurable risk": "No measurable risk"
+        }
+    }
+}
