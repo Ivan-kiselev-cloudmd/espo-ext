@@ -39,24 +39,22 @@ class EmployerSaveService extends BaseImportService implements EntityDataSetable
             'kiiOrganizationId' => $kiiOrganizationId
         ])->findOne();
 
-        if (!empty($entityItem)) {
-            return $this;
+        if (empty($entityItem)) {
+            $entityItem = $this->entityManager->getRepository($this->getEntityName())->get();
+            $saveData = [
+                'kiiOrganizationId' => $kiiOrganizationId,
+                'name' => $kiiOrganizationId,
+                'accountId' => $this->getContact()->get('accountId'),
+            ];
+
+            $response = $this->saveEntityUpdatedData($entityItem,$saveData,true);
+            $entityItem = $response['entity'];
         }
-
-        $entityItem = $this->entityManager->getRepository($this->getEntityName())->get();
-
-        $saveData = [
-            'kiiOrganizationId' => $kiiOrganizationId,
-            'name' => $kiiOrganizationId,
-            'accountId' => $this->getContact()->get('accountId'),
-        ];
-
-        $response = $this->saveEntityUpdatedData($entityItem,$saveData,true);
 
         // save employer id
         $entity = $this->getContact();
         $entity->set([
-            'employerId' => $response['entity']->get('id')
+            'employerId' => $entityItem->get('id')
         ]);
         $this->entityManager->saveEntity($entity);
 
