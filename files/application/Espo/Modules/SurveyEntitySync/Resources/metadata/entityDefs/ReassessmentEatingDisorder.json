@@ -1,0 +1,12 @@
+{
+    "fields": {
+        "surveyResponseId": {
+            "type": "varchar",
+            "trim": true
+        },
+        "surveyCollectorId": {
+        "type": "varchar",
+        "trim": true,
+        }
+    }
+}

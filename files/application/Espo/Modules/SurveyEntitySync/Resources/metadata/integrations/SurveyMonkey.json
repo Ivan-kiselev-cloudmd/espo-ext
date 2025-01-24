@@ -1,0 +1,21 @@
+{
+    "fields": {
+        "isProduction": {
+            "type": "bool"
+        },
+        "surveyApiKey": {
+            "type": "varchar",
+            "required": true
+        },
+        "surveyAccessToken": {
+            "type": "varchar",
+            "required": true
+        },
+        "syncLastMinutes": {
+            "type": "float",
+            "required": false
+        }
+    },
+    "allowUserAccounts": true,
+    "view": "views/admin/integrations/edit"
+}

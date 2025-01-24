@@ -1,0 +1,1640 @@
+{
+    "entity": "ReassessmentSleepDisorder",
+     "relations": {
+         "contact": {
+             "name": "reassessmentSleepDisorders"
+         }
+     },
+     "surveys": {
+         "development": {
+            "en": {
+                "title": "Reassessment - Sleep Disorder - EN - Development",
+                "nickname": "",
+                "language": "en",
+                "folder_id": "0",
+                "category": "customer_feedback",
+                "question_count": 5,
+                "page_count": 1,
+                "response_count": 0,
+                "date_created": "2022-05-14T09:58:00",
+                "date_modified": "2022-05-17T13:43:00",
+                "id": "190291280",
+                "buttons_text": {
+                    "next_button": "Next",
+                    "prev_button": "Prev",
+                    "done_button": "Done",
+                    "exit_button": ""
+                },
+                "is_owner": true,
+                "footer": false,
+                "custom_variables": {},
+                "href": "https://api.surveymonkey.ca/v3/surveys/190291280",
+                "analyze_url": "https://www.surveymonkey.com/analyze/YvPp3eh_2BorbI80_2BB3kwFPl8va0y4FtNb00ES7mmflZ0_3D",
+                "edit_url": "https://www.surveymonkey.com/create/?sm=YvPp3eh_2BorbI80_2BB3kwFPl8va0y4FtNb00ES7mmflZ0_3D",
+                "collect_url": "https://www.surveymonkey.com/collect/list?sm=YvPp3eh_2BorbI80_2BB3kwFPl8va0y4FtNb00ES7mmflZ0_3D",
+                "summary_url": "https://www.surveymonkey.com/summary/YvPp3eh_2BorbI80_2BB3kwFPl8va0y4FtNb00ES7mmflZ0_3D",
+                "preview": "https://www.surveymonkey.com/r/Preview/?sm=uTzsCb29wzGl2DZlWCo5u99ZOJPdyqCdAKrWHNi86eVRfsXTUhB6KpslMYQGgBIq",
+                "pages": [
+                    {
+                        "title": "",
+                        "description": "",
+                        "position": 1,
+                        "question_count": 5,
+                        "id": "25881020",
+                        "href": "https://api.surveymonkey.ca/v3/surveys/190291280/pages/25881020",
+                        "questions": [
+                            {
+                                "id": "63808543",
+                                "position": 1,
+                                "visible": true,
+                                "family": "matrix",
+                                "subtype": "rating",
+                                "layout": null,
+                                "sorting": null,
+                                "required": {
+                                    "text": "This question requires an answer.",
+                                    "type": "all",
+                                    "amount": "0"
+                                },
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "In the past 2 weeks, rate the level of severity for the following problems:"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291280/pages/25881020/questions/63808543",
+                                "answers": {
+                                    "rows": [
+                                        {
+                                            "field": "q1",
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Difficulty falling asleep",
+                                            "id": "523860933"
+                                        },
+                                        {
+                                            "field": "q2",
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Difficulty staying asleep",
+                                            "id": "523860934"
+                                        },
+                                        {
+                                            "field": "q3",
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Problem waking up too early",
+                                            "id": "523860939"
+                                        }
+                                    ],
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "None",
+                                            "id": "523860935",
+                                            "is_na": false,
+                                            "weight": 1,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Mild",
+                                            "id": "523860936",
+                                            "is_na": false,
+                                            "weight": 2,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Moderate",
+                                            "id": "523860949",
+                                            "is_na": false,
+                                            "weight": 3,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Severe",
+                                            "id": "523860950",
+                                            "is_na": false,
+                                            "weight": 4,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Very Severe",
+                                            "id": "523860951",
+                                            "is_na": false,
+                                            "weight": 5,
+                                            "description": ""
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q4",
+                                "id": "63811592",
+                                "position": 2,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "How satisfied/dissatisfied are you with your current sleep patterns?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291280/pages/25881020/questions/63811592",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Very satisfied",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883506"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Satisfied",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883507"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Moderately satisfied",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883508"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Dissatisfied",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883509"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Very dissatisfied",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883510"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q5",
+                                "id": "63811593",
+                                "position": 3,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "How noticeable to others do you think your current sleep problem is in terms of impairing the quality of your life?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291280/pages/25881020/questions/63811593",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Not at all noticeable",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883511"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "A little",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883512"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Somewhat",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883513"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Much",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883514"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Very much noticeable",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883515"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q6",
+                                "id": "63811595",
+                                "position": 4,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "How worried/distressed are you about your current sleep problem?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291280/pages/25881020/questions/63811595",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Not at all worried",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883530"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "A little",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883531"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Somewhat",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883532"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Much",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883533"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Very much worried",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883534"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q7",
+                                "id": "63811596",
+                                "position": 5,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "To what extent do you consider your sleep problem to interfere with your daily functioning (e.g., daytime fatigue, mood, ability to function at work, or concentration)"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291280/pages/25881020/questions/63811596",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Not at all Interfering",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883535"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "A little",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883536"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Somewhat",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883537"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Much",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883538"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Very much interfering",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883539"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "fr": {
+                "title": "Reassessment - Sleep Disorder - FR - Development",
+                "nickname": "",
+                "language": "fr",
+                "folder_id": "0",
+                "category": "customer_feedback",
+                "question_count": 5,
+                "page_count": 1,
+                "response_count": 0,
+                "date_created": "2022-05-18T08:41:00",
+                "date_modified": "2022-05-18T08:47:00",
+                "id": "190291699",
+                "buttons_text": {
+                    "next_button": "Next",
+                    "prev_button": "Prev",
+                    "done_button": "Done",
+                    "exit_button": ""
+                },
+                "is_owner": true,
+                "footer": false,
+                "custom_variables": {},
+                "href": "https://api.surveymonkey.ca/v3/surveys/190291699",
+                "analyze_url": "https://www.surveymonkey.com/analyze/QUKRlkgBJxCUQQMBE6AvdzybkSeyDSXWWJpGOfqCFl4_3D",
+                "edit_url": "https://www.surveymonkey.com/create/?sm=QUKRlkgBJxCUQQMBE6AvdzybkSeyDSXWWJpGOfqCFl4_3D",
+                "collect_url": "https://www.surveymonkey.com/collect/list?sm=QUKRlkgBJxCUQQMBE6AvdzybkSeyDSXWWJpGOfqCFl4_3D",
+                "summary_url": "https://www.surveymonkey.com/summary/QUKRlkgBJxCUQQMBE6AvdzybkSeyDSXWWJpGOfqCFl4_3D",
+                "preview": "https://www.surveymonkey.com/r/Preview/?sm=sNBZVykB4tTQSRKobk1Ngl7CbYnKf5AN4i5Oa6dpl7QiHw6YGRO3hFJq3h03AWog",
+                "pages": [
+                    {
+                        "title": "",
+                        "description": "",
+                        "position": 1,
+                        "question_count": 5,
+                        "id": "25882296",
+                        "href": "https://api.surveymonkey.ca/v3/surveys/190291699/pages/25882296",
+                        "questions": [
+                            {
+                                "id": "63814078",
+                                "position": 1,
+                                "visible": true,
+                                "family": "matrix",
+                                "subtype": "rating",
+                                "layout": null,
+                                "sorting": null,
+                                "required": {
+                                    "text": "This question requires an answer.",
+                                    "type": "all",
+                                    "amount": "0"
+                                },
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Au cours des 2 dernières semaines, évaluez le niveau de gravité des problèmes suivants :"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291699/pages/25882296/questions/63814078",
+                                "answers": {
+                                    "rows": [
+                                        {
+                                            "field": "q1",
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Difficulté à vous endormir",
+                                            "id": "523898126"
+                                        },
+                                        {
+                                            "field": "q2",
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Difficulté à rester endormi(e)",
+                                            "id": "523898127"
+                                        },
+                                        {
+                                            "field": "q3",
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Problème de se réveiller trop tôt",
+                                            "id": "523898130"
+                                        }
+                                    ],
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Aucun",
+                                            "id": "523898128",
+                                            "is_na": false,
+                                            "weight": 1,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Léger",
+                                            "id": "523898129",
+                                            "is_na": false,
+                                            "weight": 2,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Modéré",
+                                            "id": "523898133",
+                                            "is_na": false,
+                                            "weight": 3,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Sévère",
+                                            "id": "523898134",
+                                            "is_na": false,
+                                            "weight": 4,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Très sévère",
+                                            "id": "523898135",
+                                            "is_na": false,
+                                            "weight": 5,
+                                            "description": ""
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q4",
+                                "id": "63814079",
+                                "position": 2,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Êtes-vous satisfait(e)/insatisfait(e) de vos habitudes actuelles en matière de sommeil?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291699/pages/25882296/questions/63814079",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Très satisfait(e)",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898136"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Satisfait(e)",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898137"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Modérément satisfait(e)",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898138"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Insatisfait(e)",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898139"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Très insatisfait(e)",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898140"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q5",
+                                "id": "63814080",
+                                "position": 3,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Pensez-vous que les autres remarquent que votre problème actuel de sommeil affecte votre qualité de vie?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291699/pages/25882296/questions/63814080",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Pas remarquable du tout",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898141"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Un peu",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898142"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Quelque peu",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898143"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Beaucoup",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898144"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Très remarquable",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898145"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q6",
+                                "id": "63814081",
+                                "position": 4,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Quel est votre degré d’inquiétude ou de détresse concernant votre problème de sommeil?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291699/pages/25882296/questions/63814081",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Pas inquiet(ète) du tout",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898146"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Un peu",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898147"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Quelque peu",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898148"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Beaucoup",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898149"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Très inquiet(ète)",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898150"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q7",
+                                "id": "63814082",
+                                "position": 5,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Dans quelle mesure considérez-vous que votre problème de sommeil interfère avec votre fonctionnement quotidien (par exemple : fatigue pendant la journée, humeur, capacité de travail, ou concentration)?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291699/pages/25882296/questions/63814082",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "N’interfère pas",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898151"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Un peu",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898152"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Quelque peu",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898153"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Beaucoup",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898154"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Interfère énormément",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898155"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+         },
+        "production": {
+            "en": {
+                "title": "Reassessment - Sleep Disorder - EN",
+                "nickname": "",
+                "language": "en",
+                "folder_id": "0",
+                "category": "customer_feedback",
+                "question_count": 5,
+                "page_count": 1,
+                "response_count": 0,
+                "date_created": "2022-10-06T12:04:00",
+                "date_modified": "2022-10-06T12:07:00",
+                "id": "190307884",
+                "buttons_text": {
+                    "next_button": "Next",
+                    "prev_button": "Prev",
+                    "done_button": "Done",
+                    "exit_button": ""
+                },
+                "is_owner": true,
+                "footer": false,
+                "theme_id": "9831075",
+                "custom_variables": {},
+                "href": "https://api.surveymonkey.ca/v3/surveys/190307884",
+                "analyze_url": "https://www.surveymonkey.com/analyze/X1viY6g4ifgLqR4rPF1APAu7hiApyaNrLOWclBuqRdk_3D",
+                "edit_url": "https://www.surveymonkey.com/create/?sm=X1viY6g4ifgLqR4rPF1APAu7hiApyaNrLOWclBuqRdk_3D",
+                "collect_url": "https://www.surveymonkey.com/collect/list?sm=X1viY6g4ifgLqR4rPF1APAu7hiApyaNrLOWclBuqRdk_3D",
+                "summary_url": "https://www.surveymonkey.com/summary/X1viY6g4ifgLqR4rPF1APAu7hiApyaNrLOWclBuqRdk_3D",
+                "preview": "https://www.surveymonkey.com/r/Preview/?sm=foV2aTxnf6yaI_2FLsPFc3vFOoUjOOvGWkqECxHATq_2Br_2BuyckMgJgCa8B_2BwqThRJVN",
+                "pages": [
+                    {
+                        "title": "",
+                        "description": "",
+                        "position": 1,
+                        "question_count": 5,
+                        "id": "25949635",
+                        "href": "https://api.surveymonkey.ca/v3/surveys/190307884/pages/25949635",
+                        "questions": [
+                            {
+                                "id": "64091375",
+                                "position": 1,
+                                "visible": true,
+                                "family": "matrix",
+                                "subtype": "rating",
+                                "layout": null,
+                                "sorting": null,
+                                "required": {
+                                    "text": "This question requires an answer.",
+                                    "type": "all",
+                                    "amount": "0"
+                                },
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "In the past 2 weeks, rate the level of severity for the following problems:"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307884/pages/25949635/questions/64091375",
+                                "answers": {
+                                    "rows": [
+                                        {
+                                            "field": "q1",
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Difficulty falling asleep",
+                                            "id": "525718267"
+                                        },
+                                        {
+                                            "field": "q2",
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Difficulty staying asleep",
+                                            "id": "525718268"
+                                        },
+                                        {
+                                            "field": "q3",
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Problem waking up too early",
+                                            "id": "525718271"
+                                        }
+                                    ],
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "None",
+                                            "id": "525718269",
+                                            "is_na": false,
+                                            "weight": 1,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Mild",
+                                            "id": "525718270",
+                                            "is_na": false,
+                                            "weight": 2,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Moderate",
+                                            "id": "525718274",
+                                            "is_na": false,
+                                            "weight": 3,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Severe",
+                                            "id": "525718275",
+                                            "is_na": false,
+                                            "weight": 4,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Very Severe",
+                                            "id": "525718276",
+                                            "is_na": false,
+                                            "weight": 5,
+                                            "description": ""
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q4",
+                                "id": "64091376",
+                                "position": 2,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "How satisfied/dissatisfied are you with your current sleep patterns?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307884/pages/25949635/questions/64091376",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Very satisfied",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718277"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Satisfied",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718278"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Moderately satisfied",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718279"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Dissatisfied",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718280"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Very dissatisfied",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718281"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q5",
+                                "id": "64091377",
+                                "position": 3,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "How noticeable to others do you think your current sleep problem is in terms of impairing the quality of your life?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307884/pages/25949635/questions/64091377",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Not at all noticeable",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718282"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "A little",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718283"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Somewhat",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718284"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Much",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718285"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Very much noticeable",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718286"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q6",
+                                "id": "64091378",
+                                "position": 4,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "How worried/distressed are you about your current sleep problem?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307884/pages/25949635/questions/64091378",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Not at all worried",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718287"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "A little",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718288"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Somewhat",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718289"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Much",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718290"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Very much worried",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718291"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q7",
+                                "id": "64091379",
+                                "position": 5,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "To what extent do you consider your sleep problem to interfere with your daily functioning (e.g., daytime fatigue, mood, ability to function at work, or concentration)"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307884/pages/25949635/questions/64091379",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Not at all Interfering",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718292"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "A little",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718293"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Somewhat",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718294"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Much",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718295"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Very much interfering",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718296"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "fr": {
+                "title": "Reassessment - Sleep Disorder - FR",
+                "nickname": "",
+                "language": "en",
+                "folder_id": "0",
+                "category": "customer_feedback",
+                "question_count": 5,
+                "page_count": 1,
+                "response_count": 0,
+                "date_created": "2022-10-06T12:03:00",
+                "date_modified": "2022-10-06T12:07:00",
+                "id": "190307880",
+                "buttons_text": {
+                    "next_button": "Next",
+                    "prev_button": "Prev",
+                    "done_button": "Done",
+                    "exit_button": ""
+                },
+                "is_owner": true,
+                "footer": false,
+                "theme_id": "9831075",
+                "custom_variables": {},
+                "href": "https://api.surveymonkey.ca/v3/surveys/190307880",
+                "analyze_url": "https://www.surveymonkey.com/analyze/X1viY6g4ifgLqR4rPF1APJVxoAqz06LJ79p1UcS68IA_3D",
+                "edit_url": "https://www.surveymonkey.com/create/?sm=X1viY6g4ifgLqR4rPF1APJVxoAqz06LJ79p1UcS68IA_3D",
+                "collect_url": "https://www.surveymonkey.com/collect/list?sm=X1viY6g4ifgLqR4rPF1APJVxoAqz06LJ79p1UcS68IA_3D",
+                "summary_url": "https://www.surveymonkey.com/summary/X1viY6g4ifgLqR4rPF1APJVxoAqz06LJ79p1UcS68IA_3D",
+                "preview": "https://www.surveymonkey.com/r/Preview/?sm=OvhRjLmN_2BJekMeMrm2aq9pYnCMSF6KeU1KK5vPiUtkv_2F05mFkHtKuwN9MfBBgKDz",
+                "pages": [
+                    {
+                        "title": "",
+                        "description": "",
+                        "position": 1,
+                        "question_count": 5,
+                        "id": "25949631",
+                        "href": "https://api.surveymonkey.ca/v3/surveys/190307880/pages/25949631",
+                        "questions": [
+                            {
+                                "id": "64091367",
+                                "position": 1,
+                                "visible": true,
+                                "family": "matrix",
+                                "subtype": "rating",
+                                "layout": null,
+                                "sorting": null,
+                                "required": {
+                                    "text": "This question requires an answer.",
+                                    "type": "all",
+                                    "amount": "0"
+                                },
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Au cours des 2 dernières semaines, évaluez le niveau de gravité des problèmes suivants :"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307880/pages/25949631/questions/64091367",
+                                "answers": {
+                                    "rows": [
+                                        {
+                                            "field": "q1",
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Difficulté à vous endormir",
+                                            "id": "525718194"
+                                        },
+                                        {
+                                            "field": "q2",
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Difficulté à rester endormi(e)",
+                                            "id": "525718195"
+                                        },
+                                        {
+                                            "field": "q3",
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Problème de se réveiller trop tôt",
+                                            "id": "525718198"
+                                        }
+                                    ],
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Aucun",
+                                            "id": "525718196",
+                                            "is_na": false,
+                                            "weight": 1,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Léger",
+                                            "id": "525718197",
+                                            "is_na": false,
+                                            "weight": 2,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Modéré",
+                                            "id": "525718201",
+                                            "is_na": false,
+                                            "weight": 3,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Sévère",
+                                            "id": "525718202",
+                                            "is_na": false,
+                                            "weight": 4,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Très sévère",
+                                            "id": "525718203",
+                                            "is_na": false,
+                                            "weight": 5,
+                                            "description": ""
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q4",
+                                "id": "64091368",
+                                "position": 2,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Êtes-vous satisfait(e)/insatisfait(e) de vos habitudes actuelles en matière de sommeil?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307880/pages/25949631/questions/64091368",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Très satisfait(e)",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718204"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Satisfait(e)",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718205"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Modérément satisfait(e)",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718206"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Insatisfait(e)",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718207"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Très insatisfait(e)",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718208"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q5",
+                                "id": "64091369",
+                                "position": 3,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Pensez-vous que les autres remarquent que votre problème actuel de sommeil affecte votre qualité de vie?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307880/pages/25949631/questions/64091369",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Pas remarquable du tout",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718209"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Un peu",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718210"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Quelque peu",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718211"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Beaucoup",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718212"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Très remarquable",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718213"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q6",
+                                "id": "64091370",
+                                "position": 4,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Quel est votre degré d’inquiétude ou de détresse concernant votre problème de sommeil?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307880/pages/25949631/questions/64091370",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Pas inquiet(ète) du tout",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718214"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Un peu",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718215"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Quelque peu",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718216"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Beaucoup",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718217"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Très inquiet(ète)",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718218"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q7",
+                                "id": "64091371",
+                                "position": 5,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Dans quelle mesure considérez-vous que votre problème de sommeil interfère avec votre fonctionnement quotidien (par exemple : fatigue pendant la journée, humeur, capacité de travail, ou concentration)?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307880/pages/25949631/questions/64091371",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "N’interfère pas",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718219"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Un peu",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718220"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Quelque peu",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718221"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Beaucoup",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718222"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Interfère énormément",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718223"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+     }
+ }

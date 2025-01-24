@@ -1,0 +1,748 @@
+{
+    "entity": "ReassessmentPanicDisorder",
+     "relations": {
+         "contact": {
+             "name": "reassessmentPanicDisorders"
+         }
+     },
+     "surveys": {
+         "development": {
+            "en": {
+                "title": "Reassessment - Panic Disorder - EN - Development",
+                "nickname": "",
+                "language": "en",
+                "folder_id": "0",
+                "category": "customer_feedback",
+                "question_count": 1,
+                "page_count": 1,
+                "response_count": 0,
+                "date_created": "2022-05-14T09:52:00",
+                "date_modified": "2022-05-17T13:49:00",
+                "id": "190291277",
+                "buttons_text": {
+                    "next_button": "Next",
+                    "prev_button": "Prev",
+                    "done_button": "Done",
+                    "exit_button": ""
+                },
+                "is_owner": true,
+                "footer": false,
+                "custom_variables": {},
+                "href": "https://api.surveymonkey.ca/v3/surveys/190291277",
+                "analyze_url": "https://www.surveymonkey.com/analyze/YvPp3eh_2BorbI80_2BB3kwFPoyL4FyvA3mIWM9a78KMnW4_3D",
+                "edit_url": "https://www.surveymonkey.com/create/?sm=YvPp3eh_2BorbI80_2BB3kwFPoyL4FyvA3mIWM9a78KMnW4_3D",
+                "collect_url": "https://www.surveymonkey.com/collect/list?sm=YvPp3eh_2BorbI80_2BB3kwFPoyL4FyvA3mIWM9a78KMnW4_3D",
+                "summary_url": "https://www.surveymonkey.com/summary/YvPp3eh_2BorbI80_2BB3kwFPoyL4FyvA3mIWM9a78KMnW4_3D",
+                "preview": "https://www.surveymonkey.com/r/Preview/?sm=DMhXmWwcJpc3dTbxk_2BQLNC6q74erFMcE2PtLHbv8cTBIHuiaxlebBdNAMtjW_2FUMo",
+                "pages": [
+                    {
+                        "title": "",
+                        "description": "",
+                        "position": 1,
+                        "question_count": 1,
+                        "id": "25881017",
+                        "href": "https://api.surveymonkey.ca/v3/surveys/190291277/pages/25881017",
+                        "questions": [
+                            {
+                                "id": "63808537",
+                                "position": 1,
+                                "visible": true,
+                                "family": "matrix",
+                                "subtype": "rating",
+                                "layout": null,
+                                "sorting": null,
+                                "required": {
+                                    "text": "This question requires an answer.",
+                                    "type": "all",
+                                    "amount": "0"
+                                },
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "During the PAST 7 DAYS, I have…"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291277/pages/25881017/questions/63808537",
+                                "answers": {
+                                    "rows": [
+                                        {
+                                            "field": "q1",
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Felt moments of sudden terror, fear or fright, sometimes out of the blue (i.e., a panic attack)",
+                                            "id": "523860870"
+                                        },
+                                        {
+                                            "field": "q2",
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Felt anxious, worried, or nervous about having more panic attacks",
+                                            "id": "523860871"
+                                        },
+                                        {
+                                            "field": "q3",
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Had thoughts of losing control, dying, going crazy, or other bad things happening because of panic attacks",
+                                            "id": "523860876"
+                                        },
+                                        {
+                                            "field": "q4",
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Felt a racing heart, sweaty, trouble breathing, faint, or shaky",
+                                            "id": "523860882"
+                                        },
+                                        {
+                                            "field": "q5",
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Felt tense muscles, felt on edge or restless, or had trouble relaxing or trouble sleeping",
+                                            "id": "523860883"
+                                        },
+                                        {
+                                            "field": "q6",
+                                            "position": 6,
+                                            "visible": true,
+                                            "text": "Avoided, or did not approach or enter, situations in which panic attacks might occur",
+                                            "id": "523860884"
+                                        },
+                                        {
+                                            "field": "q7",
+                                            "position": 7,
+                                            "visible": true,
+                                            "text": "Left situations early, or participated only minimally, because of panic attacks",
+                                            "id": "523860885"
+                                        },
+                                        {
+                                            "field": "q8",
+                                            "position": 8,
+                                            "visible": true,
+                                            "text": "spent a lot of time preparing for, or procrastinating about (putting off), situations in which panic attacks might occur",
+                                            "id": "523860886"
+                                        },
+                                        {
+                                            "field": "q9",
+                                            "position": 9,
+                                            "visible": true,
+                                            "text": "Distracted myself to avoid thinking about panic attacks",
+                                            "id": "523860887"
+                                        },
+                                        {
+                                            "field": "q10",
+                                            "position": 10,
+                                            "visible": true,
+                                            "text": "Needed help to cope with panic attacks (e.g., alcohol or medication, superstitious objects, other people)",
+                                            "id": "523860888"
+                                        }
+                                    ],
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Never",
+                                            "id": "523860872",
+                                            "is_na": false,
+                                            "weight": 1,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Occasionally",
+                                            "id": "523860873",
+                                            "is_na": false,
+                                            "weight": 2,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Half of the time",
+                                            "id": "523860879",
+                                            "is_na": false,
+                                            "weight": 3,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Most of the time",
+                                            "id": "523860880",
+                                            "is_na": false,
+                                            "weight": 4,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "All of the time",
+                                            "id": "523860881",
+                                            "is_na": false,
+                                            "weight": 5,
+                                            "description": ""
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "fr": {
+                "title": "DRAFT of Reassessment - Panic Disorder - FR - Development",
+                "nickname": "",
+                "language": "fr",
+                "folder_id": "0",
+                "category": "customer_feedback",
+                "question_count": 1,
+                "page_count": 1,
+                "response_count": 0,
+                "date_created": "2022-05-18T08:37:00",
+                "date_modified": "2022-05-18T08:37:00",
+                "id": "190291696",
+                "buttons_text": {
+                    "next_button": "Next",
+                    "prev_button": "Prev",
+                    "done_button": "Done",
+                    "exit_button": ""
+                },
+                "is_owner": true,
+                "footer": false,
+                "custom_variables": {},
+                "href": "https://api.surveymonkey.ca/v3/surveys/190291696",
+                "analyze_url": "https://www.surveymonkey.com/analyze/QUKRlkgBJxCUQQMBE6Avdyvrd9TZ_2FiAkL2rdMzYfTVg_3D",
+                "edit_url": "https://www.surveymonkey.com/create/?sm=QUKRlkgBJxCUQQMBE6Avdyvrd9TZ_2FiAkL2rdMzYfTVg_3D",
+                "collect_url": "https://www.surveymonkey.com/collect/list?sm=QUKRlkgBJxCUQQMBE6Avdyvrd9TZ_2FiAkL2rdMzYfTVg_3D",
+                "summary_url": "https://www.surveymonkey.com/summary/QUKRlkgBJxCUQQMBE6Avdyvrd9TZ_2FiAkL2rdMzYfTVg_3D",
+                "preview": "https://www.surveymonkey.com/r/Preview/?sm=iYv_2F0BPzXfx0r_2Bxuy3xC2J5_2BqswdghNPVZ0_2BcOt1ni_2Bz_2B_2BfMOgNGNhUvBaAB2LJ5",
+                "pages": [
+                    {
+                        "title": "",
+                        "description": "",
+                        "position": 1,
+                        "question_count": 1,
+                        "id": "25882293",
+                        "href": "https://api.surveymonkey.ca/v3/surveys/190291696/pages/25882293",
+                        "questions": [
+                            {
+                                "id": "63814075",
+                                "position": 1,
+                                "visible": true,
+                                "family": "matrix",
+                                "subtype": "rating",
+                                "layout": null,
+                                "sorting": null,
+                                "required": {
+                                    "text": "This question requires an answer.",
+                                    "type": "all",
+                                    "amount": "0"
+                                },
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "During the PAST 7 DAYS, I have…"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291696/pages/25882293/questions/63814075",
+                                "answers": {
+                                    "rows": [
+                                        {
+                                            "field": "q1",
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Felt moments of sudden terror, fear or fright, sometimes out of the blue (i.e., a panic attack)",
+                                            "id": "523898083"
+                                        },
+                                        {
+                                            "field": "q2",
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Felt anxious, worried, or nervous about having more panic attacks",
+                                            "id": "523898084"
+                                        },
+                                        {
+                                            "field": "q3",
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Had thoughts of losing control, dying, going crazy, or other bad things happening because of panic attacks",
+                                            "id": "523898087"
+                                        },
+                                        {
+                                            "field": "q4",
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Felt a racing heart, sweaty, trouble breathing, faint, or shaky",
+                                            "id": "523898093"
+                                        },
+                                        {
+                                            "field": "q5",
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Felt tense muscles, felt on edge or restless, or had trouble relaxing or trouble sleeping",
+                                            "id": "523898094"
+                                        },
+                                        {
+                                            "field": "q6",
+                                            "position": 6,
+                                            "visible": true,
+                                            "text": "Avoided, or did not approach or enter, situations in which panic attacks might occur",
+                                            "id": "523898095"
+                                        },
+                                        {
+                                            "field": "q7",
+                                            "position": 7,
+                                            "visible": true,
+                                            "text": "Left situations early, or participated only minimally, because of panic attacks",
+                                            "id": "523898096"
+                                        },
+                                        {
+                                            "field": "q8",
+                                            "position": 8,
+                                            "visible": true,
+                                            "text": "spent a lot of time preparing for, or procrastinating about (putting off), situations in which panic attacks might occur",
+                                            "id": "523898097"
+                                        },
+                                        {
+                                            "field": "q9",
+                                            "position": 9,
+                                            "visible": true,
+                                            "text": "Distracted myself to avoid thinking about panic attacks",
+                                            "id": "523898098"
+                                        },
+                                        {
+                                            "field": "q10",
+                                            "position": 10,
+                                            "visible": true,
+                                            "text": "Needed help to cope with panic attacks (e.g., alcohol or medication, superstitious objects, other people)",
+                                            "id": "523898099"
+                                        }
+                                    ],
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Never",
+                                            "id": "523898085",
+                                            "is_na": false,
+                                            "weight": 1,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Occasionally",
+                                            "id": "523898086",
+                                            "is_na": false,
+                                            "weight": 2,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Half of the time",
+                                            "id": "523898090",
+                                            "is_na": false,
+                                            "weight": 3,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Most of the time",
+                                            "id": "523898091",
+                                            "is_na": false,
+                                            "weight": 4,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "All of the time",
+                                            "id": "523898092",
+                                            "is_na": false,
+                                            "weight": 5,
+                                            "description": ""
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+         },
+        "production": {
+            "en": {
+                "title": "Reassessment - Panic Disorder - EN",
+                "nickname": "",
+                "language": "en",
+                "folder_id": "0",
+                "category": "customer_feedback",
+                "question_count": 1,
+                "page_count": 1,
+                "response_count": 0,
+                "date_created": "2022-10-06T12:27:00",
+                "date_modified": "2022-10-06T12:27:00",
+                "id": "190307893",
+                "buttons_text": {
+                    "next_button": "Next",
+                    "prev_button": "Prev",
+                    "done_button": "Done",
+                    "exit_button": ""
+                },
+                "is_owner": true,
+                "footer": false,
+                "theme_id": "9831075",
+                "custom_variables": {},
+                "href": "https://api.surveymonkey.ca/v3/surveys/190307893",
+                "analyze_url": "https://www.surveymonkey.com/analyze/X1viY6g4ifgLqR4rPF1APL5t0n7b7DgKH6n2AML12nI_3D",
+                "edit_url": "https://www.surveymonkey.com/create/?sm=X1viY6g4ifgLqR4rPF1APL5t0n7b7DgKH6n2AML12nI_3D",
+                "collect_url": "https://www.surveymonkey.com/collect/list?sm=X1viY6g4ifgLqR4rPF1APL5t0n7b7DgKH6n2AML12nI_3D",
+                "summary_url": "https://www.surveymonkey.com/summary/X1viY6g4ifgLqR4rPF1APL5t0n7b7DgKH6n2AML12nI_3D",
+                "preview": "https://www.surveymonkey.com/r/Preview/?sm=5ordhUxz2zgMXCFDF9bhbvu0QGmxkF457UG2153CPBWbGzm8RF8jL549WCI0ifPg",
+                "pages": [
+                    {
+                        "title": "",
+                        "description": "",
+                        "position": 1,
+                        "question_count": 1,
+                        "id": "25949644",
+                        "href": "https://api.surveymonkey.ca/v3/surveys/190307893/pages/25949644",
+                        "questions": [
+                            {
+                                "id": "64091429",
+                                "position": 1,
+                                "visible": true,
+                                "family": "matrix",
+                                "subtype": "rating",
+                                "layout": null,
+                                "sorting": null,
+                                "required": {
+                                    "text": "This question requires an answer.",
+                                    "type": "all",
+                                    "amount": "0"
+                                },
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "During the PAST 7 DAYS, I have…"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307893/pages/25949644/questions/64091429",
+                                "answers": {
+                                    "rows": [
+                                        {
+                                            "field": "q1",
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Felt moments of sudden terror, fear or fright, sometimes out of the blue (i.e., a panic attack)",
+                                            "id": "525718524"
+                                        },
+                                        {
+                                            "field": "q2",
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Felt anxious, worried, or nervous about having more panic attacks",
+                                            "id": "525718525"
+                                        },
+                                        {
+                                            "field": "q3",
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Had thoughts of losing control, dying, going crazy, or other bad things happening because of panic attacks",
+                                            "id": "525718528"
+                                        },
+                                        {
+                                            "field": "q4",
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Felt a racing heart, sweaty, trouble breathing, faint, or shaky",
+                                            "id": "525718534"
+                                        },
+                                        {
+                                            "field": "q5",
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Felt tense muscles, felt on edge or restless, or had trouble relaxing or trouble sleeping",
+                                            "id": "525718535"
+                                        },
+                                        {
+                                            "field": "q6",
+                                            "position": 6,
+                                            "visible": true,
+                                            "text": "Avoided, or did not approach or enter, situations in which panic attacks might occur",
+                                            "id": "525718536"
+                                        },
+                                        {
+                                            "field": "q7",
+                                            "position": 7,
+                                            "visible": true,
+                                            "text": "Left situations early, or participated only minimally, because of panic attacks",
+                                            "id": "525718537"
+                                        },
+                                        {
+                                            "field": "q8",
+                                            "position": 8,
+                                            "visible": true,
+                                            "text": "spent a lot of time preparing for, or procrastinating about (putting off), situations in which panic attacks might occur",
+                                            "id": "525718538"
+                                        },
+                                        {
+                                            "field": "q9",
+                                            "position": 9,
+                                            "visible": true,
+                                            "text": "Distracted myself to avoid thinking about panic attacks",
+                                            "id": "525718539"
+                                        },
+                                        {
+                                            "field": "q10",
+                                            "position": 10,
+                                            "visible": true,
+                                            "text": "Needed help to cope with panic attacks (e.g., alcohol or medication, superstitious objects, other people)",
+                                            "id": "525718540"
+                                        }
+                                    ],
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Never",
+                                            "id": "525718526",
+                                            "is_na": false,
+                                            "weight": 1,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Occasionally",
+                                            "id": "525718527",
+                                            "is_na": false,
+                                            "weight": 2,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Half of the time",
+                                            "id": "525718531",
+                                            "is_na": false,
+                                            "weight": 3,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Most of the time",
+                                            "id": "525718532",
+                                            "is_na": false,
+                                            "weight": 4,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "All of the time",
+                                            "id": "525718533",
+                                            "is_na": false,
+                                            "weight": 5,
+                                            "description": ""
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "fr": {
+                "title": "DRAFT of Reassessment - Panic Disorder - FR",
+                "nickname": "",
+                "language": "en",
+                "folder_id": "0",
+                "category": "customer_feedback",
+                "question_count": 1,
+                "page_count": 1,
+                "response_count": 0,
+                "date_created": "2022-10-06T12:03:00",
+                "date_modified": "2022-10-06T12:27:00",
+                "id": "190307881",
+                "buttons_text": {
+                    "next_button": "Next",
+                    "prev_button": "Prev",
+                    "done_button": "Done",
+                    "exit_button": ""
+                },
+                "is_owner": true,
+                "footer": false,
+                "theme_id": "9831075",
+                "custom_variables": {},
+                "href": "https://api.surveymonkey.ca/v3/surveys/190307881",
+                "analyze_url": "https://www.surveymonkey.com/analyze/X1viY6g4ifgLqR4rPF1APNZOfC9xO35xgOeAsvtlYQQ_3D",
+                "edit_url": "https://www.surveymonkey.com/create/?sm=X1viY6g4ifgLqR4rPF1APNZOfC9xO35xgOeAsvtlYQQ_3D",
+                "collect_url": "https://www.surveymonkey.com/collect/list?sm=X1viY6g4ifgLqR4rPF1APNZOfC9xO35xgOeAsvtlYQQ_3D",
+                "summary_url": "https://www.surveymonkey.com/summary/X1viY6g4ifgLqR4rPF1APNZOfC9xO35xgOeAsvtlYQQ_3D",
+                "preview": "https://www.surveymonkey.com/r/Preview/?sm=yWtW4Pi4dQU2jaeQwS3D1eFGmNsjwODSXRKw1S5dXckoyZuYBQi1p3GOXMdHsjBW",
+                "pages": [
+                    {
+                        "title": "",
+                        "description": "",
+                        "position": 1,
+                        "question_count": 1,
+                        "id": "25949632",
+                        "href": "https://api.surveymonkey.ca/v3/surveys/190307881/pages/25949632",
+                        "questions": [
+                            {
+                                "id": "64091372",
+                                "position": 1,
+                                "visible": true,
+                                "family": "matrix",
+                                "subtype": "rating",
+                                "layout": null,
+                                "sorting": null,
+                                "required": {
+                                    "text": "This question requires an answer.",
+                                    "type": "all",
+                                    "amount": "0"
+                                },
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "During the PAST 7 DAYS, I have…"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307881/pages/25949632/questions/64091372",
+                                "answers": {
+                                    "rows": [
+                                        {
+                                            "field": "q1",
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Felt moments of sudden terror, fear or fright, sometimes out of the blue (i.e., a panic attack)",
+                                            "id": "525718224"
+                                        },
+                                        {
+                                            "field": "q2",
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Felt anxious, worried, or nervous about having more panic attacks",
+                                            "id": "525718225"
+                                        },
+                                        {
+                                            "field": "q3",
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Had thoughts of losing control, dying, going crazy, or other bad things happening because of panic attacks",
+                                            "id": "525718228"
+                                        },
+                                        {
+                                            "field": "q4",
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Felt a racing heart, sweaty, trouble breathing, faint, or shaky",
+                                            "id": "525718234"
+                                        },
+                                        {
+                                            "field": "q5",
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Felt tense muscles, felt on edge or restless, or had trouble relaxing or trouble sleeping",
+                                            "id": "525718235"
+                                        },
+                                        {
+                                            "field": "q6",
+                                            "position": 6,
+                                            "visible": true,
+                                            "text": "Avoided, or did not approach or enter, situations in which panic attacks might occur",
+                                            "id": "525718236"
+                                        },
+                                        {
+                                            "field": "q7",
+                                            "position": 7,
+                                            "visible": true,
+                                            "text": "Left situations early, or participated only minimally, because of panic attacks",
+                                            "id": "525718237"
+                                        },
+                                        {
+                                            "field": "q8",
+                                            "position": 8,
+                                            "visible": true,
+                                            "text": "spent a lot of time preparing for, or procrastinating about (putting off), situations in which panic attacks might occur",
+                                            "id": "525718238"
+                                        },
+                                        {
+                                            "field": "q9",
+                                            "position": 9,
+                                            "visible": true,
+                                            "text": "Distracted myself to avoid thinking about panic attacks",
+                                            "id": "525718239"
+                                        },
+                                        {
+                                            "field": "q10",
+                                            "position": 10,
+                                            "visible": true,
+                                            "text": "Needed help to cope with panic attacks (e.g., alcohol or medication, superstitious objects, other people)",
+                                            "id": "525718240"
+                                        }
+                                    ],
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Never",
+                                            "id": "525718226",
+                                            "is_na": false,
+                                            "weight": 1,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Occasionally",
+                                            "id": "525718227",
+                                            "is_na": false,
+                                            "weight": 2,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Half of the time",
+                                            "id": "525718231",
+                                            "is_na": false,
+                                            "weight": 3,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Most of the time",
+                                            "id": "525718232",
+                                            "is_na": false,
+                                            "weight": 4,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "All of the time",
+                                            "id": "525718233",
+                                            "is_na": false,
+                                            "weight": 5,
+                                            "description": ""
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+     }
+ }

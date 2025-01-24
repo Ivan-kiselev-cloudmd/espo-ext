@@ -1,0 +1,656 @@
+{
+    "entity": "SatisfactionSurveyYAP",
+     "relations": {
+         "contact": {
+             "name": "satisfactionSurveyYAP"
+         }
+     },
+     "surveys": {
+        "development": {
+            "en": {
+                "title": "Mental Health Coach Satisfaction Survey",
+                "nickname": "DEVELOPMENT YAP FB Mental Health Coach Satisfaction Survey",
+                "language": "en",
+                "folder_id": "0",
+                "category": "customer_feedback",
+                "question_count": 4,
+                "page_count": 1,
+                "response_count": 5,
+                "date_created": "2021-11-12T16:10:00",
+                "date_modified": "2022-08-02T15:17:00",
+                "collect_stats": null,
+                "id": "190233789",
+                "buttons_text": {
+                    "next_button": "Next",
+                    "prev_button": "Prev",
+                    "done_button": "Done",
+                    "exit_button": ""
+                },
+                "is_owner": true,
+                "footer": false,
+                "theme_id": "10145376",
+                "custom_variables": {},
+                "href": "https://api.surveymonkey.ca/v3/surveys/190233789",
+                "analyze_url": "https://www.surveymonkey.com/analyze/nSeTwvx58p9Gwyz7Ab4F1G3TuCJjsD6NZw_2BTQTw3N5c_3D",
+                "edit_url": "https://www.surveymonkey.com/create/?sm=nSeTwvx58p9Gwyz7Ab4F1G3TuCJjsD6NZw_2BTQTw3N5c_3D",
+                "collect_url": "https://www.surveymonkey.com/collect/list?sm=nSeTwvx58p9Gwyz7Ab4F1G3TuCJjsD6NZw_2BTQTw3N5c_3D",
+                "summary_url": "https://www.surveymonkey.com/summary/nSeTwvx58p9Gwyz7Ab4F1G3TuCJjsD6NZw_2BTQTw3N5c_3D",
+                "preview": "https://www.surveymonkey.com/r/Preview/?sm=_2FX2G9908bxZ0wYEGEM5YoBhNFfDutLF6vxJ_2FgrIb31yFHNlhmGb22pWRe32KGa8P",
+                "pages": [
+                    {
+                        "title": "",
+                        "description": "",
+                        "position": 1,
+                        "question_count": 4,
+                        "id": "25721924",
+                        "href": "https://api.surveymonkey.ca/v3/surveys/190233789/pages/25721924",
+                        "questions": [
+                            {
+                                "id": "63959590",
+                                "position": 1,
+                                "visible": true,
+                                "family": "matrix",
+                                "subtype": "rating",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "How much do you agree with the following statements?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190233789/pages/25721924/questions/63959590",
+                                "answers": {
+                                    "rows": [
+                                        {
+                                            "field": "iHaveNoticedAnImprovement",
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "I have noticed an improvement in the mental health symptoms discussed with my Coach at the start of this service.",
+                                            "id": "524859290"
+                                        },
+                                        {
+                                            "field": "iHadAPositiveExperienceWithMyCoach",
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "I had/I am having a positive experience with my coach.",
+                                            "id": "524859393"
+                                        },
+                                        {
+                                            "field": "iFeelMoreProductiveAtWork",
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "I feel more productive at work.",
+                                            "id": "524859394"
+                                        },
+                                        {
+                                            "field": "benefitsBetterUnderstanding",
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "I have a better understanding of my benefits.",
+                                            "id": "524859395"
+                                        }
+                                    ],
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Strongly Disagree",
+                                            "id": "524859291",
+                                            "is_na": false,
+                                            "weight": 1,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Disagree",
+                                            "id": "524859292",
+                                            "is_na": false,
+                                            "weight": 2,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Neutral",
+                                            "id": "524859293",
+                                            "is_na": false,
+                                            "weight": 3,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Agree",
+                                            "id": "524859294",
+                                            "is_na": false,
+                                            "weight": 4,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Strongly Agree",
+                                            "id": "524859295",
+                                            "is_na": false,
+                                            "weight": 5,
+                                            "description": ""
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "recommendServiceToOthers",
+                                "id": "63874255",
+                                "position": 2,
+                                "visible": true,
+                                "family": "matrix",
+                                "subtype": "rating",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Based on your Mental Health Coach experience, how likely would you be to recommend this service to your friends, family or colleagues?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190233789/pages/25721924/questions/63874255",
+                                "answers": {
+                                    "rows": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "",
+                                            "id": "524304421"
+                                        }
+                                    ],
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "1 - Not at all likely",
+                                            "id": "524304422",
+                                            "is_na": false,
+                                            "weight": 1,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "2",
+                                            "id": "524304423",
+                                            "is_na": false,
+                                            "weight": 2,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "3",
+                                            "id": "524304424",
+                                            "is_na": false,
+                                            "weight": 3,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "4",
+                                            "id": "524304425",
+                                            "is_na": false,
+                                            "weight": 4,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "5",
+                                            "id": "524304426",
+                                            "is_na": false,
+                                            "weight": 5,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 6,
+                                            "visible": true,
+                                            "text": "6",
+                                            "id": "524304427",
+                                            "is_na": false,
+                                            "weight": 6,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 7,
+                                            "visible": true,
+                                            "text": "7",
+                                            "id": "524304428",
+                                            "is_na": false,
+                                            "weight": 7,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 8,
+                                            "visible": true,
+                                            "text": "8",
+                                            "id": "524304429",
+                                            "is_na": false,
+                                            "weight": 8,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 9,
+                                            "visible": true,
+                                            "text": "9",
+                                            "id": "524304430",
+                                            "is_na": false,
+                                            "weight": 9,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 10,
+                                            "visible": true,
+                                            "text": "10 - Extremely likely",
+                                            "id": "524304431",
+                                            "is_na": false,
+                                            "weight": 10,
+                                            "description": ""
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "thoughtsaboutyourexperience",
+                                "id": "63244854",
+                                "position": 3,
+                                "visible": true,
+                                "family": "open_ended",
+                                "subtype": "essay",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Any final thoughts you would like to share about your experience?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190233789/pages/25721924/questions/63244854"
+                            },
+                            {
+                                "field": "managementTeamContact",
+                                "id": "63874253",
+                                "position": 4,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Can someone from the management team contact you based on the survey results?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190233789/pages/25721924/questions/63874253",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Yes",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "524304405"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "No",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "524304406"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "fr": {
+                "title": "Coach en Santé Mentale Enquête de Satisfaction",
+                "nickname": "DEVELOPMENT YAP FB Coach en Santé Mentale Enquête de Satisfaction",
+                "language": "en",
+                "folder_id": "0",
+                "category": "customer_feedback",
+                "question_count": 4,
+                "page_count": 1,
+                "response_count": 2,
+                "date_created": "2021-11-12T16:17:00",
+                "date_modified": "2022-08-02T15:22:00",
+                "collect_stats": null,
+                "id": "190233796",
+                "buttons_text": {
+                    "next_button": "Next",
+                    "prev_button": "Prev",
+                    "done_button": "Done",
+                    "exit_button": ""
+                },
+                "is_owner": true,
+                "footer": false,
+                "theme_id": "10145402",
+                "custom_variables": {},
+                "href": "https://api.surveymonkey.ca/v3/surveys/190233796",
+                "analyze_url": "https://www.surveymonkey.com/analyze/nSeTwvx58p9Gwyz7Ab4F1FeJcQe6vLspF3V0d_2Fr3PWI_3D",
+                "edit_url": "https://www.surveymonkey.com/create/?sm=nSeTwvx58p9Gwyz7Ab4F1FeJcQe6vLspF3V0d_2Fr3PWI_3D",
+                "collect_url": "https://www.surveymonkey.com/collect/list?sm=nSeTwvx58p9Gwyz7Ab4F1FeJcQe6vLspF3V0d_2Fr3PWI_3D",
+                "summary_url": "https://www.surveymonkey.com/summary/nSeTwvx58p9Gwyz7Ab4F1FeJcQe6vLspF3V0d_2Fr3PWI_3D",
+                "preview": "https://www.surveymonkey.com/r/Preview/?sm=gwen_2Fkt9Z7OYjur7cHrEeRb4VOHzPPpRTDbYoGPGcpcYVO17seE92CIFYNo4k_2Fqi",
+                "pages": [
+                    {
+                        "title": "",
+                        "description": "",
+                        "position": 1,
+                        "question_count": 4,
+                        "id": "25721937",
+                        "href": "https://api.surveymonkey.ca/v3/surveys/190233796/pages/25721937",
+                        "questions": [
+                            {
+                                "id": "63959637",
+                                "position": 1,
+                                "visible": true,
+                                "family": "matrix",
+                                "subtype": "rating",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Dans quelle mesure êtes-vous d'accord avec l'affirmation suivante?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190233796/pages/25721937/questions/63959637",
+                                "answers": {
+                                    "rows": [
+                                        {
+                                            "field": "iHaveNoticedAnImprovement",
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "J'ai remarqué une amélioration des symptômes de santé mentale identifiés et discutés avec mon Coach au début de ce service.",
+                                            "id": "524859506"
+                                        },
+                                        {
+                                            "field": "iHadAPositiveExperienceWithMyCoach",
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "J'ai eu une expérience positive avec mon Coach.",
+                                            "id": "524859507"
+                                        },
+                                        {
+                                            "field": "iFeelMoreProductiveAtWork",
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Les matériaux présenté par mon Coach était utile.",
+                                            "id": "524859508"
+                                        },
+                                        {
+                                            "field": "benefitsBetterUnderstanding",
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Je comprends mieux mes prestations sociales.",
+                                            "id": "524859509"
+                                        }
+                                    ],
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Pas du tout d'accord",
+                                            "id": "524859510",
+                                            "is_na": false,
+                                            "weight": 1,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Pas d'accord",
+                                            "id": "524859511",
+                                            "is_na": false,
+                                            "weight": 2,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Pas sûr",
+                                            "id": "524859512",
+                                            "is_na": false,
+                                            "weight": 3,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "D'accord",
+                                            "id": "524859513",
+                                            "is_na": false,
+                                            "weight": 4,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Tout à fait d'accord",
+                                            "id": "524859514",
+                                            "is_na": false,
+                                            "weight": 5,
+                                            "description": ""
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "recommendServiceToOthers",
+                                "id": "63959670",
+                                "position": 2,
+                                "visible": true,
+                                "family": "matrix",
+                                "subtype": "rating",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Sur la base de mon expérience avec le service de coach en santé mentale, dans quelle mesure recommanderiez-vous ce service à d'autres personnes?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190233796/pages/25721937/questions/63959670",
+                                "answers": {
+                                    "rows": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "",
+                                            "id": "524859740"
+                                        }
+                                    ],
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "1 - Probablement pas du tout",
+                                            "id": "524859741",
+                                            "is_na": false,
+                                            "weight": 1,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "2",
+                                            "id": "524859742",
+                                            "is_na": false,
+                                            "weight": 2,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "3",
+                                            "id": "524859743",
+                                            "is_na": false,
+                                            "weight": 3,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "4",
+                                            "id": "524859744",
+                                            "is_na": false,
+                                            "weight": 4,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "5",
+                                            "id": "524859745",
+                                            "is_na": false,
+                                            "weight": 5,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 6,
+                                            "visible": true,
+                                            "text": "6",
+                                            "id": "524859746",
+                                            "is_na": false,
+                                            "weight": 6,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 7,
+                                            "visible": true,
+                                            "text": "7",
+                                            "id": "524859747",
+                                            "is_na": false,
+                                            "weight": 7,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 8,
+                                            "visible": true,
+                                            "text": "8",
+                                            "id": "524859748",
+                                            "is_na": false,
+                                            "weight": 8,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 9,
+                                            "visible": true,
+                                            "text": "9",
+                                            "id": "524859749",
+                                            "is_na": false,
+                                            "weight": 9,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 10,
+                                            "visible": true,
+                                            "text": "10 - Très probablement",
+                                            "id": "524859750",
+                                            "is_na": false,
+                                            "weight": 10,
+                                            "description": ""
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "thoughtsaboutyourexperience",
+                                "id": "63244889",
+                                "position": 3,
+                                "visible": true,
+                                "family": "open_ended",
+                                "subtype": "essay",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Avez vous des réflexions finale a partagé de vote expérience?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190233796/pages/25721937/questions/63244889"
+                            },
+                            {
+                                "field": "managementTeamContact",
+                                "id": "63959694",
+                                "position": 4,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Un membre de l'équipe de direction peut-il vous contacter en fonction des résultats de l'enquête ?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190233796/pages/25721937/questions/63959694",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Oui",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "524859858"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Non",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "524859859"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "production": {
+            "en": {},
+            "fr": {}
+        }
+     }
+ }

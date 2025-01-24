@@ -1,0 +1,4 @@
+{
+  "selectAreaRiskOfRisk1SurveyLink": "Espo\\Modules\\SurveyEntitySync\\TemplateHelpers\\RiskFactorSurveyLinkTemplateHelper::selectAreaRiskOfRisk1SurveyLink",
+  "selectAreaRiskOfRisk2SurveyLink": "Espo\\Modules\\SurveyEntitySync\\TemplateHelpers\\RiskFactorSurveyLinkTemplateHelper::selectAreaRiskOfRisk2SurveyLink"
+}

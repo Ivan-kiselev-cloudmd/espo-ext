@@ -1,0 +1,1824 @@
+{
+    "entity": "ReassessmentAlcoholUseDisorder",
+     "relations": {
+         "contact": {
+             "name": "reassessmentAlcoholUseDisorders"
+         }
+     },
+     "surveys": {
+         "development": {
+            "en": {
+                "title": "Reassessment - Alcohol Use Disorder - EN - Development",
+                "nickname": "",
+                "language": "en",
+                "folder_id": "0",
+                "category": "customer_feedback",
+                "question_count": 6,
+                "page_count": 1,
+                "response_count": 0,
+                "date_created": "2022-05-14T09:31:00",
+                "date_modified": "2022-05-17T17:15:00",
+                "id": "190291271",
+                "buttons_text": {
+                    "next_button": "Next",
+                    "prev_button": "Prev",
+                    "done_button": "Done",
+                    "exit_button": ""
+                },
+                "is_owner": true,
+                "footer": false,
+                "custom_variables": {},
+                "href": "https://api.surveymonkey.ca/v3/surveys/190291271",
+                "analyze_url": "https://www.surveymonkey.com/analyze/YvPp3eh_2BorbI80_2BB3kwFPp09adMb3PEvnx30L7FHdIU_3D",
+                "edit_url": "https://www.surveymonkey.com/create/?sm=YvPp3eh_2BorbI80_2BB3kwFPp09adMb3PEvnx30L7FHdIU_3D",
+                "collect_url": "https://www.surveymonkey.com/collect/list?sm=YvPp3eh_2BorbI80_2BB3kwFPp09adMb3PEvnx30L7FHdIU_3D",
+                "summary_url": "https://www.surveymonkey.com/summary/YvPp3eh_2BorbI80_2BB3kwFPp09adMb3PEvnx30L7FHdIU_3D",
+                "preview": "https://www.surveymonkey.com/r/Preview/?sm=ElqXvex1Cqwa4B1zPp0w9MX2_2BnUVlxef0uaHAlMyIz9eHO8KfK_2BPCqETFIZUg2ya",
+                "pages": [
+                    {
+                        "title": "",
+                        "description": "",
+                        "position": 1,
+                        "question_count": 6,
+                        "id": "25881011",
+                        "href": "https://api.surveymonkey.ca/v3/surveys/190291271/pages/25881011",
+                        "questions": [
+                            {
+                                "field": "q1",
+                                "id": "63812388",
+                                "position": 1,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "How often do you have a drink containing alcohol?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291271/pages/25881011/questions/63812388",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Never",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523887981"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Monthly or less",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523887982"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "2 to 4 times a month",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523887983"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "2 to 3 times a week",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523887984"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "4 or more times a week",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523887985"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q2",
+                                "id": "63812419",
+                                "position": 2,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "How many drinks containing alcohol do you have on a typical day when you are drinking?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291271/pages/25881011/questions/63812419",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "1 or 2",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523888096"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "3 or 4",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523888097"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "5 or 6",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523888098"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "7, 8 or 9",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523888099"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "10 or more",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523888100"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q3",
+                                "id": "63812421",
+                                "position": 3,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "How often do you have five or more drinks on one occasion?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291271/pages/25881011/questions/63812421",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Never",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523888108"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Less than monthly",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523888109"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Monthly",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523888110"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Weekly",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523888111"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Daily or almost daily",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523888112"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "63808525",
+                                "position": 4,
+                                "visible": true,
+                                "family": "matrix",
+                                "subtype": "rating",
+                                "layout": null,
+                                "sorting": null,
+                                "required": {
+                                    "text": "This question requires an answer.",
+                                    "type": "all",
+                                    "amount": "0"
+                                },
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "How often during the last year have you..."
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291271/pages/25881011/questions/63808525",
+                                "answers": {
+                                    "rows": [
+                                        {
+                                            "field": "q4",
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "found that you were not able to stop drinking once you had started?",
+                                            "id": "523860700"
+                                        },
+                                        {
+                                            "field": "q5",
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "failed to do what was normally expected of you because of drinking?",
+                                            "id": "523860701"
+                                        },
+                                        {
+                                            "field": "q6",
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "needed a first drink in the morning to get yourself going after a heavy drinking session?",
+                                            "id": "523860702"
+                                        },
+                                        {
+                                            "field": "q7",
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "had a feeling of guilt or remorse after drinking?",
+                                            "id": "523860706"
+                                        },
+                                        {
+                                            "field": "q8",
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "been unable to remember what happened the night before because of your drinking?",
+                                            "id": "523860707"
+                                        }
+                                    ],
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Never",
+                                            "id": "523860693",
+                                            "is_na": false,
+                                            "weight": 1,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Less than monthly",
+                                            "id": "523860694",
+                                            "is_na": false,
+                                            "weight": 2,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Monthly",
+                                            "id": "523860695",
+                                            "is_na": false,
+                                            "weight": 3,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Weekly",
+                                            "id": "523888190",
+                                            "is_na": false,
+                                            "weight": 4,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Daily or almost daily",
+                                            "id": "523888191",
+                                            "is_na": false,
+                                            "weight": 5,
+                                            "description": ""
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q9",
+                                "id": "63812461",
+                                "position": 5,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Have you or someone else been injured because of your drinking?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291271/pages/25881011/questions/63812461",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "No",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523888322"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Yes, but not in the last year",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523888323"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Yes, during the last year",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523888324"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q10",
+                                "id": "63812488",
+                                "position": 6,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Has a relative, friend, doctor, or other health care worker been concerned about your drinking or suggested you cut down?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291271/pages/25881011/questions/63812488",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "No",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523888437"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Yes, but not in the last year",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523888438"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Yes, during the last year",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523888439"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "fr": {
+                "title": "Reassessment - Alcohol Use Disorder - FR - Development",
+                "nickname": "",
+                "language": "fr",
+                "folder_id": "0",
+                "category": "customer_feedback",
+                "question_count": 6,
+                "page_count": 1,
+                "response_count": 0,
+                "date_created": "2022-05-17T17:15:00",
+                "date_modified": "2022-05-17T17:22:00",
+                "id": "190291561",
+                "buttons_text": {
+                    "next_button": "Next",
+                    "prev_button": "Prev",
+                    "done_button": "Done",
+                    "exit_button": ""
+                },
+                "is_owner": true,
+                "footer": false,
+                "custom_variables": {},
+                "href": "https://api.surveymonkey.ca/v3/surveys/190291561",
+                "analyze_url": "https://www.surveymonkey.com/analyze/xT7lgAWty8plSFZLHeD7Jh2vaTPMlQpZiEQrg6MmwLo_3D",
+                "edit_url": "https://www.surveymonkey.com/create/?sm=xT7lgAWty8plSFZLHeD7Jh2vaTPMlQpZiEQrg6MmwLo_3D",
+                "collect_url": "https://www.surveymonkey.com/collect/list?sm=xT7lgAWty8plSFZLHeD7Jh2vaTPMlQpZiEQrg6MmwLo_3D",
+                "summary_url": "https://www.surveymonkey.com/summary/xT7lgAWty8plSFZLHeD7Jh2vaTPMlQpZiEQrg6MmwLo_3D",
+                "preview": "https://www.surveymonkey.com/r/Preview/?sm=1tPThcAJ4ZEoXY83wwHxYXGJPSIFR4pJtonWLkQGxsEFKSK2wohNbKZPs5_2BFIbCl",
+                "pages": [
+                    {
+                        "title": "",
+                        "description": "",
+                        "position": 1,
+                        "question_count": 6,
+                        "id": "25881980",
+                        "href": "https://api.surveymonkey.ca/v3/surveys/190291561/pages/25881980",
+                        "questions": [
+                            {
+                                "field": "q1",
+                                "id": "63812521",
+                                "position": 1,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "À quelle fréquence consommez-vous des boissons alcoolisées?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291561/pages/25881980/questions/63812521",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Jamais",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523888596"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Une fois par mois ou moins",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523888597"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "2 à 4 fois par mois",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523888598"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "2 à 3 fois par semaine",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523888599"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "4 fois ou plus par semaine",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523888600"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q2",
+                                "id": "63812522",
+                                "position": 2,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Les jours où vous buvez, combien de verres contenant de l’alcool prenez-vous généralement?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291561/pages/25881980/questions/63812522",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "1 ou 2",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523888601"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "3 ou 4",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523888602"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "5 ou 6",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523888603"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "7, 8 ou 9",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523888604"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "10 ou plus",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523888605"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q3",
+                                "id": "63812523",
+                                "position": 3,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "À quelle fréquence buvez-vous six verres ou plus en une seule occasion?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291561/pages/25881980/questions/63812523",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Jamais",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523888606"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Moins qu’une fois par mois",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523888607"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Une fois par mois",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523888608"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Une fois par semaine",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523888609"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Quotidiennement ou presque",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523888610"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "63812520",
+                                "position": 4,
+                                "visible": true,
+                                "family": "matrix",
+                                "subtype": "rating",
+                                "layout": null,
+                                "sorting": null,
+                                "required": {
+                                    "text": "This question requires an answer.",
+                                    "type": "all",
+                                    "amount": "0"
+                                },
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Au cours de la dernière année, combien de fois avez-vous..."
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291561/pages/25881980/questions/63812520",
+                                "answers": {
+                                    "rows": [
+                                        {
+                                            "field": "q4",
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Découvert que vous n’étiez plus en mesure d’arrêter de boire une fois que vous aviez commencé?",
+                                            "id": "523888589"
+                                        },
+                                        {
+                                            "field": "q5",
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Échoué à faire ce que l’on attendait normalement de vous dû à votre consommation d’alcool?",
+                                            "id": "523888590"
+                                        },
+                                        {
+                                            "field": "q6",
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Eu besoin d’un premier verre d’alcool le matin afin de commencer votre journée après une soirée de consommation d’alcool excessive?",
+                                            "id": "523888591"
+                                        },
+                                        {
+                                            "field": "q7",
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Eu un sentiment de culpabilité ou des remords après avoir bu?",
+                                            "id": "523888594"
+                                        },
+                                        {
+                                            "field": "q8",
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Été incapable de vous rappeler ce qui s’est passé le soir précédent parce que vous aviez bu?",
+                                            "id": "523888595"
+                                        }
+                                    ],
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Jamais",
+                                            "id": "523888586",
+                                            "is_na": false,
+                                            "weight": 1,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Moins qu’une fois par mois",
+                                            "id": "523888587",
+                                            "is_na": false,
+                                            "weight": 2,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Une fois par mois",
+                                            "id": "523888588",
+                                            "is_na": false,
+                                            "weight": 3,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Une fois par semaine",
+                                            "id": "523888611",
+                                            "is_na": false,
+                                            "weight": 4,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Quotidiennement ou presque",
+                                            "id": "523888612",
+                                            "is_na": false,
+                                            "weight": 5,
+                                            "description": ""
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q9",
+                                "id": "63812524",
+                                "position": 5,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Vous êtes-vous blessé(e), ou quelqu’un d’autre l’a-t-il été parce que vous aviez bu?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291561/pages/25881980/questions/63812524",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Non",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523888613"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Oui, mais pas dans la dernière année",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523888614"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Oui, au cours de la dernière année",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523888615"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q10",
+                                "id": "63812525",
+                                "position": 6,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Est-ce qu’un membre de votre famille, un ami, un médecin ou un autre professionnel de la santé s’est déjà inquiété de votre consommation d’alcool, ou vous a déjà suggéré de réduire votre consommation d’alcool?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291561/pages/25881980/questions/63812525",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Non",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523888617"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Oui, mais pas dans la dernière année",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523888618"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Oui, au cours de la dernière année",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523888675"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+         },
+        "production": {
+            "en": {
+                "title": "Reassessment - Alcohol Use Disorder - EN",
+                "nickname": "",
+                "language": "en",
+                "folder_id": "0",
+                "category": "customer_feedback",
+                "question_count": 6,
+                "page_count": 1,
+                "response_count": 0,
+                "date_created": "2022-10-06T12:24:00",
+                "date_modified": "2022-10-06T12:25:00",
+                "id": "190307891",
+                "buttons_text": {
+                    "next_button": "Next",
+                    "prev_button": "Prev",
+                    "done_button": "Done",
+                    "exit_button": ""
+                },
+                "is_owner": true,
+                "footer": false,
+                "theme_id": "9831075",
+                "custom_variables": {},
+                "href": "https://api.surveymonkey.ca/v3/surveys/190307891",
+                "analyze_url": "https://www.surveymonkey.com/analyze/X1viY6g4ifgLqR4rPF1APDglZv6hRRamSoxUTTK_2FDsA_3D",
+                "edit_url": "https://www.surveymonkey.com/create/?sm=X1viY6g4ifgLqR4rPF1APDglZv6hRRamSoxUTTK_2FDsA_3D",
+                "collect_url": "https://www.surveymonkey.com/collect/list?sm=X1viY6g4ifgLqR4rPF1APDglZv6hRRamSoxUTTK_2FDsA_3D",
+                "summary_url": "https://www.surveymonkey.com/summary/X1viY6g4ifgLqR4rPF1APDglZv6hRRamSoxUTTK_2FDsA_3D",
+                "preview": "https://www.surveymonkey.com/r/Preview/?sm=_2B_2FTJleUd29_2BSpFpdzldrNqnsrB95GkxUrAQ01f4TEF6OjqNXOicsnRpQNUq7LuVy",
+                "pages": [
+                    {
+                        "title": "",
+                        "description": "",
+                        "position": 1,
+                        "question_count": 6,
+                        "id": "25949642",
+                        "href": "https://api.surveymonkey.ca/v3/surveys/190307891/pages/25949642",
+                        "questions": [
+                            {
+                                "field": "q1",
+                                "id": "64091420",
+                                "position": 1,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "How often do you have a drink containing alcohol?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307891/pages/25949642/questions/64091420",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Never",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718481"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Monthly or less",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718482"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "2 to 4 times a month",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718483"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "2 to 3 times a week",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718484"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "4 or more times a week",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718485"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q2",
+                                "id": "64091421",
+                                "position": 2,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "How many drinks containing alcohol do you have on a typical day when you are drinking?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307891/pages/25949642/questions/64091421",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "1 or 2",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718486"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "3 or 4",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718487"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "5 or 6",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718488"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "7, 8 or 9",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718489"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "10 or more",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718490"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q3",
+                                "id": "64091422",
+                                "position": 3,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "How often do you have five or more drinks on one occasion?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307891/pages/25949642/questions/64091422",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Never",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718491"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Less than monthly",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718492"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Monthly",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718493"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Weekly",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718494"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Daily or almost daily",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718495"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "64091419",
+                                "position": 4,
+                                "visible": true,
+                                "family": "matrix",
+                                "subtype": "rating",
+                                "layout": null,
+                                "sorting": null,
+                                "required": {
+                                    "text": "This question requires an answer.",
+                                    "type": "all",
+                                    "amount": "0"
+                                },
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "How often during the last year have you..."
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307891/pages/25949642/questions/64091419",
+                                "answers": {
+                                    "rows": [
+                                        {
+                                            "field": "q4",
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "found that you were not able to stop drinking once you had started?",
+                                            "id": "525718474"
+                                        },
+                                        {
+                                            "field": "q5",
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "failed to do what was normally expected of you because of drinking?",
+                                            "id": "525718475"
+                                        },
+                                        {
+                                            "field": "q6",
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "needed a first drink in the morning to get yourself going after a heavy drinking session?",
+                                            "id": "525718476"
+                                        },
+                                        {
+                                            "field": "q7",
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "had a feeling of guilt or remorse after drinking?",
+                                            "id": "525718479"
+                                        },
+                                        {
+                                            "field": "q8",
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "been unable to remember what happened the night before because of your drinking?",
+                                            "id": "525718480"
+                                        }
+                                    ],
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Never",
+                                            "id": "525718471",
+                                            "is_na": false,
+                                            "weight": 1,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Less than monthly",
+                                            "id": "525718472",
+                                            "is_na": false,
+                                            "weight": 2,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Monthly",
+                                            "id": "525718473",
+                                            "is_na": false,
+                                            "weight": 3,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Weekly",
+                                            "id": "525718496",
+                                            "is_na": false,
+                                            "weight": 4,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Daily or almost daily",
+                                            "id": "525718497",
+                                            "is_na": false,
+                                            "weight": 5,
+                                            "description": ""
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q9",
+                                "id": "64091423",
+                                "position": 5,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Have you or someone else been injured because of your drinking?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307891/pages/25949642/questions/64091423",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "No",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718498"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Yes, but not in the last year",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718499"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Yes, during the last year",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718500"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q10",
+                                "id": "64091424",
+                                "position": 6,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Has a relative, friend, doctor, or other health care worker been concerned about your drinking or suggested you cut down?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307891/pages/25949642/questions/64091424",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "No",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718501"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Yes, but not in the last year",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718502"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Yes, during the last year",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718503"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "fr": {
+                "title": "Reassessment - Alcohol Use Disorder - FR",
+                "nickname": "",
+                "language": "en",
+                "folder_id": "0",
+                "category": "customer_feedback",
+                "question_count": 6,
+                "page_count": 1,
+                "response_count": 0,
+                "date_created": "2022-10-06T12:24:00",
+                "date_modified": "2022-10-06T12:25:00",
+                "id": "190307890",
+                "buttons_text": {
+                    "next_button": "Next",
+                    "prev_button": "Prev",
+                    "done_button": "Done",
+                    "exit_button": ""
+                },
+                "is_owner": true,
+                "footer": false,
+                "theme_id": "9831075",
+                "custom_variables": {},
+                "href": "https://api.surveymonkey.ca/v3/surveys/190307890",
+                "analyze_url": "https://www.surveymonkey.com/analyze/X1viY6g4ifgLqR4rPF1APEMnCXwrSINeDcwP3MATMEk_3D",
+                "edit_url": "https://www.surveymonkey.com/create/?sm=X1viY6g4ifgLqR4rPF1APEMnCXwrSINeDcwP3MATMEk_3D",
+                "collect_url": "https://www.surveymonkey.com/collect/list?sm=X1viY6g4ifgLqR4rPF1APEMnCXwrSINeDcwP3MATMEk_3D",
+                "summary_url": "https://www.surveymonkey.com/summary/X1viY6g4ifgLqR4rPF1APEMnCXwrSINeDcwP3MATMEk_3D",
+                "preview": "https://www.surveymonkey.com/r/Preview/?sm=5_2FbgNtMDo8FjJ_2FI3DfCszsBJFvRJG_2BaP4SJ1NblbWceaKW5mo9Bs99_2BXk55BBRdf",
+                "pages": [
+                    {
+                        "title": "",
+                        "description": "",
+                        "position": 1,
+                        "question_count": 6,
+                        "id": "25949641",
+                        "href": "https://api.surveymonkey.ca/v3/surveys/190307890/pages/25949641",
+                        "questions": [
+                            {
+                                "field": "q1",
+                                "id": "64091414",
+                                "position": 1,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "À quelle fréquence consommez-vous des boissons alcoolisées?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307890/pages/25949641/questions/64091414",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Jamais",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718448"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Une fois par mois ou moins",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718449"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "2 à 4 fois par mois",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718450"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "2 à 3 fois par semaine",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718451"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "4 fois ou plus par semaine",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718452"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q2",
+                                "id": "64091415",
+                                "position": 2,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Les jours où vous buvez, combien de verres contenant de l’alcool prenez-vous généralement?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307890/pages/25949641/questions/64091415",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "1 ou 2",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718453"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "3 ou 4",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718454"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "5 ou 6",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718455"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "7, 8 ou 9",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718456"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "10 ou plus",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718457"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q3",
+                                "id": "64091416",
+                                "position": 3,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "À quelle fréquence buvez-vous six verres ou plus en une seule occasion?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307890/pages/25949641/questions/64091416",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Jamais",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718458"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Moins qu’une fois par mois",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718459"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Une fois par mois",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718460"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Une fois par semaine",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718461"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Quotidiennement ou presque",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718462"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "64091413",
+                                "position": 4,
+                                "visible": true,
+                                "family": "matrix",
+                                "subtype": "rating",
+                                "layout": null,
+                                "sorting": null,
+                                "required": {
+                                    "text": "This question requires an answer.",
+                                    "type": "all",
+                                    "amount": "0"
+                                },
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Au cours de la dernière année, combien de fois avez-vous..."
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307890/pages/25949641/questions/64091413",
+                                "answers": {
+                                    "rows": [
+                                        {
+                                            "field": "q4",
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Découvert que vous n’étiez plus en mesure d’arrêter de boire une fois que vous aviez commencé?",
+                                            "id": "525718441"
+                                        },
+                                        {
+                                            "field": "q5",
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Échoué à faire ce que l’on attendait normalement de vous dû à votre consommation d’alcool?",
+                                            "id": "525718442"
+                                        },
+                                        {
+                                            "field": "q6",
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Eu besoin d’un premier verre d’alcool le matin afin de commencer votre journée après une soirée de consommation d’alcool excessive?",
+                                            "id": "525718443"
+                                        },
+                                        {
+                                            "field": "q7",
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Eu un sentiment de culpabilité ou des remords après avoir bu?",
+                                            "id": "525718446"
+                                        },
+                                        {
+                                            "field": "q8",
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Été incapable de vous rappeler ce qui s’est passé le soir précédent parce que vous aviez bu?",
+                                            "id": "525718447"
+                                        }
+                                    ],
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Jamais",
+                                            "id": "525718438",
+                                            "is_na": false,
+                                            "weight": 1,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Moins qu’une fois par mois",
+                                            "id": "525718439",
+                                            "is_na": false,
+                                            "weight": 2,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Une fois par mois",
+                                            "id": "525718440",
+                                            "is_na": false,
+                                            "weight": 3,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Une fois par semaine",
+                                            "id": "525718463",
+                                            "is_na": false,
+                                            "weight": 4,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Quotidiennement ou presque",
+                                            "id": "525718464",
+                                            "is_na": false,
+                                            "weight": 5,
+                                            "description": ""
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q9",
+                                "id": "64091417",
+                                "position": 5,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Vous êtes-vous blessé(e), ou quelqu’un d’autre l’a-t-il été parce que vous aviez bu?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307890/pages/25949641/questions/64091417",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Non",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718465"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Oui, mais pas dans la dernière année",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718466"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Oui, au cours de la dernière année",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718467"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q10",
+                                "id": "64091418",
+                                "position": 6,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Est-ce qu’un membre de votre famille, un ami, un médecin ou un autre professionnel de la santé s’est déjà inquiété de votre consommation d’alcool, ou vous a déjà suggéré de réduire votre consommation d’alcool?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307890/pages/25949641/questions/64091418",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Non",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718468"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Oui, mais pas dans la dernière année",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718469"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Oui, au cours de la dernière année",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718470"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+     }
+ }

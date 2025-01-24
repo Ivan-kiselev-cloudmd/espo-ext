@@ -1,0 +1,1452 @@
+{
+    "entity": "ReassessmentBipolar",
+     "relations": {
+         "contact": {
+             "name": "reassessmentBipolars"
+         }
+     },
+     "surveys": {
+        "development": {
+            "en": {
+                "title": "Reassessment - Bipolar Disorder - EN - Development",
+                "nickname": "",
+                "language": "en",
+                "folder_id": "0",
+                "category": "customer_feedback",
+                "question_count": 5,
+                "page_count": 1,
+                "response_count": 0,
+                "date_created": "2022-05-14T09:38:00",
+                "date_modified": "2022-05-18T10:55:00",
+                "id": "190291273",
+                "buttons_text": {
+                    "next_button": "Next",
+                    "prev_button": "Prev",
+                    "done_button": "Done",
+                    "exit_button": ""
+                },
+                "is_owner": true,
+                "footer": false,
+                "custom_variables": {},
+                "href": "https://api.surveymonkey.ca/v3/surveys/190291273",
+                "analyze_url": "https://www.surveymonkey.com/analyze/YvPp3eh_2BorbI80_2BB3kwFPlfuQHcreA_2Fvgcpilfug5AM_3D",
+                "edit_url": "https://www.surveymonkey.com/create/?sm=YvPp3eh_2BorbI80_2BB3kwFPlfuQHcreA_2Fvgcpilfug5AM_3D",
+                "collect_url": "https://www.surveymonkey.com/collect/list?sm=YvPp3eh_2BorbI80_2BB3kwFPlfuQHcreA_2Fvgcpilfug5AM_3D",
+                "summary_url": "https://www.surveymonkey.com/summary/YvPp3eh_2BorbI80_2BB3kwFPlfuQHcreA_2Fvgcpilfug5AM_3D",
+                "preview": "https://www.surveymonkey.com/r/Preview/?sm=aUJaIoBnlxIFArPZe_2FSPawoRT3aAWfpCFT0eIF7TjzLB_2B7lZbU9e65zZ5w2fZ_2Bm4",
+                "pages": [
+                    {
+                        "title": "",
+                        "description": "",
+                        "position": 1,
+                        "question_count": 5,
+                        "id": "25881013",
+                        "href": "https://api.surveymonkey.ca/v3/surveys/190291273/pages/25881013",
+                        "questions": [
+                            {
+                                "id": "63808529",
+                                "position": 1,
+                                "visible": true,
+                                "family": "matrix",
+                                "subtype": "rating",
+                                "layout": null,
+                                "sorting": null,
+                                "required": {
+                                    "text": "This question requires an answer.",
+                                    "type": "all",
+                                    "amount": "0"
+                                },
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Has there ever been a period of time when you were not your usual self and…"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291273/pages/25881013/questions/63808529",
+                                "answers": {
+                                    "rows": [
+                                        {
+                                            "field": "q1",
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "you felt so good or so hyper that other people thought you were not your normal self or you were so hyper that you got into trouble?",
+                                            "id": "523860743"
+                                        },
+                                        {
+                                            "field": "q2",
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "you were so irritable that you shouted at people or started fights or arguments?",
+                                            "id": "523860744"
+                                        },
+                                        {
+                                            "field": "q3",
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "you felt much more self-confident than usual?",
+                                            "id": "523860750"
+                                        },
+                                        {
+                                            "field": "q4",
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "you got much less sleep than usual and found you didn’t really miss it?",
+                                            "id": "523860751"
+                                        },
+                                        {
+                                            "field": "q5",
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "you were much more talkative or spoke faster than usual?",
+                                            "id": "523860752"
+                                        },
+                                        {
+                                            "field": "q6",
+                                            "position": 6,
+                                            "visible": true,
+                                            "text": "thoughts raced through your head or you couldn’t slow your mind down?",
+                                            "id": "523860753"
+                                        },
+                                        {
+                                            "field": "q7",
+                                            "position": 7,
+                                            "visible": true,
+                                            "text": "you were so easily distracted by things around you that you had trouble concentrating or staying on track?",
+                                            "id": "523860756"
+                                        },
+                                        {
+                                            "field": "q8",
+                                            "position": 8,
+                                            "visible": true,
+                                            "text": "you had much more energy than usual?",
+                                            "id": "523860757"
+                                        },
+                                        {
+                                            "field": "q9",
+                                            "position": 9,
+                                            "visible": true,
+                                            "text": "you were much more active or did many more things than usual?",
+                                            "id": "523860758"
+                                        },
+                                        {
+                                            "field": "q10",
+                                            "position": 10,
+                                            "visible": true,
+                                            "text": "you were much more social or outgoing than usual, for example, you telephoned friends in the middle of the night?",
+                                            "id": "523860759"
+                                        },
+                                        {
+                                            "field": "q11",
+                                            "position": 11,
+                                            "visible": true,
+                                            "text": "you were much more interested in sex than usual?",
+                                            "id": "523860760"
+                                        },
+                                        {
+                                            "field": "q12",
+                                            "position": 12,
+                                            "visible": true,
+                                            "text": "you did things that were unusual for you or that other people might have thought were excessive, foolish, or risky?",
+                                            "id": "523860761"
+                                        },
+                                        {
+                                            "field": "q13",
+                                            "position": 13,
+                                            "visible": true,
+                                            "text": "spending money got you or your family in trouble?",
+                                            "id": "523860762"
+                                        }
+                                    ],
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Yes",
+                                            "id": "523860745",
+                                            "is_na": false,
+                                            "weight": 1,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "No",
+                                            "id": "523860746",
+                                            "is_na": false,
+                                            "weight": 2,
+                                            "description": ""
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q14",
+                                "id": "63811587",
+                                "position": 2,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "If you checked YES to more than one of the above, have several of these ever happened during the same period of time?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291273/pages/25881013/questions/63811587",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Yes",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883483"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "No",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883484"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q15",
+                                "id": "63811583",
+                                "position": 3,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "How much of a problem did any of these cause you — like being able to work; having family, money, or legal troubles; getting into arguments or fights?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291273/pages/25881013/questions/63811583",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "No Problem",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883427"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Minor Problem",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883428"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Moderate Problem",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883429"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Serious Problem",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883430"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q16",
+                                "id": "63811584",
+                                "position": 4,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Have any of your blood relatives (ie, children, siblings, parents, grandparents, aunts, uncles) had manic-depressive illness or bipolar disorder?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291273/pages/25881013/questions/63811584",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Yes",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883431"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "No",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883432"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q17",
+                                "id": "63811586",
+                                "position": 5,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Has a health professional ever told you that you have manic-depressive illness or bipolar disorder? *"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291273/pages/25881013/questions/63811586",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Yes",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883480"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "No",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883481"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "fr": {
+                "title": "Reassessment - Bipolar Disorder - FR - Development",
+                "nickname": "",
+                "language": "en",
+                "folder_id": "0",
+                "category": "customer_feedback",
+                "question_count": 5,
+                "page_count": 1,
+                "response_count": 0,
+                "date_created": "2022-05-18T08:48:00",
+                "date_modified": "2022-05-18T13:01:00",
+                "id": "190291701",
+                "buttons_text": {
+                    "next_button": "Next",
+                    "prev_button": "Prev",
+                    "done_button": "Done",
+                    "exit_button": ""
+                },
+                "is_owner": true,
+                "footer": false,
+                "custom_variables": {},
+                "href": "https://api.surveymonkey.ca/v3/surveys/190291701",
+                "analyze_url": "https://www.surveymonkey.com/analyze/1E5_2FjbyCXdker6vqfFrp9dPXZ8mygBXOVF3Ub0_2BXacU_3D",
+                "edit_url": "https://www.surveymonkey.com/create/?sm=1E5_2FjbyCXdker6vqfFrp9dPXZ8mygBXOVF3Ub0_2BXacU_3D",
+                "collect_url": "https://www.surveymonkey.com/collect/list?sm=1E5_2FjbyCXdker6vqfFrp9dPXZ8mygBXOVF3Ub0_2BXacU_3D",
+                "summary_url": "https://www.surveymonkey.com/summary/1E5_2FjbyCXdker6vqfFrp9dPXZ8mygBXOVF3Ub0_2BXacU_3D",
+                "preview": "https://www.surveymonkey.com/r/Preview/?sm=5NvdOoCbvZXgPl2r3pde2l3aSsc8yQIGXqOfD5pFbtOMEziPlEc1RyT5yvi9_2B4Nn",
+                "pages": [
+                    {
+                        "title": "",
+                        "description": "",
+                        "position": 1,
+                        "question_count": 5,
+                        "id": "25882298",
+                        "href": "https://api.surveymonkey.ca/v3/surveys/190291701/pages/25882298",
+                        "questions": [
+                            {
+                                "id": "63814084",
+                                "position": 1,
+                                "visible": true,
+                                "family": "matrix",
+                                "subtype": "rating",
+                                "layout": null,
+                                "sorting": null,
+                                "required": {
+                                    "text": "This question requires an answer.",
+                                    "type": "all",
+                                    "amount": "0"
+                                },
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Avez-vous vécu une période durant laquelle votre état d’esprit<br>était inhabituel et..."
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291701/pages/25882298/questions/63814084",
+                                "answers": {
+                                    "rows": [
+                                        {
+                                            "field": "q1",
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "... vous vous sentiez si bien ou si hyperactif que les autres trouvaient que cela ne vous ressemblait pas ou encore que votre hyperactivité vous a attiré des ennuis?",
+                                            "id": "523898170"
+                                        },
+                                        {
+                                            "field": "q2",
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "... vous étiez irritable au point de crier après les gens ou de commencer des disputes ou des bagarres ?ople or started fights or arguments?",
+                                            "id": "523898171"
+                                        },
+                                        {
+                                            "field": "q3",
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "... vous aviez beaucoup plus confiance en vous que d’habitude ?",
+                                            "id": "523898174"
+                                        },
+                                        {
+                                            "field": "q4",
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "... vous dormiez beaucoup moins longtemps que d’habitude, sans que cela ne vous dérange vraiment ?",
+                                            "id": "523898175"
+                                        },
+                                        {
+                                            "field": "q5",
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "... vous parliez plus rapidement ou beaucoup plus que d’habitude ?",
+                                            "id": "523898176"
+                                        },
+                                        {
+                                            "field": "q6",
+                                            "position": 6,
+                                            "visible": true,
+                                            "text": "... vos pensées défilaient rapidement dans votre tête ou vous n’arriviez pas à ralentir vos pensées ?",
+                                            "id": "523898177"
+                                        },
+                                        {
+                                            "field": "q7",
+                                            "position": 7,
+                                            "visible": true,
+                                            "text": "... Vous étiez si facilement distrait par votre environnement que vous n’arriviez pas à vous concentrer ni à effectuer une tâche soutenue ?",
+                                            "id": "523898180"
+                                        },
+                                        {
+                                            "field": "q8",
+                                            "position": 8,
+                                            "visible": true,
+                                            "text": "... vous aviez beaucoup plus d’énergie que d’habitude ?",
+                                            "id": "523898181"
+                                        },
+                                        {
+                                            "field": "q9",
+                                            "position": 9,
+                                            "visible": true,
+                                            "text": "... vous étiez beaucoup plus actif ou faisiez beaucoup plus de choses que d’habitude ?",
+                                            "id": "523898182"
+                                        },
+                                        {
+                                            "field": "q10",
+                                            "position": 10,
+                                            "visible": true,
+                                            "text": "... vous étiez beaucoup plus sociable ou communicatif que d’habitude; par exemple, vous téléphoniez à des amis au milieu de la nuit ?",
+                                            "id": "523898183"
+                                        },
+                                        {
+                                            "field": "q11",
+                                            "position": 11,
+                                            "visible": true,
+                                            "text": "... votre intérêt pour la sexualité́ était beaucoup plus grand que d’habitude ?",
+                                            "id": "523898184"
+                                        },
+                                        {
+                                            "field": "q12",
+                                            "position": 12,
+                                            "visible": true,
+                                            "text": "... vos actions étaient inhabituelles pour vous ou auraient pu être jugées comme exagérées, irresponsables ou risquées par d’autres personnes ?",
+                                            "id": "523898185"
+                                        },
+                                        {
+                                            "field": "q13",
+                                            "position": 13,
+                                            "visible": true,
+                                            "text": "...vos dépenses d’argent vous ont attiré des ennuis, à vous ou à votre famille ?",
+                                            "id": "523898186"
+                                        }
+                                    ],
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Oui",
+                                            "id": "523898172",
+                                            "is_na": false,
+                                            "weight": 1,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Non",
+                                            "id": "523898173",
+                                            "is_na": false,
+                                            "weight": 2,
+                                            "description": ""
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q14",
+                                "id": "63814088",
+                                "position": 2,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Si vous avez répondu OUI à plus d’une des questions ci- dessus, est-ce que plusieurs de ces évènements se sont produits au cours de la même période ?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291701/pages/25882298/questions/63814088",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Oui",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898201"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Non",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898202"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q15",
+                                "id": "63814085",
+                                "position": 3,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Ces événements vous ont-ils posé des problèmes au point de ne pas pouvoir travailler, d’avoir des problèmes familiaux, financiers ou juridiques; de vous quereller ou de vous battre?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291701/pages/25882298/questions/63814085",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Aucun problème",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898191"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Problème mineur",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898192"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Problème modéré",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898193"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Problème sérieux",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898194"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q16",
+                                "id": "63814086",
+                                "position": 4,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Est-ce que l'un de vos parents par le sang (c'est-à-dire les enfants, les frères et sœurs, les parents, les grands-parents, les tantes, les oncles) a souffert de dépression maniaco-dépressive ou de trouble bipolaire ?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291701/pages/25882298/questions/63814086",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Oui",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898195"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Non",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898196"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q17",
+                                "id": "63814087",
+                                "position": 5,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Un professionnel de la santé vous a-t-il déjà dit que vous souffriez d'une maladie maniaco-dépressive ou d'un trouble bipolaire ?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291701/pages/25882298/questions/63814087",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Oui",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898198"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Non",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898199"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "production": {
+            "en": {
+                "title": "Reassessment - Bipolar Disorder - EN",
+                "nickname": "",
+                "language": "en",
+                "folder_id": "0",
+                "category": "customer_feedback",
+                "question_count": 5,
+                "page_count": 1,
+                "response_count": 0,
+                "date_created": "2022-10-06T12:02:00",
+                "date_modified": "2022-10-06T12:08:00",
+                "id": "190307876",
+                "buttons_text": {
+                    "next_button": "Next",
+                    "prev_button": "Prev",
+                    "done_button": "Done",
+                    "exit_button": ""
+                },
+                "is_owner": true,
+                "footer": false,
+                "theme_id": "9831075",
+                "custom_variables": {},
+                "href": "https://api.surveymonkey.ca/v3/surveys/190307876",
+                "analyze_url": "https://www.surveymonkey.com/analyze/X1viY6g4ifgLqR4rPF1APDm8GjKNn2rNTnucdhiRj8k_3D",
+                "edit_url": "https://www.surveymonkey.com/create/?sm=X1viY6g4ifgLqR4rPF1APDm8GjKNn2rNTnucdhiRj8k_3D",
+                "collect_url": "https://www.surveymonkey.com/collect/list?sm=X1viY6g4ifgLqR4rPF1APDm8GjKNn2rNTnucdhiRj8k_3D",
+                "summary_url": "https://www.surveymonkey.com/summary/X1viY6g4ifgLqR4rPF1APDm8GjKNn2rNTnucdhiRj8k_3D",
+                "preview": "https://www.surveymonkey.com/r/Preview/?sm=WJboZlgwepL67SsiWevHyDS2ZHGpzBBeI5UYUw2jj7cRvEUwpADEeRqHEJM9nTfn",
+                "pages": [
+                    {
+                        "title": "",
+                        "description": "",
+                        "position": 1,
+                        "question_count": 5,
+                        "id": "25949627",
+                        "href": "https://api.surveymonkey.ca/v3/surveys/190307876/pages/25949627",
+                        "questions": [
+                            {
+                                "id": "64091355",
+                                "position": 1,
+                                "visible": true,
+                                "family": "matrix",
+                                "subtype": "rating",
+                                "layout": null,
+                                "sorting": null,
+                                "required": {
+                                    "text": "This question requires an answer.",
+                                    "type": "all",
+                                    "amount": "0"
+                                },
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Has there ever been a period of time when you were not your usual self and…"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307876/pages/25949627/questions/64091355",
+                                "answers": {
+                                    "rows": [
+                                        {
+                                            "field": "q1",
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "you felt so good or so hyper that other people thought you were not your normal self or you were so hyper that you got into trouble?",
+                                            "id": "525718067"
+                                        },
+                                        {
+                                            "field": "q2",
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "you were so irritable that you shouted at people or started fights or arguments?",
+                                            "id": "525718068"
+                                        },
+                                        {
+                                            "field": "q3",
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "you felt much more self-confident than usual?",
+                                            "id": "525718071"
+                                        },
+                                        {
+                                            "field": "q4",
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "you got much less sleep than usual and found you didn’t really miss it?",
+                                            "id": "525718072"
+                                        },
+                                        {
+                                            "field": "q5",
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "you were much more talkative or spoke faster than usual?",
+                                            "id": "525718073"
+                                        },
+                                        {
+                                            "field": "q6",
+                                            "position": 6,
+                                            "visible": true,
+                                            "text": "thoughts raced through your head or you couldn’t slow your mind down?",
+                                            "id": "525718074"
+                                        },
+                                        {
+                                            "field": "q7",
+                                            "position": 7,
+                                            "visible": true,
+                                            "text": "you were so easily distracted by things around you that you had trouble concentrating or staying on track?",
+                                            "id": "525718077"
+                                        },
+                                        {
+                                            "position": 8,
+                                            "field": "q8",
+                                            "visible": true,
+                                            "text": "you had much more energy than usual?",
+                                            "id": "525718078"
+                                        },
+                                        {
+                                            "field": "q9",
+                                            "position": 9,
+                                            "visible": true,
+                                            "text": "you were much more active or did many more things than usual?",
+                                            "id": "525718079"
+                                        },
+                                        {
+                                            "field": "q10",
+                                            "position": 10,
+                                            "visible": true,
+                                            "text": "you were much more social or outgoing than usual, for example, you telephoned friends in the middle of the night?",
+                                            "id": "525718080"
+                                        },
+                                        {
+                                            "field": "q11",
+                                            "position": 11,
+                                            "visible": true,
+                                            "text": "you were much more interested in sex than usual?",
+                                            "id": "525718081"
+                                        },
+                                        {
+                                            "field": "q12",
+                                            "position": 12,
+                                            "visible": true,
+                                            "text": "you did things that were unusual for you or that other people might have thought were excessive, foolish, or risky?",
+                                            "id": "525718082"
+                                        },
+                                        {
+                                            "field": "q13",
+                                            "position": 13,
+                                            "visible": true,
+                                            "text": "spending money got you or your family in trouble?",
+                                            "id": "525718083"
+                                        }
+                                    ],
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Yes",
+                                            "id": "525718069",
+                                            "is_na": false,
+                                            "weight": 1,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "No",
+                                            "id": "525718070",
+                                            "is_na": false,
+                                            "weight": 2,
+                                            "description": ""
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q14",
+                                "id": "64091359",
+                                "position": 2,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "If you checked YES to more than one of the above, have several of these ever happened during the same period of time?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307876/pages/25949627/questions/64091359",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Yes",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718094"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "No",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718095"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q15",
+                                "id": "64091356",
+                                "position": 3,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "How much of a problem did any of these cause you — like being able to work; having family, money, or legal troubles; getting into arguments or fights?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307876/pages/25949627/questions/64091356",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "No Problem",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718084"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Minor Problem",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718085"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Moderate Problem",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718086"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Serious Problem",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718087"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q16",
+                                "id": "64091357",
+                                "position": 4,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Have any of your blood relatives (ie, children, siblings, parents, grandparents, aunts, uncles) had manic-depressive illness or bipolar disorder?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307876/pages/25949627/questions/64091357",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Yes",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718088"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "No",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718089"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q17",
+                                "id": "64091358",
+                                "position": 5,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Has a health professional ever told you that you have manic-depressive illness or bipolar disorder? *"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307876/pages/25949627/questions/64091358",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Yes",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718091"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "No",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718092"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "fr": {
+                "title": "Reassessment - Bipolar Disorder - FR",
+                "nickname": "",
+                "language": "en",
+                "folder_id": "0",
+                "category": "customer_feedback",
+                "question_count": 5,
+                "page_count": 1,
+                "response_count": 0,
+                "date_created": "2022-10-06T12:02:00",
+                "date_modified": "2022-10-06T12:08:00",
+                "id": "190307874",
+                "buttons_text": {
+                    "next_button": "Next",
+                    "prev_button": "Prev",
+                    "done_button": "Done",
+                    "exit_button": ""
+                },
+                "is_owner": true,
+                "footer": false,
+                "theme_id": "9831075",
+                "custom_variables": {},
+                "href": "https://api.surveymonkey.ca/v3/surveys/190307874",
+                "analyze_url": "https://www.surveymonkey.com/analyze/X1viY6g4ifgLqR4rPF1APGiFKdOoMlPQXnTzkNnuFjA_3D",
+                "edit_url": "https://www.surveymonkey.com/create/?sm=X1viY6g4ifgLqR4rPF1APGiFKdOoMlPQXnTzkNnuFjA_3D",
+                "collect_url": "https://www.surveymonkey.com/collect/list?sm=X1viY6g4ifgLqR4rPF1APGiFKdOoMlPQXnTzkNnuFjA_3D",
+                "summary_url": "https://www.surveymonkey.com/summary/X1viY6g4ifgLqR4rPF1APGiFKdOoMlPQXnTzkNnuFjA_3D",
+                "preview": "https://www.surveymonkey.com/r/Preview/?sm=Ll2TmjU3n9KcfQnhYL2KpfeKw1lIDAtHDLeWVMxA6mUyERuhLHmeyyDk0DStyjSg",
+                "pages": [
+                    {
+                        "title": "",
+                        "description": "",
+                        "position": 1,
+                        "question_count": 5,
+                        "id": "25949625",
+                        "href": "https://api.surveymonkey.ca/v3/surveys/190307874/pages/25949625",
+                        "questions": [
+                            {
+                                "id": "64091340",
+                                "position": 1,
+                                "visible": true,
+                                "family": "matrix",
+                                "subtype": "rating",
+                                "layout": null,
+                                "sorting": null,
+                                "required": {
+                                    "text": "This question requires an answer.",
+                                    "type": "all",
+                                    "amount": "0"
+                                },
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Avez-vous vécu une période durant laquelle votre état d’esprit<br>était inhabituel et..."
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307874/pages/25949625/questions/64091340",
+                                "answers": {
+                                    "rows": [
+                                        {
+                                            "field": "q1",
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "... vous vous sentiez si bien ou si hyperactif que les autres trouvaient que cela ne vous ressemblait pas ou encore que votre hyperactivité vous a attiré des ennuis?",
+                                            "id": "525717990"
+                                        },
+                                        {
+                                            "field": "q2",
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "... vous étiez irritable au point de crier après les gens ou de commencer des disputes ou des bagarres ?ople or started fights or arguments?",
+                                            "id": "525717991"
+                                        },
+                                        {
+                                            "field": "q3",
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "... vous aviez beaucoup plus confiance en vous que d’habitude ?",
+                                            "id": "525717994"
+                                        },
+                                        {
+                                            "field": "q4",
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "... vous dormiez beaucoup moins longtemps que d’habitude, sans que cela ne vous dérange vraiment ?",
+                                            "id": "525717995"
+                                        },
+                                        {
+                                            "field": "q5",
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "... vous parliez plus rapidement ou beaucoup plus que d’habitude ?",
+                                            "id": "525717996"
+                                        },
+                                        {
+                                            "field": "q6",
+                                            "position": 6,
+                                            "visible": true,
+                                            "text": "... vos pensées défilaient rapidement dans votre tête ou vous n’arriviez pas à ralentir vos pensées ?",
+                                            "id": "525717997"
+                                        },
+                                        {
+                                            "field": "q7",
+                                            "position": 7,
+                                            "visible": true,
+                                            "text": "... Vous étiez si facilement distrait par votre environnement que vous n’arriviez pas à vous concentrer ni à effectuer une tâche soutenue ?",
+                                            "id": "525718000"
+                                        },
+                                        {
+                                            "field": "q8",
+                                            "position": 8,
+                                            "visible": true,
+                                            "text": "... vous aviez beaucoup plus d’énergie que d’habitude ?",
+                                            "id": "525718001"
+                                        },
+                                        {
+                                            "field": "q9",
+                                            "position": 9,
+                                            "visible": true,
+                                            "text": "... vous étiez beaucoup plus actif ou faisiez beaucoup plus de choses que d’habitude ?",
+                                            "id": "525718002"
+                                        },
+                                        {
+                                            "field": "q10",
+                                            "position": 10,
+                                            "visible": true,
+                                            "text": "... vous étiez beaucoup plus sociable ou communicatif que d’habitude; par exemple, vous téléphoniez à des amis au milieu de la nuit ?",
+                                            "id": "525718003"
+                                        },
+                                        {
+                                            "field": "q11",
+                                            "position": 11,
+                                            "visible": true,
+                                            "text": "... votre intérêt pour la sexualité́ était beaucoup plus grand que d’habitude ?",
+                                            "id": "525718004"
+                                        },
+                                        {
+                                            "field": "q12",
+                                            "position": 12,
+                                            "visible": true,
+                                            "text": "... vos actions étaient inhabituelles pour vous ou auraient pu être jugées comme exagérées, irresponsables ou risquées par d’autres personnes ?",
+                                            "id": "525718005"
+                                        },
+                                        {
+                                            "field": "q13",
+                                            "position": 13,
+                                            "visible": true,
+                                            "text": "...vos dépenses d’argent vous ont attiré des ennuis, à vous ou à votre famille ?",
+                                            "id": "525718006"
+                                        }
+                                    ],
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Oui",
+                                            "id": "525717992",
+                                            "is_na": false,
+                                            "weight": 1,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Non",
+                                            "id": "525717993",
+                                            "is_na": false,
+                                            "weight": 2,
+                                            "description": ""
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q14",
+                                "id": "64091344",
+                                "position": 2,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Si vous avez répondu OUI à plus d’une des questions ci- dessus, est-ce que plusieurs de ces évènements se sont produits au cours de la même période ?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307874/pages/25949625/questions/64091344",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Oui",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718015"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Non",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718016"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q15",
+                                "id": "64091341",
+                                "position": 3,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Ces événements vous ont-ils posé des problèmes au point de ne pas pouvoir travailler, d’avoir des problèmes familiaux, financiers ou juridiques; de vous quereller ou de vous battre?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307874/pages/25949625/questions/64091341",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Aucun problème",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718007"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Problème mineur",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718008"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Problème modéré",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718009"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Problème sérieux",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718010"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q16",
+                                "id": "64091342",
+                                "position": 4,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Est-ce que l'un de vos parents par le sang (c'est-à-dire les enfants, les frères et sœurs, les parents, les grands-parents, les tantes, les oncles) a souffert de dépression maniaco-dépressive ou de trouble bipolaire ?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307874/pages/25949625/questions/64091342",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Oui",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718011"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Non",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718012"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q17",
+                                "id": "64091343",
+                                "position": 5,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Un professionnel de la santé vous a-t-il déjà dit que vous souffriez d'une maladie maniaco-dépressive ou d'un trouble bipolaire ?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307874/pages/25949625/questions/64091343",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Oui",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718013"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Non",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718014"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+     }
+ }

@@ -1,0 +1,500 @@
+{
+    "entity": "ReassessmentPTSD",
+     "relations": {
+         "contact": {
+             "name": "reassessmentPTSDs"
+         }
+     },
+     "surveys": {
+        "development": {
+            "en": {
+                "title": "Reassessment - PTSD - EN - Development",
+                "nickname": "",
+                "language": "en",
+                "folder_id": "0",
+                "category": "customer_feedback",
+                "question_count": 1,
+                "page_count": 1,
+                "response_count": 0,
+                "date_created": "2022-05-14T09:55:00",
+                "date_modified": "2022-05-17T13:48:00",
+                "id": "190291278",
+                "buttons_text": {
+                    "next_button": "Next",
+                    "prev_button": "Prev",
+                    "done_button": "Done",
+                    "exit_button": ""
+                },
+                "is_owner": true,
+                "footer": false,
+                "custom_variables": {},
+                "href": "https://api.surveymonkey.ca/v3/surveys/190291278",
+                "analyze_url": "https://www.surveymonkey.com/analyze/YvPp3eh_2BorbI80_2BB3kwFPgv0pOd_2BaXCbK1V0qyCeXzc_3D",
+                "edit_url": "https://www.surveymonkey.com/create/?sm=YvPp3eh_2BorbI80_2BB3kwFPgv0pOd_2BaXCbK1V0qyCeXzc_3D",
+                "collect_url": "https://www.surveymonkey.com/collect/list?sm=YvPp3eh_2BorbI80_2BB3kwFPgv0pOd_2BaXCbK1V0qyCeXzc_3D",
+                "summary_url": "https://www.surveymonkey.com/summary/YvPp3eh_2BorbI80_2BB3kwFPgv0pOd_2BaXCbK1V0qyCeXzc_3D",
+                "preview": "https://www.surveymonkey.com/r/Preview/?sm=yDtMedwF9viAXv74bFEiDknaUV2LjKxo6fv4_2FD_2FslYxnP8Fo6MDsgv0xihCl99m4",
+                "pages": [
+                    {
+                        "title": "",
+                        "description": "",
+                        "position": 1,
+                        "question_count": 1,
+                        "id": "25881018",
+                        "href": "https://api.surveymonkey.ca/v3/surveys/190291278/pages/25881018",
+                        "questions": [
+                            {
+                                "id": "63808539",
+                                "position": 1,
+                                "visible": true,
+                                "family": "matrix",
+                                "subtype": "rating",
+                                "layout": null,
+                                "sorting": null,
+                                "required": {
+                                    "text": "This question requires an answer.",
+                                    "type": "all",
+                                    "amount": "0"
+                                },
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "In the past month, have you…"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291278/pages/25881018/questions/63808539",
+                                "answers": {
+                                    "rows": [
+                                        {
+                                            "field": "q1",
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "had nightmares about the event(s) or thought about the event(s) when you did not want to?",
+                                            "id": "523860891"
+                                        },
+                                        {
+                                            "field": "q2",
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "tried hard not to think about the event(s) or went out of your way to avoid situations that reminded you of the event(s)?",
+                                            "id": "523860892"
+                                        },
+                                        {
+                                            "field": "q3",
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "been constantly on guard, watchful, or easily startled?",
+                                            "id": "523860897"
+                                        },
+                                        {
+                                            "field": "q4",
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "felt numb or detached from people, activities, or your surroundings?",
+                                            "id": "523860903"
+                                        },
+                                        {
+                                            "field": "q5",
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "felt guilty or unable to stop blaming yourself or others for the event(s) or any problems the event(s) may have caused?",
+                                            "id": "523860904"
+                                        }
+                                    ],
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Yes",
+                                            "id": "523860893",
+                                            "is_na": false,
+                                            "weight": 1,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "No",
+                                            "id": "523860894",
+                                            "is_na": false,
+                                            "weight": 2,
+                                            "description": ""
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "fr": {
+                "title": "Reassessment - PTSD - FR - Development",
+                "nickname": "",
+                "language": "fr",
+                "folder_id": "0",
+                "category": "customer_feedback",
+                "question_count": 1,
+                "page_count": 1,
+                "response_count": 0,
+                "date_created": "2022-05-18T08:38:00",
+                "date_modified": "2022-05-18T15:08:00",
+                "id": "190291697",
+                "buttons_text": {
+                    "next_button": "Next",
+                    "prev_button": "Prev",
+                    "done_button": "Done",
+                    "exit_button": ""
+                },
+                "is_owner": true,
+                "footer": false,
+                "custom_variables": {},
+                "href": "https://api.surveymonkey.ca/v3/surveys/190291697",
+                "analyze_url": "https://www.surveymonkey.com/analyze/QUKRlkgBJxCUQQMBE6Avd6FJB32LtoRUJvgEA3xk440_3D",
+                "edit_url": "https://www.surveymonkey.com/create/?sm=QUKRlkgBJxCUQQMBE6Avd6FJB32LtoRUJvgEA3xk440_3D",
+                "collect_url": "https://www.surveymonkey.com/collect/list?sm=QUKRlkgBJxCUQQMBE6Avd6FJB32LtoRUJvgEA3xk440_3D",
+                "summary_url": "https://www.surveymonkey.com/summary/QUKRlkgBJxCUQQMBE6Avd6FJB32LtoRUJvgEA3xk440_3D",
+                "preview": "https://www.surveymonkey.com/r/Preview/?sm=zKPYfgDZQW_2BwVqtL3FVsy84yCslhwZDjbkRe7_2FdFF9lZziqIeMXUt6lKskbRRhZ1",
+                "pages": [
+                    {
+                        "title": "",
+                        "description": "",
+                        "position": 1,
+                        "question_count": 1,
+                        "id": "25882294",
+                        "href": "https://api.surveymonkey.ca/v3/surveys/190291697/pages/25882294",
+                        "questions": [
+                            {
+                                "id": "63814076",
+                                "position": 1,
+                                "visible": true,
+                                "family": "matrix",
+                                "subtype": "rating",
+                                "layout": null,
+                                "sorting": null,
+                                "required": {
+                                    "text": "This question requires an answer.",
+                                    "type": "all",
+                                    "amount": "0"
+                                },
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Au cours du dernier mois, avez-vous…"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291697/pages/25882294/questions/63814076",
+                                "answers": {
+                                    "rows": [
+                                        {
+                                            "field": "q1",
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Eu des cauchemars à propos de ce/ces événement(s) ou pensé à ce/ces événement(s) quand vous ne le vouliez pas?",
+                                            "id": "523898100"
+                                        },
+                                        {
+                                            "field": "q2",
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Essayé de ne pas penser à ce/ces événement(s), ou vous avez fait tout votre possible pour éviter des situations qui vous rappelaient de ce/ces événement(s)?",
+                                            "id": "523898101"
+                                        },
+                                        {
+                                            "field": "q3",
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Été constamment sur vos gardes, vigilant(e), ou facilement surpris(e)?",
+                                            "id": "523898104"
+                                        },
+                                        {
+                                            "field": "q4",
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Eu l’impression d’être paralysé(e) ou détaché(e) des gens, des activités ou de votre environnement?",
+                                            "id": "523898107"
+                                        },
+                                        {
+                                            "field": "q5",
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Eu le sentiment d’être coupable ou être incapable d’arrêter de vous blâmer ou de reprocher à d’autres le/les événement(s) ou les problèmes que ce/ces événement(s) ont pu causer?",
+                                            "id": "523898108"
+                                        }
+                                    ],
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Oui",
+                                            "id": "523898102",
+                                            "is_na": false,
+                                            "weight": 1,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Non",
+                                            "id": "523898103",
+                                            "is_na": false,
+                                            "weight": 2,
+                                            "description": ""
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "production": {
+            "en": {
+                "title": "Reassessment - PTSD - EN",
+                "nickname": "",
+                "language": "en",
+                "folder_id": "0",
+                "category": "customer_feedback",
+                "question_count": 1,
+                "page_count": 1,
+                "response_count": 0,
+                "date_created": "2022-10-06T12:28:00",
+                "date_modified": "2022-10-06T12:29:00",
+                "id": "190307895",
+                "buttons_text": {
+                    "next_button": "Next",
+                    "prev_button": "Prev",
+                    "done_button": "Done",
+                    "exit_button": ""
+                },
+                "is_owner": true,
+                "footer": false,
+                "theme_id": "9831075",
+                "custom_variables": {},
+                "href": "https://api.surveymonkey.ca/v3/surveys/190307895",
+                "analyze_url": "https://www.surveymonkey.com/analyze/X1viY6g4ifgLqR4rPF1APFv4EVL2_2F_2FXY6otPSS58usk_3D",
+                "edit_url": "https://www.surveymonkey.com/create/?sm=X1viY6g4ifgLqR4rPF1APFv4EVL2_2F_2FXY6otPSS58usk_3D",
+                "collect_url": "https://www.surveymonkey.com/collect/list?sm=X1viY6g4ifgLqR4rPF1APFv4EVL2_2F_2FXY6otPSS58usk_3D",
+                "summary_url": "https://www.surveymonkey.com/summary/X1viY6g4ifgLqR4rPF1APFv4EVL2_2F_2FXY6otPSS58usk_3D",
+                "preview": "https://www.surveymonkey.com/r/Preview/?sm=2WOenFgZUmWPTEfH1CV9LJwgLpBSP26X_2FhH_2FYyRq4RPGmHiRBu_2B_2B4Gu_2FZy7_2F8kXZ",
+                "pages": [
+                    {
+                        "title": "",
+                        "description": "",
+                        "position": 1,
+                        "question_count": 1,
+                        "id": "25949646",
+                        "href": "https://api.surveymonkey.ca/v3/surveys/190307895/pages/25949646",
+                        "questions": [
+                            {
+                                "id": "64091431",
+                                "position": 1,
+                                "visible": true,
+                                "family": "matrix",
+                                "subtype": "rating",
+                                "layout": null,
+                                "sorting": null,
+                                "required": {
+                                    "text": "This question requires an answer.",
+                                    "type": "all",
+                                    "amount": "0"
+                                },
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "In the past month, have you…"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307895/pages/25949646/questions/64091431",
+                                "answers": {
+                                    "rows": [
+                                        {
+                                            "field": "q1",
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "had nightmares about the event(s) or thought about the event(s) when you did not want to?",
+                                            "id": "525718550"
+                                        },
+                                        {
+                                            "field": "q2",
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "tried hard not to think about the event(s) or went out of your way to avoid situations that reminded you of the event(s)?",
+                                            "id": "525718551"
+                                        },
+                                        {
+                                            "field": "q3",
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "been constantly on guard, watchful, or easily startled?",
+                                            "id": "525718554"
+                                        },
+                                        {
+                                            "field": "q4",
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "felt numb or detached from people, activities, or your surroundings?",
+                                            "id": "525718557"
+                                        },
+                                        {
+                                            "field": "q5",
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "felt guilty or unable to stop blaming yourself or others for the event(s) or any problems the event(s) may have caused?",
+                                            "id": "525718558"
+                                        }
+                                    ],
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Yes",
+                                            "id": "525718552",
+                                            "is_na": false,
+                                            "weight": 1,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "No",
+                                            "id": "525718553",
+                                            "is_na": false,
+                                            "weight": 2,
+                                            "description": ""
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "fr": {
+                "title": "Reassessment - PTSD - FR",
+                "nickname": "",
+                "language": "en",
+                "folder_id": "0",
+                "category": "customer_feedback",
+                "question_count": 1,
+                "page_count": 1,
+                "response_count": 0,
+                "date_created": "2022-10-06T12:28:00",
+                "date_modified": "2022-10-06T12:29:00",
+                "id": "190307894",
+                "buttons_text": {
+                    "next_button": "Next",
+                    "prev_button": "Prev",
+                    "done_button": "Done",
+                    "exit_button": ""
+                },
+                "is_owner": true,
+                "footer": false,
+                "theme_id": "9831075",
+                "custom_variables": {},
+                "href": "https://api.surveymonkey.ca/v3/surveys/190307894",
+                "analyze_url": "https://www.surveymonkey.com/analyze/X1viY6g4ifgLqR4rPF1APDBGMckAJ4WLlTagd92P4ww_3D",
+                "edit_url": "https://www.surveymonkey.com/create/?sm=X1viY6g4ifgLqR4rPF1APDBGMckAJ4WLlTagd92P4ww_3D",
+                "collect_url": "https://www.surveymonkey.com/collect/list?sm=X1viY6g4ifgLqR4rPF1APDBGMckAJ4WLlTagd92P4ww_3D",
+                "summary_url": "https://www.surveymonkey.com/summary/X1viY6g4ifgLqR4rPF1APDBGMckAJ4WLlTagd92P4ww_3D",
+                "preview": "https://www.surveymonkey.com/r/Preview/?sm=O_2F8RwqqinDFEwjGToM_2Fkc7v5OkYHs9l3UmGKX9nXTvAIQafWa3BGZHAmiC4MzY2q",
+                "pages": [
+                    {
+                        "title": "",
+                        "description": "",
+                        "position": 1,
+                        "question_count": 1,
+                        "id": "25949645",
+                        "href": "https://api.surveymonkey.ca/v3/surveys/190307894/pages/25949645",
+                        "questions": [
+                            {
+                                "id": "64091430",
+                                "position": 1,
+                                "visible": true,
+                                "family": "matrix",
+                                "subtype": "rating",
+                                "layout": null,
+                                "sorting": null,
+                                "required": {
+                                    "text": "This question requires an answer.",
+                                    "type": "all",
+                                    "amount": "0"
+                                },
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Au cours du dernier mois, avez-vous…"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307894/pages/25949645/questions/64091430",
+                                "answers": {
+                                    "rows": [
+                                        {
+                                            "field": "q1",
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Eu des cauchemars à propos de ce/ces événement(s) ou pensé à ce/ces événement(s) quand vous ne le vouliez pas?",
+                                            "id": "525718541"
+                                        },
+                                        {
+                                            "field": "q2",
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Essayé de ne pas penser à ce/ces événement(s), ou vous avez fait tout votre possible pour éviter des situations qui vous rappelaient de ce/ces événement(s)?",
+                                            "id": "525718542"
+                                        },
+                                        {
+                                            "field": "q3",
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Été constamment sur vos gardes, vigilant(e), ou facilement surpris(e)?",
+                                            "id": "525718545"
+                                        },
+                                        {
+                                            "field": "q4",
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Eu l’impression d’être paralysé(e) ou détaché(e) des gens, des activités ou de votre environnement?",
+                                            "id": "525718548"
+                                        },
+                                        {
+                                            "field": "q5",
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Eu le sentiment d’être coupable ou être incapable d’arrêter de vous blâmer ou de reprocher à d’autres le/les événement(s) ou les problèmes que ce/ces événement(s) ont pu causer?",
+                                            "id": "525718549"
+                                        }
+                                    ],
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Oui",
+                                            "id": "525718543",
+                                            "is_na": false,
+                                            "weight": 1,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Non",
+                                            "id": "525718544",
+                                            "is_na": false,
+                                            "weight": 2,
+                                            "description": ""
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+     }
+ }

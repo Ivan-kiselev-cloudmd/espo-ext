@@ -1,0 +1,2896 @@
+{
+    "entity": "ReassessmentOCD",
+     "relations": {
+         "contact": {
+             "name": "reassessmentOCDs"
+         }
+     },
+     "surveys": {
+        "development": {
+            "en": {
+                "title": "Reassessment - OCD - EN - Development",
+                "nickname": "",
+                "language": "en",
+                "folder_id": "0",
+                "category": "customer_feedback",
+                "question_count": 10,
+                "page_count": 1,
+                "response_count": 0,
+                "date_created": "2022-05-14T09:49:00",
+                "date_modified": "2022-05-17T14:01:00",
+                "id": "190291276",
+                "buttons_text": {
+                    "next_button": "Next",
+                    "prev_button": "Prev",
+                    "done_button": "Done",
+                    "exit_button": ""
+                },
+                "is_owner": true,
+                "footer": false,
+                "custom_variables": {},
+                "href": "https://api.surveymonkey.ca/v3/surveys/190291276",
+                "analyze_url": "https://www.surveymonkey.com/analyze/YvPp3eh_2BorbI80_2BB3kwFPtuUz3Q86c9XU3hELMLVIiI_3D",
+                "edit_url": "https://www.surveymonkey.com/create/?sm=YvPp3eh_2BorbI80_2BB3kwFPtuUz3Q86c9XU3hELMLVIiI_3D",
+                "collect_url": "https://www.surveymonkey.com/collect/list?sm=YvPp3eh_2BorbI80_2BB3kwFPtuUz3Q86c9XU3hELMLVIiI_3D",
+                "summary_url": "https://www.surveymonkey.com/summary/YvPp3eh_2BorbI80_2BB3kwFPtuUz3Q86c9XU3hELMLVIiI_3D",
+                "preview": "https://www.surveymonkey.com/r/Preview/?sm=hSKDpyUSaqt_2FNDjCShZWWdxeOUi8QTliESB8Z6wtknEMmY1d7YSboBgVP07FIizx",
+                "pages": [
+                    {
+                        "title": "",
+                        "description": "",
+                        "position": 1,
+                        "question_count": 10,
+                        "id": "25881016",
+                        "href": "https://api.surveymonkey.ca/v3/surveys/190291276/pages/25881016",
+                        "questions": [
+                            {
+                                "field": "q1",
+                                "id": "63811651",
+                                "position": 1,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "How much of your time is occupied by obsessive thoughts?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291276/pages/25881016/questions/63811651",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "None",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883918"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Less than 1 hr/day or occasional occurrence",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883919"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "1 to 3 hrs/day or frequent",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883920"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Greater than 3 and up to 8 hrs/day or very frequent occurrence",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883921"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Greater than 8 hrs/day or nearly constant occurrence",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883922"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q2",
+                                "id": "63811655",
+                                "position": 2,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "How much do your obsessive thoughts interfere with your work, school, social, or other important role functioning? Is there anything that you don’t do because of them?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291276/pages/25881016/questions/63811655",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "None",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883941"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Slight interference with social or other activities, but overall performance not impaired",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883942"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Definite interference with social or occupational performance, but still manageable",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883943"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Causes substantial impairment in social or occupational performance",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883944"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Incapacitating",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883945"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q3",
+                                "id": "63811657",
+                                "position": 3,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "How much distress do your obsessive thoughts cause you?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291276/pages/25881016/questions/63811657",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "None",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883946"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Not too disturbing",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883947"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Disturbing, but still manageable",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883948"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Very disturbing",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883949"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Near constant and disabling distress",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883950"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q4",
+                                "id": "63811658",
+                                "position": 4,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "How much of an effort do you make to resist the obsessive thoughts? How often do you try to disregard or turn your attention away from these thoughts as they enter your mind?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291276/pages/25881016/questions/63811658",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Try to resist all the time",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883951"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Try to resist most of the time",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883952"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Make some effort to resist",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883953"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Yield to all obsessions without attempting to control them, but with some reluctance",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883954"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Completely and willingly yield to all obsessions",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883955"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q5",
+                                "id": "63811659",
+                                "position": 5,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "How much control do you have over your obsessive thoughts? How successful are you in stopping or diverting your obsessive thinking? Can you dismiss them?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291276/pages/25881016/questions/63811659",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Complete control",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883956"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Usually able to stop or divert obsessions with some effort and concentration",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883957"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Sometimes able to stop or divert obsessions",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883958"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Rarely successful in stopping or dismissing obsessions, can only divert attention with difficulty",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883959"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Obsessions are completely involuntary, rarely able to even momentarily alter obsessive thinking",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883960"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q6",
+                                "id": "63811660",
+                                "position": 6,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "How much time do you spend performing compulsive behaviors? How much longer than most people does it take to complete routine activities because of your rituals? How frequently do you do rituals?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291276/pages/25881016/questions/63811660",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "None",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883961"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Less than 1 hr/day or occasional performance of compulsive behaviors",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883962"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "From 1 to 3 hrs/day, or frequent performance of compulsive behaviors",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883963"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "More than 3 and up to 8 hrs/day, or very frequent performance of compulsive behaviors",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883964"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "More than 8 hrs/day, or near constant performance of compulsive behaviors (too numerous to count)",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883965"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q7",
+                                "id": "63811662",
+                                "position": 7,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "How much do your compulsive behaviors interfere with your work, school, social, or other important role functioning? Is there anything that you don’t do because of the compulsions?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291276/pages/25881016/questions/63811662",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "None",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883971"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Slight interference with social or other activities, but overall performance not impaired",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883972"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Definite interference with social or occupational performance, but still manageable",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883973"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Causes substantial impairment in social or occupational performance",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883974"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Incapacitating",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883975"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q8",
+                                "id": "63811663",
+                                "position": 8,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "How would you feel if prevented from performing your compulsion(s)? How anxious would you become?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291276/pages/25881016/questions/63811663",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "None",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883976"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Only slightly anxious if compulsions prevented",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883977"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Anxiety would mount but remain manageable if compulsions prevented",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883978"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Prominent and very disturbing increase in anxiety if compulsions interrupted",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883979"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Incapacitating anxiety from any intervention aimed at modifying activity",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883980"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q9",
+                                "id": "63811664",
+                                "position": 9,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "How much of an effort do you make to resist the compulsions?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291276/pages/25881016/questions/63811664",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Always try to resist",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883981"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Try to resist most of the time",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883982"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Make some effort to resist",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883983"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Yield to almost all compulsions without attempting to control them, but with some reluctance",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883984"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Completely and willingly yield to all compulsions",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883985"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q10",
+                                "id": "63811665",
+                                "position": 10,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "How strong is the drive to perform the compulsive behavior? How much control do you have over the compulsions?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291276/pages/25881016/questions/63811665",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Complete control",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883986"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Pressure to perform the behavior but usually able to exercise voluntary control over it",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883987"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Strong pressure to perform behavior, can control it only with difficulty",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883988"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Very strong drive to perform behavior, must be carried to completion, can only delay with difficulty",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883989"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Drive to perform behavior experienced as completely involuntary and overpowering, rarely able to even momentarily delay activity.",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523883990"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "fr": {
+                "title": "Reassessment - OCD - FR - Development",
+                "nickname": "",
+                "language": "fr",
+                "folder_id": "0",
+                "category": "customer_feedback",
+                "question_count": 10,
+                "page_count": 1,
+                "response_count": 0,
+                "date_created": "2022-05-18T08:36:00",
+                "date_modified": "2022-05-18T12:25:00",
+                "id": "190291695",
+                "buttons_text": {
+                    "next_button": "Next",
+                    "prev_button": "Prev",
+                    "done_button": "Done",
+                    "exit_button": ""
+                },
+                "is_owner": true,
+                "footer": false,
+                "custom_variables": {},
+                "href": "https://api.surveymonkey.ca/v3/surveys/190291695",
+                "analyze_url": "https://www.surveymonkey.com/analyze/QUKRlkgBJxCUQQMBE6AvdzMvLOcSCTzoUsKvrxde8pg_3D",
+                "edit_url": "https://www.surveymonkey.com/create/?sm=QUKRlkgBJxCUQQMBE6AvdzMvLOcSCTzoUsKvrxde8pg_3D",
+                "collect_url": "https://www.surveymonkey.com/collect/list?sm=QUKRlkgBJxCUQQMBE6AvdzMvLOcSCTzoUsKvrxde8pg_3D",
+                "summary_url": "https://www.surveymonkey.com/summary/QUKRlkgBJxCUQQMBE6AvdzMvLOcSCTzoUsKvrxde8pg_3D",
+                "preview": "https://www.surveymonkey.com/r/Preview/?sm=GrhXpGpsbcr1JMrULCjHnXjVFV2EGIO4E_2FxLsY8EmsiiYVuV_2FoPjcmr1UPQ_2FOAo5",
+                "pages": [
+                    {
+                        "title": "",
+                        "description": "",
+                        "position": 1,
+                        "question_count": 10,
+                        "id": "25882292",
+                        "href": "https://api.surveymonkey.ca/v3/surveys/190291695/pages/25882292",
+                        "questions": [
+                            {
+                                "field": "q1",
+                                "id": "63814065",
+                                "position": 1,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Vos pensées obsédantes occupent quelle partie de votre<br>temps?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291695/pages/25882292/questions/63814065",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Aucune",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898033"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Moins de 1 heure par jour/occasionnelles",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898034"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Entre 1 et 3 heures par jour/fréquentes",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898035"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Entre 3 et 8 heures par jour/très fréquentes",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898036"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Plus de 8 heures par jour/presque constantes",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898037"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q2",
+                                "id": "63814066",
+                                "position": 2,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "À quel point vos pensées obsédantes nuisent-elles à votre travail, à vos études ou aux autres activités importantes de votre vie? Y a-t-il des choses que vous ne faites pas à cause de vos obsessions?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291695/pages/25882292/questions/63814066",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Aucune interférence",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898038"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Nuisent un peu à mes activités sociales ou autres, mais ne m’empêchent pas de fonctionner",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898039"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Nuisent sans aucun doute à mes activités sociales ou professionnelles, mais j'arrive quand même à fonctionner",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898040"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Nuisent considérablement à ma vie sociale ou à mon travail",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898041"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "M’empêchent de fonctionner",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898042"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q3",
+                                "id": "63814067",
+                                "position": 3,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Vos pensées obsédantes vous dérangent-elles?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291695/pages/25882292/questions/63814067",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Pas du tout",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898043"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Un peu",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898044"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "À un niveau tolerable",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898045"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Énormément",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898046"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Je me sens presque constamment dans un état de détresse invalidante",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898047"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q4",
+                                "id": "63814068",
+                                "position": 4,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Quels efforts faites-vous pour résister à vos pensées obsédantes? Essayez-vous de ne pas en tenir compte ou de les chasser de votre esprit?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291695/pages/25882292/questions/63814068",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "J’essaie toujours de leur résister",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898048"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "J’essaie de leur résister la plupart du temps",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898049"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Je fais certains efforts pour leur resister",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898050"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Je cède à toutes mes obsessions sans essayer de les dominer, mais un peu à contrecœur",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898051"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Je cède complètement et volontiers à toutes mes obsessions",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898052"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q5",
+                                "id": "63814069",
+                                "position": 5,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Quelle emprise avez-vous sur vos pensées obsédantes? À quel point réussissez-vous à refréner ou à détourner votre attention de vos obsessions? Pouvez-vous les chasser de votre esprit?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291695/pages/25882292/questions/63814069",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Je les maîtrise complètement",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898053"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "J'arrive généralement à les refréner ou à les détourner avec des efforts et de la concentration",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898054"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "J'arrive parfois à les refréner ou à les détourner",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898055"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "J’arrive rarement et avec peine à les refréner ou à les chasser de mon esprit",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898056"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Je n'ai aucune emprise sur mes obsessions, j’arrive rarement à détourner mon attention même momentanément",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898057"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q6",
+                                "id": "63814070",
+                                "position": 6,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Quelle partie de votre temps passez-vous à accomplir des actes compulsifs? Combien de temps supplémentaire (par rapport à la plupart des gens) vous faut-il pour effectuer vos activités journalières à cause de vos rituels? Quelle est la fréquence de vos rituels?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291695/pages/25882292/questions/63814070",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Aucune",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898058"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Moins de 1 heure par jour/occasionnels",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898059"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Entre 1 et 3 heures par jour/fréquents",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898060"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Entre 3 et 8 heures par jour/très fréquents",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898061"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Plus de 8 heures par jour/presque constants (trop nombreux pour les compter)",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898062"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q7",
+                                "id": "63814071",
+                                "position": 7,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "À quel point vos comportements compulsifs nuisent-ils à votre travail, à vos études ou aux autres activités importantes de votre vie? Y a-t-il des choses que vous ne faites pas à cause de vos compulsions?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291695/pages/25882292/questions/63814071",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Aucune interférence",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898063"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Nuisent un peu à mes activités sociales ou autres, mais ne m’empêchent pas de fonctionner normalement",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898064"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Nuisent sans aucun doute à mes activités sociales ou professionnelles, mais j’arrive quand même à fonctionner",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898065"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Nuisent considérablement à vie sociale ou à mon travail",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898066"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "M’empêchent de fonctionner",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898067"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q8",
+                                "id": "63814072",
+                                "position": 8,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Comment vous sentiriez-vous si on vous empêchait de donner libre cours à vos compulsions? Est-ce que cela vous angoisserait?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291695/pages/25882292/questions/63814072",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Je ne me sentirais nullement angoissé(e)",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898068"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Je me sentirais un peu angoissé(e)",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898069"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Je me sentirais angoissé(e) mais à un niveau tolérable",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898070"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Je me sentirais très angoissé(e)",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898071"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Je me sentirais extrêmement angoissé(e) au point d'être incapable de fonctionner",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898072"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q9",
+                                "id": "63814073",
+                                "position": 9,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Quels efforts faites-vous pour résister à vos compulsions?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291695/pages/25882292/questions/63814073",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "J’essaie toujours de leur résister",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898073"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "J’essaie de leur résister la plupart du temps",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898074"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Je fais certains efforts pour leur résister",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898075"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Je cède à presque toutes mes compulsions sans essayer de les dominer, mais un peu à contrecœur",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898076"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Je cède complètement et volontiers à toutes mes compulsions",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898077"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q10",
+                                "id": "63814074",
+                                "position": 10,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Quelle emprise avez-vous sur vos compulsions? À quel point vous sentez-vous contraint(e) d'accomplir un acte compulsif?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291695/pages/25882292/questions/63814074",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Je les maîtrise complètement",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898078"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Je me sens poussé(e) à accomplir un acte compulsif mais j’arrive généralement à me dominer",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898079"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Je ressens une forte envie d’accomplir un acte compulsif mais j’arrive à me dominer avec beaucoup d’efforts",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898080"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "J’éprouve un besoin pressant d’accomplir un acte compulsif, j’arrive seulement à en retarder l’accomplissement et avec peine",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898081"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "J’éprouve un besoin irrésistible d’accomplir un acte compulsif, je n’ai aucune emprise sur mes compulsions, j’arrive rarement à me retenir ne serait- ce que quelques instants",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "523898082"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "production": {
+            "en": {
+                "title": "Reassessment - OCD - EN",
+                "nickname": "",
+                "language": "en",
+                "folder_id": "0",
+                "category": "customer_feedback",
+                "question_count": 10,
+                "page_count": 1,
+                "response_count": 0,
+                "date_created": "2022-10-06T12:01:00",
+                "date_modified": "2022-10-06T12:09:00",
+                "id": "190307870",
+                "buttons_text": {
+                    "next_button": "Next",
+                    "prev_button": "Prev",
+                    "done_button": "Done",
+                    "exit_button": ""
+                },
+                "is_owner": true,
+                "footer": false,
+                "theme_id": "9831075",
+                "custom_variables": {},
+                "href": "https://api.surveymonkey.ca/v3/surveys/190307870",
+                "analyze_url": "https://www.surveymonkey.com/analyze/X1viY6g4ifgLqR4rPF1APNaEMrBOSjs6Lb51eDzBTcc_3D",
+                "edit_url": "https://www.surveymonkey.com/create/?sm=X1viY6g4ifgLqR4rPF1APNaEMrBOSjs6Lb51eDzBTcc_3D",
+                "collect_url": "https://www.surveymonkey.com/collect/list?sm=X1viY6g4ifgLqR4rPF1APNaEMrBOSjs6Lb51eDzBTcc_3D",
+                "summary_url": "https://www.surveymonkey.com/summary/X1viY6g4ifgLqR4rPF1APNaEMrBOSjs6Lb51eDzBTcc_3D",
+                "preview": "https://www.surveymonkey.com/r/Preview/?sm=UtEI4u4Nud5wBbG7PGc_2FTelGWP5mxmblYs1_2B4izP8gSXGmKsjgn8kOcirogbvHBT",
+                "pages": [
+                    {
+                        "title": "",
+                        "description": "",
+                        "position": 1,
+                        "question_count": 10,
+                        "id": "25949621",
+                        "href": "https://api.surveymonkey.ca/v3/surveys/190307870/pages/25949621",
+                        "questions": [
+                            {
+                                "field": "q1",
+                                "id": "64091307",
+                                "position": 1,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "How much of your time is occupied by obsessive thoughts?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307870/pages/25949621/questions/64091307",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "None",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717830"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Less than 1 hr/day or occasional occurrence",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717831"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "1 to 3 hrs/day or frequent",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717832"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Greater than 3 and up to 8 hrs/day or very frequent occurrence",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717833"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Greater than 8 hrs/day or nearly constant occurrence",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717834"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q2",
+                                "id": "64091308",
+                                "position": 2,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "How much do your obsessive thoughts interfere with your work, school, social, or other important role functioning? Is there anything that you don’t do because of them?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307870/pages/25949621/questions/64091308",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "None",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717835"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Slight interference with social or other activities, but overall performance not impaired",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717836"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Definite interference with social or occupational performance, but still manageable",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717837"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Causes substantial impairment in social or occupational performance",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717838"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Incapacitating",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717839"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q3",
+                                "id": "64091309",
+                                "position": 3,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "How much distress do your obsessive thoughts cause you?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307870/pages/25949621/questions/64091309",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "None",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717840"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Not too disturbing",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717841"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Disturbing, but still manageable",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717842"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Very disturbing",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717843"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Near constant and disabling distress",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717844"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q4",
+                                "id": "64091310",
+                                "position": 4,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "How much of an effort do you make to resist the obsessive thoughts? How often do you try to disregard or turn your attention away from these thoughts as they enter your mind?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307870/pages/25949621/questions/64091310",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Try to resist all the time",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717845"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Try to resist most of the time",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717846"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Make some effort to resist",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717847"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Yield to all obsessions without attempting to control them, but with some reluctance",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717848"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Completely and willingly yield to all obsessions",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717849"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q5",
+                                "id": "64091311",
+                                "position": 5,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "How much control do you have over your obsessive thoughts? How successful are you in stopping or diverting your obsessive thinking? Can you dismiss them?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307870/pages/25949621/questions/64091311",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Complete control",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717850"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Usually able to stop or divert obsessions with some effort and concentration",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717851"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Sometimes able to stop or divert obsessions",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717852"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Rarely successful in stopping or dismissing obsessions, can only divert attention with difficulty",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717853"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Obsessions are completely involuntary, rarely able to even momentarily alter obsessive thinking",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717854"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q6",
+                                "id": "64091312",
+                                "position": 6,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "How much time do you spend performing compulsive behaviors? How much longer than most people does it take to complete routine activities because of your rituals? How frequently do you do rituals?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307870/pages/25949621/questions/64091312",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "None",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717855"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Less than 1 hr/day or occasional performance of compulsive behaviors",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717856"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "From 1 to 3 hrs/day, or frequent performance of compulsive behaviors",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717857"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "More than 3 and up to 8 hrs/day, or very frequent performance of compulsive behaviors",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717858"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "More than 8 hrs/day, or near constant performance of compulsive behaviors (too numerous to count)",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717859"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q7",
+                                "id": "64091313",
+                                "position": 7,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "How much do your compulsive behaviors interfere with your work, school, social, or other important role functioning? Is there anything that you don’t do because of the compulsions?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307870/pages/25949621/questions/64091313",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "None",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717860"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Slight interference with social or other activities, but overall performance not impaired",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717861"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Definite interference with social or occupational performance, but still manageable",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717862"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Causes substantial impairment in social or occupational performance",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717863"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Incapacitating",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717864"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q8",
+                                "id": "64091314",
+                                "position": 8,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "How would you feel if prevented from performing your compulsion(s)? How anxious would you become?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307870/pages/25949621/questions/64091314",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "None",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717865"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Only slightly anxious if compulsions prevented",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717866"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Anxiety would mount but remain manageable if compulsions prevented",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717867"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Prominent and very disturbing increase in anxiety if compulsions interrupted",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717868"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Incapacitating anxiety from any intervention aimed at modifying activity",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717869"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q9",
+                                "id": "64091315",
+                                "position": 9,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "How much of an effort do you make to resist the compulsions?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307870/pages/25949621/questions/64091315",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Always try to resist",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717870"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Try to resist most of the time",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717871"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Make some effort to resist",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717872"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Yield to almost all compulsions without attempting to control them, but with some reluctance",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717873"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Completely and willingly yield to all compulsions",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717874"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q10",
+                                "id": "64091316",
+                                "position": 10,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "How strong is the drive to perform the compulsive behavior? How much control do you have over the compulsions?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307870/pages/25949621/questions/64091316",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Complete control",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717875"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Pressure to perform the behavior but usually able to exercise voluntary control over it",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717876"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Strong pressure to perform behavior, can control it only with difficulty",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717877"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Very strong drive to perform behavior, must be carried to completion, can only delay with difficulty",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717878"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Drive to perform behavior experienced as completely involuntary and overpowering, rarely able to even momentarily delay activity.",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525717879"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "fr": {
+                "title": "Reassessment - OCD - FR",
+                "nickname": "",
+                "language": "en",
+                "folder_id": "0",
+                "category": "customer_feedback",
+                "question_count": 10,
+                "page_count": 1,
+                "response_count": 0,
+                "date_created": "2022-10-06T12:02:00",
+                "date_modified": "2022-10-06T12:09:00",
+                "id": "190307875",
+                "buttons_text": {
+                    "next_button": "Next",
+                    "prev_button": "Prev",
+                    "done_button": "Done",
+                    "exit_button": ""
+                },
+                "is_owner": true,
+                "footer": false,
+                "theme_id": "9831075",
+                "custom_variables": {},
+                "href": "https://api.surveymonkey.ca/v3/surveys/190307875",
+                "analyze_url": "https://www.surveymonkey.com/analyze/X1viY6g4ifgLqR4rPF1APKv1O5d8VK_2B14l_2Ffg_2Bvlpm4_3D",
+                "edit_url": "https://www.surveymonkey.com/create/?sm=X1viY6g4ifgLqR4rPF1APKv1O5d8VK_2B14l_2Ffg_2Bvlpm4_3D",
+                "collect_url": "https://www.surveymonkey.com/collect/list?sm=X1viY6g4ifgLqR4rPF1APKv1O5d8VK_2B14l_2Ffg_2Bvlpm4_3D",
+                "summary_url": "https://www.surveymonkey.com/summary/X1viY6g4ifgLqR4rPF1APKv1O5d8VK_2B14l_2Ffg_2Bvlpm4_3D",
+                "preview": "https://www.surveymonkey.com/r/Preview/?sm=uYGytgEvap_2FSyBoZuiYdocdEskxw_2BHz3r3ayVdZpTcpIAuJGIjT92Qhl_2FjqY7geS",
+                "pages": [
+                    {
+                        "title": "",
+                        "description": "",
+                        "position": 1,
+                        "question_count": 10,
+                        "id": "25949626",
+                        "href": "https://api.surveymonkey.ca/v3/surveys/190307875/pages/25949626",
+                        "questions": [
+                            {
+                                "field": "q1",
+                                "id": "64091345",
+                                "position": 1,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Vos pensées obsédantes occupent quelle partie de votre<br>temps?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307875/pages/25949626/questions/64091345",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Aucune",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718017"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Moins de 1 heure par jour/occasionnelles",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718018"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Entre 1 et 3 heures par jour/fréquentes",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718019"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Entre 3 et 8 heures par jour/très fréquentes",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718020"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Plus de 8 heures par jour/presque constantes",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718021"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q2",
+                                "id": "64091346",
+                                "position": 2,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "À quel point vos pensées obsédantes nuisent-elles à votre travail, à vos études ou aux autres activités importantes de votre vie? Y a-t-il des choses que vous ne faites pas à cause de vos obsessions?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307875/pages/25949626/questions/64091346",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Aucune interférence",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718022"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Nuisent un peu à mes activités sociales ou autres, mais ne m’empêchent pas de fonctionner",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718023"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Nuisent sans aucun doute à mes activités sociales ou professionnelles, mais j'arrive quand même à fonctionner",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718024"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Nuisent considérablement à ma vie sociale ou à mon travail",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718025"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "M’empêchent de fonctionner",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718026"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q3",
+                                "id": "64091347",
+                                "position": 3,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Vos pensées obsédantes vous dérangent-elles?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307875/pages/25949626/questions/64091347",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Pas du tout",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718027"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Un peu",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718028"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "À un niveau tolerable",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718029"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Énormément",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718030"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Je me sens presque constamment dans un état de détresse invalidante",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718031"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q4",
+                                "id": "64091348",
+                                "position": 4,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Quels efforts faites-vous pour résister à vos pensées obsédantes? Essayez-vous de ne pas en tenir compte ou de les chasser de votre esprit?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307875/pages/25949626/questions/64091348",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "J’essaie toujours de leur résister",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718032"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "J’essaie de leur résister la plupart du temps",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718033"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Je fais certains efforts pour leur resister",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718034"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Je cède à toutes mes obsessions sans essayer de les dominer, mais un peu à contrecœur",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718035"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Je cède complètement et volontiers à toutes mes obsessions",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718036"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q5",
+                                "id": "64091349",
+                                "position": 5,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Quelle emprise avez-vous sur vos pensées obsédantes? À quel point réussissez-vous à refréner ou à détourner votre attention de vos obsessions? Pouvez-vous les chasser de votre esprit?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307875/pages/25949626/questions/64091349",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Je les maîtrise complètement",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718037"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "J'arrive généralement à les refréner ou à les détourner avec des efforts et de la concentration",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718038"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "J'arrive parfois à les refréner ou à les détourner",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718039"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "J’arrive rarement et avec peine à les refréner ou à les chasser de mon esprit",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718040"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Je n'ai aucune emprise sur mes obsessions, j’arrive rarement à détourner mon attention même momentanément",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718041"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q6",
+                                "id": "64091350",
+                                "position": 6,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Quelle partie de votre temps passez-vous à accomplir des actes compulsifs? Combien de temps supplémentaire (par rapport à la plupart des gens) vous faut-il pour effectuer vos activités journalières à cause de vos rituels? Quelle est la fréquence de vos rituels?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307875/pages/25949626/questions/64091350",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Aucune",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718042"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Moins de 1 heure par jour/occasionnels",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718043"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Entre 1 et 3 heures par jour/fréquents",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718044"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Entre 3 et 8 heures par jour/très fréquents",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718045"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Plus de 8 heures par jour/presque constants (trop nombreux pour les compter)",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718046"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q7",
+                                "id": "64091351",
+                                "position": 7,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "À quel point vos comportements compulsifs nuisent-ils à votre travail, à vos études ou aux autres activités importantes de votre vie? Y a-t-il des choses que vous ne faites pas à cause de vos compulsions?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307875/pages/25949626/questions/64091351",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Aucune interférence",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718047"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Nuisent un peu à mes activités sociales ou autres, mais ne m’empêchent pas de fonctionner normalement",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718048"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Nuisent sans aucun doute à mes activités sociales ou professionnelles, mais j’arrive quand même à fonctionner",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718049"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Nuisent considérablement à vie sociale ou à mon travail",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718050"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "M’empêchent de fonctionner",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718051"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q8",
+                                "id": "64091352",
+                                "position": 8,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Comment vous sentiriez-vous si on vous empêchait de donner libre cours à vos compulsions? Est-ce que cela vous angoisserait?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307875/pages/25949626/questions/64091352",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Je ne me sentirais nullement angoissé(e)",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718052"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Je me sentirais un peu angoissé(e)",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718053"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Je me sentirais angoissé(e) mais à un niveau tolérable",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718054"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Je me sentirais très angoissé(e)",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718055"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Je me sentirais extrêmement angoissé(e) au point d'être incapable de fonctionner",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718056"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q9",
+                                "id": "64091353",
+                                "position": 9,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Quels efforts faites-vous pour résister à vos compulsions?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307875/pages/25949626/questions/64091353",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "J’essaie toujours de leur résister",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718057"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "J’essaie de leur résister la plupart du temps",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718058"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Je fais certains efforts pour leur résister",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718059"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Je cède à presque toutes mes compulsions sans essayer de les dominer, mais un peu à contrecœur",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718060"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Je cède complètement et volontiers à toutes mes compulsions",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718061"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "field": "q10",
+                                "id": "64091354",
+                                "position": 10,
+                                "visible": true,
+                                "family": "single_choice",
+                                "subtype": "vertical_two_col",
+                                "layout": null,
+                                "sorting": null,
+                                "required": null,
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Quelle emprise avez-vous sur vos compulsions? À quel point vous sentez-vous contraint(e) d'accomplir un acte compulsif?"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307875/pages/25949626/questions/64091354",
+                                "answers": {
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Je les maîtrise complètement",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718062"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Je me sens poussé(e) à accomplir un acte compulsif mais j’arrive généralement à me dominer",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718063"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Je ressens une forte envie d’accomplir un acte compulsif mais j’arrive à me dominer avec beaucoup d’efforts",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718064"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "J’éprouve un besoin pressant d’accomplir un acte compulsif, j’arrive seulement à en retarder l’accomplissement et avec peine",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718065"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "J’éprouve un besoin irrésistible d’accomplir un acte compulsif, je n’ai aucune emprise sur mes compulsions, j’arrive rarement à me retenir ne serait- ce que quelques instants",
+                                            "quiz_options": {
+                                                "score": 0
+                                            },
+                                            "id": "525718066"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+     }
+ }

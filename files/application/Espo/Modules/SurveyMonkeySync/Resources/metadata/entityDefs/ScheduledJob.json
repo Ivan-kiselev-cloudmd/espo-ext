@@ -1,5 +1,0 @@
-{
-    "jobSchedulingMap": {
-        "SurveyMonkeyJob": "*/10 * * * *"
-    }
-}

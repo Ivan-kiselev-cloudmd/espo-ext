@@ -1,0 +1,14 @@
+{
+    "massActionList": ["__APPEND__", "generateSatisfactionSurveyMonkey"],
+    "checkAllResultMassActionList": ["__APPEND__", "generateSatisfactionSurveyMonkey"],
+    "detailActionList": [
+        "__APPEND__",
+        {
+            "name": "generateSatisfactionSurveyMonkey",
+            "data": {
+                "handler": "survey-entity-sync:generate-satisfaction-survey-action-handler"
+            },
+            "initFunction": "initGenerateSatisfactionSurveyMonkey"
+        }
+    ]
+}

@@ -1,0 +1,88 @@
+{
+  "serviceActions": {
+    "Contact": {
+        "satisfactionSurveyGenerate": {
+            "serviceName": "SatisfactionSurveyService",
+            "methodName": "handle"
+        }
+    },
+    "ReassessmentADHD": {
+        "surveyMonkeySaveGenerateId": {
+            "serviceName": "ReAssessmentSurveyMonkeySaveGenerateId",
+            "methodName": "handle"
+        }
+    },
+    "ReassessmentAlcoholUseDisorder": {
+        "surveyMonkeySaveGenerateId": {
+            "serviceName": "ReAssessmentSurveyMonkeySaveGenerateId",
+            "methodName": "handle"
+        }
+    },
+    "ReassessmentAngerManagement": {
+        "surveyMonkeySaveGenerateId": {
+            "serviceName": "ReAssessmentSurveyMonkeySaveGenerateId",
+            "methodName": "handle"
+        }
+    },
+    "ReassessmentBipolar": {
+        "surveyMonkeySaveGenerateId": {
+            "serviceName": "ReAssessmentSurveyMonkeySaveGenerateId",
+            "methodName": "handle"
+        }
+    },
+    "ReassessmentDepression": {
+            "surveyMonkeySaveGenerateId": {
+                "serviceName": "ReAssessmentSurveyMonkeySaveGenerateId",
+                "methodName": "handle"
+            }
+    },
+    "ReassessmentEatingDisorder": {
+        "surveyMonkeySaveGenerateId": {
+            "serviceName": "ReAssessmentSurveyMonkeySaveGenerateId",
+            "methodName": "handle"
+        }
+    },
+    "ReassessmentGAD": {
+        "surveyMonkeySaveGenerateId": {
+            "serviceName": "ReAssessmentSurveyMonkeySaveGenerateId",
+            "methodName": "handle"
+        }
+    },
+   "ReassessmentOCD": {
+        "surveyMonkeySaveGenerateId": {
+            "serviceName": "ReAssessmentSurveyMonkeySaveGenerateId",
+            "methodName": "handle"
+        }
+    },
+    "ReassessmentPanicDisorder": {
+        "surveyMonkeySaveGenerateId": {
+            "serviceName": "ReAssessmentSurveyMonkeySaveGenerateId",
+            "methodName": "handle"
+        }
+    },
+    "ReassessmentPTSD": {
+        "surveyMonkeySaveGenerateId": {
+            "serviceName": "ReAssessmentSurveyMonkeySaveGenerateId",
+            "methodName": "handle"
+        }
+    },
+    "ReassessmentSAD": {
+        "surveyMonkeySaveGenerateId": {
+            "serviceName": "ReAssessmentSurveyMonkeySaveGenerateId",
+            "methodName": "handle"
+        }
+    },
+    "ReassessmentSleepDisorder": {
+            "surveyMonkeySaveGenerateId": {
+                "serviceName": "ReAssessmentSurveyMonkeySaveGenerateId",
+                "methodName": "handle"
+            }
+    },
+    "ReassessmentSUD": {
+        "surveyMonkeySaveGenerateId": {
+            "serviceName": "ReAssessmentSurveyMonkeySaveGenerateId",
+            "methodName": "handle"
+        }
+    }
+  }
+}

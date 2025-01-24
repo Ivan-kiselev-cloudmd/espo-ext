@@ -1,0 +1,1233 @@
+{
+    "entity": "ReassessmentEatingDisorder",
+     "relations": {
+         "contact": {
+             "name": "reassessmentEatingDisorders"
+         }
+     },
+     "surveys": {
+        "development": {
+            "en": {
+                "title": "Reassessment - Eating Disorder - EN - Development",
+                "nickname": "",
+                "language": "en",
+                "folder_id": "0",
+                "category": "customer_feedback",
+                "question_count": 1,
+                "page_count": 1,
+                "response_count": 0,
+                "date_created": "2022-05-14T09:46:00",
+                "date_modified": "2022-05-18T09:48:00",
+                "id": "190291275",
+                "buttons_text": {
+                    "next_button": "Next",
+                    "prev_button": "Prev",
+                    "done_button": "Done",
+                    "exit_button": ""
+                },
+                "is_owner": true,
+                "footer": false,
+                "custom_variables": {},
+                "href": "https://api.surveymonkey.ca/v3/surveys/190291275",
+                "analyze_url": "https://www.surveymonkey.com/analyze/YvPp3eh_2BorbI80_2BB3kwFPi2jclMD0r5HeSqvxNzDbf0_3D",
+                "edit_url": "https://www.surveymonkey.com/create/?sm=YvPp3eh_2BorbI80_2BB3kwFPi2jclMD0r5HeSqvxNzDbf0_3D",
+                "collect_url": "https://www.surveymonkey.com/collect/list?sm=YvPp3eh_2BorbI80_2BB3kwFPi2jclMD0r5HeSqvxNzDbf0_3D",
+                "summary_url": "https://www.surveymonkey.com/summary/YvPp3eh_2BorbI80_2BB3kwFPi2jclMD0r5HeSqvxNzDbf0_3D",
+                "preview": "https://www.surveymonkey.com/r/Preview/?sm=zEcfOJ4hqtwyc2h6Brmf4rhs_2FKbU2NIIpj4akA06jnf2m7cbruJZjQ4N64BxO2Rd",
+                "pages": [
+                    {
+                        "title": "",
+                        "description": "",
+                        "position": 1,
+                        "question_count": 1,
+                        "id": "25881015",
+                        "href": "https://api.surveymonkey.ca/v3/surveys/190291275/pages/25881015",
+                        "questions": [
+                            {
+                                "id": "63808533",
+                                "position": 1,
+                                "visible": true,
+                                "family": "matrix",
+                                "subtype": "rating",
+                                "layout": null,
+                                "sorting": null,
+                                "required": {
+                                    "text": "This question requires an answer.",
+                                    "type": "all",
+                                    "amount": "0"
+                                },
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Please select a response for each of the following statements:"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291275/pages/25881015/questions/63808533",
+                                "answers": {
+                                    "rows": [
+                                        {
+                                            "field": "q1",
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Am terrified about being overweight.",
+                                            "id": "523860801"
+                                        },
+                                        {
+                                            "field": "q2",
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Avoid eating when I am hungry.",
+                                            "id": "523860802"
+                                        },
+                                        {
+                                            "field": "q3",
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Find myself preoccupied with food.",
+                                            "id": "523860807"
+                                        },
+                                        {
+                                            "field": "q4",
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Have gone on eating binges where I feel that I may not be able to stop.",
+                                            "id": "523860808"
+                                        },
+                                        {
+                                            "field": "q5",
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Cut my food into small pieces.",
+                                            "id": "523860809"
+                                        },
+                                        {
+                                            "field": "q6",
+                                            "position": 6,
+                                            "visible": true,
+                                            "text": "Aware of the calorie content of foods that I eat.",
+                                            "id": "523860810"
+                                        },
+                                        {
+                                            "field": "q7",
+                                            "position": 7,
+                                            "visible": true,
+                                            "text": "Particularly avoid food with a high carbohydrate content (i.e. bread, rice, potatoes, etc.)",
+                                            "id": "523860813"
+                                        },
+                                        {
+                                            "field": "q8",
+                                            "position": 8,
+                                            "visible": true,
+                                            "text": "Feel that others would prefer if I ate more.",
+                                            "id": "523860814"
+                                        },
+                                        {
+                                            "field": "q9",
+                                            "position": 9,
+                                            "visible": true,
+                                            "text": "Vomit after I have eaten.",
+                                            "id": "523860815"
+                                        },
+                                        {
+                                            "field": "q10",
+                                            "position": 10,
+                                            "visible": true,
+                                            "text": "Feel extremely guilty after eating.",
+                                            "id": "523860818"
+                                        },
+                                        {
+                                            "field": "q11",
+                                            "position": 11,
+                                            "visible": true,
+                                            "text": "Am preoccupied with a desire to be thinner.",
+                                            "id": "523860819"
+                                        },
+                                        {
+                                            "field": "q12",
+                                            "position": 12,
+                                            "visible": true,
+                                            "text": "Think about burning up calories when I exercise.",
+                                            "id": "523860820"
+                                        },
+                                        {
+                                            "field": "q13",
+                                            "position": 13,
+                                            "visible": true,
+                                            "text": "Other people think that I am too thin.",
+                                            "id": "523860821"
+                                        },
+                                        {
+                                            "field": "q14",
+                                            "position": 14,
+                                            "visible": true,
+                                            "text": "Am preoccupied with the thought of having fat on my body",
+                                            "id": "523860822"
+                                        },
+                                        {
+                                            "field": "q15",
+                                            "position": 15,
+                                            "visible": true,
+                                            "text": "Take longer than others to eat my meals.",
+                                            "id": "523860823"
+                                        },
+                                        {
+                                            "field": "q16",
+                                            "position": 16,
+                                            "visible": true,
+                                            "text": "Avoid foods with sugar in them.",
+                                            "id": "523860824"
+                                        },
+                                        {
+                                            "field": "q17",
+                                            "position": 17,
+                                            "visible": true,
+                                            "text": "Eat diet foods.",
+                                            "id": "523860825"
+                                        },
+                                        {
+                                            "field": "q18",
+                                            "position": 18,
+                                            "visible": true,
+                                            "text": "Feel that food controls my life.",
+                                            "id": "523860826"
+                                        },
+                                        {
+                                            "field": "q19",
+                                            "position": 19,
+                                            "visible": true,
+                                            "text": "Display self-control around food.",
+                                            "id": "523860827"
+                                        },
+                                        {
+                                            "field": "q20",
+                                            "position": 20,
+                                            "visible": true,
+                                            "text": "Feel that others pressure me to eat.",
+                                            "id": "523898210"
+                                        },
+                                        {
+                                            "field": "q21",
+                                            "position": 21,
+                                            "visible": true,
+                                            "text": "Give too much time and thought to food.",
+                                            "id": "523898211"
+                                        },
+                                        {
+                                            "field": "q22",
+                                            "position": 22,
+                                            "visible": true,
+                                            "text": "Feel uncomfortable after eating sweets.",
+                                            "id": "523898212"
+                                        },
+                                        {
+                                            "field": "q23",
+                                            "position": 23,
+                                            "visible": true,
+                                            "text": "Engage in dieting behavior.",
+                                            "id": "523898213"
+                                        },
+                                        {
+                                            "field": "q24",
+                                            "position": 24,
+                                            "visible": true,
+                                            "text": "Like my stomach to be empty.",
+                                            "id": "523898214"
+                                        },
+                                        {
+                                            "field": "q25",
+                                            "position": 25,
+                                            "visible": true,
+                                            "text": "Have the impulse to vomit after meals.",
+                                            "id": "523898215"
+                                        },
+                                        {
+                                            "field": "q26",
+                                            "position": 26,
+                                            "visible": true,
+                                            "text": "Enjoy trying new rich foods.",
+                                            "id": "523898216"
+                                        }
+                                    ],
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Always",
+                                            "id": "523860803",
+                                            "is_na": false,
+                                            "weight": 1,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Usually",
+                                            "id": "523860804",
+                                            "is_na": false,
+                                            "weight": 2,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Often",
+                                            "id": "523860816",
+                                            "is_na": false,
+                                            "weight": 3,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Sometimes",
+                                            "id": "523860817",
+                                            "is_na": false,
+                                            "weight": 4,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Rarely",
+                                            "id": "523860828",
+                                            "is_na": false,
+                                            "weight": 5,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 6,
+                                            "visible": true,
+                                            "text": "Never",
+                                            "id": "523860829",
+                                            "is_na": false,
+                                            "weight": 6,
+                                            "description": ""
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "fr": {
+                "title": "Reassessment - Eating Disorder - FR - Development",
+                "nickname": "",
+                "language": "fr",
+                "folder_id": "0",
+
+                "category": "customer_feedback",
+                "question_count": 1,
+                "page_count": 1,
+                "response_count": 0,
+                "date_created": "2022-05-18T08:35:00",
+                "date_modified": "2022-05-18T09:37:00",
+                "id": "190291694",
+                "buttons_text": {
+                    "next_button": "Next",
+                    "prev_button": "Prev",
+                    "done_button": "Done",
+                    "exit_button": ""
+                },
+                "is_owner": true,
+                "footer": false,
+                "custom_variables": {},
+                "href": "https://api.surveymonkey.ca/v3/surveys/190291694",
+                "analyze_url": "https://www.surveymonkey.com/analyze/QUKRlkgBJxCUQQMBE6Avd6pjVbSvr2RUeBxJZjqHJkQ_3D",
+                "edit_url": "https://www.surveymonkey.com/create/?sm=QUKRlkgBJxCUQQMBE6Avd6pjVbSvr2RUeBxJZjqHJkQ_3D",
+                "collect_url": "https://www.surveymonkey.com/collect/list?sm=QUKRlkgBJxCUQQMBE6Avd6pjVbSvr2RUeBxJZjqHJkQ_3D",
+                "summary_url": "https://www.surveymonkey.com/summary/QUKRlkgBJxCUQQMBE6Avd6pjVbSvr2RUeBxJZjqHJkQ_3D",
+                "preview": "https://www.surveymonkey.com/r/Preview/?sm=rRJvRIDzHUnUIkoruIDRum9_2FeXVklEjYkItGDSJLjvbTCZh_2Btv_2BZ5t782f_2BUUMjO",
+                "pages": [
+                    {
+                        "title": "",
+                        "description": "",
+                        "position": 1,
+                        "question_count": 1,
+                        "id": "25882291",
+                        "href": "https://api.surveymonkey.ca/v3/surveys/190291694/pages/25882291",
+                        "questions": [
+                            {
+                                "id": "63814064",
+                                "position": 1,
+                                "visible": true,
+                                "family": "matrix",
+                                "subtype": "rating",
+                                "layout": null,
+                                "sorting": null,
+                                "required": {
+                                    "text": "This question requires an answer.",
+                                    "type": "all",
+                                    "amount": "0"
+                                },
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Veuillez sélectionner une réponse pour chacun des énoncés suivants :"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190291694/pages/25882291/questions/63814064",
+                                "answers": {
+                                    "rows": [
+                                        {
+                                            "field": "q1",
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Je suis terrifié(e) à la pensée d'être trop gros(se).",
+                                            "id": "523898006"
+                                        },
+                                        {
+                                            "field": "q2",
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "J'évite de manger quand j'ai faim.",
+                                            "id": "523898007"
+                                        },
+                                        {
+                                            "field": "q3",
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Je suis trop soucieux(se) de la nourriture.",
+                                            "id": "523898010"
+                                        },
+                                        {
+                                            "field": "q4",
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "J'ai eu des épisodes de gloutonnerie durant lesquels je me sentais incapable d'arrêter de manger.",
+                                            "id": "523898011"
+                                        },
+                                        {
+                                            "field": "q5",
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Je découpe mes aliments en petits morceaux.",
+                                            "id": "523898012"
+                                        },
+                                        {
+                                            "field": "q6",
+                                            "position": 6,
+                                            "visible": true,
+                                            "text": "Quand je mange, j'ai conscience de la valeur calorique des aliments.",
+                                            "id": "523898013"
+                                        },
+                                        {
+                                            "field": "q7",
+                                            "position": 7,
+                                            "visible": true,
+                                            "text": "J'évite spécialement les aliments riches en hydrates de carbone (pain, pommes de terre, riz).",
+                                            "id": "523898016"
+                                        },
+                                        {
+                                            "field": "q8",
+                                            "position": 8,
+                                            "visible": true,
+                                            "text": "Je sens que les autres aimeraient que je mange davantage.",
+                                            "id": "523898017"
+                                        },
+                                        {
+                                            "field": "q9",
+                                            "position": 9,
+                                            "visible": true,
+                                            "text": "Je vomis après avoir mangé.",
+                                            "id": "523898018"
+                                        },
+                                        {
+                                            "field": "q10",
+                                            "position": 10,
+                                            "visible": true,
+                                            "text": "Je me sens très coupable après avoir mangé.",
+                                            "id": "523898021"
+                                        },
+                                        {
+                                            "field": "q11",
+                                            "position": 11,
+                                            "visible": true,
+                                            "text": "Le désir d'être plus mince me préoccupe.",
+                                            "id": "523898022"
+                                        },
+                                        {
+                                            "field": "q12",
+                                            "position": 12,
+                                            "visible": true,
+                                            "text": "Quand je me dépense physiquement, il me vient à l'idée que je brûle des calories.",
+                                            "id": "523898023"
+                                        },
+                                        {
+                                            "field": "q13",
+                                            "position": 13,
+                                            "visible": true,
+                                            "text": "Les autres pensent que je suis trop mince.",
+                                            "id": "523898024"
+                                        },
+                                        {
+                                            "field": "q14",
+                                            "position": 14,
+                                            "visible": true,
+                                            "text": "Je suis préoccupé(e) par l'idée d'avoir trop de graisse sur le corps.",
+                                            "id": "523898025"
+                                        },
+                                        {
+                                            "field": "q15",
+                                            "position": 15,
+                                            "visible": true,
+                                            "text": "Je prends plus de temps que les autres à prendre mes repas.",
+                                            "id": "523898026"
+                                        },
+                                        {
+                                            "field": "q16",
+                                            "position": 16,
+                                            "visible": true,
+                                            "text": "J'évite de manger des aliments sucrés.",
+                                            "id": "523898027"
+                                        },
+                                        {
+                                            "field": "q17",
+                                            "position": 17,
+                                            "visible": true,
+                                            "text": "Je mange des aliments diététiques.",
+                                            "id": "523898028"
+                                        },
+                                        {
+                                            "field": "q18",
+                                            "position": 18,
+                                            "visible": true,
+                                            "text": "J'ai l'impression que la nourriture domine ma vie.",
+                                            "id": "523898029"
+                                        },
+                                        {
+                                            "field": "q19",
+                                            "position": 19,
+                                            "visible": true,
+                                            "text": "Je parle volontiers de mes capacités à contrôler mon alimentation.",
+                                            "id": "523898030"
+                                        },
+                                        {
+                                            "field": "q20",
+                                            "position": 20,
+                                            "visible": true,
+                                            "text": "Je sens que les autres me poussent à manger.",
+                                            "id": "523898203"
+                                        },
+                                        {
+                                            "field": "q21",
+                                            "position": 21,
+                                            "visible": true,
+                                            "text": "J'accorde trop de temps et je pense trop à la nourriture.",
+                                            "id": "523898204"
+                                        },
+                                        {
+                                            "field": "q22",
+                                            "position": 22,
+                                            "visible": true,
+                                            "text": "Je me sens mal à l'aise après avoir mangé des sucreries.",
+                                            "id": "523898205"
+                                        },
+                                        {
+                                            "field": "q23",
+                                            "position": 23,
+                                            "visible": true,
+                                            "text": "Je m'oblige à me metttre à la diète.",
+                                            "id": "523898206"
+                                        },
+                                        {
+                                            "field": "q24",
+                                            "position": 24,
+                                            "visible": true,
+                                            "text": "J'aime avoir l'estomac vide.",
+                                            "id": "523898207"
+                                        },
+                                        {
+                                            "field": "q25",
+                                            "position": 25,
+                                            "visible": true,
+                                            "text": "J'aime essayer des aliments nouveaux et riches.",
+                                            "id": "523898208"
+                                        },
+                                        {
+                                            "field": "q26",
+                                            "position": 26,
+                                            "visible": true,
+                                            "text": "Je ressens le besoin de vomir après les repas.",
+                                            "id": "523898209"
+                                        }
+                                    ],
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Toujours",
+                                            "id": "523898008",
+                                            "is_na": false,
+                                            "weight": 1,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Très Souvent",
+                                            "id": "523898009",
+                                            "is_na": false,
+                                            "weight": 2,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Souvent",
+                                            "id": "523898019",
+                                            "is_na": false,
+                                            "weight": 3,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Parfois",
+                                            "id": "523898020",
+                                            "is_na": false,
+                                            "weight": 4,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Rarement",
+                                            "id": "523898031",
+                                            "is_na": false,
+                                            "weight": 5,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 6,
+                                            "visible": true,
+                                            "text": "Jamais",
+                                            "id": "523898032",
+                                            "is_na": false,
+                                            "weight": 6,
+                                            "description": ""
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "production": {
+            "en": {
+                "title": "Reassessment - Eating Disorder - EN",
+                "nickname": "",
+                "language": "en",
+                "folder_id": "0",
+                "category": "customer_feedback",
+                "question_count": 1,
+                "page_count": 1,
+                "response_count": 0,
+                "date_created": "2022-10-06T12:02:00",
+                "date_modified": "2022-10-06T12:08:00",
+                "id": "190307877",
+                "buttons_text": {
+                    "next_button": "Next",
+                    "prev_button": "Prev",
+                    "done_button": "Done",
+                    "exit_button": ""
+                },
+                "is_owner": true,
+                "footer": false,
+                "theme_id": "9831075",
+                "custom_variables": {},
+                "href": "https://api.surveymonkey.ca/v3/surveys/190307877",
+                "analyze_url": "https://www.surveymonkey.com/analyze/X1viY6g4ifgLqR4rPF1APPh4_2FRLQFXHaTJGTNaZzevU_3D",
+                "edit_url": "https://www.surveymonkey.com/create/?sm=X1viY6g4ifgLqR4rPF1APPh4_2FRLQFXHaTJGTNaZzevU_3D",
+                "collect_url": "https://www.surveymonkey.com/collect/list?sm=X1viY6g4ifgLqR4rPF1APPh4_2FRLQFXHaTJGTNaZzevU_3D",
+                "summary_url": "https://www.surveymonkey.com/summary/X1viY6g4ifgLqR4rPF1APPh4_2FRLQFXHaTJGTNaZzevU_3D",
+                "preview": "https://www.surveymonkey.com/r/Preview/?sm=zcMWvQHbCYJI_2BKoBOHCCPb0BOXIERTv4lUonvRuu5Y_2FOEoQWTG4201kxdeis0_2FKC",
+                "pages": [
+                    {
+                        "title": "",
+                        "description": "",
+                        "position": 1,
+                        "question_count": 1,
+                        "id": "25949628",
+                        "href": "https://api.surveymonkey.ca/v3/surveys/190307877/pages/25949628",
+                        "questions": [
+                            {
+                                "id": "64091360",
+                                "position": 1,
+                                "visible": true,
+                                "family": "matrix",
+                                "subtype": "rating",
+                                "layout": null,
+                                "sorting": null,
+                                "required": {
+                                    "text": "This question requires an answer.",
+                                    "type": "all",
+                                    "amount": "0"
+                                },
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Please select a response for each of the following statements:"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307877/pages/25949628/questions/64091360",
+                                "answers": {
+                                    "rows": [
+                                        {
+                                            "field": "q1",
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Am terrified about being overweight.",
+                                            "id": "525718096"
+                                        },
+                                        {
+                                            "field": "q2",
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Avoid eating when I am hungry.",
+                                            "id": "525718097"
+                                        },
+                                        {
+                                            "field": "q3",
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Find myself preoccupied with food.",
+                                            "id": "525718100"
+                                        },
+                                        {
+                                            "field": "q4",
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Have gone on eating binges where I feel that I may not be able to stop.",
+                                            "id": "525718101"
+                                        },
+                                        {
+                                            "field": "q5",
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Cut my food into small pieces.",
+                                            "id": "525718102"
+                                        },
+                                        {
+                                            "field": "q6",
+                                            "position": 6,
+                                            "visible": true,
+                                            "text": "Aware of the calorie content of foods that I eat.",
+                                            "id": "525718103"
+                                        },
+                                        {
+                                            "field": "q7",
+                                            "position": 7,
+                                            "visible": true,
+                                            "text": "Particularly avoid food with a high carbohydrate content (i.e. bread, rice, potatoes, etc.)",
+                                            "id": "525718106"
+                                        },
+                                        {
+                                            "field": "q8",
+                                            "position": 8,
+                                            "visible": true,
+                                            "text": "Feel that others would prefer if I ate more.",
+                                            "id": "525718107"
+                                        },
+                                        {
+                                            "field": "q9",
+                                            "position": 9,
+                                            "visible": true,
+                                            "text": "Vomit after I have eaten.",
+                                            "id": "525718108"
+                                        },
+                                        {
+                                            "field": "q10",
+                                            "position": 10,
+                                            "visible": true,
+                                            "text": "Feel extremely guilty after eating.",
+                                            "id": "525718111"
+                                        },
+                                        {
+                                            "field": "q11",
+                                            "position": 11,
+                                            "visible": true,
+                                            "text": "Am preoccupied with a desire to be thinner.",
+                                            "id": "525718112"
+                                        },
+                                        {
+                                            "field": "q12",
+                                            "position": 12,
+                                            "visible": true,
+                                            "text": "Think about burning up calories when I exercise.",
+                                            "id": "525718113"
+                                        },
+                                        {
+                                            "field": "q13",
+                                            "position": 13,
+                                            "visible": true,
+                                            "text": "Other people think that I am too thin.",
+                                            "id": "525718114"
+                                        },
+                                        {
+                                            "field": "q14",
+                                            "position": 14,
+                                            "visible": true,
+                                            "text": "Am preoccupied with the thought of having fat on my body",
+                                            "id": "525718115"
+                                        },
+                                        {
+                                            "field": "q15",
+                                            "position": 15,
+                                            "visible": true,
+                                            "text": "Take longer than others to eat my meals.",
+                                            "id": "525718116"
+                                        },
+                                        {
+                                            "field": "q16",
+                                            "position": 16,
+                                            "visible": true,
+                                            "text": "Avoid foods with sugar in them.",
+                                            "id": "525718117"
+                                        },
+                                        {
+                                            "field": "q17",
+                                            "position": 17,
+                                            "visible": true,
+                                            "text": "Eat diet foods.",
+                                            "id": "525718118"
+                                        },
+                                        {
+                                            "field": "q18",
+                                            "position": 18,
+                                            "visible": true,
+                                            "text": "Feel that food controls my life.",
+                                            "id": "525718119"
+                                        },
+                                        {
+                                            "field": "q19",
+                                            "position": 19,
+                                            "visible": true,
+                                            "text": "Display self-control around food.",
+                                            "id": "525718120"
+                                        },
+                                        {
+                                            "field": "q20",
+                                            "position": 20,
+                                            "visible": true,
+                                            "text": "Feel that others pressure me to eat.",
+                                            "id": "525718123"
+                                        },
+                                        {
+                                            "field": "q21",
+                                            "position": 21,
+                                            "visible": true,
+                                            "text": "Give too much time and thought to food.",
+                                            "id": "525718124"
+                                        },
+                                        {
+                                            "field": "q22",
+                                            "position": 22,
+                                            "visible": true,
+                                            "text": "Feel uncomfortable after eating sweets.",
+                                            "id": "525718125"
+                                        },
+                                        {
+                                            "field": "q23",
+                                            "position": 23,
+                                            "visible": true,
+                                            "text": "Engage in dieting behavior.",
+                                            "id": "525718126"
+                                        },
+                                        {
+                                            "field": "q24",
+                                            "position": 24,
+                                            "visible": true,
+                                            "text": "Like my stomach to be empty.",
+                                            "id": "525718127"
+                                        },
+                                        {
+                                            "field": "q25",
+                                            "position": 25,
+                                            "visible": true,
+                                            "text": "Have the impulse to vomit after meals.",
+                                            "id": "525718128"
+                                        },
+                                        {
+                                            "field": "q26",
+                                            "position": 26,
+                                            "visible": true,
+                                            "text": "Enjoy trying new rich foods.",
+                                            "id": "525718129"
+                                        }
+                                    ],
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Always",
+                                            "id": "525718098",
+                                            "is_na": false,
+                                            "weight": 1,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Usually",
+                                            "id": "525718099",
+                                            "is_na": false,
+                                            "weight": 2,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Often",
+                                            "id": "525718109",
+                                            "is_na": false,
+                                            "weight": 3,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Sometimes",
+                                            "id": "525718110",
+                                            "is_na": false,
+                                            "weight": 4,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Rarely",
+                                            "id": "525718121",
+                                            "is_na": false,
+                                            "weight": 5,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 6,
+                                            "visible": true,
+                                            "text": "Never",
+                                            "id": "525718122",
+                                            "is_na": false,
+                                            "weight": 6,
+                                            "description": ""
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "fr": {
+                "title": "Reassessment - Eating Disorder - FR",
+                "nickname": "",
+                "language": "en",
+                "folder_id": "0",
+                "category": "customer_feedback",
+                "question_count": 1,
+                "page_count": 1,
+                "response_count": 0,
+                "date_created": "2022-10-06T12:02:00",
+                "date_modified": "2022-10-06T12:08:00",
+                "id": "190307878",
+                "buttons_text": {
+                    "next_button": "Next",
+                    "prev_button": "Prev",
+                    "done_button": "Done",
+                    "exit_button": ""
+                },
+                "is_owner": true,
+                "footer": false,
+                "theme_id": "9831075",
+                "custom_variables": {},
+                "href": "https://api.surveymonkey.ca/v3/surveys/190307878",
+                "analyze_url": "https://www.surveymonkey.com/analyze/X1viY6g4ifgLqR4rPF1APPX0VEMjdxJ8t28sC7tJ7Nw_3D",
+                "edit_url": "https://www.surveymonkey.com/create/?sm=X1viY6g4ifgLqR4rPF1APPX0VEMjdxJ8t28sC7tJ7Nw_3D",
+                "collect_url": "https://www.surveymonkey.com/collect/list?sm=X1viY6g4ifgLqR4rPF1APPX0VEMjdxJ8t28sC7tJ7Nw_3D",
+                "summary_url": "https://www.surveymonkey.com/summary/X1viY6g4ifgLqR4rPF1APPX0VEMjdxJ8t28sC7tJ7Nw_3D",
+                "preview": "https://www.surveymonkey.com/r/Preview/?sm=r6S1NDSEGyEgG71qD_2BVIh1I9AefESfjPYrSTxO3_2FqirZOMQkVeCB0K7iGckv3xdT",
+                "pages": [
+                    {
+                        "title": "",
+                        "description": "",
+                        "position": 1,
+                        "question_count": 1,
+                        "id": "25949629",
+                        "href": "https://api.surveymonkey.ca/v3/surveys/190307878/pages/25949629",
+                        "questions": [
+                            {
+                                "id": "64091361",
+                                "position": 1,
+                                "visible": true,
+                                "family": "matrix",
+                                "subtype": "rating",
+                                "layout": null,
+                                "sorting": null,
+                                "required": {
+                                    "text": "This question requires an answer.",
+                                    "type": "all",
+                                    "amount": "0"
+                                },
+                                "validation": null,
+                                "forced_ranking": false,
+                                "headings": [
+                                    {
+                                        "heading": "Veuillez sélectionner une réponse pour chacun des énoncés suivants :"
+                                    }
+                                ],
+                                "href": "https://api.surveymonkey.ca/v3/surveys/190307878/pages/25949629/questions/64091361",
+                                "answers": {
+                                    "rows": [
+                                        {
+                                            "field": "q1",
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Je suis terrifié(e) à la pensée d'être trop gros(se).",
+                                            "id": "525718130"
+                                        },
+                                        {
+                                            "field": "q2",
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "J'évite de manger quand j'ai faim.",
+                                            "id": "525718131"
+                                        },
+                                        {
+                                            "field": "q3",
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Je suis trop soucieux(se) de la nourriture.",
+                                            "id": "525718134"
+                                        },
+                                        {
+                                            "field": "q4",
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "J'ai eu des épisodes de gloutonnerie durant lesquels je me sentais incapable d'arrêter de manger.",
+                                            "id": "525718135"
+                                        },
+                                        {
+                                            "field": "q5",
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Je découpe mes aliments en petits morceaux.",
+                                            "id": "525718136"
+                                        },
+                                        {
+                                            "field": "q6",
+                                            "position": 6,
+                                            "visible": true,
+                                            "text": "Quand je mange, j'ai conscience de la valeur calorique des aliments.",
+                                            "id": "525718137"
+                                        },
+                                        {
+                                            "field": "q7",
+                                            "position": 7,
+                                            "visible": true,
+                                            "text": "J'évite spécialement les aliments riches en hydrates de carbone (pain, pommes de terre, riz).",
+                                            "id": "525718140"
+                                        },
+                                        {
+                                            "field": "q8",
+                                            "position": 8,
+                                            "visible": true,
+                                            "text": "Je sens que les autres aimeraient que je mange davantage.",
+                                            "id": "525718141"
+                                        },
+                                        {
+                                            "field": "q9",
+                                            "position": 9,
+                                            "visible": true,
+                                            "text": "Je vomis après avoir mangé.",
+                                            "id": "525718142"
+                                        },
+                                        {
+                                            "field": "q10",
+                                            "position": 10,
+                                            "visible": true,
+                                            "text": "Je me sens très coupable après avoir mangé.",
+                                            "id": "525718145"
+                                        },
+                                        {
+                                            "field": "q11",
+                                            "position": 11,
+                                            "visible": true,
+                                            "text": "Le désir d'être plus mince me préoccupe.",
+                                            "id": "525718146"
+                                        },
+                                        {
+                                            "field": "q12",
+                                            "position": 12,
+                                            "visible": true,
+                                            "text": "Quand je me dépense physiquement, il me vient à l'idée que je brûle des calories.",
+                                            "id": "525718147"
+                                        },
+                                        {
+                                            "field": "q13",
+                                            "position": 13,
+                                            "visible": true,
+                                            "text": "Les autres pensent que je suis trop mince.",
+                                            "id": "525718148"
+                                        },
+                                        {
+                                            "field": "q14",
+                                            "position": 14,
+                                            "visible": true,
+                                            "text": "Je suis préoccupé(e) par l'idée d'avoir trop de graisse sur le corps.",
+                                            "id": "525718149"
+                                        },
+                                        {
+                                            "field": "q15",
+                                            "position": 15,
+                                            "visible": true,
+                                            "text": "Je prends plus de temps que les autres à prendre mes repas.",
+                                            "id": "525718150"
+                                        },
+                                        {
+                                            "field": "q16",
+                                            "position": 16,
+                                            "visible": true,
+                                            "text": "J'évite de manger des aliments sucrés.",
+                                            "id": "525718151"
+                                        },
+                                        {
+                                            "field": "q17",
+                                            "position": 17,
+                                            "visible": true,
+                                            "text": "Je mange des aliments diététiques.",
+                                            "id": "525718152"
+                                        },
+                                        {
+                                            "field": "q18",
+                                            "position": 18,
+                                            "visible": true,
+                                            "text": "J'ai l'impression que la nourriture domine ma vie.",
+                                            "id": "525718153"
+                                        },
+                                        {
+                                            "field": "q19",
+                                            "position": 19,
+                                            "visible": true,
+                                            "text": "Je parle volontiers de mes capacités à contrôler mon alimentation.",
+                                            "id": "525718154"
+                                        },
+                                        {
+                                            "field": "q20",
+                                            "position": 20,
+                                            "visible": true,
+                                            "text": "Je sens que les autres me poussent à manger.",
+                                            "id": "525718157"
+                                        },
+                                        {
+                                            "field": "q21",
+                                            "position": 21,
+                                            "visible": true,
+                                            "text": "J'accorde trop de temps et je pense trop à la nourriture.",
+                                            "id": "525718158"
+                                        },
+                                        {
+                                            "field": "q22",
+                                            "position": 22,
+                                            "visible": true,
+                                            "text": "Je me sens mal à l'aise après avoir mangé des sucreries.",
+                                            "id": "525718159"
+                                        },
+                                        {
+                                            "field": "q23",
+                                            "position": 23,
+                                            "visible": true,
+                                            "text": "Je m'oblige à me metttre à la diète.",
+                                            "id": "525718160"
+                                        },
+                                        {
+                                            "field": "q24",
+                                            "position": 24,
+                                            "visible": true,
+                                            "text": "J'aime avoir l'estomac vide.",
+                                            "id": "525718161"
+                                        },
+                                        {
+                                            "field": "q25",
+                                            "position": 25,
+                                            "visible": true,
+                                            "text": "J'aime essayer des aliments nouveaux et riches.",
+                                            "id": "525718162"
+                                        },
+                                        {
+                                            "field": "q26",
+                                            "position": 26,
+                                            "visible": true,
+                                            "text": "Je ressens le besoin de vomir après les repas.",
+                                            "id": "525718163"
+                                        }
+                                    ],
+                                    "choices": [
+                                        {
+                                            "position": 1,
+                                            "visible": true,
+                                            "text": "Toujours",
+                                            "id": "525718132",
+                                            "is_na": false,
+                                            "weight": 1,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 2,
+                                            "visible": true,
+                                            "text": "Très Souvent",
+                                            "id": "525718133",
+                                            "is_na": false,
+                                            "weight": 2,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 3,
+                                            "visible": true,
+                                            "text": "Souvent",
+                                            "id": "525718143",
+                                            "is_na": false,
+                                            "weight": 3,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 4,
+                                            "visible": true,
+                                            "text": "Parfois",
+                                            "id": "525718144",
+                                            "is_na": false,
+                                            "weight": 4,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 5,
+                                            "visible": true,
+                                            "text": "Rarement",
+                                            "id": "525718155",
+                                            "is_na": false,
+                                            "weight": 5,
+                                            "description": ""
+                                        },
+                                        {
+                                            "position": 6,
+                                            "visible": true,
+                                            "text": "Jamais",
+                                            "id": "525718156",
+                                            "is_na": false,
+                                            "weight": 6,
+                                            "description": ""
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+     }
+ }

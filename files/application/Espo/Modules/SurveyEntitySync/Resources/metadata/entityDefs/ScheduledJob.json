@@ -1,0 +1,5 @@
+{
+    "jobSchedulingMap": {
+        "RiskFactorSurveyMonkeySyncJob": "*/10 * * * *"
+    }
+}
