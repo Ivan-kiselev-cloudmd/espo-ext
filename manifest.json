@@ -1,6 +1,6 @@
 {
     "name": "Survey monkey sync",
-    "version": "1.5.0",
+    "version": "1.7.0",
     "acceptableVersions": [
         ">=6.0.6"
     ],
