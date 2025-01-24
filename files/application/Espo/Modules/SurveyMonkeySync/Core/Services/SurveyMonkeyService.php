@@ -43,6 +43,22 @@ class SurveyMonkeyService
     }
 
     /**
+     * @param $surveyId
+     * @param array $additionalData
+     * @return array|false|mixed
+     * @throws \Espo\Core\Exceptions\Error
+     */
+    public function createSurveyCollector($surveyId, $additionalData = [])
+    {
+        $client = $this->getClient();
+        $response = $client->createCollectorForSurvey($surveyId,array_merge($additionalData,[
+            'type' => 'weblink'
+        ]));
+
+        return $response->getData();
+    }
+
+    /**
      * @return \Spliced\SurveyMonkey\Client
      * @throws \Espo\Core\Exceptions\Error
      */
