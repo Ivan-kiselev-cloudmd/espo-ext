@@ -3,7 +3,7 @@
  * This file is part of EspoCRM.
  *
  * EspoCRM - Open Source CRM application.
- * Copyright (C) 2014-2021 Yurii Kuznietsov, Taras Machyshyn, Oleksii Avramenko
+ * Copyright (C) 2014-2022 Yurii Kuznietsov, Taras Machyshyn, Oleksii Avramenko
  * Website: https://www.espocrm.com
  *
  * EspoCRM is free software: you can redistribute it and/or modify
@@ -29,127 +29,228 @@
 
 namespace Espo\Core\Utils;
 
+use Espo\Core\{
+    Api\Response,
+    Api\ResponseWrapper,
+    Utils\File\Manager as FileManager,
+    Utils\Client\DevModeJsFileListProvider,
+    Utils\Module,
+    Utils\Json
+};
+
+use Slim\Psr7\Response as Psr7Response;
+use Slim\ResponseEmitter;
+
 /**
  * Renders the main HTML page.
  */
 class ClientManager
 {
-    private $themeManager;
+    protected string $mainHtmlFilePath = 'html/main.html';
 
-    private $config;
+    protected string $runScript = "app.start();";
 
-    private $metadata;
+    private string $basePath = '';
 
-    protected $mainHtmlFilePath = 'html/main.html';
+    private string $libsConfigPath = 'client/cfg/libs.json';
 
-    protected $runScript = "app.start();";
+    private Config $config;
 
-    protected $basePath = '';
+    private ThemeManager $themeManager;
 
-    public function __construct(Config $config, ThemeManager $themeManager, Metadata $metadata)
-    {
+    private Metadata $metadata;
+
+    private FileManager $fileManager;
+
+    private DevModeJsFileListProvider $devModeJsFileListProvider;
+
+    private Module $module;
+
+    private string $nonce;
+
+    private const APP_DESCRIPTION = "EspoCRM - Open Source CRM application.";
+
+    public function __construct(
+        Config $config,
+        ThemeManager $themeManager,
+        Metadata $metadata,
+        FileManager $fileManager,
+        DevModeJsFileListProvider $devModeJsFileListProvider,
+        Module $module
+    ) {
         $this->config = $config;
         $this->themeManager = $themeManager;
         $this->metadata = $metadata;
+        $this->fileManager = $fileManager;
+        $this->devModeJsFileListProvider = $devModeJsFileListProvider;
+        $this->module = $module;
+
+        $this->nonce = Util::generateKey();
     }
 
-    protected function getThemeManager()
-    {
-        return $this->themeManager;
-    }
-
-    protected function getConfig()
-    {
-        return $this->config;
-    }
-
-    protected function getMetadata()
-    {
-        return $this->metadata;
-    }
-
-    public function setBasePath($basePath)
+    public function setBasePath(string $basePath): void
     {
         $this->basePath = $basePath;
     }
 
-    public function getBasePath()
+    public function getBasePath(): string
     {
         return $this->basePath;
     }
 
-    protected function getCacheTimestamp()
+    protected function getCacheTimestamp(): int
     {
-        if (!$this->getConfig()->get('useCache')) {
-            return (string) time();
+        if (!$this->config->get('useCache')) {
+            return time();
         }
-        return $this->getConfig()->get('cacheTimestamp', 0);
+
+        return $this->config->get('cacheTimestamp', 0);
     }
 
-    public function display($runScript = null, $htmlFilePath = null, $vars = [])
+    /**
+     * @todo Move to a separate class.
+     */
+    public function writeHeaders(Response $response): void
+    {
+        if ($this->config->get('clientSecurityHeadersDisabled')) {
+            return;
+        }
+
+        $response->setHeader('X-Frame-Options', 'SAMEORIGIN');
+        $response->setHeader('X-Content-Type-Options', 'nosniff');
+
+        $this->writeContentSecurityPolicyHeader($response);
+        $this->writeStrictTransportSecurityHeader($response);
+    }
+
+    private function writeContentSecurityPolicyHeader(Response $response): void
+    {
+        if ($this->config->get('clientCspDisabled')) {
+            return;
+        }
+
+        $scriptSrc = "script-src 'self' 'nonce-{$this->nonce}' 'unsafe-eval'";
+
+        $scriptSourceList = $this->config->get('clientCspScriptSourceList') ?? [];
+
+        foreach ($scriptSourceList as $src) {
+            $scriptSrc .= ' ' . $src;
+        }
+
+        $response->setHeader('Content-Security-Policy', $scriptSrc);
+    }
+
+    private function writeStrictTransportSecurityHeader(Response $response): void
+    {
+        $siteUrl = $this->config->get('siteUrl') ?? '';
+
+        if (strpos($siteUrl, 'https://') === 0) {
+            $response->setHeader('Strict-Transport-Security', 'max-age=10368000');
+        }
+    }
+
+    /**
+     * @param array<string,mixed> $vars
+     */
+    public function display(?string $runScript = null, ?string $htmlFilePath = null, array $vars = []): void
+    {
+        $body = $this->render($runScript, $htmlFilePath, $vars);
+
+        $response = new ResponseWrapper(new Psr7Response());
+
+        $this->writeHeaders($response);
+        $response->writeBody($body);
+
+        (new ResponseEmitter())->emit($response->getResponse());
+    }
+
+    /**
+     * @param array<string,mixed> $vars
+     */
+    public function render(?string $runScript = null, ?string $htmlFilePath = null, array $vars = []): string
     {
         if (is_null($runScript)) {
             $runScript = $this->runScript;
         }
+
         if (is_null($htmlFilePath)) {
             $htmlFilePath = $this->mainHtmlFilePath;
         }
 
-        $isDeveloperMode = $this->getConfig()->get('isDeveloperMode');
-
         $cacheTimestamp = $this->getCacheTimestamp();
+        $jsFileList = $this->getJsFileList();
 
-        if ($isDeveloperMode) {
-            $useCache = $this->getConfig()->get('useCacheInDeveloperMode');
-            $jsFileList = $this->getMetadata()->get(['app', 'client', 'developerModeScriptList'], []);
+        if ($this->config->get('isDeveloperMode')) {
+            $useCache = $this->config->get('useCacheInDeveloperMode');
             $loaderCacheTimestamp = 'null';
-        } else {
-            $useCache = $this->getConfig()->get('useCache');
-            $jsFileList = $this->getMetadata()->get(['app', 'client', 'scriptList'], []);
+        }
+        else {
+            $useCache = $this->config->get('useCache');
             $loaderCacheTimestamp = $cacheTimestamp;
         }
 
-        $cssFileList = $this->getMetadata()->get(['app', 'client', 'cssList'], []);
-
-        $linkList = $this->getMetadata()->get(['app', 'client', 'linkList'], []);
+        $cssFileList = $this->metadata->get(['app', 'client', 'cssList'], []);
+        $linkList = $this->metadata->get(['app', 'client', 'linkList'], []);
 
         $scriptsHtml = '';
+
         foreach ($jsFileList as $jsFile) {
             $src = $this->basePath . $jsFile . '?r=' . $cacheTimestamp;
+
             $scriptsHtml .= "\n        " .
                 "<script type=\"text/javascript\" src=\"{$src}\" data-base-path=\"{$this->basePath}\"></script>";
         }
 
         $additionalStyleSheetsHtml = '';
+
         foreach ($cssFileList as $cssFile) {
             $src = $this->basePath . $cssFile . '?r=' . $cacheTimestamp;
+
             $additionalStyleSheetsHtml .= "\n        <link rel=\"stylesheet\" href=\"{$src}\">";
         }
 
         $linksHtml = '';
+
         foreach ($linkList as $item) {
             $href = $this->basePath . $item['href'];
+
             if (empty($item['noTimestamp'])) {
                 $href .= '?r=' . $cacheTimestamp;
             }
+
             $as = $item['as'] ?? '';
             $rel = $item['rel'] ?? '';
             $type = $item['type'] ?? '';
-            $additinalPlaceholder = '';
+            $additionalPlaceholder = '';
+
             if (!empty($item['crossorigin'])) {
-                $additinalPlaceholder .= ' crossorigin';
+                $additionalPlaceholder .= ' crossorigin';
             }
-            $linksHtml .= "\n        <link rel=\"{$rel}\" href=\"{$href}\" as=\"{$as}\" as=\"{$type}\"{$additinalPlaceholder}>";
+
+            $linksHtml .= "\n        " .
+                "<link rel=\"{$rel}\" href=\"{$href}\" as=\"{$as}\" as=\"{$type}\"{$additionalPlaceholder}>";
         }
+
+        $favicon196Path = $this->metadata->get(['app', 'client', 'favicon196']) ??
+            'client/img/favicon196x196.png';
+
+        $faviconPath = $this->metadata->get(['app', 'client', 'favicon']) ?? 'client/img/favicon.ico';
+
+        $internalModuleList = array_map(
+            function (string $moduleName): string {
+                return Util::fromCamelCase($moduleName, '-');
+            },
+            $this->module->getInternalList()
+        );
 
         $this->sessInit();
         $data = [
             'applicationId' => 'espocrm-application-id',
             'apiUrl' => 'api/v1',
-            'applicationName' => $this->getConfig()->get('applicationName', 'EspoCRM'),
+            'applicationName' => $this->config->get('applicationName', 'EspoCRM'),
             'cacheTimestamp' => $cacheTimestamp,
             'loaderCacheTimestamp' => $loaderCacheTimestamp,
-            'stylesheet' => $this->getThemeManager()->getStylesheet(),
+            'stylesheet' => $this->themeManager->getStylesheet(),
             'runScript' => $runScript,
             'basePath' => $this->basePath,
             'csrfToken' => $_SESSION['csrf_token'],
@@ -158,23 +259,30 @@ class ClientManager
             'scriptsHtml' => $scriptsHtml,
             'additionalStyleSheetsHtml' => $additionalStyleSheetsHtml,
             'linksHtml' => $linksHtml,
-            'favicon196Path' => $this->getMetadata()->get(['app', 'client', 'favicon196']) ?? 'client/img/favicon196x196.png',
-            'faviconPath' => $this->getMetadata()->get(['app', 'client', 'favicon']) ?? 'client/img/favicon.ico',
-            'ajaxTimeout' => $this->getConfig()->get('ajaxTimeout') ?? 60000,
+            'favicon196Path' => $favicon196Path,
+            'faviconPath' => $faviconPath,
+            'ajaxTimeout' => $this->config->get('ajaxTimeout') ?? 60000,
+            'libsConfigPath' => $this->libsConfigPath,
+            'internalModuleList' => Json::encode($internalModuleList),
+            'applicationDescription' => $this->config->get('applicationDescription') ?? self::APP_DESCRIPTION,
+            'nonce' => $this->nonce,
         ];
 
-        $html = file_get_contents($htmlFilePath);
+        $html = $this->fileManager->getContents($htmlFilePath);
 
         foreach ($vars as $key => $value) {
             $html = str_replace('{{'.$key.'}}', $value, $html);
         }
 
         foreach ($data as $key => $value) {
-            if (array_key_exists($key, $vars)) continue;
+            if (array_key_exists($key, $vars)) {
+                continue;
+            }
+
             $html = str_replace('{{'.$key.'}}', $value, $html);
         }
 
-        echo $html;
+        return $html;
     }
 
     /**
@@ -209,4 +317,26 @@ class ClientManager
         }
     }
 
+    /**
+     * @return string[]
+     */
+    private function getJsFileList(): array
+    {
+        if ($this->config->get('isDeveloperMode')) {
+            return array_merge(
+                $this->getDeveloperModeBundleLibFileList(),
+                $this->metadata->get(['app', 'client', 'developerModeScriptList']) ?? [],
+            );
+        }
+
+        return $this->metadata->get(['app', 'client', 'scriptList']) ?? [];
+    }
+
+    /**
+     * @return string[]
+     */
+    private function getDeveloperModeBundleLibFileList(): array
+    {
+        return $this->devModeJsFileListProvider->get();
+    }
 }

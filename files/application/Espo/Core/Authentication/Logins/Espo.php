@@ -3,7 +3,7 @@
  * This file is part of EspoCRM.
  *
  * EspoCRM - Open Source CRM application.
- * Copyright (C) 2014-2021 Yurii Kuznietsov, Taras Machyshyn, Oleksii Avramenko
+ * Copyright (C) 2014-2022 Yurii Kuznietsov, Taras Machyshyn, Oleksii Avramenko
  * Website: https://www.espocrm.com
  *
  * EspoCRM is free software: you can redistribute it and/or modify
@@ -27,31 +27,45 @@
  * these Appropriate Legal Notices must retain the display of the "EspoCRM" word.
  ************************************************************************/
 
-namespace Espo\Core\Authentication\Login;
+namespace Espo\Core\Authentication\Logins;
 
 use Espo\Core\{
-    ORM\EntityManager,
     Api\Request,
     Utils\PasswordHash,
+    Authentication\Login,
+    Authentication\Login\Data,
     Authentication\Result,
-    Authentication\AuthToken\AuthToken,
+    Authentication\Helper\UserFinder,
+    Authentication\Result\FailReason
 };
+
+use RuntimeException;
 
 class Espo implements Login
 {
-    protected $entityManager;
-    protected $passwordHash;
+    public const NAME = 'Espo';
 
-    public function __construct(EntityManager $entityManager, PasswordHash $passwordHash)
+    private UserFinder $userFinder;
+    private PasswordHash $passwordHash;
+
+    public function __construct(UserFinder $userFinder, PasswordHash $passwordHash)
     {
-        $this->entityManager = $entityManager;
+        $this->userFinder = $userFinder;
         $this->passwordHash = $passwordHash;
     }
 
-    public function login(?string $username, ?string $password, ?AuthToken $authToken = null, ?Request $request = null) : Result
+    public function login(Data $data, Request $request): Result
     {
+        $username = $data->getUsername();
+        $password = $data->getPassword();
+        $authToken = $data->getAuthToken();
+
+        if (!$username) {
+            return Result::fail(FailReason::NO_USERNAME);
+        }
+
         if (!$password) {
-            return Result::fail('Empty password');
+            return Result::fail(FailReason::NO_PASSWORD);
         }
 
         if ($authToken) {
@@ -68,22 +82,18 @@ class Espo implements Login
             $hash = $this->passwordHash->hash($password);
         }
 
-        $user = $this->entityManager->getRepository('User')
-            ->where([
-                'userName' => $username,
-                'password' => $hash,
-                'type!=' => ['api', 'system'],
-            ])
-            ->findOne();
-
-        if (!$user) {
-            return Result::fail();
+        if (!$hash) {
+            throw new RuntimeException("No hash.");
         }
 
-        if ($authToken) {
-            if ($user->id !== $authToken->getUserId()) {
-                return Result::fail('User and token mismatch');
-            }
+        $user = $this->userFinder->find($username, $hash);
+
+        if (!$user) {
+            return Result::fail(FailReason::WRONG_CREDENTIALS);
+        }
+
+        if ($authToken && $user->getId() !== $authToken->getUserId()) {
+            return Result::fail(FailReason::USER_TOKEN_MISMATCH);
         }
 
         return Result::success($user);
