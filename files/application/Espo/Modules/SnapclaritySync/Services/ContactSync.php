@@ -128,8 +128,6 @@ class ContactSync extends \Espo\Core\Templates\Services\Base
     {
         $this->syncLastMinutes = !empty($additionalParameters) && property_exists($additionalParameters, 'syncLastMinutes') ? $additionalParameters->syncLastMinutes + 3 : 10;
         $this->reportEmails = !empty($additionalParameters) && property_exists($additionalParameters, 'reportEmails') ? $additionalParameters->reportEmails : [];
-        $limit = 100;
-        $skip = 0;
         $syncLastMinutes = $this->syncLastMinutes;
         $this->startDate = Carbon::now();
         $lastSinceDate = $this->startDate->subMinutes($syncLastMinutes)->format('Y-m-d\TH:i:s.v') . 'Z';
@@ -137,6 +135,8 @@ class ContactSync extends \Espo\Core\Templates\Services\Base
 
         foreach($organizationsId as $organizationId) {
             $existContacts = true;
+            $limit = 100;
+            $skip = 0;
             while ($existContacts) {
                 $this->uniqueId = uniqid('REQUEST_');
                 $requestData = [
