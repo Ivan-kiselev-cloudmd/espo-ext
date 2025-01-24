@@ -1,0 +1,29 @@
+{
+    "fields": {
+        "isProduction": {
+            "type": "bool"
+        },
+        "organizationsId": {
+            "type": "multiEnum",
+            "required": true
+        },
+        "apiKey": {
+            "type": "varchar",
+            "required": true
+        },
+        "apiUrl": {
+            "type": "varchar",
+            "required": true
+        },
+        "syncLastMinutes": {
+            "type": "float",
+            "required": false
+        },
+        "reportEmails": {
+            "type": "multiEnum",
+            "required": false
+        }
+    },
+    "allowUserAccounts": true,
+    "view": "views/admin/integrations/edit"
+}

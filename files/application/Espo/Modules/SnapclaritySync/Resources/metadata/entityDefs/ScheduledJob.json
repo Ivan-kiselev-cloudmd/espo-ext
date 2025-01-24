@@ -1,0 +1,5 @@
+{
+    "jobSchedulingMap": {
+        "SyncContactWithRelateEntitiesFromAPI": "*/10 * * * *"
+    }
+}

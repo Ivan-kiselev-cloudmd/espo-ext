@@ -1,0 +1,23 @@
+{
+  "SnapclarityGateway": {
+    "className": "Espo\\Modules\\SnapclaritySync\\Core\\Gateways\\SnapclarityGateway"
+  },
+  "ContactImportService": {
+    "className": "Espo\\Modules\\SnapclaritySync\\Core\\Services\\ContactImportService"
+  },
+  "BaseImportService": {
+    "className": "Espo\\Modules\\SnapclaritySync\\Core\\Services\\BaseImportService"
+  },
+  "CheckpointsImportService": {
+    "className": "Espo\\Modules\\SnapclaritySync\\Core\\Services\\CheckpointsImportService"
+  },
+  "AssessmentScoreImportService": {
+    "className": "Espo\\Modules\\SnapclaritySync\\Core\\Services\\AssessmentScoreImportService"
+  },
+  "TargetedAssessmentImportService": {
+    "className": "Espo\\Modules\\SnapclaritySync\\Core\\Services\\TargetedAssessmentImportService"
+  },
+  "ErrorReport": {
+    "className": "Espo\\Modules\\SnapclaritySync\\Core\\Report\\ErrorReport"
+  }
+}
