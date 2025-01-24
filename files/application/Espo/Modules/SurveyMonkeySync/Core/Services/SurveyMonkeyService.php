@@ -55,6 +55,15 @@ class SurveyMonkeyService
             'type' => 'weblink'
         ]));
 
+        $GLOBALS['log']->info("Response Survey monkey [${$surveyId}]",[
+            'surveyId' => $surveyId,
+            'additionalData' => $additionalData,
+            'is_error' => $response->isError(),
+            'is_success' => $response->isSuccess(),
+            'error' => $response->getError(),
+            'data' => $response->getData() 
+        ]);
+
         return $response->getData();
     }
 
