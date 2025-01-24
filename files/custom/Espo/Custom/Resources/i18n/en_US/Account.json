@@ -15,13 +15,24 @@
         "offices": "Offices",
         "snapclarityOrganizationId": "Snapclarity Organization Id",
         "benefitOptions": "Benefit Options",
-        "eligibilities": "Eligibilities"
+        "eligibilities": "Eligibilities",
+        "companies": "Employers",
+        "employers": "Employers",
+        "status": "Status"
     },
     "links": {
         "eligibility": "Eligibility",
         "benefits": "Benefits",
         "offices": "Offices",
         "benefitOptions": "Benefit Options",
-        "eligibilities": "Eligibilities"
+        "eligibilities": "Eligibilities",
+        "companies": "Employers",
+        "employers": "Employers"
+    },
+    "options": {
+        "status": {
+            "Active": "Active",
+            "Inactive": "Inactive"
+        }
     }
 }

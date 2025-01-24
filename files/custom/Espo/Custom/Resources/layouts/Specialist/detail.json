@@ -6,34 +6,44 @@
                     "name": "name"
                 },
                 {
-                    "name": "type"
+                    "name": "city"
                 },
-                {
-                    "name": "active"
-                },
-                {
-                    "name": "luminoProviderSearch"
-                }
-            ],
-            [
-                false,
-                {
-                    "name": "email"
-                },
-                {
-                    "name": "phone"
-                },
-                {
-                    "name": "fax"
-                }
-            ],
-            [
                 {
                     "name": "provinceMulti"
                 },
                 {
-                    "name": "city"
+                    "name": "clinic"
+                }
+            ],
+            [
+                {
+                    "name": "email"
                 },
+                {
+                    "name": "waitTime"
+                },
+                {
+                    "name": "bio"
+                },
+                {
+                    "name": "slidingScale"
+                }
+            ],
+            [
+                {
+                    "name": "phone"
+                },
+                {
+                    "name": "websiteLink"
+                },
+                {
+                    "name": "visitType"
+                },
+                {
+                    "name": "active"
+                }
+            ],
+            [
                 {
                     "name": "gender"
                 },
@@ -46,27 +56,17 @@
                     "name": "specialty"
                 },
                 {
-                    "name": "medExLink"
-                },
-                {
-                    "name": "bio"
-                },
-                {
-                    "name": "waitTime"
+                    "name": "therapyApproach1"
                 }
             ],
             [
                 {
                     "name": "subspecialty"
-                },
-                {
-                    "name": "therapyApproach1"
-                },
+                }
+            ],
+            [
                 {
                     "name": "notes"
-                },
-                {
-                    "name": "visitType"
                 }
             ]
         ],

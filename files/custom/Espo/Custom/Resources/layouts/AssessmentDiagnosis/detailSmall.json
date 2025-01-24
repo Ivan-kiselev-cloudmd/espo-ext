@@ -1,0 +1,22 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "docid"
+                },
+                {
+                    "name": "refid"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    }
+]

@@ -1,4 +1,4 @@
-{
+﻿{
     "fields": {
         "dob": {
             "notNull": false,
@@ -1021,10 +1021,6 @@
             "isCustom": true,
             "default": "No"
         },
-        "eligibility": {
-            "type": "linkOne",
-            "isCustom": true
-        },
         "clientVisitedCrisisScreenDuringAssessment": {
             "type": "text",
             "rowsMin": 2,
@@ -1200,6 +1196,7 @@
         },
         "statusOf3rdAppointment": {
             "type": "enum",
+	    "dbType": "text",
             "options": [
                 "N/A",
                 "Pending",
@@ -1243,6 +1240,7 @@
         },
         "selectMoreTherapists": {
             "type": "enum",
+	    "dbType": "text",
             "options": [
                 "N/A",
                 "Therapist no longer available",
@@ -1673,6 +1671,7 @@
         },
         "caseType": {
             "type": "enum",
+	    "dbType": "text",
             "options": [
                 "Pre FB case",
                 "Hybrid Case",
@@ -1691,6 +1690,7 @@
         },
         "caseClosedReasons": {
             "type": "enum",
+	    "dbType": "text",
             "options": [
                 "N/A",
                 "Unsubscribed",
@@ -1883,6 +1883,7 @@
         },
         "statusOfAppointment4": {
             "type": "enum",
+	    "dbType": "text",
             "options": [
                 "N/A",
                 "Pending",
@@ -1910,6 +1911,7 @@
         },
         "statusOfAppointment5": {
             "type": "enum",
+	    "dbType": "text",
             "options": [
                 "N/A",
                 "Pending",
@@ -1937,6 +1939,7 @@
         },
         "statusOfAppointment6": {
             "type": "enum",
+	    "dbType": "text",
             "options": [
                 "N/A",
                 "Pending",
@@ -2007,6 +2010,7 @@
         },
         "appointment1RescheduleStatus": {
             "type": "enum",
+	    "dbType": "text",
             "isSorted": true,
             "displayAsLabel": true,
             "options": [
@@ -2024,6 +2028,7 @@
         },
         "appointment2RescheduleStatus": {
             "type": "enum",
+	    "dbType": "text",
             "options": [
                 "N/A",
                 "Coach actioned",
@@ -2041,6 +2046,7 @@
         },
         "appointment3RescheduleStatus": {
             "type": "enum",
+	    "dbType": "text",
             "options": [
                 "N/A",
                 "Coach actioned",
@@ -2058,6 +2064,7 @@
         },
         "appointment4RescheduleStatus": {
             "type": "enum",
+	    "dbType": "text",
             "options": [
                 "N/A",
                 "Coach actioned",
@@ -2075,6 +2082,7 @@
         },
         "appointment5RescheduleStatus": {
             "type": "enum",
+	    "dbType": "text",
             "options": [
                 "N/A",
                 "Coach actioned",
@@ -2092,6 +2100,7 @@
         },
         "appointment6RescheduleStatus": {
             "type": "enum",
+	    "dbType": "text",
             "options": [
                 "N/A",
                 "Coach actioned",
@@ -2126,6 +2135,7 @@
         },
         "originalCaseStatusAtDeletion": {
             "type": "enum",
+	    "dbType": "text",
             "options": [
                 "N/A",
                 "Not Initiated",
@@ -2171,6 +2181,7 @@
         },
         "callThree1No": {
             "type": "enum",
+	    "dbType": "text",
             "options": [
                 "N/A",
                 "Client did not score any identifiable Risk Areas in Assessment",
@@ -2188,6 +2199,7 @@
         },
         "callFour1No": {
             "type": "enum",
+	    "dbType": "text",
             "options": [
                 "N/A",
                 "Client did not score any identifiable Risk Areas in Assessment",
@@ -2205,6 +2217,7 @@
         },
         "callFive1No": {
             "type": "enum",
+	    "dbType": "text",
             "options": [
                 "N/A",
                 "Client did not score any identifiable Risk Areas in Assessment",
@@ -2222,6 +2235,7 @@
         },
         "callSix1No": {
             "type": "enum",
+	    "dbType": "text",
             "options": [
                 "N/A",
                 "Client did not score any identifiable Risk Areas in Assessment",
@@ -2288,6 +2302,7 @@
         },
         "notInterestedInHit": {
             "type": "enum",
+   	    "dbType": "text",
             "options": [
                 "N/A",
                 "Feel they can manage on their own",
@@ -2314,6 +2329,7 @@
         },
         "eap": {
             "type": "enum",
+	    "dbType": "text",
             "options": [
                 "N/A",
                 "Core Benefits",
@@ -2421,6 +2437,7 @@
         },
         "callTwoClientPursuedRecommendedIntervention": {
             "type": "enum",
+	    "dbType": "text",
             "options": [
                 "N/A",
                 "Yes",
@@ -2437,6 +2454,7 @@
         },
         "callThreeClientPursuedRecommendedIntervention": {
             "type": "enum",
+	    "dbType": "text",
             "options": [
                 "N/A",
                 "Yes",
@@ -2453,6 +2471,7 @@
         },
         "callFourClientPursuedRecommendedIntervention": {
             "type": "enum",
+	    "dbType": "text",
             "options": [
                 "N/A",
                 "Yes",
@@ -2469,6 +2488,7 @@
         },
         "callFiveClientPursuedRecommendedIntervention": {
             "type": "enum",
+	    "dbType": "text",
             "options": [
                 "N/A",
                 "Yes",
@@ -2485,6 +2505,7 @@
         },
         "callSixClientPursuedRecommendedIntervention": {
             "type": "enum",
+	    "dbType": "text",
             "options": [
                 "N/A",
                 "Yes",
@@ -2822,6 +2843,155 @@
             "notNull": true,
             "type": "bool",
             "isCustom": true
+        },
+        "engagedInHit": {
+            "type": "enum",
+	    "dbType": "text",
+            "displayAsLabel": true,
+            "setDefaultNull": true,
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "style": {
+                "Yes": "success",
+                "No": "danger"
+            },
+            "isCustom": true
+        },
+        "callOneTrentU": {
+            "type": "enum",
+	    "dbType": "text",
+            "options": [
+                "Active",
+                "Retired",
+                "Pending"
+            ],
+            "style": {
+                "Active": "success",
+                "Retired": "danger",
+                "Pending": "warning"
+            },
+            "displayAsLabel": true,
+            "default": "Pending",
+            "isCustom": true
+        },
+        "requestServiceAs": {
+            "type": "enum",
+	    "dbType": "text",
+            "options": [
+                "N/A",
+                "Employee",
+                "Dependant"
+            ],
+            "style": {
+                "N/A": null,
+                "Employee": null,
+                "Dependant": null
+            },
+            "default": "N/A",
+            "displayAsLabel": true,
+            "isCustom": true
+        },
+        "kiiOrganizationId": {
+            "type": "varchar",
+            "maxLength": 150,
+            "trim": true,
+            "options": [],
+            "isCustom": true
+        },
+        "employer": {
+            "type": "link"
+        },
+        "coachApptType": {
+            "type": "enum",
+	    "dbType": "text",
+            "options": [
+                "Phone",
+                "Video Call"
+            ],
+            "style": {
+                "Phone": "success",
+                "Video Call": "primary"
+            },
+            "displayAsLabel": true,
+            "setDefaultNull": true,
+            "isCustom": true
+        },
+        "coach2ndApptType": {
+            "type": "enum",
+	    "dbType": "text",
+            "options": [
+                "Phone",
+                "Video Call"
+            ],
+            "style": {
+                "Phone": "success",
+                "Video Call": "primary"
+            },
+            "displayAsLabel": true,
+            "setDefaultNull": true,
+            "isCustom": true
+        },
+        "coach3rdApptType": {
+            "type": "enum",
+	    "dbType": "text",
+            "options": [
+                "Phone",
+                "Video Call"
+            ],
+            "style": {
+                "Phone": "success",
+                "Video Call": "primary"
+            },
+            "displayAsLabel": true,
+            "setDefaultNull": true,
+            "isCustom": true
+        },
+        "coachApptType4": {
+            "type": "enum",
+	    "dbType": "text",
+            "displayAsLabel": true,
+            "setDefaultNull": true,
+            "options": [
+                "Phone",
+                "Video Call"
+            ],
+            "style": {
+                "Phone": "success",
+                "Video Call": "primary"
+            },
+            "isCustom": true
+        },
+        "coachApptType5": {
+            "type": "enum",
+	    "dbType": "text",
+            "options": [
+                "Phone",
+                "Video Call"
+            ],
+            "style": {
+                "Phone": "success",
+                "Video Call": "primary"
+            },
+            "displayAsLabel": true,
+            "setDefaultNull": true,
+            "isCustom": true
+        },
+        "coachApptType6": {
+            "type": "enum",
+	    "dbType": "text",
+            "displayAsLabel": true,
+            "setDefaultNull": true,
+            "options": [
+                "Phone",
+                "Video Call"
+            ],
+            "style": {
+                "Phone": "success",
+                "Video Call": "primary"
+            },
+            "isCustom": true
         }
     },
     "links": {
@@ -2862,12 +3032,6 @@
             "entity": "Attachment",
             "skipOrmDefs": true,
             "disabled": true
-        },
-        "eligibility": {
-            "type": "hasOne",
-            "foreign": "contact",
-            "entity": "Eligibility",
-            "isCustom": true
         },
         "teamCommunicationBoards": {
             "type": "hasMany",
@@ -3087,6 +3251,13 @@
             "type": "belongsTo",
             "foreign": "contacts",
             "entity": "BenefitOption",
+            "audited": false,
+            "isCustom": true
+        },
+        "employer": {
+            "type": "belongsTo",
+            "foreign": "contacts",
+            "entity": "Employer",
             "audited": false,
             "isCustom": true
         }

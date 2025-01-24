@@ -8,7 +8,8 @@
         "whatMadeYouEngageInTheService": "What made you engage in the service?",
         "language": "Language",
         "whatMadeYouEngageInTheServiceOther": "WhatMadeYouEngageInTheServiceOther",
-        "contact": "Case"
+        "contact": "Case",
+        "casenum": "Casenum"
     },
     "links": {
         "contact": "Contact"

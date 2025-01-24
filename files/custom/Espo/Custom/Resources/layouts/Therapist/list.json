@@ -1,0 +1,36 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "specialties",
+        "notSortable": true
+    },
+    {
+        "name": "subspecialty"
+    },
+    {
+        "name": "therapyApproachs",
+        "notSortable": true
+    },
+    {
+        "name": "provinceMulti",
+        "notSortable": true
+    },
+    {
+        "name": "addressCity"
+    },
+    {
+        "name": "emailAddress"
+    },
+    {
+        "name": "waitTime"
+    },
+    {
+        "name": "bio"
+    },
+    {
+        "name": "notes"
+    }
+]

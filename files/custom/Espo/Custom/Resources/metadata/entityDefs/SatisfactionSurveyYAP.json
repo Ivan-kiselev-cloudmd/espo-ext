@@ -177,6 +177,14 @@
         },
         "contact": {
             "type": "linkOne"
+        },
+        "casenum": {
+            "readOnly": true,
+            "type": "foreign",
+            "link": "contact",
+            "field": "casenum",
+            "view": "views/fields/foreign-varchar",
+            "isCustom": true
         }
     },
     "links": {

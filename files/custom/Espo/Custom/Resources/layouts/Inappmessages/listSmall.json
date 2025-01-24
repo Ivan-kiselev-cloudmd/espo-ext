@@ -1,0 +1,17 @@
+[
+    {
+        "name": "title"
+    },
+    {
+        "name": "actionUrl"
+    },
+    {
+        "name": "date"
+    },
+    {
+        "name": "dateSeen"
+    },
+    {
+        "name": "dateActioned"
+    }
+]

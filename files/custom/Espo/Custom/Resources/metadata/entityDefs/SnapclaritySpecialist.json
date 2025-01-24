@@ -1,0 +1,394 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "required": true,
+            "trim": true
+        },
+        "description": {
+            "type": "text"
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user"
+        },
+        "modifiedBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user"
+        },
+        "assignedUser": {
+            "type": "link",
+            "required": true,
+            "view": "views/fields/assigned-user"
+        },
+        "teams": {
+            "type": "linkMultiple",
+            "view": "views/fields/teams"
+        },
+        "contacts": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "importDisabled": true,
+            "noLoad": true,
+            "isCustom": true
+        },
+        "therapistID": {
+            "type": "varchar",
+            "maxLength": 150,
+            "trim": true,
+            "options": [],
+            "isCustom": true
+        },
+        "email": {
+            "type": "varchar",
+            "maxLength": 150,
+            "trim": true,
+            "options": [],
+            "isCustom": true
+        },
+        "province": {
+            "type": "enum",
+            "options": [
+                "ON",
+                "AB",
+                "BC",
+                "MB",
+                "NF",
+                "NB",
+                "NS",
+                "NT",
+                "NU",
+                "PE",
+                "QC",
+                "SK",
+                "YT"
+            ],
+            "style": {
+                "ON": null,
+                "AB": null,
+                "BC": null,
+                "MB": null,
+                "NF": null,
+                "NB": null,
+                "NS": null,
+                "NT": null,
+                "NU": null,
+                "PE": null,
+                "QC": null,
+                "SK": null,
+                "YT": null
+            },
+            "default": "ON",
+            "isCustom": true
+        },
+        "credentials": {
+            "type": "varchar",
+            "maxLength": 150,
+            "trim": true,
+            "options": [],
+            "isCustom": true
+        },
+        "licenseNumber": {
+            "type": "int",
+            "isCustom": true
+        },
+        "supervisor": {
+            "type": "varchar",
+            "maxLength": 150,
+            "trim": true,
+            "options": [],
+            "isCustom": true
+        },
+        "active": {
+            "type": "enum",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "style": {
+                "Yes": null,
+                "No": null
+            },
+            "default": "Yes",
+            "isCustom": true
+        },
+        "notes": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "focus": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "bio": {
+            "type": "file",
+            "sourceList": [],
+            "accept": [],
+            "isCustom": true
+        },
+        "therapistCode": {
+            "type": "varchar",
+            "maxLength": 6,
+            "trim": true,
+            "options": [],
+            "isCustom": true
+        },
+        "therapies": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "options": [
+                "CBT - Cognitive Behavioural Therapy – General",
+                "Therapy - Problem-Solving",
+                "CBT - Insomnia",
+                "IPT - Interpersonal Therapy",
+                "MBCT - Mindfulness Based Cognitive Therapy",
+                "Psychodynamic Therapy",
+                "MI - Motivational Interviewing",
+                "Therapy - Marriage and Family",
+                "Twelve-Step Facilitation",
+                "Brief Intervention",
+                "Therapy – Group",
+                "Therapy - Guided",
+                "Therapy - Exposure",
+                "Therapy - Mindfulness Based",
+                "DBT - Dialectical Behavioural Therapy",
+                "DBT - Skills Training – Mindfulness",
+                "DBT - Skills Training – Distress Tolerance",
+                "DBT - Skills Training – Interpersonal Effectiveness",
+                "DBT - Skills Training – Emotion Regulation",
+                "ADHD Coaching",
+                "Biofeedback",
+                "Stress Management",
+                "Basic Sleep Hygiene Strategies",
+                "Sleep Consolidation / Restriction Therapy",
+                "Therapeutic Alliance Building",
+                "Motivational Enhancement Strategies Training",
+                "Psychoeducation – Individual",
+                "Psychoeducation - Family",
+                "Eating Disorder - Family Based Therapy (FBT)",
+                "Trauma-Informed Care",
+                "Stress Management Training",
+                "Relaxation Training (deep breathing, muscle relaxation and exercise)",
+                "Cognitive Restructuring Training",
+                "Rehearsal of Coping Skill Training",
+                "EMDR - Eye Movement Desensitization and Reprocessing ",
+                "Psychoeducation",
+                "Diary monitoring – Symptom Triggers"
+            ],
+            "style": {
+                "CBT - Cognitive Behavioural Therapy – General": null,
+                "Therapy - Problem-Solving": null,
+                "CBT - Insomnia": null,
+                "IPT - Interpersonal Therapy": null,
+                "MBCT - Mindfulness Based Cognitive Therapy": null,
+                "Psychodynamic Therapy": null,
+                "MI - Motivational Interviewing": null,
+                "Therapy - Marriage and Family": null,
+                "Twelve-Step Facilitation": null,
+                "Brief Intervention": null,
+                "Therapy – Group": null,
+                "Therapy - Guided": null,
+                "Therapy - Exposure": null,
+                "Therapy - Mindfulness Based": null,
+                "DBT - Dialectical Behavioural Therapy": null,
+                "DBT - Skills Training – Mindfulness": null,
+                "DBT - Skills Training – Distress Tolerance": null,
+                "DBT - Skills Training – Interpersonal Effectiveness": null,
+                "DBT - Skills Training – Emotion Regulation": null,
+                "ADHD Coaching": null,
+                "Biofeedback": null,
+                "Stress Management": null,
+                "Basic Sleep Hygiene Strategies": null,
+                "Sleep Consolidation / Restriction Therapy": null,
+                "Therapeutic Alliance Building": null,
+                "Motivational Enhancement Strategies Training": null,
+                "Psychoeducation – Individual": null,
+                "Psychoeducation - Family": null,
+                "Eating Disorder - Family Based Therapy (FBT)": null,
+                "Trauma-Informed Care": null,
+                "Stress Management Training": null,
+                "Relaxation Training (deep breathing, muscle relaxation and exercise)": null,
+                "Cognitive Restructuring Training": null,
+                "Rehearsal of Coping Skill Training": null,
+                "EMDR - Eye Movement Desensitization and Reprocessing ": null,
+                "Psychoeducation": null,
+                "Diary monitoring – Symptom Triggers": null
+            },
+            "isSorted": true,
+            "isCustom": true
+        },
+        "focusArea": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "options": [
+                "Depression",
+                "Generalized Anxiety",
+                "Social Anxiety",
+                "Panic",
+                "OCD",
+                "PTSD",
+                "Alcohol Abuse",
+                "Drug Abuse",
+                "Anger",
+                "Substance",
+                "ADHD",
+                "Bipolar",
+                "Sleep Disorder",
+                "CBT",
+                "DBT",
+                "Eating Disorder",
+                "Trauma",
+                "Stress",
+                "Grief Counselling",
+                "Marital Counselling",
+                "Intermittent Explosive Disorder"
+            ],
+            "style": {
+                "Depression": null,
+                "Generalized Anxiety": null,
+                "Social Anxiety": null,
+                "Panic": null,
+                "OCD": null,
+                "PTSD": null,
+                "Alcohol Abuse": null,
+                "Drug Abuse": null,
+                "Anger": null,
+                "Substance": null,
+                "ADHD": null,
+                "Bipolar": null,
+                "Sleep Disorder": null,
+                "CBT": null,
+                "DBT": null,
+                "Eating Disorder": null,
+                "Trauma": null,
+                "Stress": null,
+                "Grief Counselling": null,
+                "Marital Counselling": null,
+                "Intermittent Explosive Disorder": null
+            },
+            "isSorted": true,
+            "isCustom": true
+        },
+        "city": {
+            "type": "varchar",
+            "maxLength": 150,
+            "trim": true,
+            "options": [],
+            "isCustom": true
+        },
+        "visitType": {
+            "type": "enum",
+            "options": [
+                "Virtual",
+                "In Person",
+                "Both",
+                "TBA"
+            ],
+            "style": {
+                "Virtual": null,
+                "In Person": null,
+                "Both": null,
+                "TBA": null
+            },
+            "default": "TBA",
+            "isCustom": true
+        },
+        "gender": {
+            "type": "enum",
+            "displayAsLabel": true,
+            "options": [
+                "N/A",
+                "Male",
+                "Female",
+                "Non-Binary"
+            ],
+            "style": {
+                "N/A": null,
+                "Male": null,
+                "Female": null,
+                "Non-Binary": null
+            },
+            "default": "N/A",
+            "isCustom": true
+        },
+        "language": {
+            "type": "varchar",
+            "maxLength": 150,
+            "trim": true,
+            "options": [],
+            "isCustom": true
+        }
+    },
+    "links": {
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "modifiedBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "assignedUser": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "teams": {
+            "type": "hasMany",
+            "entity": "Team",
+            "relationName": "EntityTeam",
+            "layoutRelationshipsDisabled": true
+        },
+        "contacts": {
+            "type": "hasMany",
+            "relationName": "contactSnapclaritySpecialist",
+            "foreign": "snapclaritySpecialists",
+            "entity": "Contact",
+            "audited": false,
+            "isCustom": true
+        },
+        "bio": {
+            "type": "belongsTo",
+            "entity": "Attachment",
+            "skipOrmDefs": true,
+            "disabled": true
+        }
+    },
+    "collection": {
+        "orderBy": "createdAt",
+        "order": "desc",
+        "textFilterFields": [
+            "name"
+        ],
+        "fullTextSearch": false,
+        "countDisabled": false
+    },
+    "indexes": {
+        "name": {
+            "columns": [
+                "name",
+                "deleted"
+            ]
+        },
+        "assignedUser": {
+            "columns": [
+                "assignedUserId",
+                "deleted"
+            ]
+        }
+    }
+}

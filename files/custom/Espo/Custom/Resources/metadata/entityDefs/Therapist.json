@@ -1,0 +1,366 @@
+{
+    "fields": {
+        "name": {
+            "type": "personName",
+            "isPersonalData": true
+        },
+        "salutationName": {
+            "type": "enum",
+            "options": [
+                "",
+                "Mr.",
+                "Ms.",
+                "Mrs.",
+                "Dr."
+            ]
+        },
+        "firstName": {
+            "type": "varchar",
+            "maxLength": 100,
+            "default": "",
+            "trim": true
+        },
+        "lastName": {
+            "type": "varchar",
+            "maxLength": 100,
+            "required": true,
+            "default": "",
+            "trim": true
+        },
+        "description": {
+            "type": "text"
+        },
+        "emailAddress": {
+            "type": "email",
+            "isPersonalData": true
+        },
+        "phoneNumber": {
+            "type": "phone",
+            "typeList": [
+                "Mobile",
+                "Office",
+                "Home",
+                "Fax",
+                "Other"
+            ],
+            "defaultType": "Mobile",
+            "isPersonalData": true
+        },
+        "address": {
+            "type": "address",
+            "isPersonalData": true
+        },
+        "addressStreet": {
+            "type": "text",
+            "maxLength": 255,
+            "dbType": "varchar"
+        },
+        "addressCity": {
+            "type": "varchar",
+            "trim": true
+        },
+        "addressState": {
+            "type": "varchar",
+            "trim": true
+        },
+        "addressCountry": {
+            "type": "varchar",
+            "trim": true
+        },
+        "addressPostalCode": {
+            "type": "varchar",
+            "trim": true
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user"
+        },
+        "modifiedBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user"
+        },
+        "assignedUser": {
+            "type": "link",
+            "required": false,
+            "view": "views/fields/assigned-user"
+        },
+        "teams": {
+            "type": "linkMultiple",
+            "view": "views/fields/teams"
+        },
+        "langs": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "importDisabled": true,
+            "noLoad": true,
+            "isCustom": true
+        },
+        "specialties": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "importDisabled": true,
+            "noLoad": true,
+            "isCustom": true
+        },
+        "supportGroups": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "importDisabled": true,
+            "noLoad": true,
+            "isCustom": true
+        },
+        "therapyApproachs": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "importDisabled": true,
+            "noLoad": true,
+            "isCustom": true
+        },
+        "active": {
+            "type": "enum",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "style": {
+                "Yes": "success",
+                "No": "danger"
+            },
+            "default": "Yes",
+            "displayAsLabel": true,
+            "isCustom": true
+        },
+        "bio": {
+            "type": "file",
+            "sourceList": [],
+            "accept": [],
+            "isCustom": true
+        },
+        "clinic": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "gender": {
+            "type": "enum",
+            "options": [
+                "Male",
+                "Female",
+                "Non-Binary"
+            ],
+            "style": {
+                "Male": null,
+                "Female": null,
+                "Non-Binary": null
+            },
+            "setDefaultNull": true,
+            "isCustom": true
+        },
+        "language": {
+            "type": "varchar",
+            "maxLength": 150,
+            "trim": true,
+            "options": [],
+            "isCustom": true
+        },
+        "notes": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "provinceMulti": {
+            "type": "multiEnum",
+            "storeArrayValues": true,
+            "options": [
+                "ON",
+                "AB",
+                "BC",
+                "MB",
+                "NF",
+                "NB",
+                "NS",
+                "NT",
+                "NU",
+                "PE",
+                "QC",
+                "SK",
+                "YT"
+            ],
+            "style": {
+                "ON": null,
+                "AB": null,
+                "BC": null,
+                "MB": null,
+                "NF": null,
+                "NB": null,
+                "NS": null,
+                "NT": null,
+                "NU": null,
+                "PE": null,
+                "QC": null,
+                "SK": null,
+                "YT": null
+            },
+            "isCustom": true
+        },
+        "slidingScale": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "subspecialty": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "visitType": {
+            "type": "enum",
+            "options": [
+                "Virtual",
+                "In Person",
+                "Both",
+                "TBA"
+            ],
+            "style": {
+                "Virtual": null,
+                "In Person": null,
+                "Both": null,
+                "TBA": null
+            },
+            "default": "TBA",
+            "isCustom": true
+        },
+        "waitTime": {
+            "type": "varchar",
+            "maxLength": 150,
+            "trim": true,
+            "options": [],
+            "isCustom": true
+        },
+        "websiteLink": {
+            "type": "url",
+            "isCustom": true
+        }
+    },
+    "links": {
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "modifiedBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "assignedUser": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "teams": {
+            "type": "hasMany",
+            "entity": "Team",
+            "relationName": "EntityTeam",
+            "layoutRelationshipsDisabled": true
+        },
+        "meetings": {
+            "type": "hasMany",
+            "entity": "Meeting",
+            "foreign": "parent",
+            "layoutRelationshipsDisabled": true
+        },
+        "calls": {
+            "type": "hasMany",
+            "entity": "Call",
+            "foreign": "parent",
+            "layoutRelationshipsDisabled": true
+        },
+        "tasks": {
+            "type": "hasChildren",
+            "entity": "Task",
+            "foreign": "parent",
+            "layoutRelationshipsDisabled": true
+        },
+        "langs": {
+            "type": "hasMany",
+            "relationName": "langTherapist",
+            "foreign": "therapists",
+            "entity": "Lang",
+            "audited": false,
+            "isCustom": true
+        },
+        "specialties": {
+            "type": "hasMany",
+            "relationName": "specialtyTherapist",
+            "foreign": "therapists",
+            "entity": "Specialty",
+            "audited": false,
+            "isCustom": true
+        },
+        "supportGroups": {
+            "type": "hasMany",
+            "relationName": "supportGroupTherapist",
+            "foreign": "therapists",
+            "entity": "SupportGroup",
+            "audited": false,
+            "isCustom": true
+        },
+        "therapyApproachs": {
+            "type": "hasMany",
+            "relationName": "therapyApproachTherapist",
+            "foreign": "therapists",
+            "entity": "TherapyApproach",
+            "audited": false,
+            "isCustom": true
+        },
+        "bio": {
+            "type": "belongsTo",
+            "entity": "Attachment",
+            "skipOrmDefs": true,
+            "disabled": true
+        }
+    },
+    "collection": {
+        "orderBy": "createdAt",
+        "order": "desc",
+        "textFilterFields": [
+            "name"
+        ],
+        "fullTextSearch": false,
+        "countDisabled": false
+    },
+    "indexes": {
+        "firstName": {
+            "columns": [
+                "firstName",
+                "deleted"
+            ]
+        },
+        "name": {
+            "columns": [
+                "firstName",
+                "lastName"
+            ]
+        },
+        "assignedUser": {
+            "columns": [
+                "assignedUserId",
+                "deleted"
+            ]
+        }
+    }
+}

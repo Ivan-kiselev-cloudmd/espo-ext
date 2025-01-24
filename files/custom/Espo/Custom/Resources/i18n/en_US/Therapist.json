@@ -1,0 +1,65 @@
+{
+    "fields": {
+        "address": "Address",
+        "langs": "Languages",
+        "specialties": "Specialties",
+        "supportGroups": "Support Groups",
+        "therapyApproachs": "Therapy Approaches",
+        "active": "Active",
+        "bio": "Bio",
+        "clinic": "Clinic",
+        "gender": "Gender",
+        "language": "Language comment (old)",
+        "notes": "Notes",
+        "provinceMulti": "Province",
+        "slidingScale": "Sliding Scale",
+        "subspecialty": "Subspecialty",
+        "visitType": "Visit Type",
+        "waitTime": "Wait time",
+        "websiteLink": "Website Link"
+    },
+    "links": {
+        "meetings": "Meetings",
+        "calls": "Calls",
+        "tasks": "Tasks",
+        "langs": "Languages",
+        "specialties": "Specialties",
+        "supportGroups": "Support Groups",
+        "therapyApproachs": "Therapy Approaches"
+    },
+    "labels": {
+        "Create Therapist": "Create Therapist new"
+    },
+    "options": {
+        "active": {
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "gender": {
+            "Male": "Male",
+            "Female": "Female",
+            "Non-Binary": "Non-Binary"
+        },
+        "provinceMulti": {
+            "ON": "ON",
+            "AB": "AB",
+            "BC": "BC",
+            "MB": "MB",
+            "NF": "NF",
+            "NB": "NB",
+            "NS": "NS",
+            "NT": "NT",
+            "NU": "NU",
+            "PE": "PE",
+            "QC": "QC",
+            "SK": "SK",
+            "YT": "YT"
+        },
+        "visitType": {
+            "Virtual": "Virtual",
+            "In Person": "In Person",
+            "Both": "Both",
+            "TBA": "TBA"
+        }
+    }
+}

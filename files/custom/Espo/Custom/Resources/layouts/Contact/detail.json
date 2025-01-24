@@ -8,21 +8,15 @@
                 {
                     "name": "benefits"
                 },
-                false
+                {
+                    "name": "testCase"
+                }
             ],
             [
                 {
-                    "name": "successImprovement"
+                    "name": "employer"
                 },
-                {
-                    "name": "risk1SuccessImprovement"
-                },
-                {
-                    "name": "risk2SuccessImprovement"
-                },
-                {
-                    "name": "reportReassessmentCompleted"
-                }
+                false
             ],
             [
                 {
@@ -51,17 +45,23 @@
                 {
                     "name": "name"
                 },
+                {
+                    "name": "requestServiceAs"
+                },
                 false,
                 {
-                    "name": "originalCaseNumber"
-                },
-                {
-                    "name": "originalCaseStatusAtDeletion"
+                    "name": "callOneTrentU"
                 }
             ],
             [
                 {
                     "name": "stageOfService"
+                },
+                {
+                    "name": "originalCaseNumber"
+                },
+                {
+                    "name": "originalCaseStatusAtDeletion"
                 },
                 {
                     "name": "importantStatus"
@@ -139,6 +139,12 @@
             ],
             [
                 {
+                    "name": "coachApptType"
+                },
+                false
+            ],
+            [
+                {
                     "name": "assessmentFirstAnswerDate"
                 },
                 {
@@ -156,11 +162,6 @@
                     "name": "assessmentReportUrl"
                 },
                 false
-            ],
-            [
-                {
-                    "name": "assessmentScores"
-                }
             ],
             [
                 {
@@ -235,6 +236,11 @@
     },
     {
         "rows": [
+            [
+                {
+                    "name": "assessmentScores"
+                }
+            ],
             [
                 {
                     "name": "targetedAssessments"
@@ -343,6 +349,35 @@
                     "name": "actionPlanSentDate"
                 },
                 false
+            ],
+            [
+                {
+                    "name": "noHit"
+                },
+                {
+                    "name": "notInterestedInHit"
+                }
+            ],
+            [
+                {
+                    "name": "engagedInHit"
+                },
+                {
+                    "name": "therapistApptDate"
+                }
+            ],
+            [
+                {
+                    "name": "clientReferredToEap"
+                },
+                {
+                    "name": "eap"
+                }
+            ],
+            [
+                {
+                    "name": "therapistNote"
+                }
             ]
         ],
         "style": "primary",
@@ -438,6 +473,12 @@
                 {
                     "name": "appointment2RescheduleStatus"
                 }
+            ],
+            [
+                {
+                    "name": "coach2ndApptType"
+                },
+                false
             ],
             [
                 {
@@ -545,6 +586,11 @@
             ],
             [
                 {
+                    "name": "coach3rdApptType"
+                }
+            ],
+            [
+                {
                     "name": "callThree1"
                 },
                 {
@@ -615,9 +661,6 @@
                 {
                     "name": "callThreeClientPursuedRecommendedInterventionYes"
                 }
-            ],
-            [
-                false
             ]
         ],
         "style": "danger",
@@ -649,6 +692,12 @@
                 {
                     "name": "appointment4RescheduleStatus"
                 }
+            ],
+            [
+                {
+                    "name": "coachApptType4"
+                },
+                false
             ],
             [
                 {
@@ -746,6 +795,12 @@
             ],
             [
                 {
+                    "name": "coachApptType5"
+                },
+                false
+            ],
+            [
+                {
                     "name": "callFive1"
                 },
                 {
@@ -837,6 +892,12 @@
                 {
                     "name": "appointment6RescheduleStatus"
                 }
+            ],
+            [
+                {
+                    "name": "coachApptType6"
+                },
+                false
             ],
             [
                 {
@@ -1031,35 +1092,6 @@
                     "name": "personalizedActionPlanSentDate"
                 },
                 false
-            ],
-            [
-                {
-                    "name": "noHit"
-                },
-                {
-                    "name": "notInterestedInHit"
-                }
-            ],
-            [
-                {
-                    "name": "therapistApptCaptured"
-                },
-                {
-                    "name": "therapistApptDate"
-                }
-            ],
-            [
-                {
-                    "name": "clientReferredToEap"
-                },
-                {
-                    "name": "eap"
-                }
-            ],
-            [
-                {
-                    "name": "therapistNote"
-                }
             ]
         ],
         "style": "danger",

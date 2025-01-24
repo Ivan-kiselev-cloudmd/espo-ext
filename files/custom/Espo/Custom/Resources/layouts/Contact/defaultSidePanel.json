@@ -16,5 +16,11 @@
     },
     {
         "name": "specialist"
+    },
+    {
+        "name": "satisfactionSurvey"
+    },
+    {
+        "name": "satisfactionSurveyYAP"
     }
 ]

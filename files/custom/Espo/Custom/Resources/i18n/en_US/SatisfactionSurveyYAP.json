@@ -8,7 +8,8 @@
         "recommendServiceToOthers": "Based on your Mental Health Coach experience, how likely would you be to recommend this service to others?",
         "thoughtsaboutyourexperience": "Any final thoughts you would like to share about your experience?",
         "language": "Language",
-        "contact": "Case"
+        "contact": "Case",
+        "casenum": "Casenum"
     },
     "links": {
         "contact": "Contact"

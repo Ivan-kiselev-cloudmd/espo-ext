@@ -1,0 +1,13 @@
+{
+    "fields": {
+        "specialists": "Specialists",
+        "therapists": "Therapists"
+    },
+    "links": {
+        "specialists": "Specialists",
+        "therapists": "Therapists"
+    },
+    "labels": {
+        "Create Specialty": "Create Specialty"
+    }
+}

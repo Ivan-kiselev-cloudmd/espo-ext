@@ -1,0 +1,38 @@
+[
+    {
+        "name": "campaign"
+    },
+    {
+        "name": "type"
+    },
+    {
+        "name": "title"
+    },
+    {
+        "name": "body"
+    },
+    {
+        "name": "bodyContentType"
+    },
+    {
+        "name": "actionUrl"
+    },
+    {
+        "name": "actionTitle"
+    },
+    {
+        "name": "actionType"
+    },
+    {
+        "name": "date"
+    },
+    {
+        "name": "dateSeen"
+    },
+    {
+        "name": "dateActioned"
+    },
+    {
+        "name": "contact"
+    }
+]

@@ -2,7 +2,8 @@
     "fields": {
         "type": "Type",
         "mapped": "Mapped",
-        "contacts": "Cases"
+        "contacts": "Cases",
+        "meetingType": "Meeting Type"
     },
     "options": {
         "type": {
@@ -17,6 +18,10 @@
         "mapped": {
             "N/A": "N/A",
             "Yes": "Yes"
+        },
+        "meetingType": {
+            "Phone": "Phone",
+            "Video Call": "Video Call"
         }
     }
 }

@@ -15,10 +15,13 @@
     "contacts": {
         "index": 3
     },
-    "eligibilities": {
+    "employers": {
         "index": 4
     },
-    "documents": {
+    "eligibilities": {
         "index": 5
+    },
+    "documents": {
+        "index": 6
     }
 }

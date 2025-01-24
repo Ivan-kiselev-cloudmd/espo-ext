@@ -1,0 +1,73 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "address"
+                },
+                {
+                    "name": "provinceMulti"
+                },
+                {
+                    "name": "clinic"
+                }
+            ],
+            [
+                {
+                    "name": "emailAddress"
+                },
+                {
+                    "name": "waitTime"
+                },
+                {
+                    "name": "bio"
+                },
+                {
+                    "name": "slidingScale"
+                }
+            ],
+            [
+                {
+                    "name": "phoneNumber"
+                },
+                {
+                    "name": "websiteLink"
+                },
+                {
+                    "name": "visitType"
+                },
+                {
+                    "name": "active"
+                }
+            ],
+            [
+                {
+                    "name": "gender"
+                },
+                {
+                    "name": "language"
+                }
+            ],
+            [
+                {
+                    "name": "subspecialty"
+                }
+            ],
+            [
+                {
+                    "name": "notes"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

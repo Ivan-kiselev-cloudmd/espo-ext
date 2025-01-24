@@ -1,0 +1,13 @@
+{
+    "fields": {
+        "contacts": "Contacts",
+        "bio": "Bio",
+        "therapistCode": "Therapist Code"
+    },
+    "links": {
+        "contacts": "Contacts"
+    },
+    "labels": {
+        "Create SpecialistSnapclarity": "Create Snapclarity Therapist"
+    }
+}

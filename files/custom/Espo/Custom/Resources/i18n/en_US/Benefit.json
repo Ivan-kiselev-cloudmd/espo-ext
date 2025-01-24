@@ -2,11 +2,13 @@
     "fields": {
         "accounts": "Accounts",
         "contacts": "Cases",
-        "order": "Order"
+        "order": "Order",
+        "employers": "Employers"
     },
     "links": {
         "accounts": "Accounts",
-        "contacts": "Contacts"
+        "contacts": "Contacts",
+        "employers": "Employers"
     },
     "labels": {
         "Create Benefit": "Create Benefit"

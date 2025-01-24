@@ -244,27 +244,13 @@
             ]
         ],
         "style": "default",
-        "dynamicLogicVisible": {
-            "conditionGroup": [
-                {
-                    "type": "or",
-                    "value": [
-                        {
-                            "type": "equals",
-                            "attribute": "selectedAreaOfRisk1",
-                            "value": "Depression Disorder"
-                        },
-                        {
-                            "type": "equals",
-                            "attribute": "selectedAreaOfRisk2",
-                            "value": "Depression Disorder"
-                        }
-                    ]
-                }
-            ]
-        },
+        "subTitle": null,
+        "subTitleStyle": "",
+        "dynamicLogicVisible": null,
         "hidden": false,
-        "customLabel": "Over the last 2 weeks, how often have you been bothered by any of the following problems: \/ Au cours des deux dernières semaines, à quelle fréquence avez-vous été dérangé(e) par les problèmes suivants?"
+        "accordion": "",
+        "isCollapsedDynamicLogic": null,
+        "customLabel": "Depression Disorder: Over the last 2 weeks, how often have you been bothered by any of the following problems: \/ Au cours des deux dernières semaines, à quelle fréquence avez-vous été dérangé(e) par les problèmes suivants?"
     },
     {
         "rows": [
@@ -304,27 +290,13 @@
             ]
         ],
         "style": "default",
-        "dynamicLogicVisible": {
-            "conditionGroup": [
-                {
-                    "type": "or",
-                    "value": [
-                        {
-                            "type": "equals",
-                            "attribute": "selectedAreaOfRisk1",
-                            "value": "Generalized Anxiety Disorder"
-                        },
-                        {
-                            "type": "equals",
-                            "attribute": "selectedAreaOfRisk2",
-                            "value": "Generalized Anxiety Disorder"
-                        }
-                    ]
-                }
-            ]
-        },
+        "subTitle": null,
+        "subTitleStyle": "",
+        "dynamicLogicVisible": null,
         "hidden": false,
-        "customLabel": "Over the last 2 weeks, how often have you been bothered by the following problems? \/ Au cours des deux dernières semaines, à quelle fréquence avez-vous été dérangé(e) par les problèmes suivants?"
+        "accordion": "",
+        "isCollapsedDynamicLogic": null,
+        "customLabel": "Generalized Anxiety Disorder: Over the last 2 weeks, how often have you been bothered by the following problems? \/ Au cours des deux dernières semaines, à quelle fréquence avez-vous été dérangé(e) par les problèmes suivants?"
     },
     {
         "rows": [
@@ -348,26 +320,12 @@
             ]
         ],
         "style": "default",
-        "dynamicLogicVisible": {
-            "conditionGroup": [
-                {
-                    "type": "or",
-                    "value": [
-                        {
-                            "type": "equals",
-                            "attribute": "selectedAreaOfRisk1",
-                            "value": "Panic Disorder"
-                        },
-                        {
-                            "type": "equals",
-                            "attribute": "selectedAreaOfRisk2",
-                            "value": "Panic Disorder"
-                        }
-                    ]
-                }
-            ]
-        },
+        "subTitle": null,
+        "subTitleStyle": "",
+        "dynamicLogicVisible": null,
         "hidden": false,
+        "accordion": "",
+        "isCollapsedDynamicLogic": null,
         "customLabel": "Panic Disorder: PD Prescreen (PPS) \/ PD Screen (PS)"
     },
     {
@@ -419,27 +377,13 @@
             ]
         ],
         "style": "default",
-        "dynamicLogicVisible": {
-            "conditionGroup": [
-                {
-                    "type": "or",
-                    "value": [
-                        {
-                            "type": "equals",
-                            "attribute": "selectedAreaOfRisk1",
-                            "value": "Social Anxiety Disorder"
-                        },
-                        {
-                            "type": "equals",
-                            "attribute": "selectedAreaOfRisk2",
-                            "value": "Social Anxiety Disorder"
-                        }
-                    ]
-                }
-            ]
-        },
+        "subTitle": null,
+        "subTitleStyle": "",
+        "dynamicLogicVisible": null,
         "hidden": false,
-        "customLabel": "Social Anxiety Disorder"
+        "accordion": "",
+        "isCollapsedDynamicLogic": null,
+        "customLabel": "Social Anxiety Disorder:"
     },
     {
         "rows": [
@@ -583,26 +527,12 @@
             ]
         ],
         "style": "default",
-        "dynamicLogicVisible": {
-            "conditionGroup": [
-                {
-                    "type": "or",
-                    "value": [
-                        {
-                            "type": "equals",
-                            "attribute": "selectedAreaOfRisk1",
-                            "value": "Obsessive-Compulsive Disorder"
-                        },
-                        {
-                            "type": "equals",
-                            "attribute": "selectedAreaOfRisk2",
-                            "value": "Obsessive-Compulsive Disorder"
-                        }
-                    ]
-                }
-            ]
-        },
+        "subTitle": null,
+        "subTitleStyle": "",
+        "dynamicLogicVisible": null,
         "hidden": false,
+        "accordion": "",
+        "isCollapsedDynamicLogic": null,
         "customLabel": "Obsessive-Compulsive Disorder: OCD Prescreen (OPS) \/ OCD Screen (OS)"
     },
     {
@@ -638,26 +568,12 @@
             ]
         ],
         "style": "default",
-        "dynamicLogicVisible": {
-            "conditionGroup": [
-                {
-                    "type": "or",
-                    "value": [
-                        {
-                            "type": "equals",
-                            "attribute": "selectedAreaOfRisk1",
-                            "value": "Attention Deficit Hyperactivity Disorder"
-                        },
-                        {
-                            "type": "equals",
-                            "attribute": "selectedAreaOfRisk2",
-                            "value": "Attention Deficit Hyperactivity Disorder"
-                        }
-                    ]
-                }
-            ]
-        },
+        "subTitle": null,
+        "subTitleStyle": "",
+        "dynamicLogicVisible": null,
         "hidden": false,
+        "accordion": "",
+        "isCollapsedDynamicLogic": null,
         "customLabel": "Attention Deficit Hyperactivity Disorder: ADHD Prescreen (ADPS) \/ ADHD Screen (ADS)"
     },
     {
@@ -733,26 +649,12 @@
             ]
         ],
         "style": "default",
-        "dynamicLogicVisible": {
-            "conditionGroup": [
-                {
-                    "type": "or",
-                    "value": [
-                        {
-                            "type": "equals",
-                            "attribute": "selectedAreaOfRisk1",
-                            "value": "Bipolar Disorder"
-                        },
-                        {
-                            "type": "equals",
-                            "attribute": "selectedAreaOfRisk2",
-                            "value": "Bipolar Disorder"
-                        }
-                    ]
-                }
-            ]
-        },
+        "subTitle": null,
+        "subTitleStyle": "",
+        "dynamicLogicVisible": null,
         "hidden": false,
+        "accordion": "",
+        "isCollapsedDynamicLogic": null,
         "customLabel": "Bipolar Disorder: BD Prescreen (BPS) \/ BD Screen (BS)"
     },
     {
@@ -785,26 +687,12 @@
             ]
         ],
         "style": "default",
-        "dynamicLogicVisible": {
-            "conditionGroup": [
-                {
-                    "type": "or",
-                    "value": [
-                        {
-                            "type": "equals",
-                            "attribute": "selectedAreaOfRisk1",
-                            "value": "Intermittent Explosive Disorder"
-                        },
-                        {
-                            "type": "equals",
-                            "attribute": "selectedAreaOfRisk2",
-                            "value": "Intermittent Explosive Disorder"
-                        }
-                    ]
-                }
-            ]
-        },
+        "subTitle": null,
+        "subTitleStyle": "",
+        "dynamicLogicVisible": null,
         "hidden": false,
+        "accordion": "",
+        "isCollapsedDynamicLogic": null,
         "customLabel": "Intermittent Explosive Disorder: IED Prescreen (IEPS) \/ IED Screen (IES)"
     },
     {
@@ -858,26 +746,12 @@
             ]
         ],
         "style": "default",
-        "dynamicLogicVisible": {
-            "conditionGroup": [
-                {
-                    "type": "or",
-                    "value": [
-                        {
-                            "type": "equals",
-                            "attribute": "selectedAreaOfRisk1",
-                            "value": "Alcohol Use Disorder"
-                        },
-                        {
-                            "type": "equals",
-                            "attribute": "selectedAreaOfRisk2",
-                            "value": "Alcohol Use Disorder"
-                        }
-                    ]
-                }
-            ]
-        },
+        "subTitle": null,
+        "subTitleStyle": "",
+        "dynamicLogicVisible": null,
         "hidden": false,
+        "accordion": "",
+        "isCollapsedDynamicLogic": null,
         "customLabel": "Alcohol Use Disorder: AUD Prescreen (AUDPS) \/ AUD Screen (AUDS)"
     },
     {
@@ -932,26 +806,12 @@
             ]
         ],
         "style": "default",
-        "dynamicLogicVisible": {
-            "conditionGroup": [
-                {
-                    "type": "or",
-                    "value": [
-                        {
-                            "type": "equals",
-                            "attribute": "selectedAreaOfRisk1",
-                            "value": "Substance Use Disorder"
-                        },
-                        {
-                            "type": "equals",
-                            "attribute": "selectedAreaOfRisk2",
-                            "value": "Substance Use Disorder"
-                        }
-                    ]
-                }
-            ]
-        },
+        "subTitle": null,
+        "subTitleStyle": "",
+        "dynamicLogicVisible": null,
         "hidden": false,
+        "accordion": "",
+        "isCollapsedDynamicLogic": null,
         "customLabel": "Substance Use Disorder: SUD Prescreen (SUDPS) \/ SUD Screen (SUDS)"
     },
     {
@@ -995,26 +855,12 @@
             ]
         ],
         "style": "default",
-        "dynamicLogicVisible": {
-            "conditionGroup": [
-                {
-                    "type": "or",
-                    "value": [
-                        {
-                            "type": "equals",
-                            "attribute": "selectedAreaOfRisk1",
-                            "value": "Sleep Disorder"
-                        },
-                        {
-                            "type": "equals",
-                            "attribute": "selectedAreaOfRisk2",
-                            "value": "Sleep Disorder"
-                        }
-                    ]
-                }
-            ]
-        },
+        "subTitle": null,
+        "subTitleStyle": "",
+        "dynamicLogicVisible": null,
         "hidden": false,
+        "accordion": "",
+        "isCollapsedDynamicLogic": null,
         "customLabel": "Sleep Disorders: SD Prescreen (SLEPS) \/ SD Screen (SLES)"
     },
     {
@@ -1047,26 +893,12 @@
             ]
         ],
         "style": "default",
-        "dynamicLogicVisible": {
-            "conditionGroup": [
-                {
-                    "type": "or",
-                    "value": [
-                        {
-                            "type": "equals",
-                            "attribute": "selectedAreaOfRisk1",
-                            "value": "Eating Disorder"
-                        },
-                        {
-                            "type": "equals",
-                            "attribute": "selectedAreaOfRisk2",
-                            "value": "Eating Disorder"
-                        }
-                    ]
-                }
-            ]
-        },
+        "subTitle": null,
+        "subTitleStyle": "",
+        "dynamicLogicVisible": null,
         "hidden": false,
+        "accordion": "",
+        "isCollapsedDynamicLogic": null,
         "customLabel": "Eating Disorders: ED Prescreen (EAPS) \/ ED Screen (EAS)"
     },
     {
@@ -1099,26 +931,12 @@
             ]
         ],
         "style": "default",
-        "dynamicLogicVisible": {
-            "conditionGroup": [
-                {
-                    "type": "or",
-                    "value": [
-                        {
-                            "type": "equals",
-                            "attribute": "selectedAreaOfRisk1",
-                            "value": "Post-Traumatic Stress-Disorder"
-                        },
-                        {
-                            "type": "equals",
-                            "attribute": "selectedAreaOfRisk2",
-                            "value": "Post-Traumatic Stress-Disorder"
-                        }
-                    ]
-                }
-            ]
-        },
+        "subTitle": null,
+        "subTitleStyle": "",
+        "dynamicLogicVisible": null,
         "hidden": false,
+        "accordion": "",
+        "isCollapsedDynamicLogic": null,
         "customLabel": "Post-Traumatic Stress-Disorder: PTSD Prescreen (PTPS) \/ PTSD Screen (PTS)"
     }
 ]

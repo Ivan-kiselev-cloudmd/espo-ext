@@ -1,0 +1,13 @@
+[
+    "province",
+    "city",
+    "focusArea",
+    "therapies",
+    "visitType",
+    "active",
+    "therapistCode",
+    "credentials",
+    "email",
+    "language",
+    "gender"
+]

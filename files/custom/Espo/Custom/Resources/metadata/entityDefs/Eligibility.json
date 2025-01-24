@@ -70,10 +70,6 @@
             "default": "Active",
             "isCustom": true
         },
-        "contact": {
-            "type": "link",
-            "isCustom": true
-        },
         "email": {
             "type": "varchar",
             "maxLength": 150,
@@ -132,12 +128,6 @@
             "entity": "Team",
             "relationName": "EntityTeam",
             "layoutRelationshipsDisabled": true
-        },
-        "contact": {
-            "type": "belongsTo",
-            "foreign": "eligibility",
-            "entity": "Contact",
-            "isCustom": true
         },
         "contacts": {
             "type": "hasMany",

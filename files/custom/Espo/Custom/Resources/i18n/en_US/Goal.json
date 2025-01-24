@@ -67,7 +67,9 @@
             "VC - Other": "Other",
             "VCBT - MindBeacon": "MindBeacon",
             "VCBT - Other": "Other",
-            "LI - Harm Reduction": "Harm Reduction"
+            "LI - Harm Reduction": "Harm Reduction",
+            "PH - GP": "GP",
+            "LI - Work-Life Balance": "Work-Life Balance"
         }
     }
 }

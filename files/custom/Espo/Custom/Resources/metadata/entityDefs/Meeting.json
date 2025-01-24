@@ -44,8 +44,24 @@
                 "Opportunity",
                 "Case",
                 "AlternativeContact",
-                "Office"
+                "Office",
+                "Employer",
+                "Therapist"
             ]
+        },
+        "meetingType": {
+            "type": "enum",
+            "options": [
+                "Phone",
+                "Video Call"
+            ],
+            "style": {
+                "Phone": "success",
+                "Video Call": "primary"
+            },
+            "displayAsLabel": true,
+            "setDefaultNull": true,
+            "isCustom": true
         }
     }
 }

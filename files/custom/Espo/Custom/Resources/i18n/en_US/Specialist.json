@@ -16,7 +16,7 @@
         "visitType": "Visit Type",
         "city": "City",
         "gender": "Gender",
-        "language": "Language",
+        "language": "Language Comment (old)",
         "provinceMulti": "Province",
         "contacts": "Cases",
         "type": "Type",
@@ -30,7 +30,14 @@
         "active": "Active",
         "snapclaritySpecialist": "Snapclarity Specialist",
         "contacts1": "Contacts1",
-        "luminoProviderSearch": "In Lumino Provider Search"
+        "luminoProviderSearch": "In Lumino Provider Search",
+        "langs": "Langs",
+        "specialties": "Specialties",
+        "therapyApproachs": "Therapy Approachs",
+        "supportGroups": "Support Groups",
+        "clinic": "Clinic",
+        "slidingScale": "Sliding Scale",
+        "websiteLink": "Website Link"
     },
     "links": {
         "contact": "Contact",
@@ -38,7 +45,11 @@
         "case": "Case",
         "contacts": "Contacts",
         "snapclaritySpecialist": "Snapclarity Specialist",
-        "contacts1": "Contacts1"
+        "contacts1": "Contacts1",
+        "langs": "Langs",
+        "specialties": "Specialties",
+        "therapyApproachs": "Therapy Approachs",
+        "supportGroups": "Support Groups"
     },
     "labels": {
         "Create Specialist": "Create Therapist"
@@ -57,7 +68,8 @@
             "Psychologist": "Psychologist",
             "Sports Psychologist": "Sports Psychologist",
             "Occupational Therapist": "Occupational Therapist",
-            "Naturopath": "Naturopath"
+            "Naturopath": "Naturopath",
+            "Family Mediator": "Family Mediator"
         },
         "therapyApproach1": {
             "CBT - Cognitive Behavioural Therapy – General": "CBT - Cognitive Behavioural Therapy – General",

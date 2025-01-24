@@ -29,7 +29,8 @@
                         "LI - Self-Care",
                         "LI - Reduce Technology Use",
                         "LI - Time Management",
-                        "LI - Harm Reduction"
+                        "LI - Harm Reduction",
+                        "LI - Work-Life Balance"
                     ],
                     "conditionGroup": [
                         {
@@ -58,7 +59,8 @@
                         "PH - Public Provincial CBT programs",
                         "PH - Public Crisis services",
                         "PH - Public Support groups",
-                        "PH - Other free resources"
+                        "PH - Other free resources",
+                        "PH - GP"
                     ],
                     "conditionGroup": [
                         {

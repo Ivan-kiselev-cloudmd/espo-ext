@@ -1,0 +1,60 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "account"
+                },
+                {
+                    "name": "status"
+                }
+            ],
+            [
+                {
+                    "name": "kiiOrganizationId"
+                },
+                {
+                    "name": "lives"
+                }
+            ],
+            [
+                {
+                    "name": "benefitsInformationDocument"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "description"
+                }
+            ],
+            [
+                {
+                    "name": "emailAddress"
+                },
+                {
+                    "name": "phoneNumber"
+                }
+            ],
+            [
+                {
+                    "name": "billingAddress"
+                },
+                {
+                    "name": "shippingAddress"
+                }
+            ],
+            [
+                false,
+                {
+                    "name": "website"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

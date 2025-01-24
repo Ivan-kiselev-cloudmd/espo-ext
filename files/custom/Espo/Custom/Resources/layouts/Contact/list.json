@@ -3,6 +3,12 @@
         "name": "casenum"
     },
     {
+        "name": "kiiOrganizationId"
+    },
+    {
+        "name": "employer"
+    },
+    {
         "name": "name",
         "link": true
     },

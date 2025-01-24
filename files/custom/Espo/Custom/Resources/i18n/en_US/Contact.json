@@ -49,7 +49,7 @@
         "lang": "Language",
         "specialists": "Referred Specialist",
         "mHCoachIntakeCallComplete": "Intake Call complete",
-        "user": "Research",
+        "user": "Support specialist",
         "materialsNotApprovedComments": "Materials Not Approved Comments",
         "personalizedActionPlanFile": "Biographies File",
         "satisfactionSurveyFile": "Satisfaction Survey File",
@@ -87,7 +87,7 @@
         "additionalSupportRequired": "Additional Support Required",
         "dateOfRegistration": "Date of Registration",
         "casePathway": "Case Pathway",
-        "assessmentFirstAnswerDate": "Assessment Initialted Date",
+        "assessmentFirstAnswerDate": "Assessment Initiated Date",
         "assessmentLastAnswerDate": "Assessment Last Answer Date",
         "assessmentQuestion": "Assessment Question",
         "assessmentProgress": "Assessment Progress",
@@ -315,7 +315,19 @@
         "risk1SuccessImprovement": "Risk1 Success Improvement",
         "risk2SuccessImprovement": "Risk2 Success Improvement",
         "reportReassessmentCompleted": "Reassessment Completed",
-        "technicalCopyFromInitialAssessment": "Copy from Initial Assessment"
+        "technicalCopyFromInitialAssessment": "Copy from Initial Assessment",
+        "engagedInHit": "Engaged in HIT",
+        "callOneTrentU": "Confirm if the member is active or retired",
+        "requestServiceAs": "Request Service As",
+        "kiiOrganizationId": "Kii Organization Id",
+        "company": "Company",
+        "employer": "Employer",
+        "coachApptType": "First Call Type",
+        "coach2ndApptType": "Type of 2nd MH Coach Appointment",
+        "coach3rdApptType": "Type of 3rd MH Coach Appointment",
+        "coachApptType4": "Type of 4th MH Coach Appointment",
+        "coachApptType5": "Type of 5th MH Coach Appointment",
+        "coachApptType6": "Type of 6th MH Coach Appointment"
     },
     "options": {
         "stageOfService": {
@@ -1301,6 +1313,44 @@
             "Engaged in the past and did not find it helpful": "Engaged in the past and did not find it helpful",
             "Already engaged with recommended Intervention": "Already engaged with recommended Intervention",
             "Other": "Other"
+        },
+        "engagedInHit": {
+            "Yes": "Yes",
+            "No": "No"
+        },
+        "callOneTrentU": {
+            "Active": "Active",
+            "Retired": "Retired",
+            "Pending": "Pending"
+        },
+        "requestServiceAs": {
+            "N/A": "N/A",
+            "Employee": "Employee",
+            "Dependant": "Dependant"
+        },
+        "coachApptType": {
+            "Phone": "Phone",
+            "Video Call": "Video Call"
+        },
+        "coach2ndApptType": {
+            "Phone": "Phone",
+            "Video Call": "Video Call"
+        },
+        "coach3rdApptType": {
+            "Phone": "Phone",
+            "Video Call": "Video Call"
+        },
+        "coachApptType4": {
+            "Phone": "Phone",
+            "Video Call": "Video Call"
+        },
+        "coachApptType5": {
+            "Phone": "Phone",
+            "Video Call": "Video Call"
+        },
+        "coachApptType6": {
+            "Phone": "Phone",
+            "Video Call": "Video Call"
         }
     },
     "links": {
@@ -1314,7 +1364,7 @@
         "checkpoints": "Checkpoints",
         "checkpoints1": "Checkpoints1",
         "specialists": "Referred Specialist",
-        "user": "Research",
+        "user": "Support specialist",
         "specialists1": "Specialists1",
         "snapclaritySpecialists": "HumanaCare Therapist",
         "eligibility": "Eligibility",
@@ -1354,7 +1404,9 @@
         "reassessmentAngerManagements": "Reassessments - Anger Management",
         "benefits": "Benefits",
         "eligibility1": "Eligibility1",
-        "benefitOption": "Benefit Option"
+        "benefitOption": "Benefit Option",
+        "company": "Company",
+        "employer": "Employer"
     },
     "labels": {
         "Create Contact": "Create Case"

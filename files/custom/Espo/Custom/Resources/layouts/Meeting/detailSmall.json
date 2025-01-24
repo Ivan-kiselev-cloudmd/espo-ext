@@ -11,6 +11,9 @@
                     "name": "status"
                 },
                 {
+                    "name": "meetingType"
+                },
+                {
                     "name": "type"
                 }
             ],

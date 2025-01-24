@@ -4,17 +4,7 @@
         "link": true
     },
     {
-        "name": "active"
-    },
-    {
-        "name": "type"
-    },
-    {
-        "name": "humanaCareTherapistCode"
-    },
-    {
-        "name": "humanaCareFocusArea",
-        "notSortable": true
+        "name": "specialty"
     },
     {
         "name": "subspecialty"
@@ -29,12 +19,6 @@
     },
     {
         "name": "city"
-    },
-    {
-        "name": "gender"
-    },
-    {
-        "name": "visitType"
     },
     {
         "name": "email"

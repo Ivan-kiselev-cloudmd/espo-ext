@@ -92,6 +92,28 @@
             "noLoad": true,
             "importDisabled": true,
             "isCustom": true
+        },
+        "employers": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "noLoad": true,
+            "importDisabled": true,
+            "isCustom": true
+        },
+        "status": {
+            "type": "enum",
+            "options": [
+                "Active",
+                "Inactive"
+            ],
+            "style": {
+                "Active": "success",
+                "Inactive": "danger"
+            },
+            "default": "Active",
+            "displayAsLabel": true,
+            "isCustom": true
         }
     },
     "links": {
@@ -122,6 +144,13 @@
             "type": "hasMany",
             "foreign": "account",
             "entity": "Eligibility",
+            "audited": false,
+            "isCustom": true
+        },
+        "employers": {
+            "type": "hasMany",
+            "foreign": "account",
+            "entity": "Employer",
             "audited": false,
             "isCustom": true
         }

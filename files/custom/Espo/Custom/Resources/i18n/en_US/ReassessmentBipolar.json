@@ -140,7 +140,7 @@
         "type": {
             "Reassessment": "Reassessment",
             "Current Baseline": "Current Baseline",
-            "Baseline": "Baseline"
+            "Baseline": "Former Baseline"
         }
     }
 }

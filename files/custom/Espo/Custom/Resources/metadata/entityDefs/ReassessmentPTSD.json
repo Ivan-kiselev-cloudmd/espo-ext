@@ -167,8 +167,8 @@
                 "No"
             ],
             "style": {
-                "Yes": "success",
-                "No": "danger"
+                "Yes": "danger",
+                "No": "success"
             },
             "displayAsLabel": true,
             "default": null,

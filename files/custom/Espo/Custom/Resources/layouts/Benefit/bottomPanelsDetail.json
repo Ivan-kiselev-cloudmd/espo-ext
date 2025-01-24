@@ -5,7 +5,10 @@
     "accounts": {
         "index": 0
     },
-    "contacts": {
+    "employers": {
         "index": 1
+    },
+    "contacts": {
+        "index": 2
     }
 }

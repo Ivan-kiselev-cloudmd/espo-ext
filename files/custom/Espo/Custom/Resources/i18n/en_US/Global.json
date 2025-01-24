@@ -36,7 +36,13 @@
         "Benefit": "Benefit",
         "Office": "Office",
         "RiskCategory": "Risk Category",
-        "BenefitOption": "Benefit Option"
+        "BenefitOption": "Benefit Option",
+        "Employer": "Employer",
+        "Lang": "Language",
+        "Specialty": "Specialty",
+        "SupportGroup": "Support Group",
+        "TherapyApproach": "Therapy Approach",
+        "Therapist": "Therapist new"
     },
     "scopeNamesPlural": {
         "AssessmentScore": "Assessment Scores",
@@ -75,6 +81,12 @@
         "Benefit": "Benefits",
         "Office": "Offices",
         "RiskCategory": "Risk Categories",
-        "BenefitOption": "Benefit Options"
+        "BenefitOption": "Benefit Options",
+        "Employer": "Employers",
+        "Lang": "Languages",
+        "Specialty": "Specialties",
+        "SupportGroup": "Support Groups",
+        "TherapyApproach": "Therapy Approaches",
+        "Therapist": "Therapists new"
     }
 }

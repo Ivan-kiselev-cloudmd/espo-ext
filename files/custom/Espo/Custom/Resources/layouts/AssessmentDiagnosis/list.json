@@ -1,0 +1,21 @@
+[
+    {
+        "name": "contact"
+    },
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "createdAt"
+    },
+    {
+        "name": "modifiedAt"
+    },
+    {
+        "name": "refid"
+    },
+    {
+        "name": "docid"
+    }
+]

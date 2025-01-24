@@ -2,12 +2,16 @@
     "fields": {
         "billingAddress": "Billing Address",
         "shippingAddress": "Shipping Address",
-        "website": "Website"
+        "website": "Website",
+        "contacts": "Contacts",
+        "account": "Account"
     },
     "links": {
         "meetings": "Meetings",
         "calls": "Calls",
-        "tasks": "Tasks"
+        "tasks": "Tasks",
+        "contacts": "Contacts",
+        "account": "Account"
     },
     "labels": {
         "Create Company": "Create Company"

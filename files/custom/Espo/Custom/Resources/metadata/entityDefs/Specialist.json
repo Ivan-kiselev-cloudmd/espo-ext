@@ -91,7 +91,8 @@
                 "Nurse Practitioner",
                 "Sports Psychologist",
                 "Occupational Therapist",
-                "Naturopath"
+                "Naturopath",
+                "Family Mediator"
             ],
             "style": {
                 "Psychologist": null,
@@ -103,7 +104,8 @@
                 "Nurse Practitioner": null,
                 "Sports Psychologist": null,
                 "Occupational Therapist": null,
-                "Naturopath": null
+                "Naturopath": null,
+                "Family Mediator": null
             },
             "default": "Psychologist",
             "isCustom": true,
@@ -416,6 +418,52 @@
             "notNull": true,
             "type": "bool",
             "isCustom": true
+        },
+        "langs": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "importDisabled": true,
+            "noLoad": true,
+            "isCustom": true
+        },
+        "specialties": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "importDisabled": true,
+            "noLoad": true,
+            "isCustom": true
+        },
+        "therapyApproachs": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "importDisabled": true,
+            "noLoad": true,
+            "isCustom": true
+        },
+        "supportGroups": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "importDisabled": true,
+            "noLoad": true,
+            "isCustom": true
+        },
+        "clinic": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "slidingScale": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "websiteLink": {
+            "type": "url",
+            "isCustom": true
         }
     },
     "links": {
@@ -448,6 +496,38 @@
             "relationName": "specialistContact",
             "foreign": "specialists1",
             "entity": "Contact",
+            "audited": false,
+            "isCustom": true
+        },
+        "langs": {
+            "type": "hasMany",
+            "relationName": "langSpecialist",
+            "foreign": "specialists",
+            "entity": "Lang",
+            "audited": false,
+            "isCustom": true
+        },
+        "specialties": {
+            "type": "hasMany",
+            "relationName": "specialtySpecialist",
+            "foreign": "specialists",
+            "entity": "Specialty",
+            "audited": false,
+            "isCustom": true
+        },
+        "therapyApproachs": {
+            "type": "hasMany",
+            "relationName": "therapyApproachSpecialist",
+            "foreign": "specialists",
+            "entity": "TherapyApproach",
+            "audited": false,
+            "isCustom": true
+        },
+        "supportGroups": {
+            "type": "hasMany",
+            "relationName": "supportGroupSpecialist",
+            "foreign": "specialists",
+            "entity": "SupportGroup",
             "audited": false,
             "isCustom": true
         }

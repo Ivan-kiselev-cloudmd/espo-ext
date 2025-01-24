@@ -16,5 +16,8 @@
     {
         "name": "benefitOptions",
         "notSortable": true
+    },
+    {
+        "name": "status"
     }
 ]

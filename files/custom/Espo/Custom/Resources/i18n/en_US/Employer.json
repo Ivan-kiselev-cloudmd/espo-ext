@@ -1,0 +1,31 @@
+{
+    "fields": {
+        "billingAddress": "Billing Address",
+        "shippingAddress": "Shipping Address",
+        "website": "Website",
+        "kiiOrganizationId": "Kii Organization Id",
+        "lives": "Number of Lives",
+        "contacts": "Cases",
+        "account": "Account",
+        "benefitsInformationDocument": "Benefits Information Document",
+        "benefits": "Benefits",
+        "status": "Status"
+    },
+    "links": {
+        "meetings": "Meetings",
+        "calls": "Calls",
+        "tasks": "Tasks",
+        "contacts": "Cases",
+        "account": "Account",
+        "benefits": "Benefits"
+    },
+    "labels": {
+        "Create Employer": "Create Employer"
+    },
+    "options": {
+        "status": {
+            "Active": "Active",
+            "Inactive": "Inactive"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "_delimiter_": {
+        "disabled": true
+    },
+    "specialties": {
+        "index": 0
+    },
+    "supportGroups": {
+        "index": 1
+    },
+    "therapyApproachs": {
+        "index": 2
+    },
+    "langs": {
+        "index": 3
+    }
+}

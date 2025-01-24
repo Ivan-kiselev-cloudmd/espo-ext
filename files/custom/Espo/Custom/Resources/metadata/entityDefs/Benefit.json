@@ -54,6 +54,14 @@
         "order": {
             "type": "int",
             "isCustom": true
+        },
+        "employers": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "importDisabled": true,
+            "noLoad": true,
+            "isCustom": true
         }
     },
     "links": {
@@ -88,6 +96,14 @@
             "relationName": "contactBenefit",
             "foreign": "benefits",
             "entity": "Contact",
+            "audited": false,
+            "isCustom": true
+        },
+        "employers": {
+            "type": "hasMany",
+            "relationName": "benefitEmployer",
+            "foreign": "benefits",
+            "entity": "Employer",
             "audited": false,
             "isCustom": true
         }

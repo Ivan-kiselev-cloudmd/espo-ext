@@ -1,0 +1,38 @@
+[
+    {
+        "name": "therapistCode"
+    },
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "province"
+    },
+    {
+        "name": "city"
+    },
+    {
+        "name": "therapies",
+        "notSortable": true
+    },
+    {
+        "name": "visitType"
+    },
+    {
+        "name": "focusArea",
+        "notSortable": true
+    },
+    {
+        "name": "credentials"
+    },
+    {
+        "name": "active"
+    },
+    {
+        "name": "bio"
+    },
+    {
+        "name": "notes"
+    }
+]

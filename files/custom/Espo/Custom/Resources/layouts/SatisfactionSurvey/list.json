@@ -7,6 +7,12 @@
         "name": "contact"
     },
     {
+        "name": "casenum"
+    },
+    {
         "name": "email"
+    },
+    {
+        "name": "language"
     }
 ]

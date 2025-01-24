@@ -8,7 +8,9 @@
                 "Opportunity",
                 "Case",
                 "AlternativeContact",
-                "Office"
+                "Office",
+                "Employer",
+                "Therapist"
             ]
         }
     }

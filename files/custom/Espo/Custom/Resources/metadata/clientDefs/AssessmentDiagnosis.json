@@ -1,0 +1,9 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "color": "#3beecf",
+    "iconClass": "fas fa-briefcase-medical",
+    "kanbanViewMode": false
+}

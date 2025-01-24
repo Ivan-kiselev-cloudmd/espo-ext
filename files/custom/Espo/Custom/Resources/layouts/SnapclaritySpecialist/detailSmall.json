@@ -1,0 +1,84 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "therapistID"
+                },
+                {
+                    "name": "therapistCode"
+                }
+            ],
+            [
+                {
+                    "name": "name"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "email"
+                },
+                {
+                    "name": "province"
+                },
+                {
+                    "name": "city"
+                }
+            ],
+            [
+                {
+                    "name": "credentials"
+                },
+                {
+                    "name": "licenseNumber"
+                }
+            ],
+            [
+                {
+                    "name": "supervisor"
+                },
+                {
+                    "name": "focusArea"
+                },
+                {
+                    "name": "focus"
+                }
+            ],
+            [
+                {
+                    "name": "therapies"
+                },
+                {
+                    "name": "visitType"
+                }
+            ],
+            [
+                {
+                    "name": "active"
+                },
+                {
+                    "name": "notes"
+                }
+            ],
+            [
+                {
+                    "name": "bio"
+                },
+                {
+                    "name": "description"
+                }
+            ],
+            [
+                {
+                    "name": "gender"
+                },
+                {
+                    "name": "language"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    }
+]

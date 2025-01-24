@@ -3,5 +3,7 @@
     "lastName",
     "partyId",
     "contact",
-    "changeStatus"
+    "changeStatus",
+    "account",
+    "dayMonthOfBirth"
 ]

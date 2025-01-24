@@ -1,0 +1,28 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "account"
+    },
+    {
+        "name": "kiiOrganizationId"
+    },
+    {
+        "name": "lives"
+    },
+    {
+        "name": "benefitsInformationDocument"
+    },
+    {
+        "name": "description"
+    },
+    {
+        "name": "benefits",
+        "notSortable": true
+    },
+    {
+        "name": "status"
+    }
+]
