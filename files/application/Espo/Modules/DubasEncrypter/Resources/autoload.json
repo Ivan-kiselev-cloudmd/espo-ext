@@ -1,0 +1,6 @@
+{
+    "psr-4": {
+        "ParagonIE\\ConstantTime\\": "application/Espo/Modules/DubasEncrypter/vendor/paragonie/constant_time_encoding/src",
+        "ParagonIE\\CipherSweet\\": "application/Espo/Modules/DubasEncrypter/vendor/paragonie/ciphersweet/src"
+    }
+}
