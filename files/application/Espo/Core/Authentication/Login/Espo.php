@@ -61,7 +61,7 @@ class Espo implements Login
             if (empty($_SESSION['csrf_token'])) {
                 return Result::fail('Cross site request forgery token not found');
             }
-            if ($_SESSION['csrf_token'] !== $request->getHeader('CsrfToken')) {
+            if ($request && !empty($_SESSION['csrf_token']) && $_SESSION['csrf_token'] !== $request->getHeader('CsrfToken')) {
                 return Result::fail('Cross site request forgery token not found');
             }
 
